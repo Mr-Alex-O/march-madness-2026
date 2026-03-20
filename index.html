@@ -720,57 +720,19 @@ function setFilter(f) {
   if (f === 'all') document.getElementById('fb-all').className = 'filter-btn active-all';
 }
 
-function renderFullBracket() {
-  const grid = document.getElementById('full-regions-grid');
-  grid.innerHTML = '';
-  ['east','west','south','midwest'].forEach(regionKey => {
-    const region = DATA.regions[regionKey];
-    const block = document.createElement('div');
-    block.className = 'full-region-block';
-    block.innerHTML = `<div class="full-region-title">${region.name}</div>`;
-    const bracketRow = document.createElement('div');
-    bracketRow.className = 'region-bracket';
-    bracketRow.id = 'full-bracket-' + regionKey;
+const REVERSED_REGIONS = new Set(['west', 'midwest']);
 
-    region.rounds.forEach((round, ri) => {
-      const col = document.createElement('div');
-      col.className = 'round-col';
-      col.innerHTML = `<div class="round-header">${round.label}</div>`;
-      const slots = document.createElement('div');
-      slots.className = 'round-slots';
-      round.matchups.forEach(m => {
-        const wrapper = document.createElement('div');
-        wrapper.className = 'matchup-wrapper';
-        wrapper.innerHTML = matchupHTML(m);
-        slots.appendChild(wrapper);
-      });
-      col.appendChild(slots);
-      bracketRow.appendChild(col);
-      if (ri < region.rounds.length - 1) {
-        const conn = document.createElement('div');
-        conn.className = 'connector';
-        bracketRow.appendChild(conn);
-      }
-    });
-    block.appendChild(bracketRow);
-    grid.appendChild(block);
-  });
-  // Re-apply current filter
-  setFilter(currentFilter);
-}
-
-// ══════════════════════════════════════════════════════
-//  RENDER REGION BRACKET
-// ══════════════════════════════════════════════════════
-function renderRegion(regionKey) {
+function buildRegionBracketEl(regionKey) {
   const region = DATA.regions[regionKey];
-  const container = document.getElementById('bracket-' + regionKey);
-  container.innerHTML = '';
+  const reversed = REVERSED_REGIONS.has(regionKey);
+  const rounds = reversed ? [...region.rounds].reverse() : region.rounds;
 
-  region.rounds.forEach((round, ri) => {
+  const bracketRow = document.createElement('div');
+  bracketRow.className = 'region-bracket';
+
+  rounds.forEach((round, ri) => {
     const col = document.createElement('div');
     col.className = 'round-col';
-
     col.innerHTML = `<div class="round-header">${round.label}</div>`;
     const slots = document.createElement('div');
     slots.className = 'round-slots';
@@ -781,15 +743,37 @@ function renderRegion(regionKey) {
       slots.appendChild(wrapper);
     });
     col.appendChild(slots);
-    container.appendChild(col);
-
-    // Add connector between rounds (except last)
-    if (ri < region.rounds.length - 1) {
+    bracketRow.appendChild(col);
+    if (ri < rounds.length - 1) {
       const conn = document.createElement('div');
       conn.className = 'connector';
-      container.appendChild(conn);
+      bracketRow.appendChild(conn);
     }
   });
+  return bracketRow;
+}
+
+function renderFullBracket() {
+  const grid = document.getElementById('full-regions-grid');
+  grid.innerHTML = '';
+  ['east','west','south','midwest'].forEach(regionKey => {
+    const region = DATA.regions[regionKey];
+    const block = document.createElement('div');
+    block.className = 'full-region-block';
+    block.innerHTML = `<div class="full-region-title">${region.name}</div>`;
+    block.appendChild(buildRegionBracketEl(regionKey));
+    grid.appendChild(block);
+  });
+  setFilter(currentFilter);
+}
+
+// ══════════════════════════════════════════════════════
+//  RENDER REGION BRACKET
+// ══════════════════════════════════════════════════════
+function renderRegion(regionKey) {
+  const container = document.getElementById('bracket-' + regionKey);
+  container.innerHTML = '';
+  container.appendChild(buildRegionBracketEl(regionKey));
 }
 
 // ══════════════════════════════════════════════════════
