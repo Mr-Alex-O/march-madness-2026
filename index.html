@@ -18,9 +18,6 @@
   header {
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
     padding: 14px 16px 10px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
     box-shadow: 0 2px 12px rgba(0,0,0,0.6);
   }
   header h1 {
@@ -100,6 +97,9 @@
     background: #111;
     border-bottom: 2px solid #222;
     scrollbar-width: none;
+    position: sticky;
+    top: 0;
+    z-index: 99;
   }
   .tab-bar::-webkit-scrollbar { display: none; }
   .tab-btn {
@@ -123,13 +123,20 @@
   .tab-pane { display: none; padding: 12px; }
   .tab-pane.active { display: block; }
 
+  /* ── Bracket layout variables ─────────────────────── */
+  :root {
+    --mh: 62px;        /* fixed height per matchup */
+    --slots-h: calc(8 * var(--mh)); /* 496px — all round columns same height */
+    --col-w: 148px;
+  }
+
   /* ── Region Bracket ───────────────────────────────── */
   .region-bracket {
     display: flex;
     flex-direction: row;
-    gap: 0;
     overflow-x: auto;
     padding-bottom: 8px;
+    -webkit-overflow-scrolling: touch;
   }
 
   /* ── Round Column ─────────────────────────────────── */
@@ -137,7 +144,7 @@
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
-    min-width: 150px;
+    width: var(--col-w);
   }
   .round-header {
     font-size: 10px;
@@ -147,11 +154,15 @@
     text-align: center;
     padding: 4px 0 8px;
     font-weight: 600;
+    white-space: nowrap;
   }
+  /* All round-slots columns share the same fixed height —
+     space-around then centers each matchup at the correct
+     vertical position to align with its bracket neighbors */
   .round-slots {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    height: var(--slots-h);
     justify-content: space-around;
   }
 
@@ -159,44 +170,52 @@
   .matchup-wrapper {
     display: flex;
     align-items: center;
-    position: relative;
   }
   .matchup {
     flex: 1;
     border: 1px solid #2a2a2a;
     border-radius: 5px;
     overflow: hidden;
-    margin: 3px 0;
+    height: var(--mh);
+    display: flex;
+    flex-direction: column;
   }
   .team {
     display: flex;
     align-items: center;
-    padding: 5px 7px;
-    font-size: 12px;
-    gap: 5px;
-    min-height: 28px;
+    padding: 3px 6px;
+    font-size: 11px;
+    gap: 4px;
+    flex: 1;
     border-bottom: 1px solid rgba(255,255,255,0.04);
+    min-width: 0;
   }
   .team:last-child { border-bottom: none; }
-  .team.alex   { background: #1b5e20; }
-  .team.greg   { background: #4a4000; }
+  .team.alex    { background: #1b5e20; }
+  .team.greg    { background: #4a4000; }
   .team.neutral { background: #1e1e1e; }
-  .team.winner { font-weight: 700; }
-  .team.loser  { opacity: 0.35; }
-  .team.tbp    { background: #181818; color: #666; }
-  .team.live   { background: #1a2f1a; }
+  .team.winner  { font-weight: 700; }
+  .team.loser   { opacity: 0.35; }
+  .team.tbp     { background: #181818; color: #555; }
+  .team.live    { background: #1a2f1a; }
   .seed {
     font-size: 10px;
-    color: #888;
-    width: 14px;
+    color: #777;
+    width: 13px;
     text-align: right;
     flex-shrink: 0;
   }
-  .tname { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .tscore {
+  .tname {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font-size: 11px;
+  }
+  .tscore {
+    font-size: 10px;
     color: #aaa;
-    margin-left: auto;
+    margin-left: 2px;
     white-space: nowrap;
     flex-shrink: 0;
   }
@@ -205,7 +224,7 @@
 
   /* Connector lines between rounds */
   .connector {
-    width: 12px;
+    width: 10px;
     flex-shrink: 0;
     position: relative;
     align-self: stretch;
@@ -217,7 +236,7 @@
     left: 0;
     width: 100%;
     height: 1px;
-    background: #333;
+    background: #2a2a2a;
   }
 
   /* ── Upset Tag ────────────────────────────────────── */
@@ -645,28 +664,25 @@ const DATA = {
 // ══════════════════════════════════════════════════════
 function teamRowHTML(t, m, which) {
   const o = owner(t.name) || owner(t.espn) || 'neutral';
-  let cls = o;
+  let cls = '';
   let scoreHTML = '';
 
   if (t.name === 'TBD') {
+    // No team known yet — gray placeholder
     cls = 'tbp';
-    scoreHTML = '';
   } else if (m.status === 'final') {
     const isWinner = m.winner === which;
-    cls += isWinner ? ' winner' : ' loser';
+    cls = o + (isWinner ? ' winner' : ' loser');
     const s = which === 1 ? m.score1 : m.score2;
     scoreHTML = `<span class="tscore win">${s}${isWinner ? ' ✓' : ''}</span>`;
-    if (isWinner && m.upset && which === 2) scoreHTML += `<span class="upset">UPSET</span>`;
-    if (isWinner && m.upset && which === 1) scoreHTML += `<span class="upset">UPSET</span>`;
+    if (isWinner && m.upset) scoreHTML += `<span class="upset">UPSET</span>`;
   } else if (m.status === 'live') {
-    cls += ' live';
+    cls = o + ' live';
     const s = which === 1 ? m.score1 : m.score2;
     scoreHTML = `<span class="tscore live-score">${s}</span>`;
-  } else if (m.status === 'sched') {
-    cls = 'tbp';
-    scoreHTML = '';
   } else {
-    cls = 'tbp';
+    // 'sched' or 'tbd' but team is known — show their color, no score
+    cls = o;
   }
 
   const seedHTML = t.seed ? `<span class="seed">${t.seed}</span>` : '';
