@@ -19,34 +19,7 @@
     color: #e8e8e8;
     min-height: 100vh;
     /* Hardwood basketball floor */
-    background-color: #c28a2a;
-    background-image:
-      /* Vertical plank seams */
-      repeating-linear-gradient(
-        90deg,
-        transparent 0px,
-        transparent 58px,
-        rgba(90, 45, 0, 0.28) 58px,
-        rgba(90, 45, 0, 0.28) 61px
-      ),
-      /* Subtle wood grain */
-      repeating-linear-gradient(
-        178deg,
-        transparent 0px,
-        transparent 18px,
-        rgba(180, 120, 20, 0.12) 18px,
-        rgba(180, 120, 20, 0.12) 19px
-      ),
-      /* Light/dark plank alternation */
-      repeating-linear-gradient(
-        90deg,
-        rgba(255,255,255,0.04) 0px,
-        rgba(255,255,255,0.04) 30px,
-        transparent 30px,
-        transparent 60px
-      ),
-      /* Base warm amber gradient */
-      linear-gradient(160deg, #d4971f 0%, #c8891a 40%, #d9a030 70%, #c0851a 100%);
+    background: linear-gradient(160deg, #0f1b2d 0%, #1a2035 50%, #0d1828 100%);
   }
 
   /* ── Header ───────────────────────────────────────── */
@@ -381,6 +354,60 @@
     letter-spacing: 0.3px;
   }
 
+  /* ── Live Games Tab ───────────────────────────────── */
+  .live-empty {
+    text-align: center;
+    color: #555;
+    padding: 40px 20px;
+    font-size: 14px;
+  }
+  .live-card {
+    background: #111827;
+    border: 1px solid #1e2a3a;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    overflow: hidden;
+  }
+  .live-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 12px;
+    background: #0d1520;
+    font-size: 11px;
+    color: #aaa;
+  }
+  .live-card-header .live-dot { margin-right: 4px; }
+  .live-team-row {
+    display: flex;
+    align-items: center;
+    padding: 10px 14px;
+    gap: 10px;
+    border-bottom: 1px solid #1a2535;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .live-team-row:last-of-type { border-bottom: none; }
+  .live-team-row.alex { background: #1b5e20; }
+  .live-team-row.greg { background: #4a4000; }
+  .live-team-row.neutral-live { background: #161f2e; }
+  .live-seed-badge {
+    font-size: 11px;
+    color: #aaa;
+    width: 16px;
+    text-align: right;
+    flex-shrink: 0;
+  }
+  .live-team-name { flex: 1; }
+  .live-score {
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    min-width: 32px;
+    text-align: right;
+  }
+  .live-score.leading { color: #4caf50; }
+
   /* ── Full Bracket ─────────────────────────────────── */
   .full-bracket-wrap { padding: 10px 12px 30px; }
   .filter-bar {
@@ -487,7 +514,8 @@
      TABS
 ════════════════════════════════════════════════════ -->
 <div class="tab-bar" id="tabBar">
-  <button class="tab-btn active" onclick="showTab('full')">📋 Full Bracket</button>
+  <button class="tab-btn active" onclick="showTab('live')">🔴 Live</button>
+  <button class="tab-btn" onclick="showTab('full')">📋 Full Bracket</button>
   <button class="tab-btn" onclick="showTab('east')">East</button>
   <button class="tab-btn" onclick="showTab('west')">West</button>
   <button class="tab-btn" onclick="showTab('south')">South</button>
@@ -499,9 +527,16 @@
      TAB: FIRST FOUR
 ════════════════════════════════════════════════════ -->
 <!-- ═══════════════════════════════════════════════════
+     TAB: LIVE GAMES
+════════════════════════════════════════════════════ -->
+<div class="tab-pane active" id="tab-live">
+  <div id="live-games-container" style="padding:12px;"></div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════
      TAB: FULL BRACKET
 ════════════════════════════════════════════════════ -->
-<div class="tab-pane active" id="tab-full">
+<div class="tab-pane" id="tab-full">
   <div class="full-bracket-wrap">
     <div class="filter-bar">
       <button class="filter-btn active-all" id="fb-all"  onclick="setFilter('all')">All Teams</button>
@@ -543,7 +578,7 @@
 
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.5 · March Madness 2026
+  v1.6 · March Madness 2026
 </div>
 
 <script>
@@ -737,20 +772,21 @@ function teamRowHTML(t, m, which) {
   let scoreHTML = '';
 
   if (t.name === 'TBD') {
-    // No team known yet — gray placeholder
     cls = 'tbp';
-  } else if (m.status === 'final') {
-    const isWinner = m.winner === which;
-    cls = o + (isWinner ? ' winner' : ' loser');
-    const s = which === 1 ? m.score1 : m.score2;
-    scoreHTML = `<span class="tscore win">${s}${isWinner ? ' ✓' : ''}</span>`;
   } else if (m.status === 'live') {
+    // LIVE only: show team color (green/yellow) + score
     cls = o + ' live';
     const s = which === 1 ? m.score1 : m.score2;
     scoreHTML = `<span class="tscore live-score">${s}</span>`;
+  } else if (m.status === 'final') {
+    // Completed: neutral, just show winner/loser
+    const isWinner = m.winner === which;
+    cls = 'neutral' + (isWinner ? ' winner' : ' loser');
+    const s = which === 1 ? m.score1 : m.score2;
+    scoreHTML = `<span class="tscore win">${s}${isWinner ? ' ✓' : ''}</span>`;
   } else {
-    // 'sched' or 'tbd' but team is known — show their color, no score
-    cls = o;
+    // Scheduled / TBD — neutral, no score
+    cls = 'tbp';
   }
 
   const seedHTML = t.seed ? `<span class="seed">${t.seed}</span>` : '';
@@ -760,7 +796,10 @@ function teamRowHTML(t, m, which) {
 function matchupHTML(m) {
   let statusBar = '';
   if (m.status === 'sched')  statusBar = `<div class="sched-chip">${m.sched || ''}</div>`;
-  if (m.status === 'live')   statusBar = `<div class="sched-chip"><span class="live-dot"></span>${m.detail || 'In Progress'}</div>`;
+  if (m.status === 'live') {
+    const timeInfo = [m.detail || 'In Progress', m.clock].filter(Boolean).join(' · ');
+    statusBar = `<div class="sched-chip"><span class="live-dot"></span>${timeInfo}</div>`;
+  }
   if (m.status === 'final' && m.detail && !m.upset) statusBar = `<div class="sched-chip">Final (${m.detail})</div>`;
 
   let upsetBanner = '';
@@ -788,6 +827,52 @@ function renderFirstFour() {
       ${m.note ? `<div class="ff-note">${m.note}</div>` : ''}
     </div>
   `).join('');
+}
+
+// ══════════════════════════════════════════════════════
+//  LIVE GAMES TAB
+// ══════════════════════════════════════════════════════
+function renderLiveTab() {
+  const container = document.getElementById('live-games-container');
+  const allMatchups = [
+    ...Object.values(DATA.regions).flatMap(r => r.rounds.flatMap(rd => rd.matchups)),
+    ...DATA.finalFour,
+    DATA.championship,
+  ];
+  const liveGames = allMatchups.filter(m => m.status === 'live');
+
+  if (liveGames.length === 0) {
+    container.innerHTML = `<div class="live-empty">
+      <div style="font-size:36px;margin-bottom:12px;">🏀</div>
+      <div>No games in progress right now.</div>
+      <div style="margin-top:6px;color:#444;font-size:12px;">Scores auto-refresh every 60 seconds.</div>
+    </div>`;
+    return;
+  }
+
+  container.innerHTML = liveGames.map(m => {
+    const o1 = owner(m.t1.name) || owner(m.t1.espn) || 'neutral-live';
+    const o2 = owner(m.t2.name) || owner(m.t2.espn) || 'neutral-live';
+    const s1 = m.score1 ?? 0, s2 = m.score2 ?? 0;
+    const t1Leading = s1 >= s2;
+    const timeInfo = [m.detail, m.clock].filter(Boolean).join(' · ') || 'In Progress';
+    return `
+      <div class="live-card">
+        <div class="live-card-header">
+          <span><span class="live-dot"></span>LIVE · ${timeInfo}</span>
+        </div>
+        <div class="live-team-row ${o1}">
+          <span class="live-seed-badge">${m.t1.seed || ''}</span>
+          <span class="live-team-name">${m.t1.name}</span>
+          <span class="live-score ${t1Leading ? 'leading' : ''}">${s1}</span>
+        </div>
+        <div class="live-team-row ${o2}">
+          <span class="live-seed-badge">${m.t2.seed || ''}</span>
+          <span class="live-team-name">${m.t2.name}</span>
+          <span class="live-score ${!t1Leading ? 'leading' : ''}">${s2}</span>
+        </div>
+      </div>`;
+  }).join('');
 }
 
 // ══════════════════════════════════════════════════════
@@ -1087,6 +1172,8 @@ async function updateScores() {
         winner1: away.winner || false,
         winner2: home.winner || false,
         isFinal, isLive, statusDetail,
+        clock: comp.status?.displayClock || '',
+        period: comp.status?.period || '',
       };
     }).filter(Boolean);
 
@@ -1122,6 +1209,8 @@ async function updateScores() {
         m.status = 'live';
         m.score1 = s1; m.score2 = s2;
         m.detail = g.statusDetail;
+        m.clock  = g.clock;
+        m.period = g.period;
       }
     }
 
@@ -1220,6 +1309,7 @@ function advanceWinners() {
 // ══════════════════════════════════════════════════════
 function renderAll() {
   advanceWinners();
+  renderLiveTab();
   renderFullBracket();
   ['east','west','south','midwest'].forEach(renderRegion);
   renderFinalFour();
