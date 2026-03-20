@@ -355,8 +355,7 @@
      TABS
 ════════════════════════════════════════════════════ -->
 <div class="tab-bar" id="tabBar">
-  <button class="tab-btn active" onclick="showTab('ff')">First Four</button>
-  <button class="tab-btn" onclick="showTab('east')">East</button>
+  <button class="tab-btn active" onclick="showTab('east')">East</button>
   <button class="tab-btn" onclick="showTab('west')">West</button>
   <button class="tab-btn" onclick="showTab('south')">South</button>
   <button class="tab-btn" onclick="showTab('midwest')">Midwest</button>
@@ -366,14 +365,10 @@
 <!-- ═══════════════════════════════════════════════════
      TAB: FIRST FOUR
 ════════════════════════════════════════════════════ -->
-<div class="tab-pane active" id="tab-ff">
-  <div class="first-four-grid" id="ff-grid"></div>
-</div>
-
 <!-- ═══════════════════════════════════════════════════
      REGION TABS
 ════════════════════════════════════════════════════ -->
-<div class="tab-pane" id="tab-east">
+<div class="tab-pane active" id="tab-east">
   <div class="region-bracket" id="bracket-east"></div>
 </div>
 <div class="tab-pane" id="tab-west">
@@ -893,7 +888,6 @@ async function updateScores() {
 //  FULL RENDER
 // ══════════════════════════════════════════════════════
 function renderAll() {
-  renderFirstFour();
   ['east','west','south','midwest'].forEach(renderRegion);
   renderFinalFour();
   calcScores();
