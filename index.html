@@ -21,11 +21,13 @@
     box-shadow: 0 2px 12px rgba(0,0,0,0.6);
   }
   header h1 {
-    font-size: 18px;
-    font-weight: 700;
+    font-size: clamp(20px, 6vw, 30px);
+    font-weight: 800;
     color: #fff;
     text-align: center;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    width: 100%;
   }
   header h1 span { color: #f9a825; }
 
@@ -125,8 +127,10 @@
 
   /* ── Bracket layout variables ─────────────────────── */
   :root {
-    --mh: 62px;        /* fixed height per matchup */
-    --slots-h: calc(8 * var(--mh)); /* 496px — all round columns same height */
+    --mh: 60px;          /* fixed height per matchup */
+    --pair-gap: 10px;    /* gap between the two games in a R64 pair */
+    --slots-h: 560px;    /* all round columns the same height
+                            560 > 4*(2*60+10)=520 so space-around has room */
     --col-w: 148px;
   }
 
@@ -167,6 +171,12 @@
   }
 
   /* ── Matchup ──────────────────────────────────────── */
+  /* Wraps two R64 games that feed into the same R32 game */
+  .matchup-pair {
+    display: flex;
+    flex-direction: column;
+    gap: var(--pair-gap);
+  }
   .matchup-wrapper {
     display: flex;
     align-items: center;
@@ -752,12 +762,31 @@ function buildRegionBracketEl(regionKey) {
     col.innerHTML = `<div class="round-header">${round.label}</div>`;
     const slots = document.createElement('div');
     slots.className = 'round-slots';
-    round.matchups.forEach(m => {
-      const wrapper = document.createElement('div');
-      wrapper.className = 'matchup-wrapper';
-      wrapper.innerHTML = matchupHTML(m);
-      slots.appendChild(wrapper);
-    });
+
+    if (round.label === 'Round of 64') {
+      // Group every two games into a .matchup-pair so it's obvious
+      // which teams play each other, and centers stay aligned with R32
+      for (let i = 0; i < round.matchups.length; i += 2) {
+        const pair = document.createElement('div');
+        pair.className = 'matchup-pair';
+        [round.matchups[i], round.matchups[i + 1]].forEach(m => {
+          if (!m) return;
+          const w = document.createElement('div');
+          w.className = 'matchup-wrapper';
+          w.innerHTML = matchupHTML(m);
+          pair.appendChild(w);
+        });
+        slots.appendChild(pair);
+      }
+    } else {
+      round.matchups.forEach(m => {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'matchup-wrapper';
+        wrapper.innerHTML = matchupHTML(m);
+        slots.appendChild(wrapper);
+      });
+    }
+
     col.appendChild(slots);
     bracketRow.appendChild(col);
     if (ri < rounds.length - 1) {
