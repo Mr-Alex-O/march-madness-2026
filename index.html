@@ -543,7 +543,7 @@
 
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.4 · March Madness 2026
+  v1.5 · March Madness 2026
 </div>
 
 <script>
@@ -1136,6 +1136,8 @@ async function updateScores() {
 
     const now = new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'});
     document.getElementById('lastUpdated').textContent = `Updated ${now}`;
+    // Reset auto-refresh countdown after a manual update
+    countdown = AUTO_INTERVAL;
 
   } catch(err) {
     alert('Error: ' + err.message);
@@ -1225,9 +1227,31 @@ function renderAll() {
 }
 
 // ══════════════════════════════════════════════════════
-//  INIT
+//  INIT + AUTO REFRESH
 // ══════════════════════════════════════════════════════
+const AUTO_INTERVAL = 60; // seconds between auto-refreshes
+let autoTimer = null;
+let countdown = AUTO_INTERVAL;
+
+function startAutoRefresh() {
+  if (autoTimer) clearInterval(autoTimer);
+  countdown = AUTO_INTERVAL;
+  autoTimer = setInterval(() => {
+    // Don't refresh if page is hidden (tab in background / phone screen off)
+    if (document.hidden) return;
+    countdown--;
+    document.getElementById('lastUpdated').textContent =
+      `Auto-refreshing in ${countdown}s`;
+    if (countdown <= 0) {
+      countdown = AUTO_INTERVAL;
+      updateScores();
+    }
+  }, 1000);
+}
+
+// Kick off on load
 renderAll();
+updateScores().then(() => startAutoRefresh());
 </script>
 </body>
 </html>
