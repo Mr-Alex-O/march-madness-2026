@@ -579,7 +579,7 @@
 
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.9 · March Madness 2026
+  v1.10 · March Madness 2026
 </div>
 
 <script>
@@ -986,11 +986,11 @@ function renderFinalFour() {
   const champ = DATA.champion;
   const champDisplay = document.getElementById('championDisplay');
   if (champ) {
-    const o = owner(champ) || 'neutral';
+    const o = champ.owner || owner(champ.name) || 'neutral';
     champDisplay.innerHTML = `
       <div class="champion-box">
         <span class="trophy">🏆</span>
-        <div class="champion-name">${champ}</div>
+        <div class="champion-name">${champ.name}</div>
         <div class="champion-sub">${o === ALEX ? "🟢 Alex's team wins!" : o === GREG ? "🟡 Greg's team wins!" : ''}</div>
       </div>`;
   } else {
@@ -1025,7 +1025,7 @@ function calcScores() {
     const dollars = ROUND_MONEY[roundLabel] || 0;
     if (!dollars) return;
     const winner = m.winner === 1 ? m.t1 : m.t2;
-    const o = owner(winner.name) || owner(winner.espn);
+    const o = winner.owner || owner(winner.name) || owner(winner.espn);
     if (o === ALEX) alex += dollars;
     else if (o === GREG) greg += dollars;
   }
@@ -1073,16 +1073,15 @@ function calcScores() {
   };
   // Simpler: count from DATA directly — alive teams are those who haven't lost
   let alexLeft = 0, gregLeft = 0;
-  const allTeamNames = new Set();
   Object.values(DATA.regions).forEach(r => r.rounds[0].matchups.forEach(m => {
-    [m.t1, m.t2].forEach(t => { if (t.name && t.name !== 'TBD') allTeamNames.add(t.name); });
+    [m.t1, m.t2].forEach(t => {
+      if (!t.name || t.name === 'TBD') return;
+      if (eliminated.has(t.name.toLowerCase())) return;
+      const o = t.owner || owner(t.name);
+      if (o === ALEX) alexLeft++;
+      else if (o === GREG) gregLeft++;
+    });
   }));
-  allTeamNames.forEach(name => {
-    if (eliminated.has(name.toLowerCase())) return;
-    const o = owner(name);
-    if (o === ALEX) alexLeft++;
-    else if (o === GREG) gregLeft++;
-  });
   document.getElementById('alexTeamsLeft').textContent = alexLeft + ' team' + (alexLeft !== 1 ? 's' : '') + ' left';
   document.getElementById('gregTeamsLeft').textContent = gregLeft + ' team' + (gregLeft !== 1 ? 's' : '') + ' left';
 
@@ -1227,7 +1226,7 @@ async function updateScores() {
     // Also check for champion
     if (DATA.championship.status === 'final' && DATA.championship.winner) {
       const cw = DATA.championship.winner === 1 ? DATA.championship.t1 : DATA.championship.t2;
-      DATA.champion = cw.name;
+      DATA.champion = {...cw};
     }
 
     // Re-render everything
@@ -1310,7 +1309,7 @@ function advanceWinners() {
   // Championship winner → Champion display
   if (DATA.championship.status === 'final' && DATA.championship.winner) {
     const w = DATA.championship.winner === 1 ? DATA.championship.t1 : DATA.championship.t2;
-    DATA.champion = w.name;
+    DATA.champion = {...w};
   }
 }
 

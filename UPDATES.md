@@ -21,6 +21,11 @@
 
 ## Changelog
 
+### v1.10 — Owner field used everywhere, no name-based color lookups
+- All color/owner logic (money scoring, teams-remaining count, champion display) now uses hardcoded `owner` field — zero name lookups for any team
+- Fixes any team where a "state" counterpart exists (Michigan/Michigan State, Texas/Texas A&M, etc.) across all displays
+- Champion display also uses hardcoded owner, not name matching
+
 ### v1.9 — Fixed team colors + black background
 - Each team in the bracket now has a hardcoded `owner` field ('alex'/'greg') — colors no longer rely on name matching
 - Fixes Iowa State and Tennessee State wrongly showing as Alex's teams (previously confused with Iowa/Tennessee)
