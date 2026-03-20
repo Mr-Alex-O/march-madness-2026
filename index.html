@@ -885,9 +885,77 @@ async function updateScores() {
 }
 
 // ══════════════════════════════════════════════════════
+//  ADVANCE WINNERS THROUGH BRACKET
+// ══════════════════════════════════════════════════════
+function advanceWinners() {
+  // Within each region: winners move round by round
+  Object.values(DATA.regions).forEach(region => {
+    for (let ri = 0; ri < region.rounds.length - 1; ri++) {
+      const cur  = region.rounds[ri];
+      const next = region.rounds[ri + 1];
+      cur.matchups.forEach((m, mi) => {
+        if (m.status !== 'final' || !m.winner) return;
+        const winner = m.winner === 1 ? { ...m.t1 } : { ...m.t2 };
+        const nextSlot   = Math.floor(mi / 2);   // which matchup in next round
+        const whichTeam  = mi % 2 === 0 ? 't1' : 't2'; // top or bottom slot
+        const nm = next.matchups[nextSlot];
+        if (!nm) return;
+        nm[whichTeam] = winner;
+        // Mark as scheduled once both teams are known
+        if (nm.t1.name !== 'TBD' && nm.t2.name !== 'TBD' && nm.status === 'tbd') {
+          nm.status = 'sched';
+          nm.sched  = 'Upcoming';
+        }
+      });
+    }
+  });
+
+  // Elite Eight winners → Final Four
+  // East champion vs West champion (SF1), South vs Midwest (SF2)
+  const FF_MAP = {
+    east:    { idx: 0, slot: 't1' },
+    west:    { idx: 0, slot: 't2' },
+    south:   { idx: 1, slot: 't1' },
+    midwest: { idx: 1, slot: 't2' },
+  };
+  Object.entries(DATA.regions).forEach(([key, region]) => {
+    const e8 = region.rounds[region.rounds.length - 1].matchups[0];
+    if (e8.status !== 'final' || !e8.winner) return;
+    const winner = e8.winner === 1 ? { ...e8.t1 } : { ...e8.t2 };
+    const { idx, slot } = FF_MAP[key];
+    DATA.finalFour[idx][slot] = winner;
+    if (DATA.finalFour[idx].t1.name !== 'TBD' && DATA.finalFour[idx].t2.name !== 'TBD'
+        && DATA.finalFour[idx].status === 'tbd') {
+      DATA.finalFour[idx].status = 'sched';
+      DATA.finalFour[idx].sched = 'Apr 4';
+    }
+  });
+
+  // Final Four winners → Championship
+  DATA.finalFour.forEach((m, i) => {
+    if (m.status !== 'final' || !m.winner) return;
+    const winner = m.winner === 1 ? { ...m.t1 } : { ...m.t2 };
+    const slot = i === 0 ? 't1' : 't2';
+    DATA.championship[slot] = winner;
+    if (DATA.championship.t1.name !== 'TBD' && DATA.championship.t2.name !== 'TBD'
+        && DATA.championship.status === 'tbd') {
+      DATA.championship.status = 'sched';
+      DATA.championship.sched = 'Apr 6';
+    }
+  });
+
+  // Championship winner → Champion display
+  if (DATA.championship.status === 'final' && DATA.championship.winner) {
+    const w = DATA.championship.winner === 1 ? DATA.championship.t1 : DATA.championship.t2;
+    DATA.champion = w.name;
+  }
+}
+
+// ══════════════════════════════════════════════════════
 //  FULL RENDER
 // ══════════════════════════════════════════════════════
 function renderAll() {
+  advanceWinners();
   ['east','west','south','midwest'].forEach(renderRegion);
   renderFinalFour();
   calcScores();
