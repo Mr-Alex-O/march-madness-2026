@@ -136,9 +136,9 @@
 
   /* ── Bracket layout variables ─────────────────────── */
   :root {
-    --mh: 60px;          /* fixed height per matchup */
+    --mh: 66px;          /* fixed height per matchup (extra for upset banner) */
     --pair-gap: 10px;    /* gap between the two games in a R64 pair */
-    --slots-h: 560px;    /* all round columns the same height
+    --slots-h: 600px;    /* all round columns the same height
                             560 > 4*(2*60+10)=520 so space-around has room */
     --col-w: 148px;
   }
@@ -258,15 +258,18 @@
     background: #2a2a2a;
   }
 
-  /* ── Upset Tag ────────────────────────────────────── */
-  .upset {
-    font-size: 9px;
+  /* ── Upset Banner ─────────────────────────────────── */
+  .upset-banner {
     background: #b71c1c;
     color: #fff;
-    border-radius: 3px;
-    padding: 1px 4px;
-    margin-left: 2px;
-    flex-shrink: 0;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 3px 6px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: 0.2px;
   }
 
   /* ── First Four ───────────────────────────────────── */
@@ -402,9 +405,9 @@
   @media (max-width: 480px) {
     /* Shrink columns so all 4 rounds fit on screen without scrolling */
     :root {
-      --mh: 48px;
+      --mh: 54px;
       --pair-gap: 6px;
-      --slots-h: 450px;
+      --slots-h: 490px;
       --col-w: 82px;    /* 4 cols × 82px + 3 connectors × 8px = 352px — fits ~360px+ screens */
     }
     .team { font-size: 10px; padding: 2px 4px; gap: 3px; }
@@ -512,7 +515,7 @@
 
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.2 · March Madness 2026
+  v1.3 · March Madness 2026
 </div>
 
 <script>
@@ -713,7 +716,6 @@ function teamRowHTML(t, m, which) {
     cls = o + (isWinner ? ' winner' : ' loser');
     const s = which === 1 ? m.score1 : m.score2;
     scoreHTML = `<span class="tscore win">${s}${isWinner ? ' ✓' : ''}</span>`;
-    if (isWinner && m.upset) scoreHTML += `<span class="upset">UPSET</span>`;
   } else if (m.status === 'live') {
     cls = o + ' live';
     const s = which === 1 ? m.score1 : m.score2;
@@ -731,12 +733,20 @@ function matchupHTML(m) {
   let statusBar = '';
   if (m.status === 'sched')  statusBar = `<div class="sched-chip">${m.sched || ''}</div>`;
   if (m.status === 'live')   statusBar = `<div class="sched-chip"><span class="live-dot"></span>${m.detail || 'In Progress'}</div>`;
-  if (m.status === 'final' && m.detail) statusBar = `<div class="sched-chip">Final (${m.detail})</div>`;
+  if (m.status === 'final' && m.detail && !m.upset) statusBar = `<div class="sched-chip">Final (${m.detail})</div>`;
+
+  let upsetBanner = '';
+  if (m.status === 'final' && m.upset) {
+    const winner = m.winner === 1 ? m.t1 : m.t2;
+    const loser  = m.winner === 1 ? m.t2 : m.t1;
+    const extra  = m.detail ? ` (${m.detail})` : '';
+    upsetBanner = `<div class="upset-banner">🔥 ${winner.seed} ${winner.name} upsets ${loser.seed} ${loser.name}${extra}</div>`;
+  }
 
   return `<div class="matchup" id="m-${m.id}">
     ${teamRowHTML(m.t1, m, 1)}
     ${teamRowHTML(m.t2, m, 2)}
-    ${statusBar}
+    ${statusBar}${upsetBanner}
   </div>`;
 }
 
