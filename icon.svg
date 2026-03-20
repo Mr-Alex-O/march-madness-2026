@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="90" fill="#1a1a2e"/>
+
+  <!-- Basketball body -->
+  <circle cx="256" cy="210" r="130" fill="#e65100"/>
+
+  <!-- Basketball seam lines -->
+  <circle cx="256" cy="210" r="130" fill="none" stroke="#bf360c" stroke-width="6"/>
+  <!-- Vertical seam -->
+  <path d="M256 80 Q210 140 210 210 Q210 280 256 340" fill="none" stroke="#bf360c" stroke-width="9" stroke-linecap="round"/>
+  <path d="M256 80 Q302 140 302 210 Q302 280 256 340" fill="none" stroke="#bf360c" stroke-width="9" stroke-linecap="round"/>
+  <!-- Horizontal seam -->
+  <path d="M126 210 Q190 168 256 210 Q322 252 386 210" fill="none" stroke="#bf360c" stroke-width="9" stroke-linecap="round"/>
+  <path d="M126 210 Q190 252 256 210 Q322 168 386 210" fill="none" stroke="#bf360c" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- "MM" label -->
+  <text x="256" y="430" font-family="Arial Black, Impact, sans-serif" font-size="88" font-weight="900"
+        fill="#fdd835" text-anchor="middle" letter-spacing="4">MM</text>
+
+  <!-- Subtle glow ring around basketball -->
+  <circle cx="256" cy="210" r="132" fill="none" stroke="#ff6d00" stroke-width="3" opacity="0.5"/>
+</svg>
