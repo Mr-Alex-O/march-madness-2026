@@ -312,6 +312,54 @@
     letter-spacing: 0.3px;
   }
 
+  /* ── Full Bracket ─────────────────────────────────── */
+  .full-bracket-wrap { padding: 10px 12px 30px; }
+  .filter-bar {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 0 12px;
+  }
+  .filter-btn {
+    padding: 6px 18px;
+    border-radius: 16px;
+    border: 1px solid #333;
+    background: #1a1a1a;
+    color: #888;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .filter-btn.active-all  { background: #1976d2; color: #fff; border-color: #1976d2; }
+  .filter-btn.active-alex { background: #2e7d32; color: #fff; border-color: #2e7d32; }
+  .filter-btn.active-greg { background: #827200; color: #fff; border-color: #f9a825; }
+
+  /* Dim effect when filtering */
+  .dim-alex .team.alex { opacity: 0.12; }
+  .dim-greg .team.greg { opacity: 0.12; }
+
+  .full-regions-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  @media (min-width: 900px) {
+    .full-regions-grid { grid-template-columns: 1fr 1fr; }
+  }
+  .full-region-block { }
+  .full-region-title {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #888;
+    text-align: center;
+    padding: 6px 0 8px;
+    border-bottom: 1px solid #222;
+    margin-bottom: 8px;
+  }
+
   /* ── Responsive ───────────────────────────────────── */
   @media (max-width: 480px) {
     .round-col { min-width: 120px; }
@@ -355,7 +403,8 @@
      TABS
 ════════════════════════════════════════════════════ -->
 <div class="tab-bar" id="tabBar">
-  <button class="tab-btn active" onclick="showTab('east')">East</button>
+  <button class="tab-btn active" onclick="showTab('full')">📋 Full Bracket</button>
+  <button class="tab-btn" onclick="showTab('east')">East</button>
   <button class="tab-btn" onclick="showTab('west')">West</button>
   <button class="tab-btn" onclick="showTab('south')">South</button>
   <button class="tab-btn" onclick="showTab('midwest')">Midwest</button>
@@ -366,9 +415,23 @@
      TAB: FIRST FOUR
 ════════════════════════════════════════════════════ -->
 <!-- ═══════════════════════════════════════════════════
+     TAB: FULL BRACKET
+════════════════════════════════════════════════════ -->
+<div class="tab-pane active" id="tab-full">
+  <div class="full-bracket-wrap">
+    <div class="filter-bar">
+      <button class="filter-btn active-all" id="fb-all"  onclick="setFilter('all')">All Teams</button>
+      <button class="filter-btn"            id="fb-alex" onclick="setFilter('alex')">🟢 Alex Only</button>
+      <button class="filter-btn"            id="fb-greg" onclick="setFilter('greg')">🟡 Greg Only</button>
+    </div>
+    <div class="full-regions-grid" id="full-regions-grid"></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════
      REGION TABS
 ════════════════════════════════════════════════════ -->
-<div class="tab-pane active" id="tab-east">
+<div class="tab-pane" id="tab-east" style="padding:12px;">
   <div class="region-bracket" id="bracket-east"></div>
 </div>
 <div class="tab-pane" id="tab-west">
@@ -635,6 +698,65 @@ function renderFirstFour() {
       ${m.note ? `<div class="ff-note">${m.note}</div>` : ''}
     </div>
   `).join('');
+}
+
+// ══════════════════════════════════════════════════════
+//  FULL BRACKET RENDER + FILTER
+// ══════════════════════════════════════════════════════
+let currentFilter = 'all';
+
+function setFilter(f) {
+  currentFilter = f;
+  const grid = document.getElementById('full-regions-grid');
+  grid.classList.remove('dim-alex', 'dim-greg');
+  if (f === 'alex') grid.classList.add('dim-greg');
+  if (f === 'greg') grid.classList.add('dim-alex');
+
+  ['all','alex','greg'].forEach(k => {
+    const btn = document.getElementById('fb-' + k);
+    btn.className = 'filter-btn' + (k === f ? ' active-' + f : '');
+  });
+  // Fix "all" button class
+  if (f === 'all') document.getElementById('fb-all').className = 'filter-btn active-all';
+}
+
+function renderFullBracket() {
+  const grid = document.getElementById('full-regions-grid');
+  grid.innerHTML = '';
+  ['east','west','south','midwest'].forEach(regionKey => {
+    const region = DATA.regions[regionKey];
+    const block = document.createElement('div');
+    block.className = 'full-region-block';
+    block.innerHTML = `<div class="full-region-title">${region.name}</div>`;
+    const bracketRow = document.createElement('div');
+    bracketRow.className = 'region-bracket';
+    bracketRow.id = 'full-bracket-' + regionKey;
+
+    region.rounds.forEach((round, ri) => {
+      const col = document.createElement('div');
+      col.className = 'round-col';
+      col.innerHTML = `<div class="round-header">${round.label}</div>`;
+      const slots = document.createElement('div');
+      slots.className = 'round-slots';
+      round.matchups.forEach(m => {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'matchup-wrapper';
+        wrapper.innerHTML = matchupHTML(m);
+        slots.appendChild(wrapper);
+      });
+      col.appendChild(slots);
+      bracketRow.appendChild(col);
+      if (ri < region.rounds.length - 1) {
+        const conn = document.createElement('div');
+        conn.className = 'connector';
+        bracketRow.appendChild(conn);
+      }
+    });
+    block.appendChild(bracketRow);
+    grid.appendChild(block);
+  });
+  // Re-apply current filter
+  setFilter(currentFilter);
 }
 
 // ══════════════════════════════════════════════════════
@@ -956,6 +1078,7 @@ function advanceWinners() {
 // ══════════════════════════════════════════════════════
 function renderAll() {
   advanceWinners();
+  renderFullBracket();
   ['east','west','south','midwest'].forEach(renderRegion);
   renderFinalFour();
   calcScores();
