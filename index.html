@@ -218,6 +218,7 @@
   .team.loser   { opacity: 0.35; }
   .team.tbp     { background: #181818; color: #555; }
   .team.live    { background: #1a2f1a; }
+  .team.dimmed  { opacity: 0.45; }  /* scheduled — color visible but muted */
   .seed {
     font-size: 10px;
     color: #777;
@@ -578,7 +579,7 @@
 
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.7 · March Madness 2026
+  v1.8 · March Madness 2026
 </div>
 
 <script>
@@ -743,7 +744,7 @@ const DATA = {
             {id:'m_r1_3', t1:{seed:5, name:'Texas Tech',    espn:'Texas Tech'},   t2:{seed:12,name:'Akron',             espn:'Akron'},          status:'final', winner:1, score1:91,  score2:71},
             {id:'m_r1_4', t1:{seed:4, name:'Alabama',       espn:'Alabama'},      t2:{seed:13,name:'Hofstra',           espn:'Hofstra'},        status:'sched', sched:'Mar 20 · 3:15 truTV'},
             {id:'m_r1_5', t1:{seed:6, name:'Tennessee',     espn:'Tennessee'},    t2:{seed:11,name:'Miami OH (MOH/SMU)',espn:'Miami (OH)'},     status:'sched', sched:'Mar 20 · 4:25 TBS'},
-            {id:'m_r1_6', t1:{seed:3, name:'Virginia',      espn:'Virginia'},     t2:{seed:14,name:'Wright State',      espn:'Wright State'},   status:'live',  score1:38, score2:43, detail:'Halftime'},
+            {id:'m_r1_6', t1:{seed:3, name:'Virginia',      espn:'Virginia'},     t2:{seed:14,name:'Wright State',      espn:'Wright State'},   status:'final', winner:2, score1:null, score2:null, upset:true},
             {id:'m_r1_7', t1:{seed:7, name:'Kentucky',      espn:'Kentucky'},     t2:{seed:10,name:'Santa Clara',       espn:'Santa Clara'},    status:'final', winner:1, score1:89,  score2:84, detail:'OT'},
             {id:'m_r1_8', t1:{seed:2, name:'Iowa State',    espn:'Iowa State'},   t2:{seed:15,name:'Tennessee St',      espn:'Tennessee State'},status:'sched', sched:'Mar 20 · 3:00 CBS'},
           ]
@@ -774,19 +775,19 @@ function teamRowHTML(t, m, which) {
   if (t.name === 'TBD') {
     cls = 'tbp';
   } else if (m.status === 'live') {
-    // LIVE only: show team color (green/yellow) + score
+    // LIVE: full team color + score (bright)
     cls = o + ' live';
     const s = which === 1 ? m.score1 : m.score2;
     scoreHTML = `<span class="tscore live-score">${s}</span>`;
   } else if (m.status === 'final') {
-    // Completed: neutral, just show winner/loser
+    // Completed: show team color but dimmed for loser
     const isWinner = m.winner === which;
-    cls = 'neutral' + (isWinner ? ' winner' : ' loser');
+    cls = o + (isWinner ? ' winner' : ' loser');
     const s = which === 1 ? m.score1 : m.score2;
-    scoreHTML = `<span class="tscore win">${s}${isWinner ? ' ✓' : ''}</span>`;
+    if (s !== null) scoreHTML = `<span class="tscore win">${s}${isWinner ? ' ✓' : ''}</span>`;
   } else {
-    // Scheduled / TBD — neutral, no score
-    cls = 'tbp';
+    // Scheduled — show team color but dimmed (not active yet)
+    cls = o + ' dimmed';
   }
 
   const seedHTML = t.seed ? `<span class="seed">${t.seed}</span>` : '';
@@ -1162,8 +1163,11 @@ async function updateScores() {
       const away = comps.find(c=>c.homeAway==='away') || comps[1];
       const statusType = comp.status?.type?.name || '';
       const statusDetail = comp.status?.type?.description || '';
-      const isFinal = statusType === 'STATUS_FINAL';
-      const isLive  = statusType === 'STATUS_IN_PROGRESS';
+      const isFinal   = statusType === 'STATUS_FINAL';
+      const isLive    = statusType === 'STATUS_IN_PROGRESS';
+      const isHalf    = statusType === 'STATUS_HALFTIME';
+      const isTimeout = statusDetail?.toLowerCase().includes('timeout') ||
+                        statusType === 'STATUS_DELAY';
       return {
         name1: away.team?.displayName || '',
         name2: home.team?.displayName || '',
@@ -1171,7 +1175,7 @@ async function updateScores() {
         score2: parseInt(home.score || 0),
         winner1: away.winner || false,
         winner2: home.winner || false,
-        isFinal, isLive, statusDetail,
+        isFinal, isLive: isLive || isHalf, isTimeout, statusDetail,
         clock: comp.status?.displayClock || '',
         period: comp.status?.period || '',
       };
@@ -1205,11 +1209,12 @@ async function updateScores() {
         m.status = 'final';
         m.score1 = s1; m.score2 = s2;
         m.winner = t1Wins ? 1 : 2;
+        m.detail = ''; // clear so it can't show stale "Halftime" etc.
       } else if (g.isLive) {
         m.status = 'live';
         m.score1 = s1; m.score2 = s2;
-        m.detail = g.statusDetail;
-        m.clock  = g.clock;
+        m.detail = g.isTimeout ? 'Timeout' : g.statusDetail;
+        m.clock  = g.isTimeout ? '' : g.clock;
         m.period = g.period;
       }
     }
