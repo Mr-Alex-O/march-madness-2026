@@ -19,7 +19,7 @@
     color: #e8e8e8;
     min-height: 100vh;
     /* Hardwood basketball floor */
-    background: linear-gradient(160deg, #0f1b2d 0%, #1a2035 50%, #0d1828 100%);
+    background: #000;
   }
 
   /* ── Header ───────────────────────────────────────── */
@@ -579,7 +579,7 @@
 
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.8 · March Madness 2026
+  v1.9 · March Madness 2026
 </div>
 
 <script>
@@ -676,14 +676,14 @@ const DATA = {
         {
           label: 'Round of 64',
           matchups: [
-            {id:'e_r1_1', t1:{seed:1, name:'Duke',         espn:'Duke'},           t2:{seed:16,name:'Siena',          espn:'Siena'},          status:'final', winner:1, score1:71, score2:65},
-            {id:'e_r1_2', t1:{seed:8, name:'Ohio State',   espn:'Ohio State'},     t2:{seed:9, name:'TCU',            espn:'TCU'},            status:'final', winner:2, score1:64, score2:66, upset:true},
-            {id:'e_r1_3', t1:{seed:5, name:"St. John's",   espn:"St. John's (NY)"},t2:{seed:12,name:'Northern Iowa',  espn:'Northern Iowa'},  status:'sched', sched:'Mar 20 · 7:10 CBS'},
-            {id:'e_r1_4', t1:{seed:4, name:'Kansas',       espn:'Kansas'},         t2:{seed:13,name:'CA Baptist',     espn:'California Baptist'},status:'sched',sched:'Mar 20 · 9:45 CBS'},
-            {id:'e_r1_5', t1:{seed:6, name:'Louisville',   espn:'Louisville'},     t2:{seed:11,name:'South Florida',  espn:'South Florida'},  status:'final', winner:1, score1:83, score2:79},
-            {id:'e_r1_6', t1:{seed:3, name:'Michigan St',  espn:'Michigan State'}, t2:{seed:14,name:'N. Dakota St',   espn:'North Dakota State'},status:'final',winner:1,score1:92,score2:67},
-            {id:'e_r1_7', t1:{seed:7, name:'UCLA',         espn:'UCLA'},           t2:{seed:10,name:'UCF',            espn:'UCF'},            status:'sched', sched:'Mar 20 · 7:25 TBS'},
-            {id:'e_r1_8', t1:{seed:2, name:'Connecticut',  espn:'Connecticut'},    t2:{seed:15,name:'Furman',         espn:'Furman'},         status:'sched', sched:'Mar 20 · 10:00 TBS'},
+            {id:'e_r1_1', t1:{seed:1, name:'Duke',         espn:'Duke',                owner:'alex'}, t2:{seed:16,name:'Siena',          espn:'Siena',               owner:'alex'}, status:'final', winner:1, score1:71, score2:65},
+            {id:'e_r1_2', t1:{seed:8, name:'Ohio State',   espn:'Ohio State',          owner:'greg'}, t2:{seed:9, name:'TCU',            espn:'TCU',                 owner:'alex'}, status:'final', winner:2, score1:64, score2:66, upset:true},
+            {id:'e_r1_3', t1:{seed:5, name:"St. John's",   espn:"St. John's (NY)",     owner:'greg'}, t2:{seed:12,name:'Northern Iowa',  espn:'Northern Iowa',       owner:'greg'}, status:'sched', sched:'Mar 20 · 7:10 CBS'},
+            {id:'e_r1_4', t1:{seed:4, name:'Kansas',       espn:'Kansas',              owner:'greg'}, t2:{seed:13,name:'CA Baptist',     espn:'California Baptist',  owner:'greg'}, status:'sched',sched:'Mar 20 · 9:45 CBS'},
+            {id:'e_r1_5', t1:{seed:6, name:'Louisville',   espn:'Louisville',          owner:'greg'}, t2:{seed:11,name:'South Florida',  espn:'South Florida',       owner:'alex'}, status:'final', winner:1, score1:83, score2:79},
+            {id:'e_r1_6', t1:{seed:3, name:'Michigan St',  espn:'Michigan State',      owner:'alex'}, t2:{seed:14,name:'N. Dakota St',   espn:'North Dakota State',  owner:'greg'}, status:'final',winner:1,score1:92,score2:67},
+            {id:'e_r1_7', t1:{seed:7, name:'UCLA',         espn:'UCLA',                owner:'alex'}, t2:{seed:10,name:'UCF',            espn:'UCF',                 owner:'greg'}, status:'sched', sched:'Mar 20 · 7:25 TBS'},
+            {id:'e_r1_8', t1:{seed:2, name:'Connecticut',  espn:'Connecticut',         owner:'alex'}, t2:{seed:15,name:'Furman',         espn:'Furman',              owner:'alex'}, status:'sched', sched:'Mar 20 · 10:00 TBS'},
           ]
         },
         { label:'Round of 32',  matchups:[{id:'e_r2_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'e_r2_2',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'e_r2_3',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'e_r2_4',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
@@ -697,14 +697,14 @@ const DATA = {
         {
           label: 'Round of 64',
           matchups: [
-            {id:'w_r1_1', t1:{seed:1, name:'Arizona',    espn:'Arizona'},        t2:{seed:16,name:'LIU Brooklyn',    espn:'Long Island University'}, status:'final', winner:1, score1:61, score2:29},
-            {id:'w_r1_2', t1:{seed:8, name:'Villanova',  espn:'Villanova'},      t2:{seed:9, name:'Utah State',      espn:'Utah State'},             status:'sched', sched:'Mar 20 · 4:10 TNT'},
-            {id:'w_r1_3', t1:{seed:5, name:'Wisconsin',  espn:'Wisconsin'},      t2:{seed:12,name:'High Point',      espn:'High Point'},             status:'final', winner:2, score1:82, score2:83, upset:true},
-            {id:'w_r1_4', t1:{seed:4, name:'Arkansas',   espn:'Arkansas'},       t2:{seed:13,name:'Hawaii',          espn:"Hawai'i"},                status:'final', winner:1, score1:97, score2:78},
-            {id:'w_r1_5', t1:{seed:6, name:'BYU',        espn:'BYU'},            t2:{seed:11,name:'Texas (TX/NCST)', espn:'Texas'},                  status:'final', winner:2, score1:71, score2:79, upset:true},
-            {id:'w_r1_6', t1:{seed:3, name:'Gonzaga',    espn:'Gonzaga'},        t2:{seed:14,name:'Kennesaw St',     espn:'Kennesaw State'},         status:'final', winner:1, score1:73, score2:64},
-            {id:'w_r1_7', t1:{seed:7, name:'Miami (FL)', espn:'Miami'},          t2:{seed:10,name:'Missouri',        espn:'Missouri'},               status:'sched', sched:'Mar 20 · 10:10 truTV'},
-            {id:'w_r1_8', t1:{seed:2, name:'Purdue',     espn:'Purdue'},         t2:{seed:15,name:'Queens Univ.',    espn:'Queens'},                 status:'sched', sched:'Mar 20 · 7:35 truTV'},
+            {id:'w_r1_1', t1:{seed:1, name:'Arizona',    espn:'Arizona',           owner:'greg'}, t2:{seed:16,name:'LIU Brooklyn',    espn:'Long Island University', owner:'greg'}, status:'final', winner:1, score1:61, score2:29},
+            {id:'w_r1_2', t1:{seed:8, name:'Villanova',  espn:'Villanova',         owner:'alex'}, t2:{seed:9, name:'Utah State',      espn:'Utah State',             owner:'alex'}, status:'sched', sched:'Mar 20 · 4:10 TNT'},
+            {id:'w_r1_3', t1:{seed:5, name:'Wisconsin',  espn:'Wisconsin',         owner:'greg'}, t2:{seed:12,name:'High Point',      espn:'High Point',             owner:'alex'}, status:'final', winner:2, score1:82, score2:83, upset:true},
+            {id:'w_r1_4', t1:{seed:4, name:'Arkansas',   espn:'Arkansas',          owner:'greg'}, t2:{seed:13,name:'Hawaii',          espn:"Hawai'i",                owner:'alex'}, status:'final', winner:1, score1:97, score2:78},
+            {id:'w_r1_5', t1:{seed:6, name:'BYU',        espn:'BYU',               owner:'greg'}, t2:{seed:11,name:'Texas (TX/NCST)', espn:'Texas',                  owner:'greg'}, status:'final', winner:2, score1:71, score2:79, upset:true},
+            {id:'w_r1_6', t1:{seed:3, name:'Gonzaga',    espn:'Gonzaga',           owner:'alex'}, t2:{seed:14,name:'Kennesaw St',     espn:'Kennesaw State',         owner:'greg'}, status:'final', winner:1, score1:73, score2:64},
+            {id:'w_r1_7', t1:{seed:7, name:'Miami (FL)', espn:'Miami',             owner:'greg'}, t2:{seed:10,name:'Missouri',        espn:'Missouri',               owner:'alex'}, status:'sched', sched:'Mar 20 · 10:10 truTV'},
+            {id:'w_r1_8', t1:{seed:2, name:'Purdue',     espn:'Purdue',            owner:'greg'}, t2:{seed:15,name:'Queens Univ.',    espn:'Queens',                 owner:'greg'}, status:'sched', sched:'Mar 20 · 7:35 truTV'},
           ]
         },
         { label:'Round of 32', matchups:[{id:'w_r2_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'w_r2_2',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'w_r2_3',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'w_r2_4',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
@@ -718,14 +718,14 @@ const DATA = {
         {
           label: 'Round of 64',
           matchups: [
-            {id:'s_r1_1', t1:{seed:1, name:'Florida',      espn:'Florida'},      t2:{seed:16,name:'Prairie View (PV/LEH)',espn:'Prairie View A&M'},status:'sched',sched:'Mar 20 · 9:25 TNT'},
-            {id:'s_r1_2', t1:{seed:8, name:'Clemson',      espn:'Clemson'},      t2:{seed:9, name:'Iowa',               espn:'Iowa'},           status:'sched', sched:'Mar 20 · 6:50 TNT'},
-            {id:'s_r1_3', t1:{seed:5, name:'Vanderbilt',   espn:'Vanderbilt'},   t2:{seed:12,name:'McNeese',            espn:'McNeese State'},  status:'final', winner:1, score1:78, score2:68},
-            {id:'s_r1_4', t1:{seed:4, name:'Nebraska',     espn:'Nebraska'},     t2:{seed:13,name:'Troy',               espn:'Troy'},           status:'final', winner:1, score1:76, score2:47},
-            {id:'s_r1_5', t1:{seed:6, name:'N. Carolina',  espn:'North Carolina'},t2:{seed:11,name:'VCU',              espn:'VCU'},            status:'final', winner:2, score1:78, score2:82, upset:true, detail:'OT'},
-            {id:'s_r1_6', t1:{seed:3, name:'Illinois',     espn:'Illinois'},     t2:{seed:14,name:'Pennsylvania',       espn:'Pennsylvania'},   status:'final', winner:1, score1:105,score2:70},
-            {id:'s_r1_7', t1:{seed:7, name:"St. Mary's",   espn:"Saint Mary's (CA)"},t2:{seed:10,name:'Texas A&M',    espn:'Texas A&M'},      status:'final', winner:2, score1:50, score2:63, upset:true},
-            {id:'s_r1_8', t1:{seed:2, name:'Houston',      espn:'Houston'},      t2:{seed:15,name:'Idaho',              espn:'Idaho'},          status:'final', winner:1, score1:78, score2:47},
+            {id:'s_r1_1', t1:{seed:1, name:'Florida',      espn:'Florida',              owner:'alex'}, t2:{seed:16,name:'Prairie View (PV/LEH)',espn:'Prairie View A&M', owner:'alex'}, status:'sched',sched:'Mar 20 · 9:25 TNT'},
+            {id:'s_r1_2', t1:{seed:8, name:'Clemson',      espn:'Clemson',              owner:'alex'}, t2:{seed:9, name:'Iowa',               espn:'Iowa',             owner:'greg'}, status:'sched', sched:'Mar 20 · 6:50 TNT'},
+            {id:'s_r1_3', t1:{seed:5, name:'Vanderbilt',   espn:'Vanderbilt',           owner:'alex'}, t2:{seed:12,name:'McNeese',            espn:'McNeese State',    owner:'greg'}, status:'final', winner:1, score1:78, score2:68},
+            {id:'s_r1_4', t1:{seed:4, name:'Nebraska',     espn:'Nebraska',             owner:'alex'}, t2:{seed:13,name:'Troy',               espn:'Troy',             owner:'alex'}, status:'final', winner:1, score1:76, score2:47},
+            {id:'s_r1_5', t1:{seed:6, name:'N. Carolina',  espn:'North Carolina',       owner:'greg'}, t2:{seed:11,name:'VCU',               espn:'VCU',              owner:'alex'}, status:'final', winner:2, score1:78, score2:82, upset:true, detail:'OT'},
+            {id:'s_r1_6', t1:{seed:3, name:'Illinois',     espn:'Illinois',             owner:'greg'}, t2:{seed:14,name:'Pennsylvania',       espn:'Pennsylvania',     owner:'greg'}, status:'final', winner:1, score1:105,score2:70},
+            {id:'s_r1_7', t1:{seed:7, name:"St. Mary's",   espn:"Saint Mary's (CA)",    owner:'alex'}, t2:{seed:10,name:'Texas A&M',          espn:'Texas A&M',        owner:'alex'}, status:'final', winner:2, score1:50, score2:63, upset:true},
+            {id:'s_r1_8', t1:{seed:2, name:'Houston',      espn:'Houston',              owner:'alex'}, t2:{seed:15,name:'Idaho',              espn:'Idaho',            owner:'greg'}, status:'final', winner:1, score1:78, score2:47},
           ]
         },
         { label:'Round of 32', matchups:[{id:'s_r2_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'s_r2_2',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'s_r2_3',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'s_r2_4',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
@@ -739,14 +739,14 @@ const DATA = {
         {
           label: 'Round of 64',
           matchups: [
-            {id:'m_r1_1', t1:{seed:1, name:'Michigan',      espn:'Michigan'},     t2:{seed:16,name:'Howard (UMBC/HOW)', espn:'Howard'},         status:'final', winner:1, score1:101,score2:80},
-            {id:'m_r1_2', t1:{seed:8, name:'Georgia',       espn:'Georgia'},      t2:{seed:9, name:'Saint Louis',       espn:'Saint Louis'},    status:'final', winner:2, score1:77,  score2:102,upset:true},
-            {id:'m_r1_3', t1:{seed:5, name:'Texas Tech',    espn:'Texas Tech'},   t2:{seed:12,name:'Akron',             espn:'Akron'},          status:'final', winner:1, score1:91,  score2:71},
-            {id:'m_r1_4', t1:{seed:4, name:'Alabama',       espn:'Alabama'},      t2:{seed:13,name:'Hofstra',           espn:'Hofstra'},        status:'sched', sched:'Mar 20 · 3:15 truTV'},
-            {id:'m_r1_5', t1:{seed:6, name:'Tennessee',     espn:'Tennessee'},    t2:{seed:11,name:'Miami OH (MOH/SMU)',espn:'Miami (OH)'},     status:'sched', sched:'Mar 20 · 4:25 TBS'},
-            {id:'m_r1_6', t1:{seed:3, name:'Virginia',      espn:'Virginia'},     t2:{seed:14,name:'Wright State',      espn:'Wright State'},   status:'final', winner:2, score1:null, score2:null, upset:true},
-            {id:'m_r1_7', t1:{seed:7, name:'Kentucky',      espn:'Kentucky'},     t2:{seed:10,name:'Santa Clara',       espn:'Santa Clara'},    status:'final', winner:1, score1:89,  score2:84, detail:'OT'},
-            {id:'m_r1_8', t1:{seed:2, name:'Iowa State',    espn:'Iowa State'},   t2:{seed:15,name:'Tennessee St',      espn:'Tennessee State'},status:'sched', sched:'Mar 20 · 3:00 CBS'},
+            {id:'m_r1_1', t1:{seed:1, name:'Michigan',      espn:'Michigan',         owner:'alex'}, t2:{seed:16,name:'Howard (UMBC/HOW)', espn:'Howard',          owner:'alex'}, status:'final', winner:1, score1:101,score2:80},
+            {id:'m_r1_2', t1:{seed:8, name:'Georgia',       espn:'Georgia',          owner:'alex'}, t2:{seed:9, name:'Saint Louis',       espn:'Saint Louis',     owner:'greg'}, status:'final', winner:2, score1:77,  score2:102,upset:true},
+            {id:'m_r1_3', t1:{seed:5, name:'Texas Tech',    espn:'Texas Tech',       owner:'greg'}, t2:{seed:12,name:'Akron',             espn:'Akron',           owner:'alex'}, status:'final', winner:1, score1:91,  score2:71},
+            {id:'m_r1_4', t1:{seed:4, name:'Alabama',       espn:'Alabama',          owner:'alex'}, t2:{seed:13,name:'Hofstra',           espn:'Hofstra',         owner:'greg'}, status:'sched', sched:'Mar 20 · 3:15 truTV'},
+            {id:'m_r1_5', t1:{seed:6, name:'Tennessee',     espn:'Tennessee',        owner:'alex'}, t2:{seed:11,name:'Miami OH (MOH/SMU)',espn:'Miami (OH)',      owner:'greg'}, status:'sched', sched:'Mar 20 · 4:25 TBS'},
+            {id:'m_r1_6', t1:{seed:3, name:'Virginia',      espn:'Virginia',         owner:'greg'}, t2:{seed:14,name:'Wright State',      espn:'Wright State',    owner:'alex'}, status:'final', winner:2, score1:null, score2:null, upset:true},
+            {id:'m_r1_7', t1:{seed:7, name:'Kentucky',      espn:'Kentucky',         owner:'alex'}, t2:{seed:10,name:'Santa Clara',       espn:'Santa Clara',     owner:'greg'}, status:'final', winner:1, score1:89,  score2:84, detail:'OT'},
+            {id:'m_r1_8', t1:{seed:2, name:'Iowa State',    espn:'Iowa State',       owner:'greg'}, t2:{seed:15,name:'Tennessee St',      espn:'Tennessee State', owner:'greg'}, status:'sched', sched:'Mar 20 · 3:00 CBS'},
           ]
         },
         { label:'Round of 32', matchups:[{id:'m_r2_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'m_r2_2',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'m_r2_3',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'m_r2_4',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
@@ -768,7 +768,7 @@ const DATA = {
 //  RENDER HELPERS
 // ══════════════════════════════════════════════════════
 function teamRowHTML(t, m, which) {
-  const o = owner(t.name) || owner(t.espn) || 'neutral';
+  const o = t.owner || owner(t.name) || owner(t.espn) || 'neutral';
   let cls = '';
   let scoreHTML = '';
 
@@ -1121,7 +1121,12 @@ function normName(n) {
 }
 function nameMatch(a, b) {
   const na = normName(a), nb = normName(b);
-  return na === nb || na.includes(nb) || nb.includes(na);
+  if (na === nb) return true;
+  // Only allow substring match when one name is very short (abbreviation like "UCF")
+  // This prevents "Arizona" matching "Arizona State", "Texas" matching "Texas Tech", etc.
+  const shorter = na.length <= nb.length ? na : nb;
+  const longer  = na.length <= nb.length ? nb : na;
+  return shorter.length <= 3 && longer.includes(shorter);
 }
 
 async function updateScores() {

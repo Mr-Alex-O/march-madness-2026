@@ -21,6 +21,12 @@
 
 ## Changelog
 
+### v1.9 — Fixed team colors + black background
+- Each team in the bracket now has a hardcoded `owner` field ('alex'/'greg') — colors no longer rely on name matching
+- Fixes Iowa State and Tennessee State wrongly showing as Alex's teams (previously confused with Iowa/Tennessee)
+- Background changed to pure black (was dark navy gradient)
+- nameMatch threshold tightened (≤3 chars) to prevent short names like "Iowa" from matching "Iowa State"
+
 ### v1.6 — Live Games tab + color overhaul
 - Added 🔴 Live tab as first tab — shows all currently live games as big cards with score, period, time remaining
 - Team colors (green/yellow) now ONLY show on live games — completed games show neutral colors
