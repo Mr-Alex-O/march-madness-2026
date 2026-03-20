@@ -579,7 +579,7 @@
 
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.10 · March Madness 2026
+  v1.11 · March Madness 2026
 </div>
 
 <script>
@@ -1135,13 +1135,97 @@ async function updateScores() {
   btn.className = 'btn-update loading';
 
   try {
-    // Tournament spans multiple dates
-    const dates = [
-      '20260317','20260318','20260319',
-      '20260320','20260321','20260322','20260323',
-      '20260327','20260328','20260329','20260330',
-      '20260403','20260404','20260406'
-    ];
+    // Only fetch today + yesterday (covers live + recently finished games).
+    // Historical results are hardcoded in DATA — no need to re-fetch them.
+    const toDateStr = d => d.toISOString().slice(0,10).replace(/-/g,'');
+    const today = new Date();
+    const yesterday = new Date(today); yesterday.setDate(today.getDate() - 1);
+    const dates = [toDateStr(yesterday), toDateStr(today)];
+
+    // processGames: apply a raw ESPN events array to DATA and re-render
+    function processGames(events) {
+      const games = events.map(ev => {
+        const comp = ev.competitions?.[0];
+        if (!comp) return null;
+        const comps = comp.competitors || [];
+        if (comps.length < 2) return null;
+        const home = comps.find(c=>c.homeAway==='home') || comps[0];
+        const away = comps.find(c=>c.homeAway==='away') || comps[1];
+        const statusType   = comp.status?.type?.name || '';
+        const statusDetail = comp.status?.type?.description || '';
+        const isFinal   = statusType === 'STATUS_FINAL';
+        const isLive    = statusType === 'STATUS_IN_PROGRESS';
+        const isHalf    = statusType === 'STATUS_HALFTIME';
+        const isTimeout = statusDetail?.toLowerCase().includes('timeout') ||
+                          statusType === 'STATUS_DELAY';
+        return {
+          name1: away.team?.displayName || '',
+          name2: home.team?.displayName || '',
+          score1: parseInt(away.score || 0),
+          score2: parseInt(home.score || 0),
+          winner1: away.winner || false,
+          winner2: home.winner || false,
+          isFinal, isLive: isLive || isHalf, isTimeout, statusDetail,
+          clock: comp.status?.displayClock || '',
+          period: comp.status?.period || '',
+        };
+      }).filter(Boolean);
+
+      const allMatchups = [
+        ...DATA.firstFour,
+        ...Object.values(DATA.regions).flatMap(r => r.rounds.flatMap(rd => rd.matchups)),
+        ...DATA.finalFour,
+        DATA.championship,
+      ];
+
+      for (const m of allMatchups) {
+        if (m.t1.name === 'TBD' || !m.t1.espn) continue;
+        const g = games.find(g =>
+          (nameMatch(g.name1, m.t1.espn) && nameMatch(g.name2, m.t2.espn)) ||
+          (nameMatch(g.name1, m.t2.espn) && nameMatch(g.name2, m.t1.espn))
+        );
+        if (!g) continue;
+        const t1IsName1 = nameMatch(g.name1, m.t1.espn);
+        const s1 = t1IsName1 ? g.score1 : g.score2;
+        const s2 = t1IsName1 ? g.score2 : g.score1;
+        const t1Wins = t1IsName1 ? g.winner1 : g.winner2;
+        if (g.isFinal) {
+          m.status = 'final';
+          m.score1 = s1; m.score2 = s2;
+          m.winner = t1Wins ? 1 : 2;
+          m.detail = '';
+        } else if (g.isLive) {
+          m.status = 'live';
+          m.score1 = s1; m.score2 = s2;
+          m.detail = g.isTimeout ? 'Timeout' : g.statusDetail;
+          m.clock  = g.isTimeout ? '' : g.clock;
+          m.period = g.period;
+        }
+      }
+
+      if (DATA.championship.status === 'final' && DATA.championship.winner) {
+        const cw = DATA.championship.winner === 1 ? DATA.championship.t1 : DATA.championship.t2;
+        DATA.champion = {...cw};
+      }
+
+      renderAll();
+      const now = new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'});
+      document.getElementById('lastUpdated').textContent = `Updated ${now}`;
+      countdown = AUTO_INTERVAL;
+    }
+
+    // 30-second localStorage cache — reuse last fetch if called too rapidly
+    const CACHE_KEY = 'mm_espn_cache';
+    const CACHE_TTL = 90 * 1000;
+    const cached = (() => { try { return JSON.parse(localStorage.getItem(CACHE_KEY)); } catch(_){} return null; })();
+    if (cached && (Date.now() - cached.ts) < CACHE_TTL) {
+      btn.textContent = '🔄 Update Scores';
+      btn.disabled = false;
+      btn.className = 'btn-update';
+      processGames(cached.games);
+      return;
+    }
+
     const allGames = [];
     for (const date of dates) {
       try {
@@ -1153,89 +1237,14 @@ async function updateScores() {
     }
 
     if (!allGames.length) {
+      if (cached) { processGames(cached.games); return; }
       alert('Could not retrieve game data. Check your internet connection.');
       return;
     }
 
-    // Build lookup: [ { t1name, t2name, score1, score2, winner, status, detail } ]
-    const games = allGames.map(ev => {
-      const comp = ev.competitions?.[0];
-      if (!comp) return null;
-      const comps = comp.competitors || [];
-      if (comps.length < 2) return null;
-      const home = comps.find(c=>c.homeAway==='home') || comps[0];
-      const away = comps.find(c=>c.homeAway==='away') || comps[1];
-      const statusType = comp.status?.type?.name || '';
-      const statusDetail = comp.status?.type?.description || '';
-      const isFinal   = statusType === 'STATUS_FINAL';
-      const isLive    = statusType === 'STATUS_IN_PROGRESS';
-      const isHalf    = statusType === 'STATUS_HALFTIME';
-      const isTimeout = statusDetail?.toLowerCase().includes('timeout') ||
-                        statusType === 'STATUS_DELAY';
-      return {
-        name1: away.team?.displayName || '',
-        name2: home.team?.displayName || '',
-        score1: parseInt(away.score || 0),
-        score2: parseInt(home.score || 0),
-        winner1: away.winner || false,
-        winner2: home.winner || false,
-        isFinal, isLive: isLive || isHalf, isTimeout, statusDetail,
-        clock: comp.status?.displayClock || '',
-        period: comp.status?.period || '',
-      };
-    }).filter(Boolean);
-
-    // All matchups to update
-    const allMatchups = [
-      ...DATA.firstFour,
-      ...Object.values(DATA.regions).flatMap(r => r.rounds.flatMap(rd => rd.matchups)),
-      ...DATA.finalFour,
-      DATA.championship,
-    ];
-
-    let updated = 0;
-    for (const m of allMatchups) {
-      if (m.t1.name === 'TBD' || !m.t1.espn) continue;
-      const g = games.find(g =>
-        (nameMatch(g.name1, m.t1.espn) && nameMatch(g.name2, m.t2.espn)) ||
-        (nameMatch(g.name1, m.t2.espn) && nameMatch(g.name2, m.t1.espn))
-      );
-      if (!g) continue;
-      updated++;
-
-      // Figure out which competitor is t1 and which is t2
-      const t1IsName1 = nameMatch(g.name1, m.t1.espn);
-      const s1 = t1IsName1 ? g.score1 : g.score2;
-      const s2 = t1IsName1 ? g.score2 : g.score1;
-      const t1Wins = t1IsName1 ? g.winner1 : g.winner2;
-
-      if (g.isFinal) {
-        m.status = 'final';
-        m.score1 = s1; m.score2 = s2;
-        m.winner = t1Wins ? 1 : 2;
-        m.detail = ''; // clear so it can't show stale "Halftime" etc.
-      } else if (g.isLive) {
-        m.status = 'live';
-        m.score1 = s1; m.score2 = s2;
-        m.detail = g.isTimeout ? 'Timeout' : g.statusDetail;
-        m.clock  = g.isTimeout ? '' : g.clock;
-        m.period = g.period;
-      }
-    }
-
-    // Also check for champion
-    if (DATA.championship.status === 'final' && DATA.championship.winner) {
-      const cw = DATA.championship.winner === 1 ? DATA.championship.t1 : DATA.championship.t2;
-      DATA.champion = {...cw};
-    }
-
-    // Re-render everything
-    renderAll();
-
-    const now = new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'});
-    document.getElementById('lastUpdated').textContent = `Updated ${now}`;
-    // Reset auto-refresh countdown after a manual update
-    countdown = AUTO_INTERVAL;
+    // Save to cache then process
+    try { localStorage.setItem(CACHE_KEY, JSON.stringify({ts: Date.now(), games: allGames})); } catch(_) {}
+    processGames(allGames);
 
   } catch(err) {
     alert('Error: ' + err.message);
@@ -1328,7 +1337,7 @@ function renderAll() {
 // ══════════════════════════════════════════════════════
 //  INIT + AUTO REFRESH
 // ══════════════════════════════════════════════════════
-const AUTO_INTERVAL = 60; // seconds between auto-refreshes
+const AUTO_INTERVAL = 120; // seconds between auto-refreshes
 let autoTimer = null;
 let countdown = AUTO_INTERVAL;
 

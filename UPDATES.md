@@ -21,6 +21,12 @@
 
 ## Changelog
 
+### v1.11 — Minimize ESPN API calls to avoid rate-limiting
+- Only fetches today + yesterday (2 API calls per refresh, down from 14)
+- 90-second localStorage cache: rapid refreshes within 90s reuse last response, no network call
+- If the API is down/rate-limited, falls back to the last cached response automatically
+- Auto-refresh interval increased from 60s to 120s (2 minutes)
+
 ### v1.10 — Owner field used everywhere, no name-based color lookups
 - All color/owner logic (money scoring, teams-remaining count, champion display) now uses hardcoded `owner` field — zero name lookups for any team
 - Fixes any team where a "state" counterpart exists (Michigan/Michigan State, Texas/Texas A&M, etc.) across all displays
