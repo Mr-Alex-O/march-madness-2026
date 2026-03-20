@@ -21,6 +21,11 @@
 
 ## Changelog
 
+### v1.13 — Fix Final Four region matchups + show labels
+- Corrected 2026 bracket: Semifinal 1 = South vs West, Semifinal 2 = Midwest vs East
+- Region labels now displayed above each Final Four matchup card
+- Fixed FF_MAP so Elite Eight winners advance to the correct semifinal slot
+
 ### v1.11 — Minimize ESPN API calls to avoid rate-limiting
 - Only fetches today + yesterday (2 API calls per refresh, down from 14)
 - 90-second localStorage cache: rapid refreshes within 90s reuse last response, no network call

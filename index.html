@@ -579,7 +579,7 @@
 
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.11 · March Madness 2026
+  v1.13 · March Madness 2026
 </div>
 
 <script>
@@ -757,8 +757,8 @@ const DATA = {
   },
 
   finalFour: [
-    {id:'ff_1', label:'Semifinal 1', t1:{seed:null,name:'TBD',espn:''}, t2:{seed:null,name:'TBD',espn:''}, status:'tbd', sched:'Apr 4'},
-    {id:'ff_2', label:'Semifinal 2', t1:{seed:null,name:'TBD',espn:''}, t2:{seed:null,name:'TBD',espn:''}, status:'tbd', sched:'Apr 4'},
+    {id:'ff_1', label:'Semifinal 1', regionLabel:'South vs West',    t1:{seed:null,name:'TBD',espn:''}, t2:{seed:null,name:'TBD',espn:''}, status:'tbd', sched:'Apr 4'},
+    {id:'ff_2', label:'Semifinal 2', regionLabel:'Midwest vs East',  t1:{seed:null,name:'TBD',espn:''}, t2:{seed:null,name:'TBD',espn:''}, status:'tbd', sched:'Apr 4'},
   ],
   championship: {id:'champ', label:'Championship', t1:{seed:null,name:'TBD',espn:''}, t2:{seed:null,name:'TBD',espn:''}, status:'tbd', sched:'Apr 6'},
   champion: null,
@@ -977,7 +977,10 @@ function renderRegion(regionKey) {
 function renderFinalFour() {
   document.getElementById('finalFourMatchups').innerHTML =
     DATA.finalFour.map(m => `
-      <div style="margin-bottom:10px;">${matchupHTML(m)}</div>
+      <div style="margin-bottom:16px;">
+        <div style="font-size:11px;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;">${m.regionLabel || m.label}</div>
+        ${matchupHTML(m)}
+      </div>
     `).join('');
 
   document.getElementById('championshipMatchup').innerHTML =
@@ -1283,11 +1286,12 @@ function advanceWinners() {
 
   // Elite Eight winners → Final Four
   // East champion vs West champion (SF1), South vs Midwest (SF2)
+  // 2026 bracket: SF1 = South vs West, SF2 = Midwest vs East
   const FF_MAP = {
-    east:    { idx: 0, slot: 't1' },
+    south:   { idx: 0, slot: 't1' },
     west:    { idx: 0, slot: 't2' },
-    south:   { idx: 1, slot: 't1' },
-    midwest: { idx: 1, slot: 't2' },
+    midwest: { idx: 1, slot: 't1' },
+    east:    { idx: 1, slot: 't2' },
   };
   Object.entries(DATA.regions).forEach(([key, region]) => {
     const e8 = region.rounds[region.rounds.length - 1].matchups[0];
