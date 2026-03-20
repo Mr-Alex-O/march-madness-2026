@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>March Madness 2026 — Alex vs Greg</title>
+<style>
+  /* ── Reset & Base ─────────────────────────────────── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #0d0d0d;
+    color: #e8e8e8;
+    min-height: 100vh;
+  }
+
+  /* ── Header ───────────────────────────────────────── */
+  header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    padding: 14px 16px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.6);
+  }
+  header h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+  header h1 span { color: #f9a825; }
+
+  /* ── Score Banner ─────────────────────────────────── */
+  .score-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 8px 16px 4px;
+  }
+  .score-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 80px;
+  }
+  .score-label { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
+  .score-label.alex { color: #66bb6a; }
+  .score-label.greg { color: #fdd835; }
+  .score-num { font-size: 28px; font-weight: 800; line-height: 1; }
+  .score-num.alex { color: #4caf50; }
+  .score-num.greg { color: #fdd835; }
+  .score-vs { font-size: 18px; color: #555; font-weight: 700; }
+  .score-sub { font-size: 10px; color: #555; text-align: center; padding-bottom: 4px; }
+  .score-breakdown { font-size: 11px; color: #444; text-align: center; padding: 2px 16px 4px; letter-spacing: 0.3px; }
+
+  /* ── Update Button ────────────────────────────────── */
+  .update-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 16px 10px;
+  }
+  #updateBtn {
+    background: #1565c0;
+    color: #fff;
+    border: none;
+    padding: 8px 22px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  #updateBtn:hover { background: #1976d2; }
+  #updateBtn:active { background: #0d47a1; }
+  #updateBtn.loading { background: #333; cursor: not-allowed; }
+  #lastUpdated { font-size: 11px; color: #555; }
+
+  /* ── Legend ───────────────────────────────────────── */
+  .legend {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    padding: 0 16px 8px;
+    font-size: 12px;
+  }
+  .legend-item { display: flex; align-items: center; gap: 5px; }
+  .legend-dot { width: 12px; height: 12px; border-radius: 2px; }
+  .legend-dot.alex { background: #2e7d32; }
+  .legend-dot.greg { background: #827200; }
+
+  /* ── Tabs ─────────────────────────────────────────── */
+  .tab-bar {
+    display: flex;
+    overflow-x: auto;
+    background: #111;
+    border-bottom: 2px solid #222;
+    scrollbar-width: none;
+  }
+  .tab-bar::-webkit-scrollbar { display: none; }
+  .tab-btn {
+    flex-shrink: 0;
+    padding: 10px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #777;
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: color 0.2s;
+  }
+  .tab-btn.active { color: #fff; border-bottom-color: #1976d2; }
+  .tab-btn:hover { color: #ccc; }
+
+  /* ── Tab Content ──────────────────────────────────── */
+  .tab-pane { display: none; padding: 12px; }
+  .tab-pane.active { display: block; }
+
+  /* ── Region Bracket ───────────────────────────────── */
+  .region-bracket {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    overflow-x: auto;
+    padding-bottom: 8px;
+  }
+
+  /* ── Round Column ─────────────────────────────────── */
+  .round-col {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    min-width: 150px;
+  }
+  .round-header {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #555;
+    text-align: center;
+    padding: 4px 0 8px;
+    font-weight: 600;
+  }
+  .round-slots {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-around;
+  }
+
+  /* ── Matchup ──────────────────────────────────────── */
+  .matchup-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .matchup {
+    flex: 1;
+    border: 1px solid #2a2a2a;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 3px 0;
+  }
+  .team {
+    display: flex;
+    align-items: center;
+    padding: 5px 7px;
+    font-size: 12px;
+    gap: 5px;
+    min-height: 28px;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+  .team:last-child { border-bottom: none; }
+  .team.alex   { background: #1b5e20; }
+  .team.greg   { background: #4a4000; }
+  .team.neutral { background: #1e1e1e; }
+  .team.winner { font-weight: 700; }
+  .team.loser  { opacity: 0.35; }
+  .team.tbp    { background: #181818; color: #666; }
+  .team.live   { background: #1a2f1a; }
+  .seed {
+    font-size: 10px;
+    color: #888;
+    width: 14px;
+    text-align: right;
+    flex-shrink: 0;
+  }
+  .tname { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .tscore {
+    font-size: 11px;
+    color: #aaa;
+    margin-left: auto;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .tscore.live-score { color: #4caf50; }
+  .tscore.win { color: #fff; }
+
+  /* Connector lines between rounds */
+  .connector {
+    width: 12px;
+    flex-shrink: 0;
+    position: relative;
+    align-self: stretch;
+  }
+  .connector::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #333;
+  }
+
+  /* ── Upset Tag ────────────────────────────────────── */
+  .upset {
+    font-size: 9px;
+    background: #b71c1c;
+    color: #fff;
+    border-radius: 3px;
+    padding: 1px 4px;
+    margin-left: 2px;
+    flex-shrink: 0;
+  }
+
+  /* ── First Four ───────────────────────────────────── */
+  .first-four-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  @media (max-width: 500px) {
+    .first-four-grid { grid-template-columns: 1fr; }
+  }
+  .ff-card {
+    background: #111;
+    border: 1px solid #2a2a2a;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .ff-label {
+    font-size: 10px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 5px 8px;
+    background: #0a0a0a;
+    border-bottom: 1px solid #222;
+  }
+  .ff-note {
+    font-size: 10px;
+    color: #555;
+    padding: 3px 8px 5px;
+    font-style: italic;
+  }
+
+  /* ── Final Four / Championship ────────────────────── */
+  .final-four-container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .section-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #aaa;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 12px 0 8px;
+  }
+  .champion-box {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #1a2f1a, #2a2000);
+    border: 1px solid #333;
+    border-radius: 12px;
+    margin: 8px 0;
+  }
+  .champion-box .trophy { font-size: 36px; display: block; margin-bottom: 8px; }
+  .champion-box .champion-name { font-size: 20px; font-weight: 800; color: #fdd835; }
+  .champion-box .champion-sub  { font-size: 12px; color: #888; margin-top: 4px; }
+
+  /* ── Live Pulse ───────────────────────────────────── */
+  .live-dot {
+    display: inline-block;
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: #4caf50;
+    margin-right: 5px;
+    animation: pulse 1s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.2; }
+  }
+
+  /* ── Scheduled time chip ──────────────────────────── */
+  .sched-chip {
+    font-size: 10px;
+    color: #555;
+    text-align: center;
+    padding: 2px 0 1px;
+    background: #0f0f0f;
+    letter-spacing: 0.3px;
+  }
+
+  /* ── Responsive ───────────────────────────────────── */
+  @media (max-width: 480px) {
+    .round-col { min-width: 120px; }
+    .team { font-size: 11px; padding: 4px 5px; }
+    .tname { font-size: 11px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════
+     HEADER
+════════════════════════════════════════════════════ -->
+<header>
+  <h1>🏀 March Madness <span>2026</span></h1>
+  <div class="score-bar">
+    <div class="score-player">
+      <span class="score-label alex">Alex</span>
+      <span class="score-num alex" id="alexScore">0</span>
+    </div>
+    <span class="score-vs">vs</span>
+    <div class="score-player">
+      <span class="score-label greg">Greg</span>
+      <span class="score-num greg" id="gregScore">0</span>
+    </div>
+  </div>
+  <div class="score-sub" id="scoreNote">E8: $5 · Final Four: $10 · Finals: $15 · Champion: $20</div>
+  <div class="score-breakdown" id="alexBreakdown"></div>
+  <div class="score-breakdown" id="gregBreakdown"></div>
+  <div class="update-bar">
+    <button id="updateBtn" onclick="updateScores()">🔄 Live Update Scores</button>
+    <span id="lastUpdated"></span>
+  </div>
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot alex"></div> Alex's Teams</div>
+    <div class="legend-item"><div class="legend-dot greg"></div> Greg's Teams</div>
+  </div>
+</header>
+
+<!-- ═══════════════════════════════════════════════════
+     TABS
+════════════════════════════════════════════════════ -->
+<div class="tab-bar" id="tabBar">
+  <button class="tab-btn active" onclick="showTab('ff')">First Four</button>
+  <button class="tab-btn" onclick="showTab('east')">East</button>
+  <button class="tab-btn" onclick="showTab('west')">West</button>
+  <button class="tab-btn" onclick="showTab('south')">South</button>
+  <button class="tab-btn" onclick="showTab('midwest')">Midwest</button>
+  <button class="tab-btn" onclick="showTab('finale')">🏆 Final Four</button>
+</div>
+
+<!-- ═══════════════════════════════════════════════════
+     TAB: FIRST FOUR
+════════════════════════════════════════════════════ -->
+<div class="tab-pane active" id="tab-ff">
+  <div class="first-four-grid" id="ff-grid"></div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════
+     REGION TABS
+════════════════════════════════════════════════════ -->
+<div class="tab-pane" id="tab-east">
+  <div class="region-bracket" id="bracket-east"></div>
+</div>
+<div class="tab-pane" id="tab-west">
+  <div class="region-bracket" id="bracket-west"></div>
+</div>
+<div class="tab-pane" id="tab-south">
+  <div class="region-bracket" id="bracket-south"></div>
+</div>
+<div class="tab-pane" id="tab-midwest">
+  <div class="region-bracket" id="bracket-midwest"></div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════
+     TAB: FINAL FOUR / CHAMPIONSHIP
+════════════════════════════════════════════════════ -->
+<div class="tab-pane" id="tab-finale">
+  <div class="final-four-container">
+    <div class="section-title">Final Four</div>
+    <div id="finalFourMatchups"></div>
+    <div class="section-title" style="padding-top:20px;">Championship</div>
+    <div id="championshipMatchup"></div>
+    <div id="championDisplay"></div>
+  </div>
+</div>
+
+
+<script>
+// ══════════════════════════════════════════════════════
+//  TEAM OWNERSHIP
+// ══════════════════════════════════════════════════════
+const ALEX = 'alex';
+const GREG = 'greg';
+
+const OWNER_MAP = {
+  // Alex
+  'duke':ALEX,'siena':ALEX,'tcu':ALEX,'south florida':ALEX,'usf':ALEX,
+  'michigan state':ALEX,'michigan st':ALEX,'ucla':ALEX,
+  'connecticut':ALEX,'uconn':ALEX,'furman':ALEX,
+  'florida':ALEX,'prairie view':ALEX,'prairie view a&m':ALEX,
+  'clemson':ALEX,'vanderbilt':ALEX,'nebraska':ALEX,'troy':ALEX,
+  'vcu':ALEX,'virginia commonwealth':ALEX,
+  "saint mary's":ALEX,"st. mary's":ALEX,"saint mary's (ca)":ALEX,
+  'texas a&m':ALEX,'houston':ALEX,'villanova':ALEX,
+  'utah state':ALEX,'utah st':ALEX,
+  'high point':ALEX,'hawaii':ALEX,"hawai'i":ALEX,'gonzaga':ALEX,
+  'missouri':ALEX,'michigan':ALEX,
+  'howard':ALEX,'umbc':ALEX,
+  'georgia':ALEX,'akron':ALEX,'alabama':ALEX,
+  'tennessee':ALEX,'wright state':ALEX,'wright st':ALEX,'kentucky':ALEX,
+  // Greg
+  'ohio state':GREG,'ohio st':GREG,
+  "st. john's":GREG,"st. john's (ny)":GREG,'st johns':GREG,
+  'northern iowa':GREG,'kansas':GREG,
+  'california baptist':GREG,'cal baptist':GREG,
+  'louisville':GREG,'north dakota state':GREG,'n. dakota st':GREG,
+  'ucf':GREG,'central florida':GREG,'iowa':GREG,
+  'mcneese':GREG,'mcneese state':GREG,
+  'north carolina':GREG,'unc':GREG,'illinois':GREG,
+  'pennsylvania':GREG,'penn':GREG,'idaho':GREG,'arizona':GREG,
+  'liu brooklyn':GREG,'long island':GREG,'long island university':GREG,
+  'wisconsin':GREG,'arkansas':GREG,'byu':GREG,
+  'texas':GREG,'nc state':GREG,'north carolina state':GREG,
+  'kennesaw state':GREG,'kennesaw st':GREG,
+  'miami':GREG,'miami (fl)':GREG,'miami fl':GREG,
+  'purdue':GREG,'queens':GREG,'queens university':GREG,
+  'saint louis':GREG,'sl':GREG,'texas tech':GREG,'hofstra':GREG,
+  'miami (oh)':GREG,'miami oh':GREG,'miami ohio':GREG,
+  'smu':GREG,'virginia':GREG,'santa clara':GREG,
+  'iowa state':GREG,'iowa st':GREG,
+  'tennessee state':GREG,'tennessee st':GREG,
+};
+
+function owner(name) {
+  return OWNER_MAP[name.toLowerCase()] || null;
+}
+
+// ══════════════════════════════════════════════════════
+//  BRACKET DATA
+//  status: 'final' | 'live' | 'sched' | 'tbd'
+//  winner: 1 | 2 | null
+// ══════════════════════════════════════════════════════
+const DATA = {
+  firstFour: [
+    {
+      id:'ff1', region:'West', label:'11-seed Play-In — West',
+      t1:{seed:11,name:'Texas',    espn:'Texas'},
+      t2:{seed:11,name:'NC State', espn:'NC State'},
+      status:'final', winner:1, score1:68, score2:66,
+      note:"Greg's TX/NCST pick — Texas advances to West"
+    },
+    {
+      id:'ff2', region:'Midwest', label:'11-seed Play-In — Midwest',
+      t1:{seed:11,name:'Miami OH', espn:'Miami (OH)'},
+      t2:{seed:11,name:'SMU',      espn:'SMU'},
+      status:'final', winner:1, score1:89, score2:79,
+      note:"Greg's MOH/SMU pick — Miami OH advances to Midwest"
+    },
+    {
+      id:'ff3', region:'Midwest', label:'16-seed Play-In — Midwest',
+      t1:{seed:16,name:'Howard', espn:'Howard'},
+      t2:{seed:16,name:'UMBC',   espn:'UMBC'},
+      status:'final', winner:1, score1:86, score2:83,
+      note:"Alex's UMBC/HOW pick — Howard advances to Midwest"
+    },
+    {
+      id:'ff4', region:'South', label:'16-seed Play-In — South',
+      t1:{seed:16,name:'Prairie View', espn:'Prairie View A&M'},
+      t2:{seed:16,name:'Lehigh',       espn:'Lehigh'},
+      status:'final', winner:1, score1:67, score2:55,
+      note:"Alex's PV/LEH pick — Prairie View advances to South"
+    },
+  ],
+
+  regions: {
+    east: {
+      name: 'East',
+      rounds: [
+        {
+          label: 'Round of 64',
+          matchups: [
+            {id:'e_r1_1', t1:{seed:1, name:'Duke',         espn:'Duke'},           t2:{seed:16,name:'Siena',          espn:'Siena'},          status:'final', winner:1, score1:71, score2:65},
+            {id:'e_r1_2', t1:{seed:8, name:'Ohio State',   espn:'Ohio State'},     t2:{seed:9, name:'TCU',            espn:'TCU'},            status:'final', winner:2, score1:64, score2:66, upset:true},
+            {id:'e_r1_3', t1:{seed:5, name:"St. John's",   espn:"St. John's (NY)"},t2:{seed:12,name:'Northern Iowa',  espn:'Northern Iowa'},  status:'sched', sched:'Mar 20 · 7:10 CBS'},
+            {id:'e_r1_4', t1:{seed:4, name:'Kansas',       espn:'Kansas'},         t2:{seed:13,name:'CA Baptist',     espn:'California Baptist'},status:'sched',sched:'Mar 20 · 9:45 CBS'},
+            {id:'e_r1_5', t1:{seed:6, name:'Louisville',   espn:'Louisville'},     t2:{seed:11,name:'South Florida',  espn:'South Florida'},  status:'final', winner:1, score1:83, score2:79},
+            {id:'e_r1_6', t1:{seed:3, name:'Michigan St',  espn:'Michigan State'}, t2:{seed:14,name:'N. Dakota St',   espn:'North Dakota State'},status:'final',winner:1,score1:92,score2:67},
+            {id:'e_r1_7', t1:{seed:7, name:'UCLA',         espn:'UCLA'},           t2:{seed:10,name:'UCF',            espn:'UCF'},            status:'sched', sched:'Mar 20 · 7:25 TBS'},
+            {id:'e_r1_8', t1:{seed:2, name:'Connecticut',  espn:'Connecticut'},    t2:{seed:15,name:'Furman',         espn:'Furman'},         status:'sched', sched:'Mar 20 · 10:00 TBS'},
+          ]
+        },
+        { label:'Round of 32',  matchups:[{id:'e_r2_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'e_r2_2',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'e_r2_3',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'e_r2_4',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
+        { label:'Sweet 16',     matchups:[{id:'e_r3_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'e_r3_2',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
+        { label:'Elite Eight',  matchups:[{id:'e_r4_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
+      ]
+    },
+    west: {
+      name: 'West',
+      rounds: [
+        {
+          label: 'Round of 64',
+          matchups: [
+            {id:'w_r1_1', t1:{seed:1, name:'Arizona',    espn:'Arizona'},        t2:{seed:16,name:'LIU Brooklyn',    espn:'Long Island University'}, status:'final', winner:1, score1:61, score2:29},
+            {id:'w_r1_2', t1:{seed:8, name:'Villanova',  espn:'Villanova'},      t2:{seed:9, name:'Utah State',      espn:'Utah State'},             status:'sched', sched:'Mar 20 · 4:10 TNT'},
+            {id:'w_r1_3', t1:{seed:5, name:'Wisconsin',  espn:'Wisconsin'},      t2:{seed:12,name:'High Point',      espn:'High Point'},             status:'final', winner:2, score1:82, score2:83, upset:true},
+            {id:'w_r1_4', t1:{seed:4, name:'Arkansas',   espn:'Arkansas'},       t2:{seed:13,name:'Hawaii',          espn:"Hawai'i"},                status:'final', winner:1, score1:97, score2:78},
+            {id:'w_r1_5', t1:{seed:6, name:'BYU',        espn:'BYU'},            t2:{seed:11,name:'Texas (TX/NCST)', espn:'Texas'},                  status:'final', winner:2, score1:71, score2:79, upset:true},
+            {id:'w_r1_6', t1:{seed:3, name:'Gonzaga',    espn:'Gonzaga'},        t2:{seed:14,name:'Kennesaw St',     espn:'Kennesaw State'},         status:'final', winner:1, score1:73, score2:64},
+            {id:'w_r1_7', t1:{seed:7, name:'Miami (FL)', espn:'Miami'},          t2:{seed:10,name:'Missouri',        espn:'Missouri'},               status:'sched', sched:'Mar 20 · 10:10 truTV'},
+            {id:'w_r1_8', t1:{seed:2, name:'Purdue',     espn:'Purdue'},         t2:{seed:15,name:'Queens Univ.',    espn:'Queens'},                 status:'sched', sched:'Mar 20 · 7:35 truTV'},
+          ]
+        },
+        { label:'Round of 32', matchups:[{id:'w_r2_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'w_r2_2',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'w_r2_3',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'w_r2_4',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
+        { label:'Sweet 16',    matchups:[{id:'w_r3_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'w_r3_2',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
+        { label:'Elite Eight', matchups:[{id:'w_r4_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
+      ]
+    },
+    south: {
+      name: 'South',
+      rounds: [
+        {
+          label: 'Round of 64',
+          matchups: [
+            {id:'s_r1_1', t1:{seed:1, name:'Florida',      espn:'Florida'},      t2:{seed:16,name:'Prairie View (PV/LEH)',espn:'Prairie View A&M'},status:'sched',sched:'Mar 20 · 9:25 TNT'},
+            {id:'s_r1_2', t1:{seed:8, name:'Clemson',      espn:'Clemson'},      t2:{seed:9, name:'Iowa',               espn:'Iowa'},           status:'sched', sched:'Mar 20 · 6:50 TNT'},
+            {id:'s_r1_3', t1:{seed:5, name:'Vanderbilt',   espn:'Vanderbilt'},   t2:{seed:12,name:'McNeese',            espn:'McNeese State'},  status:'final', winner:1, score1:78, score2:68},
+            {id:'s_r1_4', t1:{seed:4, name:'Nebraska',     espn:'Nebraska'},     t2:{seed:13,name:'Troy',               espn:'Troy'},           status:'final', winner:1, score1:76, score2:47},
+            {id:'s_r1_5', t1:{seed:6, name:'N. Carolina',  espn:'North Carolina'},t2:{seed:11,name:'VCU',              espn:'VCU'},            status:'final', winner:2, score1:78, score2:82, upset:true, detail:'OT'},
+            {id:'s_r1_6', t1:{seed:3, name:'Illinois',     espn:'Illinois'},     t2:{seed:14,name:'Pennsylvania',       espn:'Pennsylvania'},   status:'final', winner:1, score1:105,score2:70},
+            {id:'s_r1_7', t1:{seed:7, name:"St. Mary's",   espn:"Saint Mary's (CA)"},t2:{seed:10,name:'Texas A&M',    espn:'Texas A&M'},      status:'final', winner:2, score1:50, score2:63, upset:true},
+            {id:'s_r1_8', t1:{seed:2, name:'Houston',      espn:'Houston'},      t2:{seed:15,name:'Idaho',              espn:'Idaho'},          status:'final', winner:1, score1:78, score2:47},
+          ]
+        },
+        { label:'Round of 32', matchups:[{id:'s_r2_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'s_r2_2',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'s_r2_3',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'s_r2_4',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
+        { label:'Sweet 16',    matchups:[{id:'s_r3_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'s_r3_2',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
+        { label:'Elite Eight', matchups:[{id:'s_r4_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
+      ]
+    },
+    midwest: {
+      name: 'Midwest',
+      rounds: [
+        {
+          label: 'Round of 64',
+          matchups: [
+            {id:'m_r1_1', t1:{seed:1, name:'Michigan',      espn:'Michigan'},     t2:{seed:16,name:'Howard (UMBC/HOW)', espn:'Howard'},         status:'final', winner:1, score1:101,score2:80},
+            {id:'m_r1_2', t1:{seed:8, name:'Georgia',       espn:'Georgia'},      t2:{seed:9, name:'Saint Louis',       espn:'Saint Louis'},    status:'final', winner:2, score1:77,  score2:102,upset:true},
+            {id:'m_r1_3', t1:{seed:5, name:'Texas Tech',    espn:'Texas Tech'},   t2:{seed:12,name:'Akron',             espn:'Akron'},          status:'final', winner:1, score1:91,  score2:71},
+            {id:'m_r1_4', t1:{seed:4, name:'Alabama',       espn:'Alabama'},      t2:{seed:13,name:'Hofstra',           espn:'Hofstra'},        status:'sched', sched:'Mar 20 · 3:15 truTV'},
+            {id:'m_r1_5', t1:{seed:6, name:'Tennessee',     espn:'Tennessee'},    t2:{seed:11,name:'Miami OH (MOH/SMU)',espn:'Miami (OH)'},     status:'sched', sched:'Mar 20 · 4:25 TBS'},
+            {id:'m_r1_6', t1:{seed:3, name:'Virginia',      espn:'Virginia'},     t2:{seed:14,name:'Wright State',      espn:'Wright State'},   status:'live',  score1:38, score2:43, detail:'Halftime'},
+            {id:'m_r1_7', t1:{seed:7, name:'Kentucky',      espn:'Kentucky'},     t2:{seed:10,name:'Santa Clara',       espn:'Santa Clara'},    status:'final', winner:1, score1:89,  score2:84, detail:'OT'},
+            {id:'m_r1_8', t1:{seed:2, name:'Iowa State',    espn:'Iowa State'},   t2:{seed:15,name:'Tennessee St',      espn:'Tennessee State'},status:'sched', sched:'Mar 20 · 3:00 CBS'},
+          ]
+        },
+        { label:'Round of 32', matchups:[{id:'m_r2_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'m_r2_2',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'m_r2_3',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'m_r2_4',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
+        { label:'Sweet 16',    matchups:[{id:'m_r3_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'m_r3_2',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
+        { label:'Elite Eight', matchups:[{id:'m_r4_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
+      ]
+    }
+  },
+
+  finalFour: [
+    {id:'ff_1', label:'Semifinal 1', t1:{seed:null,name:'TBD',espn:''}, t2:{seed:null,name:'TBD',espn:''}, status:'tbd', sched:'Apr 4'},
+    {id:'ff_2', label:'Semifinal 2', t1:{seed:null,name:'TBD',espn:''}, t2:{seed:null,name:'TBD',espn:''}, status:'tbd', sched:'Apr 4'},
+  ],
+  championship: {id:'champ', label:'Championship', t1:{seed:null,name:'TBD',espn:''}, t2:{seed:null,name:'TBD',espn:''}, status:'tbd', sched:'Apr 6'},
+  champion: null,
+};
+
+// ══════════════════════════════════════════════════════
+//  RENDER HELPERS
+// ══════════════════════════════════════════════════════
+function teamRowHTML(t, m, which) {
+  const o = owner(t.name) || owner(t.espn) || 'neutral';
+  let cls = o;
+  let scoreHTML = '';
+
+  if (t.name === 'TBD') {
+    cls = 'tbp';
+    scoreHTML = '';
+  } else if (m.status === 'final') {
+    const isWinner = m.winner === which;
+    cls += isWinner ? ' winner' : ' loser';
+    const s = which === 1 ? m.score1 : m.score2;
+    scoreHTML = `<span class="tscore win">${s}${isWinner ? ' ✓' : ''}</span>`;
+    if (isWinner && m.upset && which === 2) scoreHTML += `<span class="upset">UPSET</span>`;
+    if (isWinner && m.upset && which === 1) scoreHTML += `<span class="upset">UPSET</span>`;
+  } else if (m.status === 'live') {
+    cls += ' live';
+    const s = which === 1 ? m.score1 : m.score2;
+    scoreHTML = `<span class="tscore live-score">${s}</span>`;
+  } else if (m.status === 'sched') {
+    cls = 'tbp';
+    scoreHTML = '';
+  } else {
+    cls = 'tbp';
+  }
+
+  const seedHTML = t.seed ? `<span class="seed">${t.seed}</span>` : '';
+  return `<div class="team ${cls}" id="t-${m.id}-${which}">${seedHTML}<span class="tname">${t.name}</span>${scoreHTML}</div>`;
+}
+
+function matchupHTML(m) {
+  let statusBar = '';
+  if (m.status === 'sched')  statusBar = `<div class="sched-chip">${m.sched || ''}</div>`;
+  if (m.status === 'live')   statusBar = `<div class="sched-chip"><span class="live-dot"></span>${m.detail || 'In Progress'}</div>`;
+  if (m.status === 'final' && m.detail) statusBar = `<div class="sched-chip">Final (${m.detail})</div>`;
+
+  return `<div class="matchup" id="m-${m.id}">
+    ${teamRowHTML(m.t1, m, 1)}
+    ${teamRowHTML(m.t2, m, 2)}
+    ${statusBar}
+  </div>`;
+}
+
+// ══════════════════════════════════════════════════════
+//  RENDER FIRST FOUR
+// ══════════════════════════════════════════════════════
+function renderFirstFour() {
+  const grid = document.getElementById('ff-grid');
+  grid.innerHTML = DATA.firstFour.map(m => `
+    <div class="ff-card">
+      <div class="ff-label">${m.label}</div>
+      ${matchupHTML(m)}
+      ${m.note ? `<div class="ff-note">${m.note}</div>` : ''}
+    </div>
+  `).join('');
+}
+
+// ══════════════════════════════════════════════════════
+//  RENDER REGION BRACKET
+// ══════════════════════════════════════════════════════
+function renderRegion(regionKey) {
+  const region = DATA.regions[regionKey];
+  const container = document.getElementById('bracket-' + regionKey);
+  container.innerHTML = '';
+
+  region.rounds.forEach((round, ri) => {
+    const col = document.createElement('div');
+    col.className = 'round-col';
+
+    col.innerHTML = `<div class="round-header">${round.label}</div>`;
+    const slots = document.createElement('div');
+    slots.className = 'round-slots';
+    round.matchups.forEach(m => {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'matchup-wrapper';
+      wrapper.innerHTML = matchupHTML(m);
+      slots.appendChild(wrapper);
+    });
+    col.appendChild(slots);
+    container.appendChild(col);
+
+    // Add connector between rounds (except last)
+    if (ri < region.rounds.length - 1) {
+      const conn = document.createElement('div');
+      conn.className = 'connector';
+      container.appendChild(conn);
+    }
+  });
+}
+
+// ══════════════════════════════════════════════════════
+//  RENDER FINAL FOUR
+// ══════════════════════════════════════════════════════
+function renderFinalFour() {
+  document.getElementById('finalFourMatchups').innerHTML =
+    DATA.finalFour.map(m => `
+      <div style="margin-bottom:10px;">${matchupHTML(m)}</div>
+    `).join('');
+
+  document.getElementById('championshipMatchup').innerHTML =
+    matchupHTML(DATA.championship);
+
+  const champ = DATA.champion;
+  const champDisplay = document.getElementById('championDisplay');
+  if (champ) {
+    const o = owner(champ) || 'neutral';
+    champDisplay.innerHTML = `
+      <div class="champion-box">
+        <span class="trophy">🏆</span>
+        <div class="champion-name">${champ}</div>
+        <div class="champion-sub">${o === ALEX ? "🟢 Alex's team wins!" : o === GREG ? "🟡 Greg's team wins!" : ''}</div>
+      </div>`;
+  } else {
+    champDisplay.innerHTML = `
+      <div class="champion-box" style="background:#111;">
+        <span class="trophy" style="font-size:24px;">🏆</span>
+        <div class="champion-name" style="color:#444;">Champion TBD</div>
+        <div class="champion-sub">Apr 6, 2026</div>
+      </div>`;
+  }
+}
+
+// ══════════════════════════════════════════════════════
+//  SCORE CALCULATION  (money per milestone)
+//  Sweet 16 win  → reaches Elite Eight  = $5
+//  Elite Eight win → reaches Final Four = $10
+//  Final Four win  → reaches Finals     = $15
+//  Championship win → Champion          = $20
+// ══════════════════════════════════════════════════════
+const ROUND_MONEY = {
+  'Sweet 16':     5,
+  'Elite Eight':  10,
+  'Final Four':   15,
+  'Championship': 20,
+};
+
+function calcScores() {
+  let alex = 0, greg = 0;
+
+  function countMatchup(m, roundLabel) {
+    if (m.status !== 'final' || !m.winner) return;
+    const dollars = ROUND_MONEY[roundLabel] || 0;
+    if (!dollars) return;
+    const winner = m.winner === 1 ? m.t1 : m.t2;
+    const o = owner(winner.name) || owner(winner.espn);
+    if (o === ALEX) alex += dollars;
+    else if (o === GREG) greg += dollars;
+  }
+
+  Object.values(DATA.regions).forEach(r =>
+    r.rounds.forEach(rd => rd.matchups.forEach(m => countMatchup(m, rd.label)))
+  );
+  DATA.finalFour.forEach(m => countMatchup(m, 'Final Four'));
+  countMatchup(DATA.championship, 'Championship');
+
+  document.getElementById('alexScore').textContent = '$' + alex;
+  document.getElementById('gregScore').textContent = '$' + greg;
+
+  // Difference line
+  const diff = Math.abs(alex - greg);
+  let diffText = '';
+  if (alex === 0 && greg === 0) {
+    diffText = 'Elite Eight & beyond earns money';
+  } else if (alex === greg) {
+    diffText = "It's tied — no money owed";
+  } else if (alex > greg) {
+    diffText = `Greg owes Alex $${diff}`;
+  } else {
+    diffText = `Alex owes Greg $${diff}`;
+  }
+  document.getElementById('alexBreakdown').innerHTML = '';
+  document.getElementById('gregBreakdown').innerHTML =
+    `<span style="color:#aaa;font-size:12px;">${diffText}</span>`;
+}
+
+// ══════════════════════════════════════════════════════
+//  TAB SWITCHING
+// ══════════════════════════════════════════════════════
+function showTab(key) {
+  document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + key).classList.add('active');
+  event.target.classList.add('active');
+}
+
+// ══════════════════════════════════════════════════════
+//  LIVE UPDATE via ESPN API
+// ══════════════════════════════════════════════════════
+function normName(n) {
+  return n.toLowerCase().replace(/[^a-z0-9 ]/g,'').replace(/\s+/g,' ').trim();
+}
+function nameMatch(a, b) {
+  const na = normName(a), nb = normName(b);
+  return na === nb || na.includes(nb) || nb.includes(na);
+}
+
+async function updateScores() {
+  const btn = document.getElementById('updateBtn');
+  btn.textContent = '⏳ Fetching...';
+  btn.disabled = true;
+  btn.className = 'btn-update loading';
+
+  try {
+    // Tournament spans multiple dates
+    const dates = [
+      '20260317','20260318','20260319',
+      '20260320','20260321','20260322','20260323',
+      '20260327','20260328','20260329','20260330',
+      '20260403','20260404','20260406'
+    ];
+    const allGames = [];
+    for (const date of dates) {
+      try {
+        const url = `https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=${date}&limit=100`;
+        const res = await fetch(url);
+        const json = await res.json();
+        if (json.events) allGames.push(...json.events);
+      } catch(_) {}
+    }
+
+    if (!allGames.length) {
+      alert('Could not retrieve game data. Check your internet connection.');
+      return;
+    }
+
+    // Build lookup: [ { t1name, t2name, score1, score2, winner, status, detail } ]
+    const games = allGames.map(ev => {
+      const comp = ev.competitions?.[0];
+      if (!comp) return null;
+      const comps = comp.competitors || [];
+      if (comps.length < 2) return null;
+      const home = comps.find(c=>c.homeAway==='home') || comps[0];
+      const away = comps.find(c=>c.homeAway==='away') || comps[1];
+      const statusType = comp.status?.type?.name || '';
+      const statusDetail = comp.status?.type?.description || '';
+      const isFinal = statusType === 'STATUS_FINAL';
+      const isLive  = statusType === 'STATUS_IN_PROGRESS';
+      return {
+        name1: away.team?.displayName || '',
+        name2: home.team?.displayName || '',
+        score1: parseInt(away.score || 0),
+        score2: parseInt(home.score || 0),
+        winner1: away.winner || false,
+        winner2: home.winner || false,
+        isFinal, isLive, statusDetail,
+      };
+    }).filter(Boolean);
+
+    // All matchups to update
+    const allMatchups = [
+      ...DATA.firstFour,
+      ...Object.values(DATA.regions).flatMap(r => r.rounds.flatMap(rd => rd.matchups)),
+      ...DATA.finalFour,
+      DATA.championship,
+    ];
+
+    let updated = 0;
+    for (const m of allMatchups) {
+      if (m.t1.name === 'TBD' || !m.t1.espn) continue;
+      const g = games.find(g =>
+        (nameMatch(g.name1, m.t1.espn) && nameMatch(g.name2, m.t2.espn)) ||
+        (nameMatch(g.name1, m.t2.espn) && nameMatch(g.name2, m.t1.espn))
+      );
+      if (!g) continue;
+      updated++;
+
+      // Figure out which competitor is t1 and which is t2
+      const t1IsName1 = nameMatch(g.name1, m.t1.espn);
+      const s1 = t1IsName1 ? g.score1 : g.score2;
+      const s2 = t1IsName1 ? g.score2 : g.score1;
+      const t1Wins = t1IsName1 ? g.winner1 : g.winner2;
+
+      if (g.isFinal) {
+        m.status = 'final';
+        m.score1 = s1; m.score2 = s2;
+        m.winner = t1Wins ? 1 : 2;
+      } else if (g.isLive) {
+        m.status = 'live';
+        m.score1 = s1; m.score2 = s2;
+        m.detail = g.statusDetail;
+      }
+    }
+
+    // Also check for champion
+    if (DATA.championship.status === 'final' && DATA.championship.winner) {
+      const cw = DATA.championship.winner === 1 ? DATA.championship.t1 : DATA.championship.t2;
+      DATA.champion = cw.name;
+    }
+
+    // Re-render everything
+    renderAll();
+
+    const now = new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'});
+    document.getElementById('lastUpdated').textContent = `Updated ${now}`;
+
+  } catch(err) {
+    alert('Error: ' + err.message);
+  } finally {
+    btn.textContent = '🔄 Live Update Scores';
+    btn.disabled = false;
+    btn.className = '';
+  }
+}
+
+// ══════════════════════════════════════════════════════
+//  FULL RENDER
+// ══════════════════════════════════════════════════════
+function renderAll() {
+  renderFirstFour();
+  ['east','west','south','midwest'].forEach(renderRegion);
+  renderFinalFour();
+  calcScores();
+}
+
+// ══════════════════════════════════════════════════════
+//  INIT
+// ══════════════════════════════════════════════════════
+renderAll();
+</script>
+</body>
+</html>
