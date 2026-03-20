@@ -16,9 +16,37 @@
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: #0d0d0d;
     color: #e8e8e8;
     min-height: 100vh;
+    /* Hardwood basketball floor */
+    background-color: #c28a2a;
+    background-image:
+      /* Vertical plank seams */
+      repeating-linear-gradient(
+        90deg,
+        transparent 0px,
+        transparent 58px,
+        rgba(90, 45, 0, 0.28) 58px,
+        rgba(90, 45, 0, 0.28) 61px
+      ),
+      /* Subtle wood grain */
+      repeating-linear-gradient(
+        178deg,
+        transparent 0px,
+        transparent 18px,
+        rgba(180, 120, 20, 0.12) 18px,
+        rgba(180, 120, 20, 0.12) 19px
+      ),
+      /* Light/dark plank alternation */
+      repeating-linear-gradient(
+        90deg,
+        rgba(255,255,255,0.04) 0px,
+        rgba(255,255,255,0.04) 30px,
+        transparent 30px,
+        transparent 60px
+      ),
+      /* Base warm amber gradient */
+      linear-gradient(160deg, #d4971f 0%, #c8891a 40%, #d9a030 70%, #c0851a 100%);
   }
 
   /* ── Header ───────────────────────────────────────── */
@@ -515,7 +543,7 @@
 
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.3 · March Madness 2026
+  v1.4 · March Madness 2026
 </div>
 
 <script>
@@ -737,10 +765,8 @@ function matchupHTML(m) {
 
   let upsetBanner = '';
   if (m.status === 'final' && m.upset) {
-    const winner = m.winner === 1 ? m.t1 : m.t2;
-    const loser  = m.winner === 1 ? m.t2 : m.t1;
-    const extra  = m.detail ? ` (${m.detail})` : '';
-    upsetBanner = `<div class="upset-banner">🔥 ${winner.seed} ${winner.name} upsets ${loser.seed} ${loser.name}${extra}</div>`;
+    const extra = m.detail ? ` (${m.detail})` : '';
+    upsetBanner = `<div class="upset-banner">🔥 UPSET${extra}</div>`;
   }
 
   return `<div class="matchup" id="m-${m.id}">
