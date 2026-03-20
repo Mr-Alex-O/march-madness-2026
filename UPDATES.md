@@ -21,10 +21,21 @@
 
 ## Changelog
 
+### v1.14 — Manual score update Mar 20 (rate limit workaround)
+- Arizona 92, LIU 58 (score corrected)
+- Utah State 86, Villanova 76 (upset)
+- Alabama 90, Hofstra 70
+- Tennessee 78, Miami OH 56
+- Virginia 82, Wright State 73 (fixed — data had Wright State winning incorrectly)
+- Iowa State 108, Tennessee St 74
+- Clemson vs Iowa marked live
+
 ### v1.13 — Fix Final Four region matchups + show labels
 - Corrected 2026 bracket: Semifinal 1 = South vs West, Semifinal 2 = Midwest vs East
 - Region labels now displayed above each Final Four matchup card
 - Fixed FF_MAP so Elite Eight winners advance to the correct semifinal slot
+
+### v1.12 — Final Four region labels (superseded by v1.13)
 
 ### v1.11 — Minimize ESPN API calls to avoid rate-limiting
 - Only fetches today + yesterday (2 API calls per refresh, down from 14)
