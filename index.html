@@ -633,7 +633,7 @@
 </div>
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.29 · March Madness 2026
+  v1.30 · March Madness 2026
 </div>
 
 <script>
@@ -1101,49 +1101,9 @@ function calcScores() {
   document.getElementById('alexScore').textContent = '$' + alex;
   document.getElementById('gregScore').textContent = '$' + greg;
 
-  // Count teams still alive (not yet eliminated)
-  let alexAlive = 0, gregAlive = 0;
-  const allMatchupTeams = [
-    ...Object.values(DATA.regions).flatMap(r => r.rounds.flatMap(rd => rd.matchups)),
-    ...DATA.finalFour,
-    DATA.championship,
-  ];
-  // A team is alive if it hasn't lost a completed game
-  const eliminated = new Set();
-  allMatchupTeams.forEach(m => {
-    if (m.status !== 'final' || !m.winner) return;
-    const loser = m.winner === 1 ? m.t2 : m.t1;
-    if (loser.name && loser.name !== 'TBD') eliminated.add(loser.name.toLowerCase());
-  });
-  // Count each player's teams not in eliminated set
-  Object.keys(OWNER_MAP).forEach(k => {
-    if (eliminated.has(k)) return;
-    if (OWNER_MAP[k] === ALEX) alexAlive++;
-    else if (OWNER_MAP[k] === GREG) gregAlive++;
-  });
-  // Deduplicate (OWNER_MAP has multiple keys per team) — count unique team names
-  const countAlive = (playerConst) => {
-    const seen = new Set();
-    Object.entries(OWNER_MAP).forEach(([k, v]) => {
-      if (v !== playerConst) return;
-      const canonical = k; // use as-is, but avoid double-counting aliases
-      seen.add(canonical);
-    });
-    // Filter to only canonical (first) entries per team — use a simple heuristic
-    // Just count from the original 32-team lists
-    return [...seen].filter(k => !eliminated.has(k)).length;
-  };
-  // Simpler: count from DATA directly — alive teams are those who haven't lost
-  let alexLeft = 0, gregLeft = 0;
-  Object.values(DATA.regions).forEach(r => r.rounds[0].matchups.forEach(m => {
-    [m.t1, m.t2].forEach(t => {
-      if (!t.name || t.name === 'TBD') return;
-      if (eliminated.has(t.name.toLowerCase())) return;
-      const o = t.owner || owner(t.name);
-      if (o === ALEX) alexLeft++;
-      else if (o === GREG) gregLeft++;
-    });
-  }));
+  // Count teams still alive — reuse getRemainingTeams so header always matches modal
+  const alexLeft = getRemainingTeams(ALEX).length;
+  const gregLeft = getRemainingTeams(GREG).length;
   document.getElementById('alexTeamsLeft').textContent = alexLeft + ' team' + (alexLeft !== 1 ? 's' : '') + ' left';
   document.getElementById('gregTeamsLeft').textContent = gregLeft + ' team' + (gregLeft !== 1 ? 's' : '') + ' left';
 
@@ -1520,15 +1480,24 @@ function getRemainingTeams(player) {
     ...DATA.finalFour,
     DATA.championship,
   ];
+  // Build eliminated set from all matchups (including first four)
   const eliminated = new Set();
   allMatchups.forEach(m => {
     if (m.status !== 'final' || !m.winner) return;
     const loser = m.winner === 1 ? m.t2 : m.t1;
     if (loser.name && loser.name !== 'TBD') eliminated.add(loser.name.toLowerCase());
   });
+  // Search only region/FF/champ matchups — skip firstFour to avoid
+  // double-counting play-in teams that appear under different names in R64
+  // (e.g. "Howard" in firstFour vs "Howard (UMBC/HOW)" in R64)
+  const searchMatchups = [
+    ...Object.values(DATA.regions).flatMap(r => r.rounds.flatMap(rd => rd.matchups)),
+    ...DATA.finalFour,
+    DATA.championship,
+  ];
   const seen = new Set();
   const remaining = [];
-  allMatchups.forEach(m => {
+  searchMatchups.forEach(m => {
     [m.t1, m.t2].forEach(t => {
       if (!t.name || t.name === 'TBD') return;
       const key = t.name.toLowerCase();
