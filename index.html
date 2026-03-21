@@ -618,7 +618,7 @@
 
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.25 · March Madness 2026
+  v1.26 · March Madness 2026
 </div>
 
 <script>
@@ -1388,6 +1388,58 @@ function advanceWinners() {
 //  roundIndex: 1=R32, 2=S16, 3=E8
 //  dollarsPerTeam: money earned per team that reached this round
 // ══════════════════════════════════════════════════════
+//  BUILD BRACKET ELEMENT FOR A ROUND SLICE
+//  Shows fromRound → toRound columns with connector lines
+// ══════════════════════════════════════════════════════
+function buildRoundBracketEl(regionKey, fromRound, toRound) {
+  const region = DATA.regions[regionKey];
+  // Always left-to-right in round tabs (no flip)
+  const rounds = region.rounds.slice(fromRound, toRound + 1);
+
+  const bracketRow = document.createElement('div');
+  bracketRow.className = 'region-bracket';
+
+  rounds.forEach((round, ri) => {
+    const col = document.createElement('div');
+    col.className = 'round-col';
+    col.innerHTML = `<div class="round-header">${round.label}</div>`;
+    const slots = document.createElement('div');
+    slots.className = 'round-slots';
+
+    if (round.label === 'Round of 64') {
+      for (let i = 0; i < round.matchups.length; i += 2) {
+        const pair = document.createElement('div');
+        pair.className = 'matchup-pair';
+        [round.matchups[i], round.matchups[i + 1]].forEach(m => {
+          if (!m) return;
+          const w = document.createElement('div');
+          w.className = 'matchup-wrapper';
+          w.innerHTML = matchupHTML(m);
+          pair.appendChild(w);
+        });
+        slots.appendChild(pair);
+      }
+    } else {
+      round.matchups.forEach(m => {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'matchup-wrapper';
+        wrapper.innerHTML = matchupHTML(m);
+        slots.appendChild(wrapper);
+      });
+    }
+
+    col.appendChild(slots);
+    bracketRow.appendChild(col);
+    if (ri < rounds.length - 1) {
+      const conn = document.createElement('div');
+      conn.className = 'connector';
+      bracketRow.appendChild(conn);
+    }
+  });
+
+  return bracketRow;
+}
+
 function renderRoundTab(roundIndex, containerId, dollarsPerTeam) {
   const container = document.getElementById(containerId);
   const regionKeys = ['east','west','south','midwest'];
@@ -1413,34 +1465,26 @@ function renderRoundTab(roundIndex, containerId, dollarsPerTeam) {
       ? `${count} team${count !== 1 ? 's' : ''} · $${money}`
       : `${count} team${count !== 1 ? 's' : ''}`;
 
+  // fromRound: show one round of context feeding into the target round
+  const fromRound = Math.max(0, roundIndex - 1);
+
+  const grid = document.createElement('div');
+  grid.className = 'full-regions-grid';
+
+  regionKeys.forEach(key => {
+    const region = DATA.regions[key];
+    const block = document.createElement('div');
+    block.className = 'full-region-block';
+    block.innerHTML = `<div class="full-region-title">${region.name}</div>`;
+    block.appendChild(buildRoundBracketEl(key, fromRound, roundIndex));
+    grid.appendChild(block);
+  });
+
   container.innerHTML = `<div class="round-score-banner">
     <span class="round-score-alex">Alex: ${fmt(alexCount, alexMoney)}</span>
     <span class="round-score-greg">Greg: ${fmt(gregCount, gregMoney)}</span>
   </div>`;
-
-  const row = document.createElement('div');
-  row.className = 'round-bracket-row';
-
-  regionKeys.forEach(key => {
-    const region = DATA.regions[key];
-    const round = region.rounds[roundIndex];
-    if (!round) return;
-    const col = document.createElement('div');
-    col.className = 'round-bracket-col';
-    col.innerHTML = `<div class="round-bracket-col-title">${region.name}</div>`;
-    const slots = document.createElement('div');
-    slots.className = 'round-bracket-slots';
-    round.matchups.forEach(m => {
-      const wrapper = document.createElement('div');
-      wrapper.className = 'matchup-wrapper';
-      wrapper.innerHTML = matchupHTML(m);
-      slots.appendChild(wrapper);
-    });
-    col.appendChild(slots);
-    row.appendChild(col);
-  });
-
-  container.appendChild(row);
+  container.appendChild(grid);
 }
 
 // ══════════════════════════════════════════════════════
