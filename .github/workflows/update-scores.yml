@@ -17,21 +17,22 @@ jobs:
       - name: Fetch scores from ESPN
         run: |
           DATE=$(date -u +%Y%m%d)
-          YESTERDAY=$(date -u -d 'yesterday' +%Y%m%d)
           TOMORROW=$(date -u -d 'tomorrow' +%Y%m%d)
+          DAY2=$(date -u -d '2 days' +%Y%m%d)
 
-          curl -sf "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=${YESTERDAY}&limit=100" > y.json \
-            || echo '{"events":[]}' > y.json
+          curl -sf "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=${DATE}&limit=100" > d0.json \
+            || echo '{"events":[]}' > d0.json
 
-          curl -sf "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=${DATE}&limit=100" > t.json \
-            || echo '{"events":[]}' > t.json
+          curl -sf "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=${TOMORROW}&limit=100" > d1.json \
+            || echo '{"events":[]}' > d1.json
 
-          curl -sf "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=${TOMORROW}&limit=100" > tm.json \
-            || echo '{"events":[]}' > tm.json
+          curl -sf "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=${DAY2}&limit=100" > d2.json \
+            || echo '{"events":[]}' > d2.json
 
+          # Merge fresh events (new wins on dupe) into existing scores.json
           jq -s --arg ts "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
-            '{ts: $ts, events: ([.[0].events // [], .[1].events // [], .[2].events // []] | add // [])}' \
-            y.json t.json tm.json > scores.json
+            '{ts: $ts, events: ([.[1].events//[], .[2].events//[], .[3].events//[], .[0].events//[]] | add // [] | unique_by(.id))}' \
+            scores.json d0.json d1.json d2.json > scores_new.json && mv scores_new.json scores.json
 
       - name: Commit if changed
         run: |
