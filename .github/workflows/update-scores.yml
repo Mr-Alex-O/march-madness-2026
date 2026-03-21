@@ -18,6 +18,7 @@ jobs:
         run: |
           DATE=$(date -u +%Y%m%d)
           YESTERDAY=$(date -u -d 'yesterday' +%Y%m%d)
+          TOMORROW=$(date -u -d 'tomorrow' +%Y%m%d)
 
           curl -sf "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=${YESTERDAY}&limit=100" > y.json \
             || echo '{"events":[]}' > y.json
@@ -25,9 +26,12 @@ jobs:
           curl -sf "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=${DATE}&limit=100" > t.json \
             || echo '{"events":[]}' > t.json
 
+          curl -sf "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=${TOMORROW}&limit=100" > tm.json \
+            || echo '{"events":[]}' > tm.json
+
           jq -s --arg ts "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
-            '{ts: $ts, events: ([.[0].events // [], .[1].events // []] | add // [])}' \
-            y.json t.json > scores.json
+            '{ts: $ts, events: ([.[0].events // [], .[1].events // [], .[2].events // []] | add // [])}' \
+            y.json t.json tm.json > scores.json
 
       - name: Commit if changed
         run: |

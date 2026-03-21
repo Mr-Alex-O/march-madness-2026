@@ -568,7 +568,7 @@
 
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.17 · March Madness 2026
+  v1.18 · March Madness 2026
 </div>
 
 <script>
@@ -1172,6 +1172,8 @@ async function updateScores() {
           isFinal, isLive: isLive || isHalf, isTimeout, statusDetail,
           clock: comp.status?.displayClock || '',
           period: comp.status?.period || '',
+          date: ev.date || '',
+          broadcast: comp.broadcasts?.[0]?.names?.[0] || '',
         };
       }).filter(Boolean);
 
@@ -1204,6 +1206,13 @@ async function updateScores() {
           m.detail = g.isTimeout ? 'Timeout' : g.statusDetail;
           m.clock  = g.isTimeout ? '' : g.clock;
           m.period = g.period;
+        } else if (g.date) {
+          // Scheduled — pull actual tip-off time from ESPN
+          const d = new Date(g.date);
+          const dateStr = d.toLocaleDateString('en-US', {month:'short', day:'numeric', timeZone:'America/New_York'});
+          const timeStr = d.toLocaleTimeString('en-US', {hour:'numeric', minute:'2-digit', timeZone:'America/New_York', hour12:true});
+          m.sched = dateStr + ' · ' + timeStr + (g.broadcast ? ' ' + g.broadcast : '');
+          if (m.status === 'tbd') m.status = 'sched';
         }
       }
 
