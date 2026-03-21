@@ -16,9 +16,17 @@ jobs:
 
       - name: Fetch scores from ESPN
         run: |
+          DMINUS2=$(date -u -d '2 days ago' +%Y%m%d)
+          DMINUS1=$(date -u -d 'yesterday' +%Y%m%d)
           DATE=$(date -u +%Y%m%d)
           TOMORROW=$(date -u -d 'tomorrow' +%Y%m%d)
           DAY2=$(date -u -d '2 days' +%Y%m%d)
+
+          curl -sf "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=${DMINUS2}&limit=100" > dm2.json \
+            || echo '{"events":[]}' > dm2.json
+
+          curl -sf "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=${DMINUS1}&limit=100" > dm1.json \
+            || echo '{"events":[]}' > dm1.json
 
           curl -sf "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=${DATE}&limit=100" > d0.json \
             || echo '{"events":[]}' > d0.json
@@ -31,8 +39,8 @@ jobs:
 
           # Merge fresh events (new wins on dupe) into existing scores.json
           jq -s --arg ts "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
-            '{ts: $ts, events: ([.[1].events//[], .[2].events//[], .[3].events//[], .[0].events//[]] | add // [] | unique_by(.id))}' \
-            scores.json d0.json d1.json d2.json > scores_new.json && mv scores_new.json scores.json
+            '{ts: $ts, events: ([.[1].events//[], .[2].events//[], .[3].events//[], .[4].events//[], .[5].events//[], .[0].events//[]] | add // [] | unique_by(.id))}' \
+            scores.json dm2.json dm1.json d0.json d1.json d2.json > scores_new.json && mv scores_new.json scores.json
 
       - name: Commit if changed
         run: |
