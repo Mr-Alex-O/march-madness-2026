@@ -515,8 +515,7 @@
      TABS
 ════════════════════════════════════════════════════ -->
 <div class="tab-bar" id="tabBar">
-  <button class="tab-btn active" onclick="showTab('live')">🔴 Live</button>
-  <button class="tab-btn" onclick="showTab('full')">📋 Full Bracket</button>
+  <button class="tab-btn active" onclick="showTab('full')">📋 Full Bracket</button>
   <button class="tab-btn" onclick="showTab('east')">East</button>
   <button class="tab-btn" onclick="showTab('west')">West</button>
   <button class="tab-btn" onclick="showTab('south')">South</button>
@@ -525,19 +524,9 @@
 </div>
 
 <!-- ═══════════════════════════════════════════════════
-     TAB: FIRST FOUR
-════════════════════════════════════════════════════ -->
-<!-- ═══════════════════════════════════════════════════
-     TAB: LIVE GAMES
-════════════════════════════════════════════════════ -->
-<div class="tab-pane active" id="tab-live">
-  <div id="live-games-container" style="padding:12px;"></div>
-</div>
-
-<!-- ═══════════════════════════════════════════════════
      TAB: FULL BRACKET
 ════════════════════════════════════════════════════ -->
-<div class="tab-pane" id="tab-full">
+<div class="tab-pane active" id="tab-full">
   <div class="full-bracket-wrap">
     <div class="filter-bar">
       <button class="filter-btn active-all" id="fb-all"  onclick="setFilter('all')">All Teams</button>
@@ -1302,7 +1291,6 @@ function advanceWinners() {
 // ══════════════════════════════════════════════════════
 function renderAll() {
   advanceWinners();
-  renderLiveTab();
   renderFullBracket();
   ['east','west','south','midwest'].forEach(renderRegion);
   renderFinalFour();
