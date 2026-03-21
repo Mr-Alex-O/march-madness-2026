@@ -459,6 +459,43 @@
     margin-bottom: 8px;
   }
 
+  /* ── Round Tabs ───────────────────────────────────── */
+  .round-tab-wrap { padding: 12px; }
+  .round-score-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 6px 16px 14px;
+    font-size: 13px;
+  }
+  .round-score-alex { color: #4caf50; font-weight: 700; }
+  .round-score-greg { color: #fdd835; font-weight: 700; }
+  .round-regions-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  @media (max-width: 600px) {
+    .round-regions-grid { grid-template-columns: 1fr; }
+  }
+  .round-region-title {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #888;
+    text-align: center;
+    padding: 4px 0 6px;
+    border-bottom: 1px solid #222;
+    margin-bottom: 6px;
+  }
+  .round-matchups-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
   /* ── Responsive ───────────────────────────────────── */
   @media (max-width: 480px) {
     /* Shrink columns so all 4 rounds fit on screen without scrolling */
@@ -518,10 +555,9 @@
 ════════════════════════════════════════════════════ -->
 <div class="tab-bar" id="tabBar">
   <button class="tab-btn active" onclick="showTab('full')">📋 Full Bracket</button>
-  <button class="tab-btn" onclick="showTab('east')">East</button>
-  <button class="tab-btn" onclick="showTab('west')">West</button>
-  <button class="tab-btn" onclick="showTab('south')">South</button>
-  <button class="tab-btn" onclick="showTab('midwest')">Midwest</button>
+  <button class="tab-btn" onclick="showTab('r32')">Round of 32</button>
+  <button class="tab-btn" onclick="showTab('s16')">Sweet 16</button>
+  <button class="tab-btn" onclick="showTab('e8')">Elite 8</button>
   <button class="tab-btn" onclick="showTab('finale')">🏆 Final Four</button>
 </div>
 
@@ -540,19 +576,16 @@
 </div>
 
 <!-- ═══════════════════════════════════════════════════
-     REGION TABS
+     ROUND TABS
 ════════════════════════════════════════════════════ -->
-<div class="tab-pane" id="tab-east" style="padding:12px;">
-  <div class="region-bracket" id="bracket-east"></div>
+<div class="tab-pane" id="tab-r32">
+  <div class="round-tab-wrap" id="round-r32"></div>
 </div>
-<div class="tab-pane" id="tab-west">
-  <div class="region-bracket" id="bracket-west"></div>
+<div class="tab-pane" id="tab-s16">
+  <div class="round-tab-wrap" id="round-s16"></div>
 </div>
-<div class="tab-pane" id="tab-south">
-  <div class="region-bracket" id="bracket-south"></div>
-</div>
-<div class="tab-pane" id="tab-midwest">
-  <div class="region-bracket" id="bracket-midwest"></div>
+<div class="tab-pane" id="tab-e8">
+  <div class="round-tab-wrap" id="round-e8"></div>
 </div>
 
 <!-- ═══════════════════════════════════════════════════
@@ -570,7 +603,7 @@
 
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.23 · March Madness 2026
+  v1.24 · March Madness 2026
 </div>
 
 <script>
@@ -1332,12 +1365,63 @@ function advanceWinners() {
 }
 
 // ══════════════════════════════════════════════════════
+//  ROUND TAB RENDERER
+//  roundIndex: 1=R32, 2=S16, 3=E8
+//  dollarsPerTeam: money earned per team that reached this round
+// ══════════════════════════════════════════════════════
+function renderRoundTab(roundIndex, containerId, dollarsPerTeam) {
+  const container = document.getElementById(containerId);
+  const regionKeys = ['east','west','south','midwest'];
+  let alexCount = 0, gregCount = 0;
+
+  regionKeys.forEach(key => {
+    const round = DATA.regions[key].rounds[roundIndex];
+    if (!round) return;
+    round.matchups.forEach(m => {
+      [m.t1, m.t2].forEach(t => {
+        if (!t || !t.name || t.name === 'TBD') return;
+        const o = t.owner || owner(t.name) || owner(t.espn || '');
+        if (o === ALEX) alexCount++;
+        else if (o === GREG) gregCount++;
+      });
+    });
+  });
+
+  const alexMoney = alexCount * dollarsPerTeam;
+  const gregMoney = gregCount * dollarsPerTeam;
+  const fmt = (count, money) =>
+    dollarsPerTeam > 0
+      ? `${count} team${count !== 1 ? 's' : ''} · $${money}`
+      : `${count} team${count !== 1 ? 's' : ''}`;
+
+  let html = `<div class="round-score-banner">
+    <span class="round-score-alex">Alex: ${fmt(alexCount, alexMoney)}</span>
+    <span class="round-score-greg">Greg: ${fmt(gregCount, gregMoney)}</span>
+  </div><div class="round-regions-grid">`;
+
+  regionKeys.forEach(key => {
+    const region = DATA.regions[key];
+    const round = region.rounds[roundIndex];
+    if (!round) return;
+    html += `<div>
+      <div class="round-region-title">${region.name}</div>
+      <div class="round-matchups-list">${round.matchups.map(m => matchupHTML(m)).join('')}</div>
+    </div>`;
+  });
+
+  html += '</div>';
+  container.innerHTML = html;
+}
+
+// ══════════════════════════════════════════════════════
 //  FULL RENDER
 // ══════════════════════════════════════════════════════
 function renderAll() {
   advanceWinners();
   renderFullBracket();
-  ['east','west','south','midwest'].forEach(renderRegion);
+  renderRoundTab(1, 'round-r32', 0);
+  renderRoundTab(2, 'round-s16', 0);
+  renderRoundTab(3, 'round-e8', 5);
   renderFinalFour();
   calcScores();
 }
