@@ -618,7 +618,7 @@
 
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.26 · March Madness 2026
+  v1.27 · March Madness 2026
 </div>
 
 <script>
@@ -1465,8 +1465,9 @@ function renderRoundTab(roundIndex, containerId, dollarsPerTeam) {
       ? `${count} team${count !== 1 ? 's' : ''} · $${money}`
       : `${count} team${count !== 1 ? 's' : ''}`;
 
-  // fromRound: show one round of context feeding into the target round
-  const fromRound = Math.max(0, roundIndex - 1);
+  // Show current round → next round (cap at last region round)
+  const maxRound = DATA.regions['east'].rounds.length - 1;
+  const toRound = Math.min(maxRound, roundIndex + 1);
 
   const grid = document.createElement('div');
   grid.className = 'full-regions-grid';
@@ -1476,7 +1477,7 @@ function renderRoundTab(roundIndex, containerId, dollarsPerTeam) {
     const block = document.createElement('div');
     block.className = 'full-region-block';
     block.innerHTML = `<div class="full-region-title">${region.name}</div>`;
-    block.appendChild(buildRoundBracketEl(key, fromRound, roundIndex));
+    block.appendChild(buildRoundBracketEl(key, roundIndex, toRound));
     grid.appendChild(block);
   });
 
