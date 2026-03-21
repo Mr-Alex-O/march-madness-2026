@@ -568,7 +568,7 @@
 
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.19 · March Madness 2026
+  v1.20 · March Madness 2026
 </div>
 
 <script>
@@ -1184,37 +1184,45 @@ async function updateScores() {
         DATA.championship,
       ];
 
-      for (const m of allMatchups) {
-        if (m.t1.name === 'TBD' || !m.t1.espn) continue;
-        const g = games.find(g =>
-          (nameMatch(g.name1, m.t1.espn) && nameMatch(g.name2, m.t2.espn)) ||
-          (nameMatch(g.name1, m.t2.espn) && nameMatch(g.name2, m.t1.espn))
-        );
-        if (!g) continue;
-        const t1IsName1 = nameMatch(g.name1, m.t1.espn);
-        const s1 = t1IsName1 ? g.score1 : g.score2;
-        const s2 = t1IsName1 ? g.score2 : g.score1;
-        const t1Wins = t1IsName1 ? g.winner1 : g.winner2;
-        if (g.isFinal) {
-          m.status = 'final';
-          m.score1 = s1; m.score2 = s2;
-          m.winner = t1Wins ? 1 : 2;
-          m.detail = '';
-        } else if (g.isLive) {
-          m.status = 'live';
-          m.score1 = s1; m.score2 = s2;
-          m.detail = g.isTimeout ? 'Timeout' : g.statusDetail;
-          m.clock  = g.isTimeout ? '' : g.clock;
-          m.period = g.period;
-        } else if (g.date) {
-          // Scheduled — pull actual tip-off time from ESPN
-          const d = new Date(g.date);
-          const dateStr = d.toLocaleDateString('en-US', {month:'short', day:'numeric', timeZone:'America/New_York'});
-          const timeStr = d.toLocaleTimeString('en-US', {hour:'numeric', minute:'2-digit', timeZone:'America/New_York', hour12:true});
-          m.sched = dateStr + ' · ' + timeStr + (g.broadcast ? ' ' + g.broadcast : '');
-          if (m.status === 'tbd') m.status = 'sched';
+      function applyGames() {
+        for (const m of allMatchups) {
+          if (m.t1.name === 'TBD' || !m.t1.espn) continue;
+          const g = games.find(g =>
+            (nameMatch(g.name1, m.t1.espn) && nameMatch(g.name2, m.t2.espn)) ||
+            (nameMatch(g.name1, m.t2.espn) && nameMatch(g.name2, m.t1.espn))
+          );
+          if (!g) continue;
+          const t1IsName1 = nameMatch(g.name1, m.t1.espn);
+          const s1 = t1IsName1 ? g.score1 : g.score2;
+          const s2 = t1IsName1 ? g.score2 : g.score1;
+          const t1Wins = t1IsName1 ? g.winner1 : g.winner2;
+          if (g.isFinal) {
+            m.status = 'final';
+            m.score1 = s1; m.score2 = s2;
+            m.winner = s1 > s2 ? 1 : 2;
+            m.detail = '';
+          } else if (g.isLive) {
+            m.status = 'live';
+            m.score1 = s1; m.score2 = s2;
+            m.detail = g.isTimeout ? 'Timeout' : g.statusDetail;
+            m.clock  = g.isTimeout ? '' : g.clock;
+            m.period = g.period;
+          } else if (g.date) {
+            const d = new Date(g.date);
+            const dateStr = d.toLocaleDateString('en-US', {month:'short', day:'numeric', timeZone:'America/New_York'});
+            const timeStr = d.toLocaleTimeString('en-US', {hour:'numeric', minute:'2-digit', timeZone:'America/New_York', hour12:true});
+            m.sched = dateStr + ' · ' + timeStr + (g.broadcast ? ' ' + g.broadcast : '');
+            if (m.status === 'tbd') m.status = 'sched';
+          }
         }
       }
+
+      // Pass 1: resolve R64 games
+      applyGames();
+      // Advance R64 winners into R32 slots so pass 2 can find them
+      advanceWinners();
+      // Pass 2: match newly populated R32+ slots against ESPN schedule data
+      applyGames();
 
       if (DATA.championship.status === 'final' && DATA.championship.winner) {
         const cw = DATA.championship.winner === 1 ? DATA.championship.t1 : DATA.championship.t2;
