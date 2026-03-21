@@ -475,6 +475,9 @@
   .round-score-greg:hover { text-decoration: underline; }
   /* Tighter grid gap for round tabs */
   .round-tab-wrap .full-regions-grid { gap: 8px; }
+  /* Wider/taller cards in round tabs (fewer games = more screen to use) */
+  .round-tab-wrap { --col-w: 185px; --mh: 78px; }
+  @media (max-width: 480px) { .round-tab-wrap { --col-w: 145px; --mh: 68px; } }
   /* E8→FF single bracket */
   .e8-ff-wrap { padding: 0 12px 16px; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
   .e8-ff-wrap::-webkit-scrollbar { display: none; }
@@ -633,7 +636,7 @@
 </div>
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.30 · March Madness 2026
+  v1.31 · March Madness 2026
 </div>
 
 <script>
@@ -1161,7 +1164,9 @@ function normName(n) {
   return ESPN_ALIASES[base] || base;
 }
 function nameMatch(a, b) {
+  if (!a || !b) return false;
   const na = normName(a), nb = normName(b);
+  if (!na || !nb) return false;
   if (na === nb) return true;
   // Only allow substring match when one name is very short (abbreviation like "UCF")
   // This prevents "Arizona" matching "Arizona State", "Texas" matching "Texas Tech", etc.
@@ -1218,7 +1223,8 @@ async function updateScores() {
 
       function applyGames() {
         for (const m of allMatchups) {
-          if (m.t1.name === 'TBD' || !m.t1.espn) continue;
+          // Skip if either team is unknown — an empty espn would match any game
+          if (m.t1.name === 'TBD' || !m.t1.espn || m.t2.name === 'TBD' || !m.t2.espn) continue;
           const g = games.find(g =>
             (nameMatch(g.name1, m.t1.espn) && nameMatch(g.name2, m.t2.espn)) ||
             (nameMatch(g.name1, m.t2.espn) && nameMatch(g.name2, m.t1.espn))
