@@ -633,7 +633,7 @@
 </div>
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.28 · March Madness 2026
+  v1.29 · March Madness 2026
 </div>
 
 <script>
@@ -1561,8 +1561,13 @@ function closeTeamsModal() {
 function renderRoundTab(roundIndex, containerId, dollarsPerTeam) {
   const container = document.getElementById(containerId);
   const regionKeys = ['east','west','south','midwest'];
-  let alexCount = 0, gregCount = 0;
 
+  // Use same source as modal so counts always match
+  const alexCount = getRemainingTeams(ALEX).length;
+  const gregCount = getRemainingTeams(GREG).length;
+
+  // Money is still based on teams physically IN this round's slots
+  let alexRound = 0, gregRound = 0;
   regionKeys.forEach(key => {
     const round = DATA.regions[key].rounds[roundIndex];
     if (!round) return;
@@ -1570,14 +1575,14 @@ function renderRoundTab(roundIndex, containerId, dollarsPerTeam) {
       [m.t1, m.t2].forEach(t => {
         if (!t || !t.name || t.name === 'TBD') return;
         const o = t.owner || owner(t.name) || owner(t.espn || '');
-        if (o === ALEX) alexCount++;
-        else if (o === GREG) gregCount++;
+        if (o === ALEX) alexRound++;
+        else if (o === GREG) gregRound++;
       });
     });
   });
 
-  const alexMoney = alexCount * dollarsPerTeam;
-  const gregMoney = gregCount * dollarsPerTeam;
+  const alexMoney = alexRound * dollarsPerTeam;
+  const gregMoney = gregRound * dollarsPerTeam;
   const fmt = (count, money) =>
     dollarsPerTeam > 0
       ? `${count} team${count !== 1 ? 's' : ''} · $${money}`
