@@ -1138,13 +1138,6 @@ async function updateScores() {
   btn.className = 'btn-update loading';
 
   try {
-    // Only fetch today + yesterday (covers live + recently finished games).
-    // Historical results are hardcoded in DATA — no need to re-fetch them.
-    const toDateStr = d => d.toISOString().slice(0,10).replace(/-/g,'');
-    const today = new Date();
-    const yesterday = new Date(today); yesterday.setDate(today.getDate() - 1);
-    const dates = [toDateStr(yesterday), toDateStr(today)];
-
     // processGames: apply a raw ESPN events array to DATA and re-render
     function processGames(events) {
       const games = events.map(ev => {
@@ -1217,40 +1210,18 @@ async function updateScores() {
       countdown = AUTO_INTERVAL;
     }
 
-    // 30-second localStorage cache — reuse last fetch if called too rapidly
-    const CACHE_KEY = 'mm_espn_cache';
-    const CACHE_TTL = 90 * 1000;
-    const cached = (() => { try { return JSON.parse(localStorage.getItem(CACHE_KEY)); } catch(_){} return null; })();
-    if (cached && (Date.now() - cached.ts) < CACHE_TTL) {
-      btn.textContent = '🔄 Update Scores';
-      btn.disabled = false;
-      btn.className = 'btn-update';
-      processGames(cached.games);
-      return;
-    }
-
-    const allGames = [];
-    for (const date of dates) {
-      try {
-        const url = `https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=${date}&limit=100`;
-        const res = await fetch(url);
-        const json = await res.json();
-        if (json.events) allGames.push(...json.events);
-      } catch(_) {}
-    }
-
+    const res = await fetch('scores.json?_=' + Date.now());
+    if (!res.ok) throw new Error('scores.json not found');
+    const json = await res.json();
+    const allGames = json.events || [];
     if (!allGames.length) {
-      if (cached) { processGames(cached.games); return; }
-      alert('Could not retrieve game data. Check your internet connection.');
+      document.getElementById('lastUpdated').textContent = 'No game data yet';
       return;
     }
-
-    // Save to cache then process
-    try { localStorage.setItem(CACHE_KEY, JSON.stringify({ts: Date.now(), games: allGames})); } catch(_) {}
     processGames(allGames);
 
   } catch(err) {
-    alert('Error: ' + err.message);
+    document.getElementById('lastUpdated').textContent = 'Update failed';
   } finally {
     btn.textContent = '🔄 Live Update Scores';
     btn.disabled = false;

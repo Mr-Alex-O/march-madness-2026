@@ -1,0 +1,37 @@
+name: Update Scores
+
+on:
+  schedule:
+    - cron: '*/20 * * * *'   # every 20 minutes
+  workflow_dispatch:           # manual trigger from Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch scores from ESPN
+        run: |
+          DATE=$(date -u +%Y%m%d)
+          YESTERDAY=$(date -u -d 'yesterday' +%Y%m%d)
+
+          curl -sf "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=${YESTERDAY}&limit=100" > y.json \
+            || echo '{"events":[]}' > y.json
+
+          curl -sf "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=${DATE}&limit=100" > t.json \
+            || echo '{"events":[]}' > t.json
+
+          jq -s --arg ts "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            '{ts: $ts, events: ([.[0].events // [], .[1].events // []] | add // [])}' \
+            y.json t.json > scores.json
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scores.json
+          git diff --cached --quiet || (git commit -m "scores $(date -u +%H:%M)" && git push)
