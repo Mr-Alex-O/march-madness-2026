@@ -240,7 +240,7 @@
     white-space: nowrap;
     flex-shrink: 0;
   }
-  .tscore.live-score { color: #4caf50; }
+  .tscore.live-score { color: #fff; }
   .tscore.win { color: #fff; }
 
   /* Connector lines between rounds */
@@ -1107,8 +1107,20 @@ function showTab(key) {
 // ══════════════════════════════════════════════════════
 //  LIVE UPDATE via ESPN API
 // ══════════════════════════════════════════════════════
+const ESPN_ALIASES = {
+  'uconn': 'connecticut',
+  'saint johns ny': 'st johns ny',
+  'saint johns': 'st johns',
+  'cal baptist': 'california baptist',
+  'central florida': 'ucf',
+  'prairie view am': 'prairie view',
+  'queens university': 'queens',
+  'miami oh': 'miami ohio',
+  'miami ohio': 'miami ohio',
+};
 function normName(n) {
-  return n.toLowerCase().replace(/[^a-z0-9 ]/g,'').replace(/\s+/g,' ').trim();
+  const base = n.toLowerCase().replace(/[^a-z0-9 ]/g,'').replace(/\s+/g,' ').trim();
+  return ESPN_ALIASES[base] || base;
 }
 function nameMatch(a, b) {
   const na = normName(a), nb = normName(b);
