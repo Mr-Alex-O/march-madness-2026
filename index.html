@@ -568,7 +568,7 @@
 
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.16 · March Madness 2026
+  v1.17 · March Madness 2026
 </div>
 
 <script>
@@ -1110,13 +1110,20 @@ function showTab(key) {
 const ESPN_ALIASES = {
   'uconn': 'connecticut',
   'saint johns ny': 'st johns ny',
-  'saint johns': 'st johns',
+  'saint johns': 'st johns ny',
+  'st johns': 'st johns ny',
   'cal baptist': 'california baptist',
+  'ca baptist': 'california baptist',
   'central florida': 'ucf',
   'prairie view am': 'prairie view',
   'queens university': 'queens',
   'miami oh': 'miami ohio',
   'miami ohio': 'miami ohio',
+  'long island': 'long island university',
+  'wright st': 'wright state',
+  'michigan st': 'michigan state',
+  'tennessee st': 'tennessee state',
+  'north dakota st': 'north dakota state',
 };
 function normName(n) {
   const base = n.toLowerCase().replace(/[^a-z0-9 ]/g,'').replace(/\s+/g,' ').trim();
