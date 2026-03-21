@@ -460,40 +460,46 @@
   }
 
   /* ── Round Tabs ───────────────────────────────────── */
-  .round-tab-wrap { padding: 12px; }
+  .round-tab-wrap { padding: 4px 0 0; }
   .round-score-banner {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 6px 16px 14px;
+    padding: 10px 16px 12px;
     font-size: 13px;
   }
   .round-score-alex { color: #4caf50; font-weight: 700; }
   .round-score-greg { color: #fdd835; font-weight: 700; }
-  .round-regions-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
+  /* Bracket-style horizontal layout */
+  .round-bracket-row {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 0 12px 16px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
   }
-  @media (max-width: 600px) {
-    .round-regions-grid { grid-template-columns: 1fr; }
+  .round-bracket-row::-webkit-scrollbar { display: none; }
+  .round-bracket-col {
+    flex-shrink: 0;
+    width: 165px;
   }
-  .round-region-title {
+  .round-bracket-col-title {
     font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     color: #888;
     text-align: center;
-    padding: 4px 0 6px;
+    padding: 4px 0 8px;
     border-bottom: 1px solid #222;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
   }
-  .round-matchups-list {
+  .round-bracket-slots {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 8px;
   }
 
   /* ── Responsive ───────────────────────────────────── */
@@ -558,7 +564,8 @@
   <button class="tab-btn" onclick="showTab('r32')">Round of 32</button>
   <button class="tab-btn" onclick="showTab('s16')">Sweet 16</button>
   <button class="tab-btn" onclick="showTab('e8')">Elite 8</button>
-  <button class="tab-btn" onclick="showTab('finale')">🏆 Final Four</button>
+  <button class="tab-btn" onclick="showTab('f4')">Final Four</button>
+  <button class="tab-btn" onclick="showTab('champ')">🏆 Championship</button>
 </div>
 
 <!-- ═══════════════════════════════════════════════════
@@ -589,13 +596,21 @@
 </div>
 
 <!-- ═══════════════════════════════════════════════════
-     TAB: FINAL FOUR / CHAMPIONSHIP
+     TAB: FINAL FOUR
 ════════════════════════════════════════════════════ -->
-<div class="tab-pane" id="tab-finale">
+<div class="tab-pane" id="tab-f4">
   <div class="final-four-container">
     <div class="section-title">Final Four</div>
     <div id="finalFourMatchups"></div>
-    <div class="section-title" style="padding-top:20px;">Championship</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════
+     TAB: CHAMPIONSHIP
+════════════════════════════════════════════════════ -->
+<div class="tab-pane" id="tab-champ">
+  <div class="final-four-container">
+    <div class="section-title">Championship</div>
     <div id="championshipMatchup"></div>
     <div id="championDisplay"></div>
   </div>
@@ -603,7 +618,7 @@
 
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.24 · March Madness 2026
+  v1.25 · March Madness 2026
 </div>
 
 <script>
@@ -1164,6 +1179,7 @@ const ESPN_ALIASES = {
   'michigan st': 'michigan state',
   'tennessee st': 'tennessee state',
   'north dakota st': 'north dakota state',
+  'st louis': 'saint louis',
 };
 function normName(n) {
   const base = n.toLowerCase().replace(/[^a-z0-9 ]/g,'').replace(/\s+/g,' ').trim();
@@ -1239,10 +1255,13 @@ async function updateScores() {
           const s2 = t1IsName1 ? g.score2 : g.score1;
           const t1Wins = t1IsName1 ? g.winner1 : g.winner2;
           if (g.isFinal) {
-            m.status = 'final';
             m.score1 = s1; m.score2 = s2;
-            m.winner = s1 > s2 ? 1 : 2;
             m.detail = '';
+            // Don't override a confirmed hardcoded result with ESPN data
+            if (!(m.status === 'final' && m.winner)) {
+              m.status = 'final';
+              m.winner = s1 > s2 ? 1 : 2;
+            }
           } else if (g.isLive) {
             m.status = 'live';
             m.score1 = s1; m.score2 = s2;
@@ -1394,23 +1413,34 @@ function renderRoundTab(roundIndex, containerId, dollarsPerTeam) {
       ? `${count} team${count !== 1 ? 's' : ''} · $${money}`
       : `${count} team${count !== 1 ? 's' : ''}`;
 
-  let html = `<div class="round-score-banner">
+  container.innerHTML = `<div class="round-score-banner">
     <span class="round-score-alex">Alex: ${fmt(alexCount, alexMoney)}</span>
     <span class="round-score-greg">Greg: ${fmt(gregCount, gregMoney)}</span>
-  </div><div class="round-regions-grid">`;
+  </div>`;
+
+  const row = document.createElement('div');
+  row.className = 'round-bracket-row';
 
   regionKeys.forEach(key => {
     const region = DATA.regions[key];
     const round = region.rounds[roundIndex];
     if (!round) return;
-    html += `<div>
-      <div class="round-region-title">${region.name}</div>
-      <div class="round-matchups-list">${round.matchups.map(m => matchupHTML(m)).join('')}</div>
-    </div>`;
+    const col = document.createElement('div');
+    col.className = 'round-bracket-col';
+    col.innerHTML = `<div class="round-bracket-col-title">${region.name}</div>`;
+    const slots = document.createElement('div');
+    slots.className = 'round-bracket-slots';
+    round.matchups.forEach(m => {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'matchup-wrapper';
+      wrapper.innerHTML = matchupHTML(m);
+      slots.appendChild(wrapper);
+    });
+    col.appendChild(slots);
+    row.appendChild(col);
   });
 
-  html += '</div>';
-  container.innerHTML = html;
+  container.appendChild(row);
 }
 
 // ══════════════════════════════════════════════════════
