@@ -568,7 +568,7 @@
 
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.20 · March Madness 2026
+  v1.21 · March Madness 2026
 </div>
 
 <script>
@@ -798,11 +798,16 @@ function matchupHTML(m) {
     upsetBanner = `<div class="upset-banner">🔥 UPSET${extra}</div>`;
   }
 
-  return `<div class="matchup" id="m-${m.id}">
+  const espnHref = m.espnId
+    ? `https://www.espn.com/mens-college-basketball/game/_/gameId/${m.espnId}`
+    : '';
+  const tag = espnHref ? `a href="${espnHref}" target="_blank" rel="noopener"` : 'div';
+  const closeTag = espnHref ? 'a' : 'div';
+  return `<${tag} class="matchup" id="m-${m.id}" style="${espnHref ? 'text-decoration:none;' : ''}">
     ${teamRowHTML(m.t1, m, 1)}
     ${teamRowHTML(m.t2, m, 2)}
     ${statusBar}${upsetBanner}
-  </div>`;
+  </${closeTag}>`;
 }
 
 // ══════════════════════════════════════════════════════
@@ -1174,6 +1179,7 @@ async function updateScores() {
           period: comp.status?.period || '',
           date: ev.date || '',
           broadcast: comp.broadcasts?.[0]?.names?.[0] || '',
+          espnId: ev.id || '',
         };
       }).filter(Boolean);
 
@@ -1192,6 +1198,7 @@ async function updateScores() {
             (nameMatch(g.name1, m.t2.espn) && nameMatch(g.name2, m.t1.espn))
           );
           if (!g) continue;
+          if (g.espnId) m.espnId = g.espnId;
           const t1IsName1 = nameMatch(g.name1, m.t1.espn);
           const s1 = t1IsName1 ? g.score1 : g.score2;
           const s2 = t1IsName1 ? g.score2 : g.score1;
