@@ -469,37 +469,43 @@
     padding: 10px 16px 12px;
     font-size: 13px;
   }
-  .round-score-alex { color: #4caf50; font-weight: 700; }
-  .round-score-greg { color: #fdd835; font-weight: 700; }
-  /* Bracket-style horizontal layout */
-  .round-bracket-row {
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
-    padding: 0 12px 16px;
-    scrollbar-width: none;
-    -webkit-overflow-scrolling: touch;
+  .round-score-alex { color: #4caf50; font-weight: 700; cursor: pointer; }
+  .round-score-greg { color: #fdd835; font-weight: 700; cursor: pointer; }
+  .round-score-alex:hover { text-decoration: underline; }
+  .round-score-greg:hover { text-decoration: underline; }
+  /* Tighter grid gap for round tabs */
+  .round-tab-wrap .full-regions-grid { gap: 8px; }
+  /* E8→FF single bracket */
+  .e8-ff-wrap { padding: 0 12px 16px; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .e8-ff-wrap::-webkit-scrollbar { display: none; }
+  /* Teams modal */
+  .teams-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    z-index: 200;
+    overflow-y: auto;
+    padding: 24px 16px;
   }
-  .round-bracket-row::-webkit-scrollbar { display: none; }
-  .round-bracket-col {
-    flex-shrink: 0;
-    width: 165px;
+  .teams-modal.open { display: block; }
+  .teams-modal-box {
+    max-width: 360px;
+    margin: 0 auto;
+    background: #1a1a2e;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 20px;
   }
-  .round-bracket-col-title {
-    font-size: 11px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    color: #888;
-    text-align: center;
-    padding: 4px 0 8px;
-    border-bottom: 1px solid #222;
-    margin-bottom: 8px;
-  }
-  .round-bracket-slots {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  .teams-modal-title { font-size: 16px; font-weight: 800; margin-bottom: 14px; }
+  .teams-modal-title.alex { color: #4caf50; }
+  .teams-modal-title.greg { color: #fdd835; }
+  .teams-modal-list { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+  .teams-modal-item { font-size: 13px; padding: 6px 10px; background: #111; border-radius: 6px; }
+  .teams-modal-close {
+    margin-top: 16px; width: 100%; padding: 10px;
+    background: #333; border: none; color: #fff; border-radius: 8px;
+    font-size: 13px; font-weight: 600; cursor: pointer;
   }
 
   /* ── Responsive ───────────────────────────────────── */
@@ -617,8 +623,17 @@
 </div>
 
 
+<!-- Teams remaining modal -->
+<div class="teams-modal" id="teamsModal" onclick="if(event.target===this)closeTeamsModal()">
+  <div class="teams-modal-box">
+    <div class="teams-modal-title" id="teamsModalTitle"></div>
+    <ul class="teams-modal-list" id="teamsModalList"></ul>
+    <button class="teams-modal-close" onclick="closeTeamsModal()">Close</button>
+  </div>
+</div>
+
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.27 · March Madness 2026
+  v1.28 · March Madness 2026
 </div>
 
 <script>
@@ -1390,11 +1405,12 @@ function advanceWinners() {
 // ══════════════════════════════════════════════════════
 //  BUILD BRACKET ELEMENT FOR A ROUND SLICE
 //  Shows fromRound → toRound columns with connector lines
+//  reversed: flip column order (for West/Midwest mirroring)
 // ══════════════════════════════════════════════════════
-function buildRoundBracketEl(regionKey, fromRound, toRound) {
+function buildRoundBracketEl(regionKey, fromRound, toRound, reversed) {
   const region = DATA.regions[regionKey];
-  // Always left-to-right in round tabs (no flip)
-  const rounds = region.rounds.slice(fromRound, toRound + 1);
+  const sliced = region.rounds.slice(fromRound, toRound + 1);
+  const rounds = reversed ? [...sliced].reverse() : sliced;
 
   const bracketRow = document.createElement('div');
   bracketRow.className = 'region-bracket';
@@ -1440,6 +1456,108 @@ function buildRoundBracketEl(regionKey, fromRound, toRound) {
   return bracketRow;
 }
 
+// ══════════════════════════════════════════════════════
+//  E8 → FINAL FOUR BRACKET
+//  4 E8 matchups (South,West,Midwest,East) → 2 FF games
+// ══════════════════════════════════════════════════════
+function buildE8toFFBracket() {
+  // South+West feed FF[0], Midwest+East feed FF[1]
+  const e8Order = ['south', 'west', 'midwest', 'east'];
+
+  const wrap = document.createElement('div');
+  wrap.className = 'e8-ff-wrap';
+
+  const bracketRow = document.createElement('div');
+  bracketRow.className = 'region-bracket';
+  bracketRow.style.minWidth = (148 + 10 + 148) + 'px';
+
+  // Left: 4 E8 matchups
+  const leftCol = document.createElement('div');
+  leftCol.className = 'round-col';
+  leftCol.innerHTML = '<div class="round-header">Elite Eight</div>';
+  const leftSlots = document.createElement('div');
+  leftSlots.className = 'round-slots';
+  e8Order.forEach(key => {
+    const m = DATA.regions[key].rounds[3].matchups[0];
+    const w = document.createElement('div');
+    w.className = 'matchup-wrapper';
+    w.innerHTML = matchupHTML(m);
+    leftSlots.appendChild(w);
+  });
+  leftCol.appendChild(leftSlots);
+  bracketRow.appendChild(leftCol);
+
+  const conn = document.createElement('div');
+  conn.className = 'connector';
+  bracketRow.appendChild(conn);
+
+  // Right: 2 Final Four games
+  const rightCol = document.createElement('div');
+  rightCol.className = 'round-col';
+  rightCol.innerHTML = '<div class="round-header">Final Four</div>';
+  const rightSlots = document.createElement('div');
+  rightSlots.className = 'round-slots';
+  DATA.finalFour.forEach(m => {
+    const w = document.createElement('div');
+    w.className = 'matchup-wrapper';
+    w.innerHTML = matchupHTML(m);
+    rightSlots.appendChild(w);
+  });
+  rightCol.appendChild(rightSlots);
+  bracketRow.appendChild(rightCol);
+
+  wrap.appendChild(bracketRow);
+  return wrap;
+}
+
+// ══════════════════════════════════════════════════════
+//  REMAINING TEAMS MODAL
+// ══════════════════════════════════════════════════════
+function getRemainingTeams(player) {
+  const allMatchups = [
+    ...DATA.firstFour,
+    ...Object.values(DATA.regions).flatMap(r => r.rounds.flatMap(rd => rd.matchups)),
+    ...DATA.finalFour,
+    DATA.championship,
+  ];
+  const eliminated = new Set();
+  allMatchups.forEach(m => {
+    if (m.status !== 'final' || !m.winner) return;
+    const loser = m.winner === 1 ? m.t2 : m.t1;
+    if (loser.name && loser.name !== 'TBD') eliminated.add(loser.name.toLowerCase());
+  });
+  const seen = new Set();
+  const remaining = [];
+  allMatchups.forEach(m => {
+    [m.t1, m.t2].forEach(t => {
+      if (!t.name || t.name === 'TBD') return;
+      const key = t.name.toLowerCase();
+      if (seen.has(key)) return;
+      seen.add(key);
+      const o = t.owner || owner(t.name) || owner(t.espn || '');
+      if (o === player && !eliminated.has(key)) remaining.push(t.name);
+    });
+  });
+  return remaining.sort();
+}
+
+function showTeams(player) {
+  const teams = getRemainingTeams(player);
+  const modal = document.getElementById('teamsModal');
+  const title = document.getElementById('teamsModalTitle');
+  const list  = document.getElementById('teamsModalList');
+  title.textContent = (player === ALEX ? 'Alex' : 'Greg') + "'s Remaining Teams (" + teams.length + ')';
+  title.className = 'teams-modal-title ' + player;
+  list.innerHTML = teams.length
+    ? teams.map(n => `<li class="teams-modal-item">${n}</li>`).join('')
+    : '<li class="teams-modal-item" style="color:#555">No teams remaining</li>';
+  modal.classList.add('open');
+}
+
+function closeTeamsModal() {
+  document.getElementById('teamsModal').classList.remove('open');
+}
+
 function renderRoundTab(roundIndex, containerId, dollarsPerTeam) {
   const container = document.getElementById(containerId);
   const regionKeys = ['east','west','south','midwest'];
@@ -1465,26 +1583,34 @@ function renderRoundTab(roundIndex, containerId, dollarsPerTeam) {
       ? `${count} team${count !== 1 ? 's' : ''} · $${money}`
       : `${count} team${count !== 1 ? 's' : ''}`;
 
-  // Show current round → next round (cap at last region round)
-  const maxRound = DATA.regions['east'].rounds.length - 1;
-  const toRound = Math.min(maxRound, roundIndex + 1);
+  const banner = `<div class="round-score-banner">
+    <span class="round-score-alex" onclick="showTeams('${ALEX}')">Alex: ${fmt(alexCount, alexMoney)}</span>
+    <span class="round-score-greg" onclick="showTeams('${GREG}')">Greg: ${fmt(gregCount, gregMoney)}</span>
+  </div>`;
 
+  // E8 tab: special combined E8→FF bracket
+  if (roundIndex === 3) {
+    container.innerHTML = banner;
+    container.appendChild(buildE8toFFBracket());
+    return;
+  }
+
+  // R32/S16: show all remaining region rounds (roundIndex → E8), mirrored for West/Midwest
+  const toRound = DATA.regions['east'].rounds.length - 1; // always through E8
   const grid = document.createElement('div');
   grid.className = 'full-regions-grid';
 
   regionKeys.forEach(key => {
+    const reversed = REVERSED_REGIONS.has(key);
     const region = DATA.regions[key];
     const block = document.createElement('div');
     block.className = 'full-region-block';
     block.innerHTML = `<div class="full-region-title">${region.name}</div>`;
-    block.appendChild(buildRoundBracketEl(key, roundIndex, toRound));
+    block.appendChild(buildRoundBracketEl(key, roundIndex, toRound, reversed));
     grid.appendChild(block);
   });
 
-  container.innerHTML = `<div class="round-score-banner">
-    <span class="round-score-alex">Alex: ${fmt(alexCount, alexMoney)}</span>
-    <span class="round-score-greg">Greg: ${fmt(gregCount, gregMoney)}</span>
-  </div>`;
+  container.innerHTML = banner;
   container.appendChild(grid);
 }
 
