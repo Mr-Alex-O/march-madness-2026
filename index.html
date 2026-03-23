@@ -636,7 +636,7 @@
 </div>
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.31 · March Madness 2026
+  v1.32 · March Madness 2026
 </div>
 
 <script>
@@ -1259,12 +1259,13 @@ async function updateScores() {
         }
       }
 
-      // Pass 1: resolve R64 games
-      applyGames();
-      // Advance R64 winners into R32 slots so pass 2 can find them
-      advanceWinners();
-      // Pass 2: match newly populated R32+ slots against ESPN schedule data
-      applyGames();
+      // Iterative passes: each pass resolves the current frontier, then
+      // advanceWinners opens up the next round for the following pass.
+      // 4 rounds (R64→R32→S16→E8) need up to 4 iterations.
+      for (let pass = 0; pass < 4; pass++) {
+        applyGames();
+        advanceWinners();
+      }
 
       if (DATA.championship.status === 'final' && DATA.championship.winner) {
         const cw = DATA.championship.winner === 1 ? DATA.championship.t1 : DATA.championship.t2;
