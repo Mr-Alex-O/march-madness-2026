@@ -1,5 +1,5 @@
 {
-  "ts": "2026-03-24T20:04:31Z",
+  "ts": "2026-03-24T20:58:21Z",
   "events": [
     {
       "id": "401856478",
@@ -45304,7 +45304,7 @@
               "source": "espn",
               "headline": "St. John's stuns Kansas at the buzzer to reach Sweet 16",
               "description": "Dylan Darling's first basket of the game is a layup as time expires to win it for St. John's in dramatic fashion.",
-              "lastModified": "2026-03-23T02:04:52Z",
+              "lastModified": "2026-03-24T20:50:26Z",
               "originalPublishDate": "2026-03-22T23:51:05Z",
               "duration": 49,
               "timeRestrictions": {
@@ -47423,7 +47423,7 @@
               "source": "espn",
               "headline": "Latrell Wrightsell puts Alabama up big with 3",
               "description": "Latrell Wrightsell knocks down his sixth 3-pointer to give the Crimson Tide a comfortable margin.",
-              "lastModified": "2026-03-24T01:07:39Z",
+              "lastModified": "2026-03-24T20:56:28Z",
               "originalPublishDate": "2026-03-23T04:08:49Z",
               "duration": 20,
               "timeRestrictions": {
@@ -49654,6 +49654,118 @@
               "region": "us"
             }
           ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Ja’Kobi Gillespie and Bishop Boswell are roommates on the road and the Tennessee standouts suggested they spend almost every moment — from the practice court to the weight room to social activities — together.",
+              "shortLinkText": "Tennessee reaches its 4th straight Sweet 16, beating Virginia 79-72 in March Madness",
+              "video": [
+                {
+                  "id": 48283343,
+                  "source": "espn",
+                  "headline": "Tennessee hangs on to knock off Virginia and advance to Sweet 16",
+                  "thumbnail": "https://a.espncdn.com/media/motion/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610.jpg",
+                  "duration": 42,
+                  "tracking": {
+                    "sportName": "basketball",
+                    "leagueName": "NCAA Men's Basketball",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "NCB_One-Play (Tennessee hangs on to knock off Virginia and advance to Sweet 16) 2026/03/22 ESHEET",
+                    "trackingId": "dm_20260322_NCB_tennessee_hangs_on_to_knock_off_virginia_and_advance_to_sweet_16",
+                    "program": "NCAA Mens Basketball"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ]
+                  },
+                  "geoRestrictions": {
+                    "type": "whitelist",
+                    "countries": [
+                      "AS",
+                      "PR",
+                      "MP",
+                      "VI",
+                      "UM",
+                      "US",
+                      "GU"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=48283343",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=48283343",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=6446b30c35f3d"
+                        }
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=48283343"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/13deecbd-246f-4feb-b1b8-4437366c2bab/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48283343"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/13deecbd-246f-4feb-b1b8-4437366c2bab/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48283343"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/48283343"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/13deecbd-246f-4feb-b1b8-4437366c2bab"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/13deecbd-246f-4feb-b1b8-4437366c2bab/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=48283343&videoDSI=6446b30c35f3d"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
           "highlights": [
             {
               "id": 48283343,
@@ -49769,118 +49881,6 @@
                 "trackingId": "dm_20260322_NCB_tennessee_hangs_on_to_knock_off_virginia_and_advance_to_sweet_16",
                 "program": "NCAA Mens Basketball"
               }
-            }
-          ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Ja’Kobi Gillespie and Bishop Boswell are roommates on the road and the Tennessee standouts suggested they spend almost every moment — from the practice court to the weight room to social activities — together.",
-              "shortLinkText": "Tennessee reaches its 4th straight Sweet 16, beating Virginia 79-72 in March Madness",
-              "video": [
-                {
-                  "id": 48283343,
-                  "source": "espn",
-                  "headline": "Tennessee hangs on to knock off Virginia and advance to Sweet 16",
-                  "thumbnail": "https://a.espncdn.com/media/motion/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610.jpg",
-                  "duration": 42,
-                  "tracking": {
-                    "sportName": "basketball",
-                    "leagueName": "NCAA Men's Basketball",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "NCB_One-Play (Tennessee hangs on to knock off Virginia and advance to Sweet 16) 2026/03/22 ESHEET",
-                    "trackingId": "dm_20260322_NCB_tennessee_hangs_on_to_knock_off_virginia_and_advance_to_sweet_16",
-                    "program": "NCAA Mens Basketball"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "settop",
-                      "tablet",
-                      "handset",
-                      "ipad",
-                      "desktop"
-                    ]
-                  },
-                  "geoRestrictions": {
-                    "type": "whitelist",
-                    "countries": [
-                      "AS",
-                      "PR",
-                      "MP",
-                      "VI",
-                      "UM",
-                      "US",
-                      "GU"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=48283343",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=48283343",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=6446b30c35f3d"
-                        }
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=48283343"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/13deecbd-246f-4feb-b1b8-4437366c2bab/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48283343"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/13deecbd-246f-4feb-b1b8-4437366c2bab/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48283343"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/48283343"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/13deecbd-246f-4feb-b1b8-4437366c2bab"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/13deecbd-246f-4feb-b1b8-4437366c2bab/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/2026/0322/ss_20260322_204325214_3456610/ss_20260322_204325214_3456610_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=48283343&videoDSI=6446b30c35f3d"
-                    }
-                  }
-                }
-              ]
             }
           ]
         }
@@ -53024,12 +53024,12 @@
               "source": "espn",
               "headline": "Brayden Burries drills a dagger 3 for Arizona",
               "description": "Brayden Burries winds the clock down before sinking a big 3-pointer for the Wildcats.",
-              "lastModified": "2026-03-24T01:15:49Z",
+              "lastModified": "2026-03-24T20:47:51Z",
               "originalPublishDate": "2026-03-23T03:08:32Z",
               "duration": 21,
               "timeRestrictions": {
                 "embargoDate": "2026-03-23T03:08:31Z",
-                "expirationDate": "2037-12-31T05:00:00Z"
+                "expirationDate": "2026-06-30T04:00:00Z"
               },
               "deviceRestrictions": {
                 "type": "whitelist",
@@ -54056,7 +54056,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $460",
-              "numberAvailable": 959,
+              "numberAvailable": 945,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-south-regional-tickets-toyota-center---tx-3-26-2026--sports-ncaa-basketball/production/5687584?wsUser=717"
@@ -54123,7 +54123,7 @@
                 ]
               },
               "details": "HOU -3.5",
-              "overUnder": 139.5,
+              "overUnder": 140.5,
               "spread": -3.5,
               "awayTeamOdds": {
                 "favorite": false,
@@ -54296,8 +54296,8 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o139.5",
-                    "odds": "-115",
+                    "line": "o140.5",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -54305,7 +54305,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33858298%3Foutcomes%3D0OU83978203O13950_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33858298%3Foutcomes%3D0OU83978203O14050_1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -54318,7 +54318,7 @@
                           "gameId": 401856566,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:139.5"
+                          "betDetails": "Over:140.5"
                         }
                       }
                     }
@@ -54330,8 +54330,8 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u139.5",
-                    "odds": "-105",
+                    "line": "u140.5",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -54339,7 +54339,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33858298%3Foutcomes%3D0OU83978203U13950_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33858298%3Foutcomes%3D0OU83978203U14050_3",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -54352,7 +54352,7 @@
                           "gameId": 401856566,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:139.5"
+                          "betDetails": "Under:140.5"
                         }
                       }
                     }
@@ -55149,7 +55149,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $460",
-              "numberAvailable": 959,
+              "numberAvailable": 934,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-south-regional-tickets-toyota-center---tx-3-26-2026--sports-ncaa-basketball/production/5687584?wsUser=717"
@@ -56240,7 +56240,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $198",
-              "numberAvailable": 924,
+              "numberAvailable": 1345,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-west-regional-tickets-sap-center-3-26-2026--sports-ncaa-basketball/production/5687640?wsUser=717"
@@ -56292,9 +56292,9 @@
                 ],
                 "displayName": "Draft Kings"
               },
-              "details": "PUR -6.5",
+              "details": "PUR -7.5",
               "overUnder": 148.5,
-              "spread": -6.5,
+              "spread": -7.5,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
@@ -56394,8 +56394,8 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "-6.5",
-                    "odds": "-112",
+                    "line": "-7.5",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -56403,7 +56403,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33861127%3Foutcomes%3D0HC83986087N650_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33861127%3Foutcomes%3D0HC83986087N750_1",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -56416,7 +56416,7 @@
                           "gameId": 401856568,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:PUR-6.5"
+                          "betDetails": "Spread:PUR-7.5"
                         }
                       }
                     }
@@ -56428,8 +56428,8 @@
                 },
                 "away": {
                   "close": {
-                    "line": "+6.5",
-                    "odds": "-108",
+                    "line": "+7.5",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -56437,7 +56437,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33861127%3Foutcomes%3D0HC83986087P650_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33861127%3Foutcomes%3D0HC83986087P750_3",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -56450,7 +56450,7 @@
                           "gameId": 401856568,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:TEX+6.5"
+                          "betDetails": "Spread:TEX+7.5"
                         }
                       }
                     }
@@ -57318,7 +57318,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $198",
-              "numberAvailable": 924,
+              "numberAvailable": 1345,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-west-regional-tickets-sap-center-3-26-2026--sports-ncaa-basketball/production/5687640?wsUser=717"
