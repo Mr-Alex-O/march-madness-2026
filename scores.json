@@ -1,5 +1,5 @@
 {
-  "ts": "2026-03-26T07:52:38Z",
+  "ts": "2026-03-26T08:39:27Z",
   "events": [
     {
       "id": "401856478",
@@ -54157,7 +54157,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-162",
+                    "odds": "-155",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -54189,7 +54189,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+136",
+                    "odds": "+130",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -54298,7 +54298,7 @@
                 "over": {
                   "close": {
                     "line": "o139.5",
-                    "odds": "-115",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -54332,7 +54332,7 @@
                 "under": {
                   "close": {
                     "line": "u139.5",
-                    "odds": "-105",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -54648,6 +54648,32 @@
                   "rankDisplayValue": "154th"
                 }
               ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "type": "total",
+                  "summary": "28-6"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "16-2"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "7-3"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "type": "vsconf",
+                  "summary": "15-5"
+                }
+              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -54768,32 +54794,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "type": "total",
-                  "summary": "28-6"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "16-2"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "7-3"
-                },
-                {
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "type": "vsconf",
-                  "summary": "15-5"
                 }
               ]
             },
@@ -56242,7 +56242,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $142",
-              "numberAvailable": 756,
+              "numberAvailable": 795,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-west-regional-tickets-sap-center-3-26-2026--sports-ncaa-basketball/production/5687640?wsUser=717"
@@ -57320,7 +57320,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $142",
-              "numberAvailable": 756,
+              "numberAvailable": 795,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-west-regional-tickets-sap-center-3-26-2026--sports-ncaa-basketball/production/5687640?wsUser=717"
@@ -58397,7 +58397,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $355",
-              "numberAvailable": 1076,
+              "numberAvailable": 1084,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-east-regional-tickets-capital-one-arena-3-27-2026--sports-ncaa-basketball/production/5687589?wsUser=717"
@@ -59475,7 +59475,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $355",
-              "numberAvailable": 1076,
+              "numberAvailable": 1084,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-east-regional-tickets-capital-one-arena-3-27-2026--sports-ncaa-basketball/production/5687589?wsUser=717"
@@ -60553,7 +60553,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $286",
-              "numberAvailable": 1823,
+              "numberAvailable": 1820,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-midwest-regional-tickets-united-center-3-27-2026--sports-ncaa-basketball/production/5687571?wsUser=717"
