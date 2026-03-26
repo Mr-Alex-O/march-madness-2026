@@ -1,5 +1,5 @@
 {
-  "ts": "2026-03-25T23:27:04Z",
+  "ts": "2026-03-26T00:01:48Z",
   "events": [
     {
       "id": "401856478",
@@ -54056,8 +54056,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $297",
-              "numberAvailable": 1248,
+              "summary": "Tickets as low as $284",
+              "numberAvailable": 1246,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-south-regional-tickets-toyota-center---tx-3-26-2026--sports-ncaa-basketball/production/5687584?wsUser=717"
@@ -55149,8 +55149,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $297",
-              "numberAvailable": 1248,
+              "summary": "Tickets as low as $284",
+              "numberAvailable": 1246,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-south-regional-tickets-toyota-center---tx-3-26-2026--sports-ncaa-basketball/production/5687584?wsUser=717"
@@ -56242,7 +56242,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $130",
-              "numberAvailable": 1175,
+              "numberAvailable": 1162,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-west-regional-tickets-sap-center-3-26-2026--sports-ncaa-basketball/production/5687640?wsUser=717"
@@ -57320,7 +57320,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $130",
-              "numberAvailable": 1175,
+              "numberAvailable": 1162,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-west-regional-tickets-sap-center-3-26-2026--sports-ncaa-basketball/production/5687640?wsUser=717"
@@ -58397,7 +58397,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $397",
-              "numberAvailable": 1317,
+              "numberAvailable": 1294,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-east-regional-tickets-capital-one-arena-3-27-2026--sports-ncaa-basketball/production/5687589?wsUser=717"
@@ -59475,7 +59475,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $397",
-              "numberAvailable": 1317,
+              "numberAvailable": 1294,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-east-regional-tickets-capital-one-arena-3-27-2026--sports-ncaa-basketball/production/5687589?wsUser=717"
@@ -60553,7 +60553,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $276",
-              "numberAvailable": 1877,
+              "numberAvailable": 1856,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-midwest-regional-tickets-united-center-3-27-2026--sports-ncaa-basketball/production/5687571?wsUser=717"
@@ -61646,7 +61646,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $276",
-              "numberAvailable": 1877,
+              "numberAvailable": 1856,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-midwest-regional-tickets-united-center-3-27-2026--sports-ncaa-basketball/production/5687571?wsUser=717"
@@ -62033,6 +62033,302 @@
           "description": "Scheduled",
           "detail": "Fri, March 27th at 10:10 PM EDT",
           "shortDetail": "3/27 - 10:10 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "401856574",
+      "uid": "s:40~l:41~e:401856574",
+      "date": "2026-03-28T04:00Z",
+      "name": "TBD at TBD",
+      "shortName": "TBD VS TBD",
+      "season": {
+        "year": 2026,
+        "type": 3,
+        "slug": "post-season"
+      },
+      "competitions": [
+        {
+          "id": "401856574",
+          "uid": "s:40~l:41~e:401856574~c:401856574",
+          "date": "2026-03-28T04:00Z",
+          "attendance": 0,
+          "type": {
+            "id": "6",
+            "abbreviation": "TRNMNT"
+          },
+          "timeValid": false,
+          "neutralSite": true,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": false,
+          "recent": false,
+          "venue": {
+            "id": "1394",
+            "fullName": "Toyota Center (Houston)",
+            "address": {
+              "city": "Houston",
+              "state": "TX"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "-1",
+              "uid": "s:40~l:41~t:-1",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "name": "TBD",
+              "team": {
+                "id": "-1",
+                "uid": "s:40~l:41~t:-1",
+                "location": "TBD",
+                "name": "TBD",
+                "abbreviation": "TBD",
+                "displayName": "TBD",
+                "shortDisplayName": "TBD",
+                "isActive": false,
+                "links": []
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": []
+            },
+            {
+              "id": "-2",
+              "uid": "s:40~l:41~t:-2",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "name": "TBD",
+              "team": {
+                "id": "-2",
+                "uid": "s:40~l:41~t:-2",
+                "location": "TBD",
+                "name": "TBD",
+                "abbreviation": "TBD",
+                "displayName": "TBD",
+                "shortDisplayName": "TBD",
+                "isActive": false,
+                "links": []
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": []
+            }
+          ],
+          "notes": [
+            {
+              "type": "event",
+              "headline": "NCAA Men's Basketball Championship - South Region - Elite 8"
+            }
+          ],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "3/28 - TBD",
+              "shortDetail": "TBD"
+            }
+          },
+          "broadcasts": [],
+          "tournamentId": 22,
+          "format": {
+            "regulation": {
+              "periods": 2
+            }
+          },
+          "startDate": "2026-03-28T04:00Z",
+          "broadcast": "",
+          "geoBroadcasts": [],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856574/tbd-tbd",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "completed": false,
+          "description": "Scheduled",
+          "detail": "3/28 - TBD",
+          "shortDetail": "TBD"
+        }
+      }
+    },
+    {
+      "id": "401856575",
+      "uid": "s:40~l:41~e:401856575",
+      "date": "2026-03-28T04:00Z",
+      "name": "TBD at TBD",
+      "shortName": "TBD VS TBD",
+      "season": {
+        "year": 2026,
+        "type": 3,
+        "slug": "post-season"
+      },
+      "competitions": [
+        {
+          "id": "401856575",
+          "uid": "s:40~l:41~e:401856575~c:401856575",
+          "date": "2026-03-28T04:00Z",
+          "attendance": 0,
+          "type": {
+            "id": "6",
+            "abbreviation": "TRNMNT"
+          },
+          "timeValid": false,
+          "neutralSite": true,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": false,
+          "recent": false,
+          "venue": {
+            "id": "1653",
+            "fullName": "SAP Center at San Jose",
+            "address": {
+              "city": "San Jose",
+              "state": "CA"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "-1",
+              "uid": "s:40~l:41~t:-1",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "name": "TBD",
+              "team": {
+                "id": "-1",
+                "uid": "s:40~l:41~t:-1",
+                "location": "TBD",
+                "name": "TBD",
+                "abbreviation": "TBD",
+                "displayName": "TBD",
+                "shortDisplayName": "TBD",
+                "isActive": false,
+                "links": []
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": []
+            },
+            {
+              "id": "-2",
+              "uid": "s:40~l:41~t:-2",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "name": "TBD",
+              "team": {
+                "id": "-2",
+                "uid": "s:40~l:41~t:-2",
+                "location": "TBD",
+                "name": "TBD",
+                "abbreviation": "TBD",
+                "displayName": "TBD",
+                "shortDisplayName": "TBD",
+                "isActive": false,
+                "links": []
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": []
+            }
+          ],
+          "notes": [
+            {
+              "type": "event",
+              "headline": "NCAA Men's Basketball Championship - West Region - Elite 8"
+            }
+          ],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "3/28 - TBD",
+              "shortDetail": "TBD"
+            }
+          },
+          "broadcasts": [],
+          "tournamentId": 22,
+          "format": {
+            "regulation": {
+              "periods": 2
+            }
+          },
+          "startDate": "2026-03-28T04:00Z",
+          "broadcast": "",
+          "geoBroadcasts": [],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856575/tbd-tbd",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "completed": false,
+          "description": "Scheduled",
+          "detail": "3/28 - TBD",
+          "shortDetail": "TBD"
         }
       }
     }
