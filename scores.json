@@ -1,5 +1,5 @@
 {
-  "ts": "2026-03-26T22:50:39Z",
+  "ts": "2026-03-26T23:18:55Z",
   "events": [
     {
       "id": "401856478",
@@ -54056,8 +54056,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $184",
-              "numberAvailable": 684,
+              "summary": "Tickets as low as $181",
+              "numberAvailable": 265,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-south-regional-tickets-toyota-center---tx-3-26-2026--sports-ncaa-basketball/production/5687584?wsUser=717"
@@ -55149,8 +55149,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $184",
-              "numberAvailable": 684,
+              "summary": "Tickets as low as $181",
+              "numberAvailable": 265,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-south-regional-tickets-toyota-center---tx-3-26-2026--sports-ncaa-basketball/production/5687584?wsUser=717"
@@ -55214,7 +55214,8 @@
                       "dark"
                     ]
                   }
-                ]
+                ],
+                "displayName": "Draft Kings"
               },
               "details": "NEB -1.5",
               "overUnder": 131.5,
@@ -55391,7 +55392,7 @@
                 "over": {
                   "close": {
                     "line": "o131.5",
-                    "odds": "-115",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -55425,7 +55426,7 @@
                 "under": {
                   "close": {
                     "line": "u131.5",
-                    "odds": "-105",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -55564,7 +55565,7 @@
           "timeValid": true,
           "neutralSite": true,
           "conferenceCompetition": false,
-          "playByPlayAvailable": false,
+          "playByPlayAvailable": true,
           "recent": true,
           "venue": {
             "id": "1653",
@@ -55645,102 +55646,256 @@
                 "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
                 "conferenceId": "7"
               },
-              "score": "0",
-              "curatedRank": {
-                "current": 2
-              },
+              "score": "14",
+              "linescores": [
+                {
+                  "value": 14.0,
+                  "displayValue": "14",
+                  "period": 1
+                }
+              ],
               "statistics": [
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "1306",
-                  "rankDisplayValue": "110th"
+                  "displayValue": "6"
                 },
                 {
                   "name": "avgRebounds",
                   "abbreviation": "REB",
-                  "displayValue": "35.3",
-                  "rankDisplayValue": "224th"
+                  "displayValue": "6.0"
                 },
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "738",
-                  "rankDisplayValue": "1st"
+                  "displayValue": "2"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "2206",
-                  "rankDisplayValue": "15th"
+                  "displayValue": "12"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "1110",
-                  "rankDisplayValue": "4th"
+                  "displayValue": "6"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "50.3",
-                  "rankDisplayValue": "13th"
+                  "displayValue": "50.0"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "74.9",
-                  "rankDisplayValue": "185th"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "633",
-                  "rankDisplayValue": "Tied-228th"
+                  "displayValue": "0"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "474",
-                  "rankDisplayValue": "Tied-198th"
+                  "displayValue": "0"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "3041",
-                  "rankDisplayValue": "12th"
+                  "displayValue": "14"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "895",
-                  "rankDisplayValue": "62nd"
+                  "displayValue": "5"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "347",
-                  "rankDisplayValue": "28th"
+                  "displayValue": "2"
                 },
                 {
                   "name": "avgPoints",
                   "abbreviation": "PTS",
-                  "displayValue": "82.2",
-                  "rankDisplayValue": "56th"
+                  "displayValue": "14.0"
                 },
                 {
                   "name": "avgAssists",
                   "abbreviation": "AST",
-                  "displayValue": "19.9",
-                  "rankDisplayValue": "10th"
+                  "displayValue": "2.0"
                 },
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "38.8",
-                  "rankDisplayValue": "50th"
+                  "displayValue": "40.0"
                 }
               ],
+              "leaders": [
+                {
+                  "name": "points",
+                  "displayName": "Points",
+                  "shortDisplayName": "Pts",
+                  "abbreviation": "Pts",
+                  "leaders": [
+                    {
+                      "displayValue": "6",
+                      "value": 6.0,
+                      "athlete": {
+                        "id": "5175591",
+                        "fullName": "C.J. Cox",
+                        "displayName": "C.J. Cox",
+                        "shortName": "C.J. Cox",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5175591/cj-cox"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5175591.png",
+                        "jersey": "0",
+                        "position": {
+                          "abbreviation": "G"
+                        },
+                        "team": {
+                          "id": "2509"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "2509"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "rebounds",
+                  "displayName": "Rebounds",
+                  "shortDisplayName": "Reb",
+                  "abbreviation": "Reb",
+                  "leaders": [
+                    {
+                      "displayValue": "4",
+                      "value": 4.0,
+                      "athlete": {
+                        "id": "5175591",
+                        "fullName": "C.J. Cox",
+                        "displayName": "C.J. Cox",
+                        "shortName": "C.J. Cox",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5175591/cj-cox"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5175591.png",
+                        "jersey": "0",
+                        "position": {
+                          "abbreviation": "G"
+                        },
+                        "team": {
+                          "id": "2509"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "2509"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "assists",
+                  "displayName": "Assists",
+                  "shortDisplayName": "Ast",
+                  "abbreviation": "Ast",
+                  "leaders": [
+                    {
+                      "displayValue": "1",
+                      "value": 1.0,
+                      "athlete": {
+                        "id": "5105854",
+                        "fullName": "Braden Smith",
+                        "displayName": "Braden Smith",
+                        "shortName": "B. Smith",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5105854/braden-smith"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5105854.png",
+                        "jersey": "3",
+                        "position": {
+                          "abbreviation": "G"
+                        },
+                        "team": {
+                          "id": "2509"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "2509"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "rating",
+                  "displayName": "Rating",
+                  "shortDisplayName": "RAT",
+                  "abbreviation": "RAT",
+                  "leaders": [
+                    {
+                      "displayValue": "6 PTS",
+                      "value": 13.0,
+                      "athlete": {
+                        "id": "5175591",
+                        "fullName": "C.J. Cox",
+                        "displayName": "C.J. Cox",
+                        "shortName": "C.J. Cox",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5175591/cj-cox"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5175591.png",
+                        "jersey": "0",
+                        "position": {
+                          "abbreviation": "G"
+                        },
+                        "team": {
+                          "id": "2509"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "2509"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "curatedRank": {
+                "current": 2
+              },
               "records": [
                 {
                   "name": "overall",
@@ -55765,128 +55920,6 @@
                   "abbreviation": "VS CONF",
                   "type": "vsconf",
                   "summary": "13-7"
-                }
-              ],
-              "leaders": [
-                {
-                  "name": "pointsPerGame",
-                  "displayName": "Points Per Game",
-                  "shortDisplayName": "PPG",
-                  "abbreviation": "PTS",
-                  "leaders": [
-                    {
-                      "displayValue": "14.3",
-                      "value": 14.270270347595215,
-                      "athlete": {
-                        "id": "5105854",
-                        "fullName": "Braden Smith",
-                        "displayName": "Braden Smith",
-                        "shortName": "B. Smith",
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5105854/braden-smith"
-                          }
-                        ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5105854.png",
-                        "jersey": "3",
-                        "position": {
-                          "abbreviation": "G"
-                        },
-                        "team": {
-                          "id": "2509"
-                        },
-                        "active": true
-                      },
-                      "team": {
-                        "id": "2509"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "name": "reboundsPerGame",
-                  "displayName": "Rebounds Per Game",
-                  "shortDisplayName": "RPG",
-                  "abbreviation": "REB",
-                  "leaders": [
-                    {
-                      "displayValue": "8.5",
-                      "value": 8.514286041259766,
-                      "athlete": {
-                        "id": "4897438",
-                        "fullName": "Trey Kaufman-Renn",
-                        "displayName": "Trey Kaufman-Renn",
-                        "shortName": "T. Kaufman-Renn",
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4897438/trey-kaufman-renn"
-                          }
-                        ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897438.png",
-                        "jersey": "4",
-                        "position": {
-                          "abbreviation": "F"
-                        },
-                        "team": {
-                          "id": "2509"
-                        },
-                        "active": true
-                      },
-                      "team": {
-                        "id": "2509"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "name": "assistsPerGame",
-                  "displayName": "Assists Per Game",
-                  "shortDisplayName": "APG",
-                  "abbreviation": "AST",
-                  "leaders": [
-                    {
-                      "displayValue": "9.0",
-                      "value": 9.0,
-                      "athlete": {
-                        "id": "5105854",
-                        "fullName": "Braden Smith",
-                        "displayName": "Braden Smith",
-                        "shortName": "B. Smith",
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5105854/braden-smith"
-                          }
-                        ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5105854.png",
-                        "jersey": "3",
-                        "position": {
-                          "abbreviation": "G"
-                        },
-                        "team": {
-                          "id": "2509"
-                        },
-                        "active": true
-                      },
-                      "team": {
-                        "id": "2509"
-                      }
-                    }
-                  ]
                 }
               ]
             },
@@ -55959,102 +55992,256 @@
                 "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
                 "conferenceId": "23"
               },
-              "score": "0",
-              "curatedRank": {
-                "current": 11
-              },
+              "score": "12",
+              "linescores": [
+                {
+                  "value": 12.0,
+                  "displayValue": "12",
+                  "period": 1
+                }
+              ],
               "statistics": [
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "1319",
-                  "rankDisplayValue": "Tied-97th"
+                  "displayValue": "4"
                 },
                 {
                   "name": "avgRebounds",
                   "abbreviation": "REB",
-                  "displayValue": "37.7",
-                  "rankDisplayValue": "Tied-81st"
+                  "displayValue": "4.0"
                 },
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "438",
-                  "rankDisplayValue": "Tied-205th"
+                  "displayValue": "2"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "2045",
-                  "rankDisplayValue": "81st"
+                  "displayValue": "10"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "988",
-                  "rankDisplayValue": "Tied-41st"
+                  "displayValue": "5"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "48.3",
-                  "rankDisplayValue": "44th"
+                  "displayValue": "50.0"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "74.6",
-                  "rankDisplayValue": "193rd"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "899",
-                  "rankDisplayValue": "11th"
+                  "displayValue": "0"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "671",
-                  "rankDisplayValue": "9th"
+                  "displayValue": "0"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "2902",
-                  "rankDisplayValue": "29th"
+                  "displayValue": "12"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "725",
-                  "rankDisplayValue": "Tied-211th"
+                  "displayValue": "6"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "255",
-                  "rankDisplayValue": "182nd"
+                  "displayValue": "2"
                 },
                 {
                   "name": "avgPoints",
                   "abbreviation": "PTS",
-                  "displayValue": "82.9",
-                  "rankDisplayValue": "44th"
+                  "displayValue": "12.0"
                 },
                 {
                   "name": "avgAssists",
                   "abbreviation": "AST",
-                  "displayValue": "12.5",
-                  "rankDisplayValue": "369th"
+                  "displayValue": "2.0"
                 },
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "35.2",
-                  "rankDisplayValue": "175th"
+                  "displayValue": "33.3"
                 }
               ],
+              "leaders": [
+                {
+                  "name": "points",
+                  "displayName": "Points",
+                  "shortDisplayName": "Pts",
+                  "abbreviation": "Pts",
+                  "leaders": [
+                    {
+                      "displayValue": "5",
+                      "value": 5.0,
+                      "athlete": {
+                        "id": "4432243",
+                        "fullName": "Tramon Mark",
+                        "displayName": "Tramon Mark",
+                        "shortName": "T. Mark",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4432243/tramon-mark"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4432243.png",
+                        "jersey": "12",
+                        "position": {
+                          "abbreviation": "G"
+                        },
+                        "team": {
+                          "id": "251"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "251"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "rebounds",
+                  "displayName": "Rebounds",
+                  "shortDisplayName": "Reb",
+                  "abbreviation": "Reb",
+                  "leaders": [
+                    {
+                      "displayValue": "2",
+                      "value": 2.0,
+                      "athlete": {
+                        "id": "4848625",
+                        "fullName": "Dailyn Swain",
+                        "displayName": "Dailyn Swain",
+                        "shortName": "D. Swain",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4848625/dailyn-swain"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4848625.png",
+                        "jersey": "3",
+                        "position": {
+                          "abbreviation": "G"
+                        },
+                        "team": {
+                          "id": "251"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "251"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "assists",
+                  "displayName": "Assists",
+                  "shortDisplayName": "Ast",
+                  "abbreviation": "Ast",
+                  "leaders": [
+                    {
+                      "displayValue": "1",
+                      "value": 1.0,
+                      "athlete": {
+                        "id": "5105624",
+                        "fullName": "Jordan Pope",
+                        "displayName": "Jordan Pope",
+                        "shortName": "J. Pope",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5105624/jordan-pope"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5105624.png",
+                        "jersey": "0",
+                        "position": {
+                          "abbreviation": "G"
+                        },
+                        "team": {
+                          "id": "251"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "251"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "rating",
+                  "displayName": "Rating",
+                  "shortDisplayName": "RAT",
+                  "abbreviation": "RAT",
+                  "leaders": [
+                    {
+                      "displayValue": "5 PTS",
+                      "value": 8.699999809265137,
+                      "athlete": {
+                        "id": "4432243",
+                        "fullName": "Tramon Mark",
+                        "displayName": "Tramon Mark",
+                        "shortName": "T. Mark",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4432243/tramon-mark"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4432243.png",
+                        "jersey": "12",
+                        "position": {
+                          "abbreviation": "G"
+                        },
+                        "team": {
+                          "id": "251"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "251"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "curatedRank": {
+                "current": 11
+              },
               "records": [
                 {
                   "name": "overall",
@@ -56080,128 +56267,6 @@
                   "type": "vsconf",
                   "summary": "9-9"
                 }
-              ],
-              "leaders": [
-                {
-                  "name": "pointsPerGame",
-                  "displayName": "Points Per Game",
-                  "shortDisplayName": "PPG",
-                  "abbreviation": "PTS",
-                  "leaders": [
-                    {
-                      "displayValue": "17.4",
-                      "value": 17.371429443359375,
-                      "athlete": {
-                        "id": "4848625",
-                        "fullName": "Dailyn Swain",
-                        "displayName": "Dailyn Swain",
-                        "shortName": "D. Swain",
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4848625/dailyn-swain"
-                          }
-                        ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4848625.png",
-                        "jersey": "3",
-                        "position": {
-                          "abbreviation": "G"
-                        },
-                        "team": {
-                          "id": "251"
-                        },
-                        "active": true
-                      },
-                      "team": {
-                        "id": "251"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "name": "reboundsPerGame",
-                  "displayName": "Rebounds Per Game",
-                  "shortDisplayName": "RPG",
-                  "abbreviation": "REB",
-                  "leaders": [
-                    {
-                      "displayValue": "7.5",
-                      "value": 7.485714435577393,
-                      "athlete": {
-                        "id": "4848625",
-                        "fullName": "Dailyn Swain",
-                        "displayName": "Dailyn Swain",
-                        "shortName": "D. Swain",
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4848625/dailyn-swain"
-                          }
-                        ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4848625.png",
-                        "jersey": "3",
-                        "position": {
-                          "abbreviation": "G"
-                        },
-                        "team": {
-                          "id": "251"
-                        },
-                        "active": true
-                      },
-                      "team": {
-                        "id": "251"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "name": "assistsPerGame",
-                  "displayName": "Assists Per Game",
-                  "shortDisplayName": "APG",
-                  "abbreviation": "AST",
-                  "leaders": [
-                    {
-                      "displayValue": "3.5",
-                      "value": 3.5428571701049805,
-                      "athlete": {
-                        "id": "4848625",
-                        "fullName": "Dailyn Swain",
-                        "displayName": "Dailyn Swain",
-                        "shortName": "D. Swain",
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4848625/dailyn-swain"
-                          }
-                        ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4848625.png",
-                        "jersey": "3",
-                        "position": {
-                          "abbreviation": "G"
-                        },
-                        "team": {
-                          "id": "251"
-                        },
-                        "active": true
-                      },
-                      "team": {
-                        "id": "251"
-                      }
-                    }
-                  ]
-                }
               ]
             }
           ],
@@ -56211,18 +56276,61 @@
               "headline": "NCAA Men's Basketball Championship - West Region - Sweet 16"
             }
           ],
+          "situation": {
+            "lastPlay": {
+              "id": "401856568120385105",
+              "type": {
+                "id": "558",
+                "text": "JumpShot"
+              },
+              "text": "Braden Smith makes 16-foot pullup jump shot",
+              "scoreValue": 2,
+              "team": {
+                "id": "2509"
+              },
+              "probability": {
+                "tiePercentage": 0.0,
+                "homeWinPercentage": 0.774,
+                "awayWinPercentage": 0.22599999999999998
+              },
+              "athletesInvolved": [
+                {
+                  "id": "5105854",
+                  "fullName": "Braden Smith",
+                  "displayName": "Braden Smith",
+                  "shortName": "B. Smith",
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/mens-college-basketball/player/_/id/5105854/braden-smith"
+                    }
+                  ],
+                  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5105854.png",
+                  "jersey": "3",
+                  "position": "G",
+                  "team": {
+                    "id": "2509"
+                  }
+                }
+              ]
+            }
+          },
           "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 0,
+            "clock": 825.0,
+            "displayClock": "13:45",
+            "period": 1,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
+              "id": "2",
+              "name": "STATUS_IN_PROGRESS",
+              "state": "in",
               "completed": false,
-              "description": "Scheduled",
-              "detail": "Thu, March 26th at 7:10 PM EDT",
-              "shortDetail": "3/26 - 7:10 PM EDT"
+              "description": "In Progress",
+              "detail": "13:45 - 1st Half",
+              "shortDetail": "13:45 - 1st"
             }
           },
           "broadcasts": [
@@ -56239,20 +56347,6 @@
               "periods": 2
             }
           },
-          "tickets": [
-            {
-              "summary": "Tickets as low as $150",
-              "numberAvailable": 426,
-              "links": [
-                {
-                  "href": "https://www.vividseats.com/ncaa-mens-west-regional-tickets-sap-center-3-26-2026--sports-ncaa-basketball/production/5687640?wsUser=717"
-                },
-                {
-                  "href": "https://www.vividseats.com/sap-center-tickets/venue/1504?wsUser=717"
-                }
-              ]
-            }
-          ],
           "startDate": "2026-03-26T23:10Z",
           "broadcast": "CBS",
           "geoBroadcasts": [
@@ -56272,306 +56366,6 @@
               "region": "us"
             }
           ],
-          "odds": [
-            {
-              "provider": {
-                "id": "100",
-                "name": "Draft Kings",
-                "priority": 1,
-                "logos": [
-                  {
-                    "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
-                    "rel": [
-                      "light"
-                    ]
-                  },
-                  {
-                    "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
-                    "rel": [
-                      "dark"
-                    ]
-                  }
-                ],
-                "displayName": "Draft Kings"
-              },
-              "details": "PUR -8.5",
-              "overUnder": 147.5,
-              "spread": -8.5,
-              "awayTeamOdds": {
-                "favorite": false,
-                "underdog": true,
-                "team": {
-                  "id": "251",
-                  "uid": "s:40~l:41~t:251",
-                  "abbreviation": "TEX",
-                  "name": "Longhorns",
-                  "displayName": "Texas Longhorns",
-                  "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png"
-                },
-                "favoriteAtOpen": false
-              },
-              "homeTeamOdds": {
-                "favorite": true,
-                "underdog": false,
-                "team": {
-                  "id": "2509",
-                  "uid": "s:40~l:41~t:2509",
-                  "abbreviation": "PUR",
-                  "name": "Boilermakers",
-                  "displayName": "Purdue Boilermakers",
-                  "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png"
-                },
-                "favoriteAtOpen": true
-              },
-              "moneyline": {
-                "displayName": "Moneyline",
-                "shortDisplayName": "ML",
-                "home": {
-                  "close": {
-                    "odds": "-410",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "home",
-                        "desktop",
-                        "bets",
-                        "draft-kings"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33861127%3Foutcomes%3D0ML83986087_1",
-                      "text": "Home Bet",
-                      "shortText": "Home Bet",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401856568,
-                          "betSide": "home",
-                          "betType": "straight"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "odds": "-345"
-                  }
-                },
-                "away": {
-                  "close": {
-                    "odds": "+320",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "away",
-                        "desktop",
-                        "bets",
-                        "draft-kings"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33861127%3Foutcomes%3D0ML83986087_3",
-                      "text": "Away Bet",
-                      "shortText": "Away Bet",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401856568,
-                          "betSide": "away",
-                          "betType": "straight"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "odds": "+275"
-                  }
-                }
-              },
-              "pointSpread": {
-                "displayName": "Spread",
-                "shortDisplayName": "Spread",
-                "home": {
-                  "close": {
-                    "line": "-8.5",
-                    "odds": "-110",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "homeSpread",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33861127%3Foutcomes%3D0HC83986087N850_1",
-                      "text": "Home Point Spread",
-                      "shortText": "Home Point Spread",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401856568,
-                          "betSide": "none",
-                          "betType": "straight",
-                          "betDetails": "Spread:PUR-8.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "-7.5",
-                    "odds": "-110"
-                  }
-                },
-                "away": {
-                  "close": {
-                    "line": "+8.5",
-                    "odds": "-110",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "awaySpread",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33861127%3Foutcomes%3D0HC83986087P850_3",
-                      "text": "Away Point Spread",
-                      "shortText": "Away Point Spread",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401856568,
-                          "betSide": "none",
-                          "betType": "straight",
-                          "betDetails": "Spread:TEX+8.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "+7.5",
-                    "odds": "-110"
-                  }
-                }
-              },
-              "total": {
-                "displayName": "Total",
-                "shortDisplayName": "Total",
-                "over": {
-                  "close": {
-                    "line": "o147.5",
-                    "odds": "-112",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "over",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33861127%3Foutcomes%3D0OU83986087O14750_1",
-                      "text": "Over Odds",
-                      "shortText": "Over Odds",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401856568,
-                          "betSide": "over",
-                          "betType": "straight",
-                          "betDetails": "Over:147.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "o149.5",
-                    "odds": "-110"
-                  }
-                },
-                "under": {
-                  "close": {
-                    "line": "u147.5",
-                    "odds": "-108",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "under",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33861127%3Foutcomes%3D0OU83986087U14750_3",
-                      "text": "Under Odds",
-                      "shortText": "Under Odds",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401856568,
-                          "betSide": "under",
-                          "betType": "straight",
-                          "betDetails": "Under:147.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "u149.5",
-                    "odds": "-110"
-                  }
-                }
-              },
-              "link": {
-                "language": "en-US",
-                "rel": [
-                  "game",
-                  "desktop",
-                  "bets"
-                ],
-                "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33861127",
-                "text": "See More Odds",
-                "shortText": "Game",
-                "isExternal": true,
-                "isPremium": false,
-                "tracking": {
-                  "campaign": "betting-integrations",
-                  "tags": {
-                    "league": "mens-college-basketball",
-                    "sport": "basketball",
-                    "gameId": 401856568,
-                    "betSide": "none",
-                    "betType": "straight"
-                  }
-                }
-              },
-              "header": {
-                "logo": {
-                  "dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
-                  "light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
-                  "exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
-                  "exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
-                },
-                "text": "Game Odds"
-              },
-              "footer": {
-                "disclaimer": "Odds by DraftKings\nGAMBLING PROBLEM? CALL 1-800-GAMBLER, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nPlease Gamble Responsibly. 888-789-7777/visit ccpg.org (CT), or visit www.mdgamblinghelp.org (MD).\n21+ and present in most states. (18+ DC/KY/NH/WY). Void in ONT/OR/NH. Eligibility restrictions apply. On behalf of Boot Hill Casino & Resort (KS). Terms: sportsbook.draftkings.com/promos."
-              }
-            }
-          ],
           "highlights": []
         }
       ],
@@ -56579,13 +56373,52 @@
         {
           "language": "en-US",
           "rel": [
-            "summary",
+            "live",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856568/texas-purdue",
+          "href": "https://www.espn.com/mens-college-basketball/game?gameId=401856568",
           "text": "Gamecast",
           "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/boxscore/_/gameId/401856568",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "MMOD",
+            "desktop",
+            "event"
+          ],
+          "href": "https://mml.app.link/espn_game_406",
+          "text": "Watch Online",
+          "shortText": "Watch Online",
+          "isExternal": true,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/playbyplay/_/gameId/401856568",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
           "isExternal": false,
           "isPremium": false
         },
@@ -56604,17 +56437,17 @@
         }
       ],
       "status": {
-        "clock": 0.0,
-        "displayClock": "0:00",
-        "period": 0,
+        "clock": 825.0,
+        "displayClock": "13:45",
+        "period": 1,
         "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
+          "id": "2",
+          "name": "STATUS_IN_PROGRESS",
+          "state": "in",
           "completed": false,
-          "description": "Scheduled",
-          "detail": "Thu, March 26th at 7:10 PM EDT",
-          "shortDetail": "3/26 - 7:10 PM EDT"
+          "description": "In Progress",
+          "detail": "13:45 - 1st Half",
+          "shortDetail": "13:45 - 1st"
         }
       }
     },
@@ -57319,8 +57152,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $150",
-              "numberAvailable": 426,
+              "summary": "Tickets as low as $139",
+              "numberAvailable": 183,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-west-regional-tickets-sap-center-3-26-2026--sports-ncaa-basketball/production/5687640?wsUser=717"
@@ -57371,9 +57204,9 @@
                   }
                 ]
               },
-              "details": "ARIZ -8.5",
+              "details": "ARIZ -7.5",
               "overUnder": 165.5,
-              "spread": -8.5,
+              "spread": -7.5,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
@@ -57473,8 +57306,8 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "-8.5",
-                    "odds": "-108",
+                    "line": "-7.5",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -57482,7 +57315,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33862513%3Foutcomes%3D0HC83989689N850_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33862513%3Foutcomes%3D0HC83989689N750_1",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -57495,7 +57328,7 @@
                           "gameId": 401856569,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:ARIZ-8.5"
+                          "betDetails": "Spread:ARIZ-7.5"
                         }
                       }
                     }
@@ -57507,8 +57340,8 @@
                 },
                 "away": {
                   "close": {
-                    "line": "+8.5",
-                    "odds": "-112",
+                    "line": "+7.5",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -57516,7 +57349,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33862513%3Foutcomes%3D0HC83989689P850_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33862513%3Foutcomes%3D0HC83989689P750_3",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -57529,7 +57362,7 @@
                           "gameId": 401856569,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:ARK+8.5"
+                          "betDetails": "Spread:ARK+7.5"
                         }
                       }
                     }
@@ -60552,8 +60385,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $260",
-              "numberAvailable": 1698,
+              "summary": "Tickets as low as $256",
+              "numberAvailable": 1678,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-midwest-regional-tickets-united-center-3-27-2026--sports-ncaa-basketball/production/5687571?wsUser=717"
@@ -61645,8 +61478,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $260",
-              "numberAvailable": 1698,
+              "summary": "Tickets as low as $256",
+              "numberAvailable": 1678,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-midwest-regional-tickets-united-center-3-27-2026--sports-ncaa-basketball/production/5687571?wsUser=717"
