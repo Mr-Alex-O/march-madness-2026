@@ -1,5 +1,5 @@
 {
-  "ts": "2026-03-27T22:32:28Z",
+  "ts": "2026-03-27T23:02:57Z",
   "events": [
     {
       "id": "401856478",
@@ -56545,6 +56545,124 @@
               "region": "us"
             }
           ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Trey Kaufman-Renn has heard coach Matt Painter remind the Boilermakers so many times during his four years at Purdue that it's not always the first shot of a possession that matters most.",
+              "shortLinkText": "Kaufman-Renn tips in game-winner to send No. 2 seed Purdue past 11th-seeded Texas 79-77 in Sweet 16",
+              "video": [
+                {
+                  "id": 48317821,
+                  "source": "espn",
+                  "headline": "Purdue outlasts Texas to win Sweet 16 thriller",
+                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c.jpg",
+                  "duration": 86,
+                  "tracking": {
+                    "sportName": "basketball",
+                    "leagueName": "NCAA Men's Basketball",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "COM_NCB Highlight (Purdue outlasts Texas to win Sweet 16 thriller) 2026/03/27 ESHEET",
+                    "trackingId": "dm_NCB_purdue_outlasts_texas_to_win_sweet_16_thriller",
+                    "program": "CBS"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ]
+                  },
+                  "geoRestrictions": {
+                    "type": "whitelist",
+                    "countries": [
+                      "AS",
+                      "PR",
+                      "MP",
+                      "VI",
+                      "UM",
+                      "US",
+                      "GU"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=48317821",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=48317821",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=4fcc5a13b57e4"
+                        }
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=48317821"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6e01aa75-0289-4215-ac0b-843503f84fa6/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48317821"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6e01aa75-0289-4215-ac0b-843503f84fa6/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48317821"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/48317821"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/6e01aa75-0289-4215-ac0b-843503f84fa6"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/6e01aa75-0289-4215-ac0b-843503f84fa6/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=48317821&videoDSI=4fcc5a13b57e4"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
           "highlights": [
             {
               "id": 48317821,
@@ -56666,124 +56784,6 @@
                 "trackingId": "dm_NCB_purdue_outlasts_texas_to_win_sweet_16_thriller",
                 "program": "CBS"
               }
-            }
-          ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Trey Kaufman-Renn has heard coach Matt Painter remind the Boilermakers so many times during his four years at Purdue that it's not always the first shot of a possession that matters most.",
-              "shortLinkText": "Kaufman-Renn tips in game-winner to send No. 2 seed Purdue past 11th-seeded Texas 79-77 in Sweet 16",
-              "video": [
-                {
-                  "id": 48317821,
-                  "source": "espn",
-                  "headline": "Purdue outlasts Texas to win Sweet 16 thriller",
-                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c.jpg",
-                  "duration": 86,
-                  "tracking": {
-                    "sportName": "basketball",
-                    "leagueName": "NCAA Men's Basketball",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "COM_NCB Highlight (Purdue outlasts Texas to win Sweet 16 thriller) 2026/03/27 ESHEET",
-                    "trackingId": "dm_NCB_purdue_outlasts_texas_to_win_sweet_16_thriller",
-                    "program": "CBS"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "settop",
-                      "tablet",
-                      "handset",
-                      "ipad",
-                      "desktop"
-                    ]
-                  },
-                  "geoRestrictions": {
-                    "type": "whitelist",
-                    "countries": [
-                      "AS",
-                      "PR",
-                      "MP",
-                      "VI",
-                      "UM",
-                      "US",
-                      "GU"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=48317821",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=48317821",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=4fcc5a13b57e4"
-                        }
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=48317821"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6e01aa75-0289-4215-ac0b-843503f84fa6/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48317821"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6e01aa75-0289-4215-ac0b-843503f84fa6/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48317821"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/48317821"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/6e01aa75-0289-4215-ac0b-843503f84fa6"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/playlist.m3u8"
-                          }
-                        },
-                        "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/6e01aa75-0289-4215-ac0b-843503f84fa6/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=48317821&videoDSI=4fcc5a13b57e4"
-                    }
-                  }
-                }
-              ]
             }
           ]
         }
@@ -58877,7 +58877,7 @@
                 "displayName": "Draft Kings"
               },
               "details": "DUKE -6.5",
-              "overUnder": 140.5,
+              "overUnder": 141.5,
               "spread": -6.5,
               "awayTeamOdds": {
                 "favorite": false,
@@ -59050,8 +59050,8 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o140.5",
-                    "odds": "-110",
+                    "line": "o141.5",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -59059,7 +59059,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33862018%3Foutcomes%3D0OU83988323O14050_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33862018%3Foutcomes%3D0OU83988323O14150_1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -59072,7 +59072,7 @@
                           "gameId": 401856570,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:140.5"
+                          "betDetails": "Over:141.5"
                         }
                       }
                     }
@@ -59084,8 +59084,8 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u140.5",
-                    "odds": "-110",
+                    "line": "u141.5",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -59093,7 +59093,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33862018%3Foutcomes%3D0OU83988323U14050_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33862018%3Foutcomes%3D0OU83988323U14150_3",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -59106,7 +59106,7 @@
                           "gameId": 401856570,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:140.5"
+                          "betDetails": "Under:141.5"
                         }
                       }
                     }
@@ -59902,7 +59902,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $286",
-              "numberAvailable": 509,
+              "numberAvailable": 393,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-east-regional-tickets-capital-one-arena-3-27-2026--sports-ncaa-basketball/production/5687589?wsUser=717"
@@ -60302,7 +60302,7 @@
           "neutralSite": true,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "1847",
             "fullName": "United Center",
@@ -60792,32 +60792,6 @@
                   "rankDisplayValue": "118th"
                 }
               ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "type": "total",
-                  "summary": "25-9"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "12-3"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "7-3"
-                },
-                {
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "type": "vsconf",
-                  "summary": "13-5"
-                }
-              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -60939,6 +60913,32 @@
                     }
                   ]
                 }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "type": "total",
+                  "summary": "25-9"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "12-3"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "7-3"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "type": "vsconf",
+                  "summary": "13-5"
+                }
               ]
             }
           ],
@@ -60979,8 +60979,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $255",
-              "numberAvailable": 748,
+              "summary": "Tickets as low as $272",
+              "numberAvailable": 576,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-midwest-regional-tickets-united-center-3-27-2026--sports-ncaa-basketball/production/5687571?wsUser=717"
@@ -62072,8 +62072,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $255",
-              "numberAvailable": 748,
+              "summary": "Tickets as low as $272",
+              "numberAvailable": 576,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-midwest-regional-tickets-united-center-3-27-2026--sports-ncaa-basketball/production/5687571?wsUser=717"
@@ -64259,8 +64259,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $156",
-              "numberAvailable": 1500,
+              "summary": "Tickets as low as $153",
+              "numberAvailable": 1446,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-west-regional-tickets-sap-center-3-28-2026--sports-ncaa-basketball/production/5687644?wsUser=717"
