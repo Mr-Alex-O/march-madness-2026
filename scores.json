@@ -1,5 +1,5 @@
 {
-  "ts": "2026-03-27T05:50:52Z",
+  "ts": "2026-03-27T06:53:36Z",
   "events": [
     {
       "id": "401856478",
@@ -56545,124 +56545,6 @@
               "region": "us"
             }
           ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Trey Kaufman-Renn has heard coach Matt Painter remind the Boilermakers so many times during his four years at Purdue that it's not always the first shot of a possession that matters most.",
-              "shortLinkText": "Kaufman-Renn tips in game-winner to send No. 2 seed Purdue past 11th-seeded Texas 79-77 in Sweet 16",
-              "video": [
-                {
-                  "id": 48317821,
-                  "source": "espn",
-                  "headline": "Purdue outlasts Texas to win Sweet 16 thriller",
-                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c.jpg",
-                  "duration": 86,
-                  "tracking": {
-                    "sportName": "basketball",
-                    "leagueName": "NCAA Men's Basketball",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "COM_NCB Highlight (Purdue outlasts Texas to win Sweet 16 thriller) 2026/03/27 ESHEET",
-                    "trackingId": "dm_NCB_purdue_outlasts_texas_to_win_sweet_16_thriller",
-                    "program": "CBS"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "settop",
-                      "tablet",
-                      "handset",
-                      "ipad",
-                      "desktop"
-                    ]
-                  },
-                  "geoRestrictions": {
-                    "type": "whitelist",
-                    "countries": [
-                      "AS",
-                      "PR",
-                      "MP",
-                      "VI",
-                      "UM",
-                      "US",
-                      "GU"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=48317821",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=48317821",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=4fcc5a13b57e4"
-                        }
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=48317821"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6e01aa75-0289-4215-ac0b-843503f84fa6/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48317821"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6e01aa75-0289-4215-ac0b-843503f84fa6/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48317821"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/48317821"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/6e01aa75-0289-4215-ac0b-843503f84fa6"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/playlist.m3u8"
-                          }
-                        },
-                        "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/6e01aa75-0289-4215-ac0b-843503f84fa6/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=48317821&videoDSI=4fcc5a13b57e4"
-                    }
-                  }
-                }
-              ]
-            }
-          ],
           "highlights": [
             {
               "id": 48317821,
@@ -56784,6 +56666,124 @@
                 "trackingId": "dm_NCB_purdue_outlasts_texas_to_win_sweet_16_thriller",
                 "program": "CBS"
               }
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Trey Kaufman-Renn has heard coach Matt Painter remind the Boilermakers so many times during his four years at Purdue that it's not always the first shot of a possession that matters most.",
+              "shortLinkText": "Kaufman-Renn tips in game-winner to send No. 2 seed Purdue past 11th-seeded Texas 79-77 in Sweet 16",
+              "video": [
+                {
+                  "id": 48317821,
+                  "source": "espn",
+                  "headline": "Purdue outlasts Texas to win Sweet 16 thriller",
+                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c.jpg",
+                  "duration": 86,
+                  "tracking": {
+                    "sportName": "basketball",
+                    "leagueName": "NCAA Men's Basketball",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "COM_NCB Highlight (Purdue outlasts Texas to win Sweet 16 thriller) 2026/03/27 ESHEET",
+                    "trackingId": "dm_NCB_purdue_outlasts_texas_to_win_sweet_16_thriller",
+                    "program": "CBS"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ]
+                  },
+                  "geoRestrictions": {
+                    "type": "whitelist",
+                    "countries": [
+                      "AS",
+                      "PR",
+                      "MP",
+                      "VI",
+                      "UM",
+                      "US",
+                      "GU"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=48317821",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=48317821",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=4fcc5a13b57e4"
+                        }
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=48317821"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6e01aa75-0289-4215-ac0b-843503f84fa6/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48317821"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6e01aa75-0289-4215-ac0b-843503f84fa6/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48317821"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/48317821"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/6e01aa75-0289-4215-ac0b-843503f84fa6"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/6e01aa75-0289-4215-ac0b-843503f84fa6/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c/a9e7ce45-84bf-4e4d-bf0a-e3fe48ccb38c_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=48317821&videoDSI=4fcc5a13b57e4"
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
@@ -57670,124 +57670,6 @@
               "region": "us"
             }
           ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— From the opening minutes until the end of the game, Arizona scored almost at will.",
-              "shortLinkText": "Top-seeded Arizona beats Arkansas 109-88 to reach the Elite Eight for the 1st time since 2015",
-              "video": [
-                {
-                  "id": 48318864,
-                  "source": "espn",
-                  "headline": "Arizona drops 109 on Arkansas to advance",
-                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e.jpg",
-                  "duration": 61,
-                  "tracking": {
-                    "sportName": "basketball",
-                    "leagueName": "NCAA Men's Basketball",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "COM_NCB Highlight (Arizona drops 109 on Arkansas to advance) 2026/03/26 ESHEET",
-                    "trackingId": "dm_NCB_arizona_drops_109_on_arkansas_to_advance",
-                    "program": "NCAA Mens Basketball"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "settop",
-                      "tablet",
-                      "handset",
-                      "ipad",
-                      "desktop"
-                    ]
-                  },
-                  "geoRestrictions": {
-                    "type": "whitelist",
-                    "countries": [
-                      "AS",
-                      "PR",
-                      "MP",
-                      "VI",
-                      "UM",
-                      "US",
-                      "GU"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=48318864",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=48318864",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=36531c85e89c8"
-                        }
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=48318864"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/0c317b39-6193-4322-842d-5d429df2645d/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48318864"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/0c317b39-6193-4322-842d-5d429df2645d/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48318864"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/48318864"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/0c317b39-6193-4322-842d-5d429df2645d"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e/playlist.m3u8"
-                          }
-                        },
-                        "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/0c317b39-6193-4322-842d-5d429df2645d/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=48318864&videoDSI=36531c85e89c8"
-                    }
-                  }
-                }
-              ]
-            }
-          ],
           "highlights": [
             {
               "id": 48318267,
@@ -58024,6 +57906,124 @@
                 "trackingId": "dm_NCB_arizona_drops_109_on_arkansas_to_advance",
                 "program": "NCAA Mens Basketball"
               }
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— From the opening minutes until the end of the game, Arizona scored almost at will.",
+              "shortLinkText": "Top-seeded Arizona beats Arkansas 109-88 to reach the Elite Eight for the 1st time since 2015",
+              "video": [
+                {
+                  "id": 48318864,
+                  "source": "espn",
+                  "headline": "Arizona drops 109 on Arkansas to advance",
+                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e.jpg",
+                  "duration": 61,
+                  "tracking": {
+                    "sportName": "basketball",
+                    "leagueName": "NCAA Men's Basketball",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "COM_NCB Highlight (Arizona drops 109 on Arkansas to advance) 2026/03/26 ESHEET",
+                    "trackingId": "dm_NCB_arizona_drops_109_on_arkansas_to_advance",
+                    "program": "NCAA Mens Basketball"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ]
+                  },
+                  "geoRestrictions": {
+                    "type": "whitelist",
+                    "countries": [
+                      "AS",
+                      "PR",
+                      "MP",
+                      "VI",
+                      "UM",
+                      "US",
+                      "GU"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=48318864",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=48318864",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=36531c85e89c8"
+                        }
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=48318864"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/0c317b39-6193-4322-842d-5d429df2645d/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48318864"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/0c317b39-6193-4322-842d-5d429df2645d/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48318864"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/48318864"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/0c317b39-6193-4322-842d-5d429df2645d"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/0c317b39-6193-4322-842d-5d429df2645d/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/c9e0b539-0d84-452c-a837-b1034223c26e/c9e0b539-0d84-452c-a837-b1034223c26e_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=48318864&videoDSI=36531c85e89c8"
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
@@ -58823,8 +58823,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $265",
-              "numberAvailable": 1093,
+              "summary": "Tickets as low as $270",
+              "numberAvailable": 1082,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-east-regional-tickets-capital-one-arena-3-27-2026--sports-ncaa-basketball/production/5687589?wsUser=717"
@@ -59901,8 +59901,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $265",
-              "numberAvailable": 1093,
+              "summary": "Tickets as low as $270",
+              "numberAvailable": 1082,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-east-regional-tickets-capital-one-arena-3-27-2026--sports-ncaa-basketball/production/5687589?wsUser=717"
@@ -60980,7 +60980,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $236",
-              "numberAvailable": 1632,
+              "numberAvailable": 1642,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-midwest-regional-tickets-united-center-3-27-2026--sports-ncaa-basketball/production/5687571?wsUser=717"
@@ -62073,7 +62073,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $236",
-              "numberAvailable": 1632,
+              "numberAvailable": 1642,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-midwest-regional-tickets-united-center-3-27-2026--sports-ncaa-basketball/production/5687571?wsUser=717"
@@ -63165,8 +63165,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $61",
-              "numberAvailable": 3535,
+              "summary": "Tickets as low as $40",
+              "numberAvailable": 3452,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-south-regional-tickets-toyota-center---tx-3-28-2026--sports-ncaa-basketball/production/5687586?wsUser=717"
@@ -64259,8 +64259,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $196",
-              "numberAvailable": 1377,
+              "summary": "Tickets as low as $187",
+              "numberAvailable": 1371,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-west-regional-tickets-sap-center-3-28-2026--sports-ncaa-basketball/production/5687644?wsUser=717"
