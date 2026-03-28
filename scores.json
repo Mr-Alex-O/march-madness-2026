@@ -1,5 +1,5 @@
 {
-  "ts": "2026-03-28T10:19:17Z",
+  "ts": "2026-03-28T10:52:38Z",
   "events": [
     {
       "id": "401856478",
@@ -58910,6 +58910,124 @@
               "region": "us"
             }
           ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Caleb Foster and Duke proved St. John's hasn't quite cornered the market on tenacity.",
+              "shortLinkText": "Caleb Foster steadies Duke in return as Blue Devils beat St. John's 80-75 and advance to Elite Eight",
+              "video": [
+                {
+                  "id": 48325901,
+                  "source": "espn",
+                  "headline": "Duke hangs on as St. John's tying 3 is off the mark",
+                  "thumbnail": "https://a.espncdn.com/media/motion/2026/0327/abb23b12150d4d8f9e12ea4eb25bcbcb1304/abb23b12150d4d8f9e12ea4eb25bcbcb1304.jpg",
+                  "duration": 25,
+                  "tracking": {
+                    "sportName": "basketball",
+                    "leagueName": "NCAA Men's Basketball",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "NCB_One-Play (Duke hangs on as St. John's tying 3 is off the mark) 2026/03/28 ESHEET",
+                    "trackingId": "dm_NCB_duke_hangs_on_as_st_johns_tying_3_is_off_the_mark",
+                    "program": "NCAA Mens Basketball"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ]
+                  },
+                  "geoRestrictions": {
+                    "type": "whitelist",
+                    "countries": [
+                      "AS",
+                      "PR",
+                      "MP",
+                      "VI",
+                      "UM",
+                      "US",
+                      "GU"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=48325901",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=48325901",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=9d18e27562ece"
+                        }
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=48325901"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d9ed6834-558e-4221-beb8-afa529d59fde/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48325901"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d9ed6834-558e-4221-beb8-afa529d59fde/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48325901"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/48325901"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/d9ed6834-558e-4221-beb8-afa529d59fde"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/d9ed6834-558e-4221-beb8-afa529d59fde/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=48325901&videoDSI=9d18e27562ece"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
           "highlights": [
             {
               "id": 48325901,
@@ -59031,124 +59149,6 @@
                 "trackingId": "dm_NCB_duke_hangs_on_as_st_johns_tying_3_is_off_the_mark",
                 "program": "NCAA Mens Basketball"
               }
-            }
-          ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Caleb Foster and Duke proved St. John's hasn't quite cornered the market on tenacity.",
-              "shortLinkText": "Caleb Foster steadies Duke in return as Blue Devils beat St. John's 80-75 and advance to Elite Eight",
-              "video": [
-                {
-                  "id": 48325901,
-                  "source": "espn",
-                  "headline": "Duke hangs on as St. John's tying 3 is off the mark",
-                  "thumbnail": "https://a.espncdn.com/media/motion/2026/0327/abb23b12150d4d8f9e12ea4eb25bcbcb1304/abb23b12150d4d8f9e12ea4eb25bcbcb1304.jpg",
-                  "duration": 25,
-                  "tracking": {
-                    "sportName": "basketball",
-                    "leagueName": "NCAA Men's Basketball",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "NCB_One-Play (Duke hangs on as St. John's tying 3 is off the mark) 2026/03/28 ESHEET",
-                    "trackingId": "dm_NCB_duke_hangs_on_as_st_johns_tying_3_is_off_the_mark",
-                    "program": "NCAA Mens Basketball"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "settop",
-                      "tablet",
-                      "handset",
-                      "ipad",
-                      "desktop"
-                    ]
-                  },
-                  "geoRestrictions": {
-                    "type": "whitelist",
-                    "countries": [
-                      "AS",
-                      "PR",
-                      "MP",
-                      "VI",
-                      "UM",
-                      "US",
-                      "GU"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=48325901",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=48325901",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=9d18e27562ece"
-                        }
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=48325901"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d9ed6834-558e-4221-beb8-afa529d59fde/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48325901"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d9ed6834-558e-4221-beb8-afa529d59fde/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48325901"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/48325901"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/d9ed6834-558e-4221-beb8-afa529d59fde"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/playlist.m3u8"
-                          }
-                        },
-                        "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/d9ed6834-558e-4221-beb8-afa529d59fde/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0328/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb/abb23b12-150d-4d8f-9e12-ea4eb25bcbcb_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=48325901&videoDSI=9d18e27562ece"
-                    }
-                  }
-                }
-              ]
             }
           ]
         }
@@ -63357,7 +63357,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $76",
-              "numberAvailable": 2260,
+              "numberAvailable": 2264,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-south-regional-tickets-toyota-center---tx-3-28-2026--sports-ncaa-basketball/production/5687586?wsUser=717"
@@ -65543,7 +65543,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $155",
-              "numberAvailable": 3525,
+              "numberAvailable": 3537,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-midwest-regional-tickets-united-center-3-29-2026--sports-ncaa-basketball/production/5687572?wsUser=717"
@@ -66621,7 +66621,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $207",
-              "numberAvailable": 2686,
+              "numberAvailable": 2706,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-east-regional-tickets-capital-one-arena-3-29-2026--sports-ncaa-basketball/production/5687595?wsUser=717"
