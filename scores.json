@@ -1,5 +1,5 @@
 {
-  "ts": "2026-03-28T08:24:21Z",
+  "ts": "2026-03-28T09:07:06Z",
   "events": [
     {
       "id": "401856478",
@@ -62317,124 +62317,6 @@
               "region": "us"
             }
           ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Getting to the Elite Eight is becoming an annual event for Tennessee. This time, the Volunteers hope to go another round or two.",
-              "shortLinkText": "Ament scores 18 as Tennessee beats Iowa State 76-62 to advance to third straight Elite Eight",
-              "video": [
-                {
-                  "id": 48327586,
-                  "source": "espn",
-                  "headline": "J.P. Estrella's late jam helps seal Tennessee's place in Elite Eight",
-                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81.jpg",
-                  "duration": 18,
-                  "tracking": {
-                    "sportName": "basketball",
-                    "leagueName": "NCAA Men's Basketball",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "NCB_One-Play (J.P. Estrella's late jam helps seal Tennessee's place in Elite Eight) 2026/03/28 ESHEET",
-                    "trackingId": "dm_NCB_jp_slam_dunk",
-                    "program": "NCAA Mens Basketball"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "settop",
-                      "tablet",
-                      "handset",
-                      "ipad",
-                      "desktop"
-                    ]
-                  },
-                  "geoRestrictions": {
-                    "type": "whitelist",
-                    "countries": [
-                      "AS",
-                      "PR",
-                      "MP",
-                      "VI",
-                      "UM",
-                      "US",
-                      "GU"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=48327586",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=48327586",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=92e3f59f0c665"
-                        }
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=48327586"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e87a5f6e-2ab9-4843-ae29-11ab055bf76f/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48327586"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e87a5f6e-2ab9-4843-ae29-11ab055bf76f/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48327586"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/48327586"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/e87a5f6e-2ab9-4843-ae29-11ab055bf76f"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81/playlist.m3u8"
-                          }
-                        },
-                        "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/e87a5f6e-2ab9-4843-ae29-11ab055bf76f/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=48327586&videoDSI=92e3f59f0c665"
-                    }
-                  }
-                }
-              ]
-            }
-          ],
           "highlights": [
             {
               "id": 48327586,
@@ -62556,6 +62438,124 @@
                 "trackingId": "dm_NCB_jp_slam_dunk",
                 "program": "NCAA Mens Basketball"
               }
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Getting to the Elite Eight is becoming an annual event for Tennessee. This time, the Volunteers hope to go another round or two.",
+              "shortLinkText": "Ament scores 18 as Tennessee beats Iowa State 76-62 to advance to third straight Elite Eight",
+              "video": [
+                {
+                  "id": 48327586,
+                  "source": "espn",
+                  "headline": "J.P. Estrella's late jam helps seal Tennessee's place in Elite Eight",
+                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81.jpg",
+                  "duration": 18,
+                  "tracking": {
+                    "sportName": "basketball",
+                    "leagueName": "NCAA Men's Basketball",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "NCB_One-Play (J.P. Estrella's late jam helps seal Tennessee's place in Elite Eight) 2026/03/28 ESHEET",
+                    "trackingId": "dm_NCB_jp_slam_dunk",
+                    "program": "NCAA Mens Basketball"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ]
+                  },
+                  "geoRestrictions": {
+                    "type": "whitelist",
+                    "countries": [
+                      "AS",
+                      "PR",
+                      "MP",
+                      "VI",
+                      "UM",
+                      "US",
+                      "GU"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=48327586",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=48327586",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=92e3f59f0c665"
+                        }
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=48327586"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e87a5f6e-2ab9-4843-ae29-11ab055bf76f/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48327586"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e87a5f6e-2ab9-4843-ae29-11ab055bf76f/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48327586"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/48327586"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/e87a5f6e-2ab9-4843-ae29-11ab055bf76f"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/e87a5f6e-2ab9-4843-ae29-11ab055bf76f/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0328/0aec324b-f77f-4a38-b218-8156831d8d81/0aec324b-f77f-4a38-b218-8156831d8d81_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=48327586&videoDSI=92e3f59f0c665"
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
@@ -62768,7 +62768,7 @@
                   "name": "rebounds",
                   "abbreviation": "REB",
                   "displayValue": "1437",
-                  "rankDisplayValue": "25th"
+                  "rankDisplayValue": "26th"
                 },
                 {
                   "name": "avgRebounds",
@@ -62786,13 +62786,13 @@
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
                   "displayValue": "2167",
-                  "rankDisplayValue": "27th"
+                  "rankDisplayValue": "29th"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
                   "displayValue": "1005",
-                  "rankDisplayValue": "Tied-31st"
+                  "rankDisplayValue": "Tied-33rd"
                 },
                 {
                   "name": "fieldGoalPct",
@@ -62816,13 +62816,13 @@
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
                   "displayValue": "554",
-                  "rankDisplayValue": "70th"
+                  "rankDisplayValue": "71st"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
                   "displayValue": "2946",
-                  "rankDisplayValue": "23rd"
+                  "rankDisplayValue": "24th"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
@@ -63357,7 +63357,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $76",
-              "numberAvailable": 2255,
+              "numberAvailable": 2256,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-south-regional-tickets-toyota-center---tx-3-28-2026--sports-ncaa-basketball/production/5687586?wsUser=717"
@@ -63862,7 +63862,7 @@
                   "name": "rebounds",
                   "abbreviation": "REB",
                   "displayValue": "1582",
-                  "rankDisplayValue": "7th"
+                  "rankDisplayValue": "Tied-5th"
                 },
                 {
                   "name": "avgRebounds",
@@ -63874,19 +63874,19 @@
                   "name": "assists",
                   "abbreviation": "AST",
                   "displayValue": "619",
-                  "rankDisplayValue": "14th"
+                  "rankDisplayValue": "Tied-14th"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
                   "displayValue": "2243",
-                  "rankDisplayValue": "Tied-9th"
+                  "rankDisplayValue": "11th"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
                   "displayValue": "1130",
-                  "rankDisplayValue": "3rd"
+                  "rankDisplayValue": "4th"
                 },
                 {
                   "name": "fieldGoalPct",
@@ -63898,7 +63898,7 @@
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
                   "displayValue": "73.1",
-                  "rankDisplayValue": "268th"
+                  "rankDisplayValue": "267th"
                 },
                 {
                   "name": "freeThrowsAttempted",
@@ -63916,7 +63916,7 @@
                   "name": "points",
                   "abbreviation": "PTS",
                   "displayValue": "3208",
-                  "rankDisplayValue": "3rd"
+                  "rankDisplayValue": "4th"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
@@ -63940,13 +63940,13 @@
                   "name": "avgAssists",
                   "abbreviation": "AST",
                   "displayValue": "16.7",
-                  "rankDisplayValue": "59th"
+                  "rankDisplayValue": "58th"
                 },
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
                   "displayValue": "36.8",
-                  "rankDisplayValue": "83rd"
+                  "rankDisplayValue": "84th"
                 }
               ],
               "records": [
@@ -64451,7 +64451,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $140",
-              "numberAvailable": 1206,
+              "numberAvailable": 1181,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-west-regional-tickets-sap-center-3-28-2026--sports-ncaa-basketball/production/5687644?wsUser=717"
@@ -64954,32 +64954,32 @@
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "1436",
-                  "rankDisplayValue": "112th"
+                  "displayValue": "1482",
+                  "rankDisplayValue": "Tied-71st"
                 },
                 {
                   "name": "avgRebounds",
                   "abbreviation": "REB",
-                  "displayValue": "39.9",
-                  "rankDisplayValue": "35th"
+                  "displayValue": "40.1",
+                  "rankDisplayValue": "29th"
                 },
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "675",
+                  "displayValue": "697",
                   "rankDisplayValue": "2nd"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "2162",
-                  "rankDisplayValue": "31st"
+                  "displayValue": "2228",
+                  "rankDisplayValue": "Tied-14th"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "1105",
-                  "rankDisplayValue": "6th"
+                  "displayValue": "1138",
+                  "rankDisplayValue": "3rd"
                 },
                 {
                   "name": "fieldGoalPct",
@@ -64990,56 +64990,56 @@
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "74.7",
-                  "rankDisplayValue": "189th"
+                  "displayValue": "74.2",
+                  "rankDisplayValue": "218th"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "814",
-                  "rankDisplayValue": "Tied-32nd"
+                  "displayValue": "834",
+                  "rankDisplayValue": "25th"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "608",
-                  "rankDisplayValue": "27th"
+                  "displayValue": "619",
+                  "rankDisplayValue": "Tied-26th"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "3148",
-                  "rankDisplayValue": "4th"
+                  "displayValue": "3238",
+                  "rankDisplayValue": "2nd"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "902",
-                  "rankDisplayValue": "56th"
+                  "displayValue": "929",
+                  "rankDisplayValue": "44th"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "330",
-                  "rankDisplayValue": "42nd"
+                  "displayValue": "343",
+                  "rankDisplayValue": "Tied-31st"
                 },
                 {
                   "name": "avgPoints",
                   "abbreviation": "PTS",
-                  "displayValue": "87.4",
-                  "rankDisplayValue": "11th"
+                  "displayValue": "87.5",
+                  "rankDisplayValue": "10th"
                 },
                 {
                   "name": "avgAssists",
                   "abbreviation": "AST",
                   "displayValue": "18.8",
-                  "rankDisplayValue": "15th"
+                  "rankDisplayValue": "14th"
                 },
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "36.6",
-                  "rankDisplayValue": "Tied-90th"
+                  "displayValue": "36.9",
+                  "rankDisplayValue": "79th"
                 }
               ],
               "records": [
@@ -65268,8 +65268,8 @@
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "1486",
-                  "rankDisplayValue": "27th"
+                  "displayValue": "1529",
+                  "rankDisplayValue": "19th"
                 },
                 {
                   "name": "avgRebounds",
@@ -65280,80 +65280,80 @@
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "597",
-                  "rankDisplayValue": "Tied-17th"
+                  "displayValue": "619",
+                  "rankDisplayValue": "Tied-14th"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "2131",
-                  "rankDisplayValue": "Tied-41st"
+                  "displayValue": "2190",
+                  "rankDisplayValue": "22nd"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "990",
-                  "rankDisplayValue": "Tied-41st"
+                  "displayValue": "1020",
+                  "rankDisplayValue": "Tied-23rd"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "46.5",
-                  "rankDisplayValue": "119th"
+                  "displayValue": "46.6",
+                  "rankDisplayValue": "111th"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "69.6",
-                  "rankDisplayValue": "424th"
+                  "displayValue": "69.4",
+                  "rankDisplayValue": "434th"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "816",
-                  "rankDisplayValue": "30th"
+                  "displayValue": "831",
+                  "rankDisplayValue": "28th"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "568",
-                  "rankDisplayValue": "Tied-51st"
+                  "displayValue": "577",
+                  "rankDisplayValue": "47th"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "2779",
-                  "rankDisplayValue": "55th"
+                  "displayValue": "2855",
+                  "rankDisplayValue": "39th"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "679",
-                  "rankDisplayValue": "Tied-256th"
+                  "displayValue": "701",
+                  "rankDisplayValue": "Tied-231st"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "231",
-                  "rankDisplayValue": "Tied-244th"
+                  "displayValue": "238",
+                  "rankDisplayValue": "Tied-226th"
                 },
                 {
                   "name": "avgPoints",
                   "abbreviation": "PTS",
-                  "displayValue": "79.4",
-                  "rankDisplayValue": "107th"
+                  "displayValue": "79.3",
+                  "rankDisplayValue": "109th"
                 },
                 {
                   "name": "avgAssists",
                   "abbreviation": "AST",
-                  "displayValue": "17.1",
-                  "rankDisplayValue": "Tied-41st"
+                  "displayValue": "17.2",
+                  "rankDisplayValue": "38th"
                 },
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
                   "displayValue": "34.0",
-                  "rankDisplayValue": "Tied-261st"
+                  "rankDisplayValue": "266th"
                 }
               ],
               "records": [
@@ -65543,7 +65543,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $155",
-              "numberAvailable": 3510,
+              "numberAvailable": 3514,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-midwest-regional-tickets-united-center-3-29-2026--sports-ncaa-basketball/production/5687572?wsUser=717"
@@ -66032,8 +66032,8 @@
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "1455",
-                  "rankDisplayValue": "Tied-15th"
+                  "displayValue": "1495",
+                  "rankDisplayValue": "20th"
                 },
                 {
                   "name": "avgRebounds",
@@ -66044,62 +66044,62 @@
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "604",
-                  "rankDisplayValue": "Tied-15th"
+                  "displayValue": "617",
+                  "rankDisplayValue": "16th"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "2094",
-                  "rankDisplayValue": "61st"
+                  "displayValue": "2150",
+                  "rankDisplayValue": "36th"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "1024",
-                  "rankDisplayValue": "20th"
+                  "displayValue": "1054",
+                  "rankDisplayValue": "12th"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "48.9",
-                  "rankDisplayValue": "35th"
+                  "displayValue": "49.0",
+                  "rankDisplayValue": "28th"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "73.2",
-                  "rankDisplayValue": "266th"
+                  "displayValue": "72.9",
+                  "rankDisplayValue": "286th"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "794",
-                  "rankDisplayValue": "47th"
+                  "displayValue": "818",
+                  "rankDisplayValue": "32nd"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "581",
-                  "rankDisplayValue": "45th"
+                  "displayValue": "596",
+                  "rankDisplayValue": "Tied-33rd"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "2950",
-                  "rankDisplayValue": "Tied-20th"
+                  "displayValue": "3030",
+                  "rankDisplayValue": "14th"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "928",
-                  "rankDisplayValue": "43rd"
+                  "displayValue": "942",
+                  "rankDisplayValue": "38th"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "321",
-                  "rankDisplayValue": "52nd"
+                  "displayValue": "326",
+                  "rankDisplayValue": "Tied-45th"
                 },
                 {
                   "name": "avgPoints",
@@ -66110,8 +66110,8 @@
                 {
                   "name": "avgAssists",
                   "abbreviation": "AST",
-                  "displayValue": "16.8",
-                  "rankDisplayValue": "55th"
+                  "displayValue": "16.7",
+                  "rankDisplayValue": "59th"
                 },
                 {
                   "name": "threePointFieldGoalPct",
@@ -66468,8 +66468,8 @@
                   "abbreviation": "PTS",
                   "leaders": [
                     {
-                      "displayValue": "14.2",
-                      "value": 14.161290168762207,
+                      "displayValue": "14.3",
+                      "value": 14.34375,
                       "athlete": {
                         "id": "5105809",
                         "fullName": "Tarris Reed Jr.",
@@ -66508,8 +66508,8 @@
                   "abbreviation": "REB",
                   "leaders": [
                     {
-                      "displayValue": "8.9",
-                      "value": 8.870967864990234,
+                      "displayValue": "8.8",
+                      "value": 8.75,
                       "athlete": {
                         "id": "5105809",
                         "fullName": "Tarris Reed Jr.",
@@ -66549,7 +66549,7 @@
                   "leaders": [
                     {
                       "displayValue": "6.1",
-                      "value": 6.142857074737549,
+                      "value": 6.05555534362793,
                       "athlete": {
                         "id": "5054083",
                         "fullName": "Silas Demary Jr.",
@@ -66621,7 +66621,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $207",
-              "numberAvailable": 2698,
+              "numberAvailable": 2660,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-east-regional-tickets-capital-one-arena-3-29-2026--sports-ncaa-basketball/production/5687595?wsUser=717"
