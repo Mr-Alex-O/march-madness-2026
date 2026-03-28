@@ -1,5 +1,5 @@
 {
-  "ts": "2026-03-28T11:17:16Z",
+  "ts": "2026-03-28T11:43:17Z",
   "events": [
     {
       "id": "401856478",
@@ -55420,124 +55420,6 @@
               "region": "us"
             }
           ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Alvaro Folgueiras converted a critical three-point play when Nebraska only had four defenders on the floor, and ninth-seeded Iowa continued its unpredictable ",
-              "shortLinkText": "Ninth-seeded Iowa continues improbable March run, beating Nebraska 77-71 to reach Sweet 16",
-              "video": [
-                {
-                  "id": 48318183,
-                  "source": "espn",
-                  "headline": "Iowa takes down Nebraska to advance to the Elite Eight",
-                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e.jpg",
-                  "duration": 72,
-                  "tracking": {
-                    "sportName": "basketball",
-                    "leagueName": "NCAA Men's Basketball",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "COM_NCB Highlight (Iowa takes down Nebraska to advance to the Elite Eight) 2026/03/26 ESHEET",
-                    "trackingId": "dm_NCB_iowa_takes_down_nebraska_to_advance_to_the_elite_eight",
-                    "program": "CBS"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "settop",
-                      "tablet",
-                      "handset",
-                      "ipad",
-                      "desktop"
-                    ]
-                  },
-                  "geoRestrictions": {
-                    "type": "whitelist",
-                    "countries": [
-                      "AS",
-                      "PR",
-                      "MP",
-                      "VI",
-                      "UM",
-                      "US",
-                      "GU"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=48318183",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=48318183",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=438832974b6bf"
-                        }
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=48318183"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/af932c79-458a-425a-9cbe-33ed8c351aea/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48318183"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/af932c79-458a-425a-9cbe-33ed8c351aea/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48318183"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/48318183"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/af932c79-458a-425a-9cbe-33ed8c351aea"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e/playlist.m3u8"
-                          }
-                        },
-                        "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/af932c79-458a-425a-9cbe-33ed8c351aea/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=48318183&videoDSI=438832974b6bf"
-                    }
-                  }
-                }
-              ]
-            }
-          ],
           "highlights": [
             {
               "id": 48318183,
@@ -55659,6 +55541,124 @@
                 "trackingId": "dm_NCB_iowa_takes_down_nebraska_to_advance_to_the_elite_eight",
                 "program": "CBS"
               }
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Alvaro Folgueiras converted a critical three-point play when Nebraska only had four defenders on the floor, and ninth-seeded Iowa continued its unpredictable ",
+              "shortLinkText": "Ninth-seeded Iowa continues improbable March run, beating Nebraska 77-71 to reach Sweet 16",
+              "video": [
+                {
+                  "id": 48318183,
+                  "source": "espn",
+                  "headline": "Iowa takes down Nebraska to advance to the Elite Eight",
+                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e.jpg",
+                  "duration": 72,
+                  "tracking": {
+                    "sportName": "basketball",
+                    "leagueName": "NCAA Men's Basketball",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "COM_NCB Highlight (Iowa takes down Nebraska to advance to the Elite Eight) 2026/03/26 ESHEET",
+                    "trackingId": "dm_NCB_iowa_takes_down_nebraska_to_advance_to_the_elite_eight",
+                    "program": "CBS"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ]
+                  },
+                  "geoRestrictions": {
+                    "type": "whitelist",
+                    "countries": [
+                      "AS",
+                      "PR",
+                      "MP",
+                      "VI",
+                      "UM",
+                      "US",
+                      "GU"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=48318183",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=48318183",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=438832974b6bf"
+                        }
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=48318183"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/af932c79-458a-425a-9cbe-33ed8c351aea/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48318183"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/af932c79-458a-425a-9cbe-33ed8c351aea/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48318183"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/48318183"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/af932c79-458a-425a-9cbe-33ed8c351aea"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/af932c79-458a-425a-9cbe-33ed8c351aea/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0327/0f89130d-da17-4b24-98c8-c2370951457e/0f89130d-da17-4b24-98c8-c2370951457e_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=48318183&videoDSI=438832974b6bf"
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
@@ -64451,7 +64451,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $140",
-              "numberAvailable": 1180,
+              "numberAvailable": 1178,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-west-regional-tickets-sap-center-3-28-2026--sports-ncaa-basketball/production/5687644?wsUser=717"
@@ -65543,7 +65543,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $155",
-              "numberAvailable": 3537,
+              "numberAvailable": 3533,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-midwest-regional-tickets-united-center-3-29-2026--sports-ncaa-basketball/production/5687572?wsUser=717"
@@ -66620,8 +66620,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $207",
-              "numberAvailable": 2686,
+              "summary": "Tickets as low as $191",
+              "numberAvailable": 2653,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-east-regional-tickets-capital-one-arena-3-29-2026--sports-ncaa-basketball/production/5687595?wsUser=717"
