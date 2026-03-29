@@ -1,5 +1,5 @@
 {
-  "ts": "2026-03-29T19:10:13Z",
+  "ts": "2026-03-29T19:47:22Z",
   "events": [
     {
       "id": "401856478",
@@ -65017,89 +65017,94 @@
                 "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
                 "conferenceId": "7"
               },
-              "score": "41",
+              "score": "57",
               "linescores": [
                 {
-                  "value": 41.0,
-                  "displayValue": "41",
+                  "value": 48.0,
+                  "displayValue": "48",
                   "period": 1
+                },
+                {
+                  "value": 9.0,
+                  "displayValue": "9",
+                  "period": 2
                 }
               ],
               "statistics": [
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "18"
+                  "displayValue": "25"
                 },
                 {
                   "name": "avgRebounds",
                   "abbreviation": "REB",
-                  "displayValue": "18.0"
+                  "displayValue": "25.0"
                 },
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "7"
+                  "displayValue": "12"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "23"
+                  "displayValue": "36"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "13"
+                  "displayValue": "19"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "56.5"
+                  "displayValue": "52.8"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "64.7"
+                  "displayValue": "68.4"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "17"
+                  "displayValue": "19"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "11"
+                  "displayValue": "13"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "41"
+                  "displayValue": "57"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "9"
+                  "displayValue": "14"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "4"
+                  "displayValue": "6"
                 },
                 {
                   "name": "avgPoints",
                   "abbreviation": "PTS",
-                  "displayValue": "41.0"
+                  "displayValue": "57.0"
                 },
                 {
                   "name": "avgAssists",
                   "abbreviation": "AST",
-                  "displayValue": "7.0"
+                  "displayValue": "12.0"
                 },
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "44.4"
+                  "displayValue": "42.9"
                 }
               ],
               "leaders": [
@@ -65110,8 +65115,8 @@
                   "abbreviation": "Pts",
                   "leaders": [
                     {
-                      "displayValue": "13",
-                      "value": 13.0,
+                      "displayValue": "19",
+                      "value": 19.0,
                       "athlete": {
                         "id": "5175737",
                         "fullName": "Yaxel Lendeborg",
@@ -65150,13 +65155,13 @@
                   "abbreviation": "Reb",
                   "leaders": [
                     {
-                      "displayValue": "4",
-                      "value": 4.0,
+                      "displayValue": "6",
+                      "value": 6.0,
                       "athlete": {
-                        "id": "5105836",
-                        "fullName": "Roddy Gayle Jr.",
-                        "displayName": "Roddy Gayle Jr.",
-                        "shortName": "R. Gayle Jr.",
+                        "id": "4433138",
+                        "fullName": "Nimari Burnett",
+                        "displayName": "Nimari Burnett",
+                        "shortName": "N. Burnett",
                         "links": [
                           {
                             "rel": [
@@ -65164,11 +65169,11 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5105836/roddy-gayle-jr"
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4433138/nimari-burnett"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5105836.png",
-                        "jersey": "11",
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4433138.png",
+                        "jersey": "4",
                         "position": {
                           "abbreviation": "G"
                         },
@@ -65190,13 +65195,13 @@
                   "abbreviation": "Ast",
                   "leaders": [
                     {
-                      "displayValue": "3",
-                      "value": 3.0,
+                      "displayValue": "5",
+                      "value": 5.0,
                       "athlete": {
-                        "id": "5175737",
-                        "fullName": "Yaxel Lendeborg",
-                        "displayName": "Yaxel Lendeborg",
-                        "shortName": "Y. Lendeborg",
+                        "id": "4869764",
+                        "fullName": "Elliot Cadeau",
+                        "displayName": "Elliot Cadeau",
+                        "shortName": "E. Cadeau",
                         "links": [
                           {
                             "rel": [
@@ -65204,13 +65209,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5175737/yaxel-lendeborg"
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4869764/elliot-cadeau"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5175737.png",
-                        "jersey": "23",
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4869764.png",
+                        "jersey": "3",
                         "position": {
-                          "abbreviation": "F"
+                          "abbreviation": "G"
                         },
                         "team": {
                           "id": "130"
@@ -65230,8 +65235,8 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "13 PTS",
-                      "value": 22.75,
+                      "displayValue": "19 PTS",
+                      "value": 32.75,
                       "athlete": {
                         "id": "5175737",
                         "fullName": "Yaxel Lendeborg",
@@ -65363,24 +65368,29 @@
                 "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
                 "conferenceId": "23"
               },
-              "score": "22",
+              "score": "34",
               "linescores": [
                 {
-                  "value": 22.0,
-                  "displayValue": "22",
+                  "value": 26.0,
+                  "displayValue": "26",
                   "period": 1
+                },
+                {
+                  "value": 8.0,
+                  "displayValue": "8",
+                  "period": 2
                 }
               ],
               "statistics": [
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "19"
+                  "displayValue": "27"
                 },
                 {
                   "name": "avgRebounds",
                   "abbreviation": "REB",
-                  "displayValue": "19.0"
+                  "displayValue": "27.0"
                 },
                 {
                   "name": "assists",
@@ -65390,52 +65400,52 @@
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "32"
+                  "displayValue": "43"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "8"
+                  "displayValue": "12"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "25.0"
+                  "displayValue": "27.9"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "57.1"
+                  "displayValue": "50.0"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "7"
+                  "displayValue": "10"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "4"
+                  "displayValue": "5"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "22"
+                  "displayValue": "34"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "11"
+                  "displayValue": "16"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "2"
+                  "displayValue": "5"
                 },
                 {
                   "name": "avgPoints",
                   "abbreviation": "PTS",
-                  "displayValue": "22.0"
+                  "displayValue": "34.0"
                 },
                 {
                   "name": "avgAssists",
@@ -65445,7 +65455,7 @@
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "18.2"
+                  "displayValue": "31.3"
                 }
               ],
               "leaders": [
@@ -65456,13 +65466,13 @@
                   "abbreviation": "Pts",
                   "leaders": [
                     {
-                      "displayValue": "8",
-                      "value": 8.0,
+                      "displayValue": "12",
+                      "value": 12.0,
                       "athlete": {
-                        "id": "4685687",
-                        "fullName": "Jaylen Carey",
-                        "displayName": "Jaylen Carey",
-                        "shortName": "J. Carey",
+                        "id": "5107968",
+                        "fullName": "Ja'Kobi Gillespie",
+                        "displayName": "Ja'Kobi Gillespie",
+                        "shortName": "J. Gillespie",
                         "links": [
                           {
                             "rel": [
@@ -65470,13 +65480,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4685687/jaylen-carey"
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5107968/jakobi-gillespie"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4685687.png",
-                        "jersey": "23",
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5107968.png",
+                        "jersey": "0",
                         "position": {
-                          "abbreviation": "F"
+                          "abbreviation": "G"
                         },
                         "team": {
                           "id": "2633"
@@ -65499,10 +65509,10 @@
                       "displayValue": "5",
                       "value": 5.0,
                       "athlete": {
-                        "id": "5164559",
-                        "fullName": "Nate Ament",
-                        "displayName": "Nate Ament",
-                        "shortName": "N. Ament",
+                        "id": "5093142",
+                        "fullName": "J.P. Estrella",
+                        "displayName": "J.P. Estrella",
+                        "shortName": "J.P. Estrella",
                         "links": [
                           {
                             "rel": [
@@ -65510,11 +65520,11 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5164559/nate-ament"
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5093142/jp-estrella"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5164559.png",
-                        "jersey": "10",
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5093142.png",
+                        "jersey": "13",
                         "position": {
                           "abbreviation": "F"
                         },
@@ -65536,13 +65546,13 @@
                   "abbreviation": "Ast",
                   "leaders": [
                     {
-                      "displayValue": "2",
-                      "value": 2.0,
+                      "displayValue": "3",
+                      "value": 3.0,
                       "athlete": {
-                        "id": "5164559",
-                        "fullName": "Nate Ament",
-                        "displayName": "Nate Ament",
-                        "shortName": "N. Ament",
+                        "id": "5107968",
+                        "fullName": "Ja'Kobi Gillespie",
+                        "displayName": "Ja'Kobi Gillespie",
+                        "shortName": "J. Gillespie",
                         "links": [
                           {
                             "rel": [
@@ -65550,13 +65560,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5164559/nate-ament"
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5107968/jakobi-gillespie"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5164559.png",
-                        "jersey": "10",
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5107968.png",
+                        "jersey": "0",
                         "position": {
-                          "abbreviation": "F"
+                          "abbreviation": "G"
                         },
                         "team": {
                           "id": "2633"
@@ -65576,13 +65586,13 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "8 PTS",
-                      "value": 11.699999809265137,
+                      "displayValue": "12 PTS",
+                      "value": 20.0,
                       "athlete": {
-                        "id": "4685687",
-                        "fullName": "Jaylen Carey",
-                        "displayName": "Jaylen Carey",
-                        "shortName": "J. Carey",
+                        "id": "5107968",
+                        "fullName": "Ja'Kobi Gillespie",
+                        "displayName": "Ja'Kobi Gillespie",
+                        "shortName": "J. Gillespie",
                         "links": [
                           {
                             "rel": [
@@ -65590,13 +65600,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4685687/jaylen-carey"
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5107968/jakobi-gillespie"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4685687.png",
-                        "jersey": "23",
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5107968.png",
+                        "jersey": "0",
                         "position": {
-                          "abbreviation": "F"
+                          "abbreviation": "G"
                         },
                         "team": {
                           "id": "2633"
@@ -65649,27 +65659,27 @@
           ],
           "situation": {
             "lastPlay": {
-              "id": "401856576120401233",
+              "id": "401856576120401663",
               "type": {
-                "id": "584",
-                "text": "Substitution"
+                "id": "574",
+                "text": "DunkShot"
               },
-              "text": "Trey McKenney subbing in for Michigan",
-              "scoreValue": 0,
+              "text": "Yaxel Lendeborg makes 0-foot dunk (Elliot Cadeau assists)",
+              "scoreValue": 2,
               "team": {
                 "id": "130"
               },
               "probability": {
                 "tiePercentage": 0.0,
-                "homeWinPercentage": 0.979,
-                "awayWinPercentage": 0.02100000000000002
+                "homeWinPercentage": 0.996,
+                "awayWinPercentage": 0.0040000000000000036
               },
               "athletesInvolved": [
                 {
-                  "id": "5041954",
-                  "fullName": "Trey McKenney",
-                  "displayName": "Trey McKenney",
-                  "shortName": "T. McKenney",
+                  "id": "5175737",
+                  "fullName": "Yaxel Lendeborg",
+                  "displayName": "Yaxel Lendeborg",
+                  "shortName": "Y. Lendeborg",
                   "links": [
                     {
                       "rel": [
@@ -65677,12 +65687,12 @@
                         "desktop",
                         "athlete"
                       ],
-                      "href": "https://www.espn.com/mens-college-basketball/player/_/id/5041954/trey-mckenney"
+                      "href": "https://www.espn.com/mens-college-basketball/player/_/id/5175737/yaxel-lendeborg"
                     }
                   ],
-                  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5041954.png",
-                  "jersey": "1",
-                  "position": "G",
+                  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5175737.png",
+                  "jersey": "23",
+                  "position": "F",
                   "team": {
                     "id": "130"
                   }
@@ -65691,17 +65701,17 @@
             }
           },
           "status": {
-            "clock": 167.0,
-            "displayClock": "2:47",
-            "period": 1,
+            "clock": 972.0,
+            "displayClock": "16:12",
+            "period": 2,
             "type": {
               "id": "2",
               "name": "STATUS_IN_PROGRESS",
               "state": "in",
               "completed": false,
               "description": "In Progress",
-              "detail": "2:47 - 1st Half",
-              "shortDetail": "2:47 - 1st"
+              "detail": "16:12 - 2nd Half",
+              "shortDetail": "16:12 - 2nd"
             }
           },
           "broadcasts": [
@@ -65808,17 +65818,17 @@
         }
       ],
       "status": {
-        "clock": 167.0,
-        "displayClock": "2:47",
-        "period": 1,
+        "clock": 972.0,
+        "displayClock": "16:12",
+        "period": 2,
         "type": {
           "id": "2",
           "name": "STATUS_IN_PROGRESS",
           "state": "in",
           "completed": false,
           "description": "In Progress",
-          "detail": "2:47 - 1st Half",
-          "shortDetail": "2:47 - 1st"
+          "detail": "16:12 - 2nd Half",
+          "shortDetail": "16:12 - 2nd"
         }
       }
     },
@@ -66523,8 +66533,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $149",
-              "numberAvailable": 1417,
+              "summary": "Tickets as low as $139",
+              "numberAvailable": 1342,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-east-regional-tickets-capital-one-arena-3-29-2026--sports-ncaa-basketball/production/5687595?wsUser=717"
