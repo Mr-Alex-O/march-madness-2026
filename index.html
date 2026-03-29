@@ -636,7 +636,7 @@
 </div>
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.33 · March Madness 2026
+  v1.34 · March Madness 2026
 </div>
 
 <script>
@@ -1427,8 +1427,8 @@ function buildRoundBracketEl(regionKey, fromRound, toRound, reversed) {
 //  4 E8 matchups (South,West,Midwest,East) → 2 FF games
 // ══════════════════════════════════════════════════════
 function buildE8toFFBracket() {
-  // South+West feed FF[0], Midwest+East feed FF[1]
-  const e8Order = ['south', 'west', 'midwest', 'east'];
+  // East+South feed FF[0], West+Midwest feed FF[1]
+  const e8Order = ['east', 'south', 'west', 'midwest'];
 
   const wrap = document.createElement('div');
   wrap.className = 'e8-ff-wrap';
