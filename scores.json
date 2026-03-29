@@ -1,5 +1,5 @@
 {
-  "ts": "2026-03-29T17:48:20Z",
+  "ts": "2026-03-29T18:23:30Z",
   "events": [
     {
       "id": "401856478",
@@ -63458,118 +63458,6 @@
               "region": "us"
             }
           ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Illinois is heading to the Final Four for the first time in 21 years, and Andrej Stojakovic made clear the Fighting Illini have much bigger goals.",
-              "shortLinkText": "Illinois powers its way to its first Final Four in 21 years, beating Iowa 71-59",
-              "video": [
-                {
-                  "id": 48334761,
-                  "source": "espn",
-                  "headline": "Andrej Stojakovic's late and-1 helps send Illinois to Final Four",
-                  "thumbnail": "https://a.espncdn.com/media/motion/2026/0328/ss_20260328_202927822_34651471255/ss_20260328_202927822_34651471255.jpg",
-                  "duration": 18,
-                  "tracking": {
-                    "sportName": "basketball",
-                    "leagueName": "NCAA Men's Basketball",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "NCB_One-Play (Andrej Stojakovic's late and-1 helps send Illinois to Final Four) 2026/03/28 ESHEET",
-                    "trackingId": "dm_20260328_NCB_andrej_stojakovic_hits_the_and1_bucket_for_illinois",
-                    "program": "NCAA Mens Basketball"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "settop",
-                      "tablet",
-                      "handset",
-                      "ipad",
-                      "desktop"
-                    ]
-                  },
-                  "geoRestrictions": {
-                    "type": "whitelist",
-                    "countries": [
-                      "AS",
-                      "PR",
-                      "MP",
-                      "VI",
-                      "UM",
-                      "US",
-                      "GU"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=48334761",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=48334761",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=65f5dca6f04dc"
-                        }
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=48334761"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e49e287c-fa58-4c2a-8c4a-30de19312a85/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48334761"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e49e287c-fa58-4c2a-8c4a-30de19312a85/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48334761"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/48334761"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/e49e287c-fa58-4c2a-8c4a-30de19312a85"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/e49e287c-fa58-4c2a-8c4a-30de19312a85/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=48334761&videoDSI=65f5dca6f04dc"
-                    }
-                  }
-                }
-              ]
-            }
-          ],
           "highlights": [
             {
               "id": 48334761,
@@ -63685,6 +63573,118 @@
                 "trackingId": "dm_20260328_NCB_andrej_stojakovic_hits_the_and1_bucket_for_illinois",
                 "program": "NCAA Mens Basketball"
               }
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Illinois is heading to the Final Four for the first time in 21 years, and Andrej Stojakovic made clear the Fighting Illini have much bigger goals.",
+              "shortLinkText": "Illinois powers its way to its first Final Four in 21 years, beating Iowa 71-59",
+              "video": [
+                {
+                  "id": 48334761,
+                  "source": "espn",
+                  "headline": "Andrej Stojakovic's late and-1 helps send Illinois to Final Four",
+                  "thumbnail": "https://a.espncdn.com/media/motion/2026/0328/ss_20260328_202927822_34651471255/ss_20260328_202927822_34651471255.jpg",
+                  "duration": 18,
+                  "tracking": {
+                    "sportName": "basketball",
+                    "leagueName": "NCAA Men's Basketball",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "NCB_One-Play (Andrej Stojakovic's late and-1 helps send Illinois to Final Four) 2026/03/28 ESHEET",
+                    "trackingId": "dm_20260328_NCB_andrej_stojakovic_hits_the_and1_bucket_for_illinois",
+                    "program": "NCAA Mens Basketball"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ]
+                  },
+                  "geoRestrictions": {
+                    "type": "whitelist",
+                    "countries": [
+                      "AS",
+                      "PR",
+                      "MP",
+                      "VI",
+                      "UM",
+                      "US",
+                      "GU"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=48334761",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=48334761",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=65f5dca6f04dc"
+                        }
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=48334761"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e49e287c-fa58-4c2a-8c4a-30de19312a85/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48334761"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e49e287c-fa58-4c2a-8c4a-30de19312a85/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48334761"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/48334761"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/e49e287c-fa58-4c2a-8c4a-30de19312a85"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/e49e287c-fa58-4c2a-8c4a-30de19312a85/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=48334761&videoDSI=65f5dca6f04dc"
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
@@ -64587,118 +64587,6 @@
               "region": "us"
             }
           ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Coach Tommy Lloyd climbed the ladder, cut the last strand of the net and waved to the Arizona fans while they chanted, “Tommy! Tommy!”",
-              "shortLinkText": "Arizona reaches its first Final Four in 25 years with 79-64 win over Purdue",
-              "video": [
-                {
-                  "id": 48336156,
-                  "source": "espn",
-                  "headline": "Brayden Burries' hustle play punctuates Arizona's Elite Eight win",
-                  "thumbnail": "https://a.espncdn.com/media/motion/2026/0328/c182c06061994532976e631afbcc618d1401/c182c06061994532976e631afbcc618d1401.jpg",
-                  "duration": 20,
-                  "tracking": {
-                    "sportName": "basketball",
-                    "leagueName": "NCAA Men's Basketball",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "NCB_One-Play (Brayden Burries' hustle play punctuates Arizona's Elite Eight win) 2026/03/29 ESHEET",
-                    "trackingId": "dm_NCB_brayden_burries_makes_a_great_hustle_play_for_arizona",
-                    "program": "NCAA Mens Basketball"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "settop",
-                      "tablet",
-                      "handset",
-                      "ipad",
-                      "desktop"
-                    ]
-                  },
-                  "geoRestrictions": {
-                    "type": "whitelist",
-                    "countries": [
-                      "US"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=48336156",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=48336156",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=023d4eaa38f2c"
-                        }
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=48336156"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2cb3c427-5f03-4393-b4d6-096cb04ad990/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48336156"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2cb3c427-5f03-4393-b4d6-096cb04ad990/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48336156"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/48336156"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/2cb3c427-5f03-4393-b4d6-096cb04ad990"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d/playlist.m3u8"
-                          }
-                        },
-                        "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/2cb3c427-5f03-4393-b4d6-096cb04ad990/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=48336156&videoDSI=023d4eaa38f2c"
-                    }
-                  }
-                }
-              ]
-            }
-          ],
           "highlights": [
             {
               "id": 48336156,
@@ -64814,6 +64702,118 @@
                 "trackingId": "dm_NCB_brayden_burries_makes_a_great_hustle_play_for_arizona",
                 "program": "NCAA Mens Basketball"
               }
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Coach Tommy Lloyd climbed the ladder, cut the last strand of the net and waved to the Arizona fans while they chanted, “Tommy! Tommy!”",
+              "shortLinkText": "Arizona reaches its first Final Four in 25 years with 79-64 win over Purdue",
+              "video": [
+                {
+                  "id": 48336156,
+                  "source": "espn",
+                  "headline": "Brayden Burries' hustle play punctuates Arizona's Elite Eight win",
+                  "thumbnail": "https://a.espncdn.com/media/motion/2026/0328/c182c06061994532976e631afbcc618d1401/c182c06061994532976e631afbcc618d1401.jpg",
+                  "duration": 20,
+                  "tracking": {
+                    "sportName": "basketball",
+                    "leagueName": "NCAA Men's Basketball",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "NCB_One-Play (Brayden Burries' hustle play punctuates Arizona's Elite Eight win) 2026/03/29 ESHEET",
+                    "trackingId": "dm_NCB_brayden_burries_makes_a_great_hustle_play_for_arizona",
+                    "program": "NCAA Mens Basketball"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ]
+                  },
+                  "geoRestrictions": {
+                    "type": "whitelist",
+                    "countries": [
+                      "US"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=48336156",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=48336156",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=023d4eaa38f2c"
+                        }
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=48336156"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2cb3c427-5f03-4393-b4d6-096cb04ad990/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48336156"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2cb3c427-5f03-4393-b4d6-096cb04ad990/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48336156"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/48336156"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/2cb3c427-5f03-4393-b4d6-096cb04ad990"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/2cb3c427-5f03-4393-b4d6-096cb04ad990/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0329/c182c060-6199-4532-976e-631afbcc618d/c182c060-6199-4532-976e-631afbcc618d_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=48336156&videoDSI=023d4eaa38f2c"
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
@@ -64936,7 +64936,7 @@
           "timeValid": true,
           "neutralSite": true,
           "conferenceCompetition": false,
-          "playByPlayAvailable": false,
+          "playByPlayAvailable": true,
           "recent": true,
           "venue": {
             "id": "1847",
@@ -65017,138 +65017,181 @@
                 "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
                 "conferenceId": "7"
               },
-              "score": "0",
-              "curatedRank": {
-                "current": 1
-              },
+              "score": "6",
+              "linescores": [
+                {
+                  "value": 6.0,
+                  "displayValue": "6",
+                  "period": 1
+                }
+              ],
               "statistics": [
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "1482",
-                  "rankDisplayValue": "Tied-71st"
+                  "displayValue": "4"
                 },
                 {
                   "name": "avgRebounds",
                   "abbreviation": "REB",
-                  "displayValue": "40.1",
-                  "rankDisplayValue": "29th"
+                  "displayValue": "4.0"
                 },
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "697",
-                  "rankDisplayValue": "2nd"
+                  "displayValue": "1"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "2228",
-                  "rankDisplayValue": "Tied-14th"
+                  "displayValue": "5"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "1138",
-                  "rankDisplayValue": "4th"
+                  "displayValue": "2"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "51.1",
-                  "rankDisplayValue": "5th"
+                  "displayValue": "40.0"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "74.2",
-                  "rankDisplayValue": "218th"
+                  "displayValue": "100.0"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "834",
-                  "rankDisplayValue": "25th"
+                  "displayValue": "2"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "619",
-                  "rankDisplayValue": "Tied-26th"
+                  "displayValue": "2"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "3238",
-                  "rankDisplayValue": "3rd"
+                  "displayValue": "6"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "929",
-                  "rankDisplayValue": "45th"
+                  "displayValue": "1"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "343",
-                  "rankDisplayValue": "Tied-31st"
+                  "displayValue": "0"
                 },
                 {
                   "name": "avgPoints",
                   "abbreviation": "PTS",
-                  "displayValue": "87.5",
-                  "rankDisplayValue": "10th"
+                  "displayValue": "6.0"
                 },
                 {
                   "name": "avgAssists",
                   "abbreviation": "AST",
-                  "displayValue": "18.8",
-                  "rankDisplayValue": "14th"
+                  "displayValue": "1.0"
                 },
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "36.9",
-                  "rankDisplayValue": "79th"
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "type": "total",
-                  "summary": "34-3"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "14-1"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "11-0"
-                },
-                {
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "type": "vsconf",
-                  "summary": "19-1"
+                  "displayValue": "0.0"
                 }
               ],
               "leaders": [
                 {
-                  "name": "pointsPerGame",
-                  "displayName": "Points Per Game",
-                  "shortDisplayName": "PPG",
-                  "abbreviation": "PTS",
+                  "name": "points",
+                  "displayName": "Points",
+                  "shortDisplayName": "Pts",
+                  "abbreviation": "Pts",
                   "leaders": [
                     {
-                      "displayValue": "14.9",
-                      "value": 14.91891860961914,
+                      "displayValue": "2",
+                      "value": 2.0,
+                      "athlete": {
+                        "id": "4433138",
+                        "fullName": "Nimari Burnett",
+                        "displayName": "Nimari Burnett",
+                        "shortName": "N. Burnett",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4433138/nimari-burnett"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4433138.png",
+                        "jersey": "4",
+                        "position": {
+                          "abbreviation": "G"
+                        },
+                        "team": {
+                          "id": "130"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "130"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "rebounds",
+                  "displayName": "Rebounds",
+                  "shortDisplayName": "Reb",
+                  "abbreviation": "Reb",
+                  "leaders": [
+                    {
+                      "displayValue": "2",
+                      "value": 2.0,
+                      "athlete": {
+                        "id": "4433138",
+                        "fullName": "Nimari Burnett",
+                        "displayName": "Nimari Burnett",
+                        "shortName": "N. Burnett",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4433138/nimari-burnett"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4433138.png",
+                        "jersey": "4",
+                        "position": {
+                          "abbreviation": "G"
+                        },
+                        "team": {
+                          "id": "130"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "130"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "assists",
+                  "displayName": "Assists",
+                  "shortDisplayName": "Ast",
+                  "abbreviation": "Ast",
+                  "leaders": [
+                    {
+                      "displayValue": "1",
+                      "value": 1.0,
                       "athlete": {
                         "id": "5175737",
                         "fullName": "Yaxel Lendeborg",
@@ -65181,19 +65224,19 @@
                   ]
                 },
                 {
-                  "name": "reboundsPerGame",
-                  "displayName": "Rebounds Per Game",
-                  "shortDisplayName": "RPG",
-                  "abbreviation": "REB",
+                  "name": "rating",
+                  "displayName": "Rating",
+                  "shortDisplayName": "RAT",
+                  "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "7.3",
-                      "value": 7.324324131011963,
+                      "displayValue": "2 PTS",
+                      "value": 5.099999904632568,
                       "athlete": {
-                        "id": "4873153",
-                        "fullName": "Morez Johnson Jr.",
-                        "displayName": "Morez Johnson Jr.",
-                        "shortName": "M. Johnson Jr.",
+                        "id": "4433138",
+                        "fullName": "Nimari Burnett",
+                        "displayName": "Nimari Burnett",
+                        "shortName": "N. Burnett",
                         "links": [
                           {
                             "rel": [
@@ -65201,51 +65244,11 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4873153/morez-johnson-jr"
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4433138/nimari-burnett"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4873153.png",
-                        "jersey": "21",
-                        "position": {
-                          "abbreviation": "F"
-                        },
-                        "team": {
-                          "id": "130"
-                        },
-                        "active": true
-                      },
-                      "team": {
-                        "id": "130"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "name": "assistsPerGame",
-                  "displayName": "Assists Per Game",
-                  "shortDisplayName": "APG",
-                  "abbreviation": "AST",
-                  "leaders": [
-                    {
-                      "displayValue": "5.7",
-                      "value": 5.729729652404785,
-                      "athlete": {
-                        "id": "4869764",
-                        "fullName": "Elliot Cadeau",
-                        "displayName": "Elliot Cadeau",
-                        "shortName": "E. Cadeau",
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4869764/elliot-cadeau"
-                          }
-                        ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4869764.png",
-                        "jersey": "3",
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4433138.png",
+                        "jersey": "4",
                         "position": {
                           "abbreviation": "G"
                         },
@@ -65259,6 +65262,35 @@
                       }
                     }
                   ]
+                }
+              ],
+              "curatedRank": {
+                "current": 1
+              },
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "type": "total",
+                  "summary": "34-3"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "14-1"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "11-0"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "type": "vsconf",
+                  "summary": "19-1"
                 }
               ]
             },
@@ -65331,102 +65363,256 @@
                 "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
                 "conferenceId": "23"
               },
-              "score": "0",
-              "curatedRank": {
-                "current": 6
-              },
+              "score": "7",
+              "linescores": [
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 1
+                }
+              ],
               "statistics": [
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "1529",
-                  "rankDisplayValue": "19th"
+                  "displayValue": "7"
                 },
                 {
                   "name": "avgRebounds",
                   "abbreviation": "REB",
-                  "displayValue": "42.5",
-                  "rankDisplayValue": "10th"
+                  "displayValue": "7.0"
                 },
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "619",
-                  "rankDisplayValue": "15th"
+                  "displayValue": "1"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "2190",
-                  "rankDisplayValue": "23rd"
+                  "displayValue": "11"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "1020",
-                  "rankDisplayValue": "Tied-24th"
+                  "displayValue": "3"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "46.6",
-                  "rankDisplayValue": "111th"
+                  "displayValue": "27.3"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "69.4",
-                  "rankDisplayValue": "434th"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "831",
-                  "rankDisplayValue": "28th"
+                  "displayValue": "2"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "577",
-                  "rankDisplayValue": "47th"
+                  "displayValue": "0"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "2855",
-                  "rankDisplayValue": "39th"
+                  "displayValue": "7"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "701",
-                  "rankDisplayValue": "Tied-231st"
+                  "displayValue": "4"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "238",
-                  "rankDisplayValue": "Tied-226th"
+                  "displayValue": "1"
                 },
                 {
                   "name": "avgPoints",
                   "abbreviation": "PTS",
-                  "displayValue": "79.3",
-                  "rankDisplayValue": "109th"
+                  "displayValue": "7.0"
                 },
                 {
                   "name": "avgAssists",
                   "abbreviation": "AST",
-                  "displayValue": "17.2",
-                  "rankDisplayValue": "38th"
+                  "displayValue": "1.0"
                 },
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "34.0",
-                  "rankDisplayValue": "266th"
+                  "displayValue": "25.0"
                 }
               ],
+              "leaders": [
+                {
+                  "name": "points",
+                  "displayName": "Points",
+                  "shortDisplayName": "Pts",
+                  "abbreviation": "Pts",
+                  "leaders": [
+                    {
+                      "displayValue": "5",
+                      "value": 5.0,
+                      "athlete": {
+                        "id": "5101648",
+                        "fullName": "Bishop Boswell",
+                        "displayName": "Bishop Boswell",
+                        "shortName": "B. Boswell",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5101648/bishop-boswell"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5101648.png",
+                        "jersey": "3",
+                        "position": {
+                          "abbreviation": "G"
+                        },
+                        "team": {
+                          "id": "2633"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "2633"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "rebounds",
+                  "displayName": "Rebounds",
+                  "shortDisplayName": "Reb",
+                  "abbreviation": "Reb",
+                  "leaders": [
+                    {
+                      "displayValue": "2",
+                      "value": 2.0,
+                      "athlete": {
+                        "id": "5101648",
+                        "fullName": "Bishop Boswell",
+                        "displayName": "Bishop Boswell",
+                        "shortName": "B. Boswell",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5101648/bishop-boswell"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5101648.png",
+                        "jersey": "3",
+                        "position": {
+                          "abbreviation": "G"
+                        },
+                        "team": {
+                          "id": "2633"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "2633"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "assists",
+                  "displayName": "Assists",
+                  "shortDisplayName": "Ast",
+                  "abbreviation": "Ast",
+                  "leaders": [
+                    {
+                      "displayValue": "1",
+                      "value": 1.0,
+                      "athlete": {
+                        "id": "5107968",
+                        "fullName": "Ja'Kobi Gillespie",
+                        "displayName": "Ja'Kobi Gillespie",
+                        "shortName": "J. Gillespie",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5107968/jakobi-gillespie"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5107968.png",
+                        "jersey": "0",
+                        "position": {
+                          "abbreviation": "G"
+                        },
+                        "team": {
+                          "id": "2633"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "2633"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "rating",
+                  "displayName": "Rating",
+                  "shortDisplayName": "RAT",
+                  "abbreviation": "RAT",
+                  "leaders": [
+                    {
+                      "displayValue": "5 PTS",
+                      "value": 8.699999809265137,
+                      "athlete": {
+                        "id": "5101648",
+                        "fullName": "Bishop Boswell",
+                        "displayName": "Bishop Boswell",
+                        "shortName": "B. Boswell",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5101648/bishop-boswell"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5101648.png",
+                        "jersey": "3",
+                        "position": {
+                          "abbreviation": "G"
+                        },
+                        "team": {
+                          "id": "2633"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "2633"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "curatedRank": {
+                "current": 6
+              },
               "records": [
                 {
                   "name": "overall",
@@ -65452,128 +65638,6 @@
                   "type": "vsconf",
                   "summary": "11-7"
                 }
-              ],
-              "leaders": [
-                {
-                  "name": "pointsPerGame",
-                  "displayName": "Points Per Game",
-                  "shortDisplayName": "PPG",
-                  "abbreviation": "PTS",
-                  "leaders": [
-                    {
-                      "displayValue": "18.3",
-                      "value": 18.33333396911621,
-                      "athlete": {
-                        "id": "5107968",
-                        "fullName": "Ja'Kobi Gillespie",
-                        "displayName": "Ja'Kobi Gillespie",
-                        "shortName": "J. Gillespie",
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5107968/jakobi-gillespie"
-                          }
-                        ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5107968.png",
-                        "jersey": "0",
-                        "position": {
-                          "abbreviation": "G"
-                        },
-                        "team": {
-                          "id": "2633"
-                        },
-                        "active": true
-                      },
-                      "team": {
-                        "id": "2633"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "name": "reboundsPerGame",
-                  "displayName": "Rebounds Per Game",
-                  "shortDisplayName": "RPG",
-                  "abbreviation": "REB",
-                  "leaders": [
-                    {
-                      "displayValue": "6.4",
-                      "value": 6.352941036224365,
-                      "athlete": {
-                        "id": "5164559",
-                        "fullName": "Nate Ament",
-                        "displayName": "Nate Ament",
-                        "shortName": "N. Ament",
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5164559/nate-ament"
-                          }
-                        ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5164559.png",
-                        "jersey": "10",
-                        "position": {
-                          "abbreviation": "F"
-                        },
-                        "team": {
-                          "id": "2633"
-                        },
-                        "active": true
-                      },
-                      "team": {
-                        "id": "2633"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "name": "assistsPerGame",
-                  "displayName": "Assists Per Game",
-                  "shortDisplayName": "APG",
-                  "abbreviation": "AST",
-                  "leaders": [
-                    {
-                      "displayValue": "5.5",
-                      "value": 5.472222328186035,
-                      "athlete": {
-                        "id": "5107968",
-                        "fullName": "Ja'Kobi Gillespie",
-                        "displayName": "Ja'Kobi Gillespie",
-                        "shortName": "J. Gillespie",
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5107968/jakobi-gillespie"
-                          }
-                        ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5107968.png",
-                        "jersey": "0",
-                        "position": {
-                          "abbreviation": "G"
-                        },
-                        "team": {
-                          "id": "2633"
-                        },
-                        "active": true
-                      },
-                      "team": {
-                        "id": "2633"
-                      }
-                    }
-                  ]
-                }
               ]
             }
           ],
@@ -65583,18 +65647,34 @@
               "headline": "NCAA Men's Basketball Championship - Midwest Region - Elite 8"
             }
           ],
+          "situation": {
+            "lastPlay": {
+              "id": "401856576120400660",
+              "type": {
+                "id": "580",
+                "text": "OfficialTVTimeOut"
+              },
+              "text": "Official TV Timeout",
+              "scoreValue": 0,
+              "probability": {
+                "tiePercentage": 0.0,
+                "homeWinPercentage": 0.633,
+                "awayWinPercentage": 0.367
+              }
+            }
+          },
           "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 0,
+            "clock": 956.0,
+            "displayClock": "15:56",
+            "period": 1,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
+              "id": "2",
+              "name": "STATUS_IN_PROGRESS",
+              "state": "in",
               "completed": false,
-              "description": "Scheduled",
-              "detail": "Sun, March 29th at 2:15 PM EDT",
-              "shortDetail": "3/29 - 2:15 PM EDT"
+              "description": "In Progress",
+              "detail": "15:56 - 1st Half",
+              "shortDetail": "15:56 - 1st"
             }
           },
           "broadcasts": [
@@ -65611,20 +65691,6 @@
               "periods": 2
             }
           },
-          "tickets": [
-            {
-              "summary": "Tickets as low as $86",
-              "numberAvailable": 841,
-              "links": [
-                {
-                  "href": "https://www.vividseats.com/ncaa-mens-midwest-regional-tickets-united-center-3-29-2026--sports-ncaa-basketball/production/5687572?wsUser=717"
-                },
-                {
-                  "href": "https://www.vividseats.com/united-center-tickets/venue/1770?wsUser=717"
-                }
-              ]
-            }
-          ],
           "startDate": "2026-03-29T18:15Z",
           "broadcast": "CBS",
           "geoBroadcasts": [
@@ -65644,306 +65710,6 @@
               "region": "us"
             }
           ],
-          "odds": [
-            {
-              "provider": {
-                "id": "100",
-                "name": "Draft Kings",
-                "priority": 1,
-                "logos": [
-                  {
-                    "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
-                    "rel": [
-                      "light"
-                    ]
-                  },
-                  {
-                    "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
-                    "rel": [
-                      "dark"
-                    ]
-                  }
-                ],
-                "displayName": "Draft Kings"
-              },
-              "details": "MICH -8.5",
-              "overUnder": 146.5,
-              "spread": -8.5,
-              "awayTeamOdds": {
-                "favorite": false,
-                "underdog": true,
-                "team": {
-                  "id": "2633",
-                  "uid": "s:40~l:41~t:2633",
-                  "abbreviation": "TENN",
-                  "name": "Volunteers",
-                  "displayName": "Tennessee Volunteers",
-                  "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png"
-                },
-                "favoriteAtOpen": false
-              },
-              "homeTeamOdds": {
-                "favorite": true,
-                "underdog": false,
-                "team": {
-                  "id": "130",
-                  "uid": "s:40~l:41~t:130",
-                  "abbreviation": "MICH",
-                  "name": "Wolverines",
-                  "displayName": "Michigan Wolverines",
-                  "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png"
-                },
-                "favoriteAtOpen": true
-              },
-              "moneyline": {
-                "displayName": "Moneyline",
-                "shortDisplayName": "ML",
-                "home": {
-                  "close": {
-                    "odds": "-440",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "home",
-                        "desktop",
-                        "bets",
-                        "draft-kings"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33891088%3Foutcomes%3D0ML84064879_1",
-                      "text": "Home Bet",
-                      "shortText": "Home Bet",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401856576,
-                          "betSide": "home",
-                          "betType": "straight"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "odds": "-340"
-                  }
-                },
-                "away": {
-                  "close": {
-                    "odds": "+340",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "away",
-                        "desktop",
-                        "bets",
-                        "draft-kings"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33891088%3Foutcomes%3D0ML84064879_3",
-                      "text": "Away Bet",
-                      "shortText": "Away Bet",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401856576,
-                          "betSide": "away",
-                          "betType": "straight"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "odds": "+270"
-                  }
-                }
-              },
-              "pointSpread": {
-                "displayName": "Spread",
-                "shortDisplayName": "Spread",
-                "home": {
-                  "close": {
-                    "line": "-8.5",
-                    "odds": "-115",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "homeSpread",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33891088%3Foutcomes%3D0HC84064879N850_1",
-                      "text": "Home Point Spread",
-                      "shortText": "Home Point Spread",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401856576,
-                          "betSide": "none",
-                          "betType": "straight",
-                          "betDetails": "Spread:MICH-8.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "-7.5",
-                    "odds": "-110"
-                  }
-                },
-                "away": {
-                  "close": {
-                    "line": "+8.5",
-                    "odds": "-105",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "awaySpread",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33891088%3Foutcomes%3D0HC84064879P850_3",
-                      "text": "Away Point Spread",
-                      "shortText": "Away Point Spread",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401856576,
-                          "betSide": "none",
-                          "betType": "straight",
-                          "betDetails": "Spread:TENN+8.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "+7.5",
-                    "odds": "-110"
-                  }
-                }
-              },
-              "total": {
-                "displayName": "Total",
-                "shortDisplayName": "Total",
-                "over": {
-                  "close": {
-                    "line": "o146.5",
-                    "odds": "-105",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "over",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33891088%3Foutcomes%3D0OU84064879O14650_1",
-                      "text": "Over Odds",
-                      "shortText": "Over Odds",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401856576,
-                          "betSide": "over",
-                          "betType": "straight",
-                          "betDetails": "Over:146.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "o146.5",
-                    "odds": "-110"
-                  }
-                },
-                "under": {
-                  "close": {
-                    "line": "u146.5",
-                    "odds": "-115",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "under",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33891088%3Foutcomes%3D0OU84064879U14650_3",
-                      "text": "Under Odds",
-                      "shortText": "Under Odds",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401856576,
-                          "betSide": "under",
-                          "betType": "straight",
-                          "betDetails": "Under:146.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "u146.5",
-                    "odds": "-110"
-                  }
-                }
-              },
-              "link": {
-                "language": "en-US",
-                "rel": [
-                  "game",
-                  "desktop",
-                  "bets"
-                ],
-                "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33891088",
-                "text": "See More Odds",
-                "shortText": "Game",
-                "isExternal": true,
-                "isPremium": false,
-                "tracking": {
-                  "campaign": "betting-integrations",
-                  "tags": {
-                    "league": "mens-college-basketball",
-                    "sport": "basketball",
-                    "gameId": 401856576,
-                    "betSide": "none",
-                    "betType": "straight"
-                  }
-                }
-              },
-              "header": {
-                "logo": {
-                  "dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
-                  "light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
-                  "exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
-                  "exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
-                },
-                "text": "Game Odds"
-              },
-              "footer": {
-                "disclaimer": "Odds by DraftKings\nGAMBLING PROBLEM? CALL 1-800-GAMBLER, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nPlease Gamble Responsibly. 888-789-7777/visit ccpg.org (CT), or visit www.mdgamblinghelp.org (MD).\n21+ and present in most states. (18+ DC/KY/NH/WY). Void in ONT/OR/NH. Eligibility restrictions apply. On behalf of Boot Hill Casino & Resort (KS). Terms: sportsbook.draftkings.com/promos."
-              }
-            }
-          ],
           "highlights": []
         }
       ],
@@ -65951,13 +65717,52 @@
         {
           "language": "en-US",
           "rel": [
-            "summary",
+            "live",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856576/tennessee-michigan",
+          "href": "https://www.espn.com/mens-college-basketball/game?gameId=401856576",
           "text": "Gamecast",
           "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/boxscore/_/gameId/401856576",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "MMOD",
+            "desktop",
+            "event"
+          ],
+          "href": "https://mml.app.link/espn_game_504",
+          "text": "Watch Online",
+          "shortText": "Watch Online",
+          "isExternal": true,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/playbyplay/_/gameId/401856576",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
           "isExternal": false,
           "isPremium": false
         },
@@ -65976,17 +65781,17 @@
         }
       ],
       "status": {
-        "clock": 0.0,
-        "displayClock": "0:00",
-        "period": 0,
+        "clock": 956.0,
+        "displayClock": "15:56",
+        "period": 1,
         "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
+          "id": "2",
+          "name": "STATUS_IN_PROGRESS",
+          "state": "in",
           "completed": false,
-          "description": "Scheduled",
-          "detail": "Sun, March 29th at 2:15 PM EDT",
-          "shortDetail": "3/29 - 2:15 PM EDT"
+          "description": "In Progress",
+          "detail": "15:56 - 1st Half",
+          "shortDetail": "15:56 - 1st"
         }
       }
     },
@@ -66691,8 +66496,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $142",
-              "numberAvailable": 1665,
+              "summary": "Tickets as low as $164",
+              "numberAvailable": 1552,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-east-regional-tickets-capital-one-arena-3-29-2026--sports-ncaa-basketball/production/5687595?wsUser=717"
@@ -66741,7 +66546,8 @@
                       "dark"
                     ]
                   }
-                ]
+                ],
+                "displayName": "Draft Kings"
               },
               "details": "DUKE -5.5",
               "overUnder": 134.5,
@@ -66846,7 +66652,7 @@
                 "home": {
                   "close": {
                     "line": "-5.5",
-                    "odds": "-102",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -66880,7 +66686,7 @@
                 "away": {
                   "close": {
                     "line": "+5.5",
-                    "odds": "-118",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -66918,7 +66724,7 @@
                 "over": {
                   "close": {
                     "line": "o134.5",
-                    "odds": "-112",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -66952,7 +66758,7 @@
                 "under": {
                   "close": {
                     "line": "u134.5",
-                    "odds": "-108",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
