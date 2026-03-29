@@ -1,5 +1,5 @@
 {
-  "ts": "2026-03-29T07:43:08Z",
+  "ts": "2026-03-29T08:26:24Z",
   "events": [
     {
       "id": "401856478",
@@ -63458,118 +63458,6 @@
               "region": "us"
             }
           ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Illinois is heading to the Final Four for the first time in 21 years, and Andrej Stojakovic made clear the Fighting Illini have much bigger goals.",
-              "shortLinkText": "Illinois powers its way to its first Final Four in 21 years, beating Iowa 71-59",
-              "video": [
-                {
-                  "id": 48334761,
-                  "source": "espn",
-                  "headline": "Andrej Stojakovic's late and-1 helps send Illinois to Final Four",
-                  "thumbnail": "https://a.espncdn.com/media/motion/2026/0328/ss_20260328_202927822_34651471255/ss_20260328_202927822_34651471255.jpg",
-                  "duration": 18,
-                  "tracking": {
-                    "sportName": "basketball",
-                    "leagueName": "NCAA Men's Basketball",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "NCB_One-Play (Andrej Stojakovic's late and-1 helps send Illinois to Final Four) 2026/03/28 ESHEET",
-                    "trackingId": "dm_20260328_NCB_andrej_stojakovic_hits_the_and1_bucket_for_illinois",
-                    "program": "NCAA Mens Basketball"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "settop",
-                      "tablet",
-                      "handset",
-                      "ipad",
-                      "desktop"
-                    ]
-                  },
-                  "geoRestrictions": {
-                    "type": "whitelist",
-                    "countries": [
-                      "AS",
-                      "PR",
-                      "MP",
-                      "VI",
-                      "UM",
-                      "US",
-                      "GU"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=48334761",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=48334761",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=65f5dca6f04dc"
-                        }
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=48334761"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e49e287c-fa58-4c2a-8c4a-30de19312a85/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48334761"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e49e287c-fa58-4c2a-8c4a-30de19312a85/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48334761"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/48334761"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/e49e287c-fa58-4c2a-8c4a-30de19312a85"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/e49e287c-fa58-4c2a-8c4a-30de19312a85/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=48334761&videoDSI=65f5dca6f04dc"
-                    }
-                  }
-                }
-              ]
-            }
-          ],
           "highlights": [
             {
               "id": 48334761,
@@ -63685,6 +63573,118 @@
                 "trackingId": "dm_20260328_NCB_andrej_stojakovic_hits_the_and1_bucket_for_illinois",
                 "program": "NCAA Mens Basketball"
               }
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Illinois is heading to the Final Four for the first time in 21 years, and Andrej Stojakovic made clear the Fighting Illini have much bigger goals.",
+              "shortLinkText": "Illinois powers its way to its first Final Four in 21 years, beating Iowa 71-59",
+              "video": [
+                {
+                  "id": 48334761,
+                  "source": "espn",
+                  "headline": "Andrej Stojakovic's late and-1 helps send Illinois to Final Four",
+                  "thumbnail": "https://a.espncdn.com/media/motion/2026/0328/ss_20260328_202927822_34651471255/ss_20260328_202927822_34651471255.jpg",
+                  "duration": 18,
+                  "tracking": {
+                    "sportName": "basketball",
+                    "leagueName": "NCAA Men's Basketball",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "NCB_One-Play (Andrej Stojakovic's late and-1 helps send Illinois to Final Four) 2026/03/28 ESHEET",
+                    "trackingId": "dm_20260328_NCB_andrej_stojakovic_hits_the_and1_bucket_for_illinois",
+                    "program": "NCAA Mens Basketball"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ]
+                  },
+                  "geoRestrictions": {
+                    "type": "whitelist",
+                    "countries": [
+                      "AS",
+                      "PR",
+                      "MP",
+                      "VI",
+                      "UM",
+                      "US",
+                      "GU"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=48334761",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=48334761",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=65f5dca6f04dc"
+                        }
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=48334761"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e49e287c-fa58-4c2a-8c4a-30de19312a85/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48334761"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e49e287c-fa58-4c2a-8c4a-30de19312a85/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48334761"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/48334761"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/e49e287c-fa58-4c2a-8c4a-30de19312a85"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/e49e287c-fa58-4c2a-8c4a-30de19312a85/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/2026/0328/ss_20260328_202927822_3465147/ss_20260328_202927822_3465147_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=48334761&videoDSI=65f5dca6f04dc"
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
@@ -65614,7 +65614,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $108",
-              "numberAvailable": 2441,
+              "numberAvailable": 2472,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-midwest-regional-tickets-united-center-3-29-2026--sports-ncaa-basketball/production/5687572?wsUser=717"
@@ -66692,7 +66692,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $147",
-              "numberAvailable": 2217,
+              "numberAvailable": 2265,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-east-regional-tickets-capital-one-arena-3-29-2026--sports-ncaa-basketball/production/5687595?wsUser=717"
