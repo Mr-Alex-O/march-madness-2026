@@ -636,7 +636,7 @@
 </div>
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.32 · March Madness 2026
+  v1.33 · March Madness 2026
 </div>
 
 <script>
@@ -745,7 +745,7 @@ const DATA = {
         },
         { label:'Round of 32',  matchups:[{id:'e_r2_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'e_r2_2',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'e_r2_3',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'e_r2_4',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
         { label:'Sweet 16',     matchups:[{id:'e_r3_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'e_r3_2',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
-        { label:'Elite Eight',  matchups:[{id:'e_r4_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
+        { label:'Elite Eight',  matchups:[{id:'e_r4_1',t1:{seed:1,name:'Duke',espn:'Duke',owner:'alex'},t2:{seed:2,name:'Connecticut',espn:'Connecticut',owner:'alex'},status:'sched',sched:'Mar 29'}] },
       ]
     },
     west: {
@@ -766,7 +766,7 @@ const DATA = {
         },
         { label:'Round of 32', matchups:[{id:'w_r2_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'w_r2_2',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'w_r2_3',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'w_r2_4',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
         { label:'Sweet 16',    matchups:[{id:'w_r3_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'w_r3_2',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
-        { label:'Elite Eight', matchups:[{id:'w_r4_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
+        { label:'Elite Eight', matchups:[{id:'w_r4_1',t1:{seed:1,name:'Arizona',espn:'Arizona',owner:'greg'},t2:{seed:null,name:'TBD',espn:'',owner:'neutral'},status:'final',winner:1}] },
       ]
     },
     south: {
@@ -787,7 +787,7 @@ const DATA = {
         },
         { label:'Round of 32', matchups:[{id:'s_r2_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'s_r2_2',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'s_r2_3',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'s_r2_4',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
         { label:'Sweet 16',    matchups:[{id:'s_r3_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'s_r3_2',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
-        { label:'Elite Eight', matchups:[{id:'s_r4_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
+        { label:'Elite Eight', matchups:[{id:'s_r4_1',t1:{seed:3,name:'Illinois',espn:'Illinois',owner:'greg'},t2:{seed:null,name:'TBD',espn:'',owner:'neutral'},status:'final',winner:1}] },
       ]
     },
     midwest: {
@@ -808,14 +808,14 @@ const DATA = {
         },
         { label:'Round of 32', matchups:[{id:'m_r2_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'m_r2_2',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'m_r2_3',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'m_r2_4',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
         { label:'Sweet 16',    matchups:[{id:'m_r3_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'},{id:'m_r3_2',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
-        { label:'Elite Eight', matchups:[{id:'m_r4_1',t1:{seed:null,name:'TBD',espn:''},t2:{seed:null,name:'TBD',espn:''},status:'tbd'}] },
+        { label:'Elite Eight', matchups:[{id:'m_r4_1',t1:{seed:1,name:'Michigan',espn:'Michigan',owner:'alex'},t2:{seed:6,name:'Tennessee',espn:'Tennessee',owner:'alex'},status:'sched',sched:'Mar 29'}] },
       ]
     }
   },
 
   finalFour: [
-    {id:'ff_1', label:'Semifinal 1', regionLabel:'South vs West',    t1:{seed:null,name:'TBD',espn:''}, t2:{seed:null,name:'TBD',espn:''}, status:'tbd', sched:'Apr 4'},
-    {id:'ff_2', label:'Semifinal 2', regionLabel:'Midwest vs East',  t1:{seed:null,name:'TBD',espn:''}, t2:{seed:null,name:'TBD',espn:''}, status:'tbd', sched:'Apr 4'},
+    {id:'ff_1', label:'Semifinal 1', regionLabel:'East vs South',    t1:{seed:null,name:'TBD',espn:''}, t2:{seed:null,name:'TBD',espn:''}, status:'sched', sched:'Apr 4'},
+    {id:'ff_2', label:'Semifinal 2', regionLabel:'West vs Midwest',  t1:{seed:null,name:'TBD',espn:''}, t2:{seed:null,name:'TBD',espn:''}, status:'sched', sched:'Apr 4'},
   ],
   championship: {id:'champ', label:'Championship', t1:{seed:null,name:'TBD',espn:''}, t2:{seed:null,name:'TBD',espn:''}, status:'tbd', sched:'Apr 6'},
   champion: null,
@@ -1324,13 +1324,12 @@ function advanceWinners() {
   });
 
   // Elite Eight winners → Final Four
-  // East champion vs West champion (SF1), South vs Midwest (SF2)
-  // 2026 bracket: SF1 = South vs West, SF2 = Midwest vs East
+  // 2026 bracket: SF1 = East vs South, SF2 = West vs Midwest
   const FF_MAP = {
-    south:   { idx: 0, slot: 't1' },
-    west:    { idx: 0, slot: 't2' },
-    midwest: { idx: 1, slot: 't1' },
-    east:    { idx: 1, slot: 't2' },
+    east:    { idx: 0, slot: 't1' },
+    south:   { idx: 0, slot: 't2' },
+    west:    { idx: 1, slot: 't1' },
+    midwest: { idx: 1, slot: 't2' },
   };
   Object.entries(DATA.regions).forEach(([key, region]) => {
     const e8 = region.rounds[region.rounds.length - 1].matchups[0];

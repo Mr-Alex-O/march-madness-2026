@@ -21,6 +21,15 @@
 
 ## Changelog
 
+### v1.33 — Final Four update Mar 29
+- Fixed FF_MAP region pairings: now East vs South (SF1) and West vs Midwest (SF2)
+- Updated region labels in finalFour data to match correct 2026 bracket structure
+- South Elite Eight: Illinois (3) confirmed Final Four — marked final
+- West Elite Eight: Arizona (1) confirmed Final Four — marked final
+- East Elite Eight: Duke (1) vs Connecticut (2) — scheduled Mar 29
+- Midwest Elite Eight: Michigan (1) vs Tennessee (6) — scheduled Mar 29
+- Final Four games pre-set to sched/Apr 4 so date shows even with one TBD slot
+
 ### v1.14 — Manual score update Mar 20 (rate limit workaround)
 - Arizona 92, LIU 58 (score corrected)
 - Utah State 86, Villanova 76 (upset)
