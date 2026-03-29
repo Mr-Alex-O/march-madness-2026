@@ -510,6 +510,11 @@
     background: #333; border: none; color: #fff; border-radius: 8px;
     font-size: 13px; font-weight: 600; cursor: pointer;
   }
+  .score-num { cursor: pointer; }
+  .score-num:hover { opacity: 0.8; }
+  .earnings-section { margin-bottom: 14px; }
+  .earnings-round-label { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: #888; margin-bottom: 6px; padding: 3px 10px; background: #111; border-radius: 4px; }
+  .earnings-total { margin-top: 14px; font-size: 15px; font-weight: 800; text-align: center; color: #eee; border-top: 1px solid #333; padding-top: 12px; }
 
   /* ── Responsive ───────────────────────────────────── */
   @media (max-width: 480px) {
@@ -542,13 +547,13 @@
   <div class="score-bar">
     <div class="score-player">
       <span class="score-label alex">Alex</span>
-      <span class="score-num alex" id="alexScore">$0</span>
+      <span class="score-num alex" id="alexScore" onclick="showEarnings('alex')">$0</span>
       <span class="teams-left" id="alexTeamsLeft" style="font-size:11px;color:#4caf50;margin-top:2px;">32 teams left</span>
     </div>
     <span class="score-vs">vs</span>
     <div class="score-player">
       <span class="score-label greg">Greg</span>
-      <span class="score-num greg" id="gregScore">$0</span>
+      <span class="score-num greg" id="gregScore" onclick="showEarnings('greg')">$0</span>
       <span class="teams-left" id="gregTeamsLeft" style="font-size:11px;color:#fdd835;margin-top:2px;">32 teams left</span>
     </div>
   </div>
@@ -626,6 +631,15 @@
 </div>
 
 
+<!-- Earnings breakdown modal -->
+<div class="teams-modal" id="earningsModal" onclick="if(event.target===this)closeEarningsModal()">
+  <div class="teams-modal-box">
+    <div class="teams-modal-title" id="earningsModalTitle"></div>
+    <div id="earningsModalList"></div>
+    <button class="teams-modal-close" onclick="closeEarningsModal()">Close</button>
+  </div>
+</div>
+
 <!-- Teams remaining modal -->
 <div class="teams-modal" id="teamsModal" onclick="if(event.target===this)closeTeamsModal()">
   <div class="teams-modal-box">
@@ -636,7 +650,7 @@
 </div>
 
 <div style="text-align:center; padding: 24px 0 12px; font-size: 11px; color: #333; letter-spacing: 1px;">
-  v1.34 · March Madness 2026
+  v1.35 · March Madness 2026
 </div>
 
 <script>
@@ -1531,6 +1545,62 @@ function showTeams(player) {
 
 function closeTeamsModal() {
   document.getElementById('teamsModal').classList.remove('open');
+}
+
+function showEarnings(player) {
+  const MILESTONES = [
+    { round: 'Sweet 16',     label: 'Elite Eight',   dollars: 5  },
+    { round: 'Elite Eight',  label: 'Final Four',    dollars: 10 },
+    { round: 'Final Four',   label: 'Finals',        dollars: 15 },
+    { round: 'Championship', label: 'Champion',      dollars: 20 },
+  ];
+
+  // Collect all earnings for this player
+  const byMilestone = {};
+  MILESTONES.forEach(ms => { byMilestone[ms.round] = []; });
+
+  function check(m, roundLabel) {
+    if (!ROUND_MONEY[roundLabel] || m.status !== 'final' || !m.winner) return;
+    const winner = m.winner === 1 ? m.t1 : m.t2;
+    const o = winner.owner || owner(winner.name) || owner(winner.espn);
+    if (o === player) byMilestone[roundLabel].push(winner.name);
+  }
+
+  Object.values(DATA.regions).forEach(r =>
+    r.rounds.forEach(rd => rd.matchups.forEach(m => check(m, rd.label)))
+  );
+  DATA.finalFour.forEach(m => check(m, 'Final Four'));
+  check(DATA.championship, 'Championship');
+
+  const total = MILESTONES.reduce((s, ms) => s + byMilestone[ms.round].length * ms.dollars, 0);
+  const title = document.getElementById('earningsModalTitle');
+  title.textContent = (player === ALEX ? 'Alex' : 'Greg') + "'s Earnings";
+  title.className = 'teams-modal-title ' + player;
+
+  let html = '';
+  const hasAny = MILESTONES.some(ms => byMilestone[ms.round].length > 0);
+  if (!hasAny) {
+    html = '<p style="color:#555;font-size:13px;text-align:center;padding:8px 0;">No earnings yet — Elite Eight &amp; beyond earns money</p>';
+  } else {
+    MILESTONES.forEach(ms => {
+      const teams = byMilestone[ms.round];
+      if (!teams.length) return;
+      html += `<div class="earnings-section">
+        <div class="earnings-round-label">${ms.label} · $${ms.dollars} each</div>
+        <ul class="teams-modal-list">
+          ${teams.map(n => `<li class="teams-modal-item">${n}</li>`).join('')}
+        </ul>
+      </div>`;
+    });
+    html += `<div class="earnings-total">Total: $${total}</div>`;
+  }
+
+  document.getElementById('earningsModalList').innerHTML = html;
+  document.getElementById('earningsModal').classList.add('open');
+}
+
+function closeEarningsModal() {
+  document.getElementById('earningsModal').classList.remove('open');
 }
 
 function renderRoundTab(roundIndex, containerId, dollarsPerTeam) {
