@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-04T06:44:05Z",
+  "ts": "2026-04-04T07:40:06Z",
   "events": [
     {
       "id": "401856478",
@@ -68088,7 +68088,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $393",
-              "numberAvailable": 3354,
+              "numberAvailable": 3339,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-final-four-tickets-lucas-oil-stadium-4-4-2026--sports-ncaa-basketball/production/5687563?wsUser=717"
@@ -68480,10 +68480,21 @@
         }
       ],
       "weather": {
-        "displayValue": "Rain",
-        "temperature": 70,
-        "highTemperature": 70,
-        "conditionId": "18"
+        "displayValue": "38",
+        "temperature": 69,
+        "highTemperature": 69,
+        "conditionId": "Mostly cloudy",
+        "link": {
+          "language": "en-US",
+          "rel": [
+            "46225"
+          ],
+          "href": "http://www.accuweather.com/en/us/indianapolis-in/46204/current-weather/19912_pc?lang=en-us",
+          "text": "Weather",
+          "shortText": "Weather",
+          "isExternal": true,
+          "isPremium": false
+        }
       },
       "status": {
         "clock": 0.0,
@@ -69204,7 +69215,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $393",
-              "numberAvailable": 3354,
+              "numberAvailable": 3326,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-final-four-tickets-lucas-oil-stadium-4-4-2026--sports-ncaa-basketball/production/5687563?wsUser=717"
@@ -69595,10 +69606,21 @@
         }
       ],
       "weather": {
-        "displayValue": "Rain",
-        "temperature": 70,
-        "highTemperature": 70,
-        "conditionId": "18"
+        "displayValue": "38",
+        "temperature": 69,
+        "highTemperature": 69,
+        "conditionId": "Mostly cloudy",
+        "link": {
+          "language": "en-US",
+          "rel": [
+            "46225"
+          ],
+          "href": "http://www.accuweather.com/en/us/indianapolis-in/46204/current-weather/19912_pc?lang=en-us",
+          "text": "Weather",
+          "shortText": "Weather",
+          "isExternal": true,
+          "isPremium": false
+        }
       },
       "status": {
         "clock": 0.0,
