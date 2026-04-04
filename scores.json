@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-04T21:19:48Z",
+  "ts": "2026-04-04T21:48:34Z",
   "events": [
     {
       "id": "401856478",
@@ -67585,32 +67585,6 @@
                   "rankDisplayValue": "229th"
                 }
               ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "type": "total",
-                  "summary": "33-5"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "15-2"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "9-3"
-                },
-                {
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "type": "vsconf",
-                  "summary": "17-3"
-                }
-              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -67731,6 +67705,32 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "type": "total",
+                  "summary": "33-5"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "15-2"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "9-3"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "type": "vsconf",
+                  "summary": "17-3"
                 }
               ]
             },
@@ -68480,10 +68480,10 @@
         }
       ],
       "weather": {
-        "displayValue": "12",
-        "temperature": 58,
-        "highTemperature": 58,
-        "conditionId": "Light rain",
+        "displayValue": "7",
+        "temperature": 56,
+        "highTemperature": 56,
+        "conditionId": "Cloudy",
         "link": {
           "language": "en-US",
           "rel": [
@@ -69606,10 +69606,10 @@
         }
       ],
       "weather": {
-        "displayValue": "12",
-        "temperature": 58,
-        "highTemperature": 58,
-        "conditionId": "Light rain",
+        "displayValue": "7",
+        "temperature": 56,
+        "highTemperature": 56,
+        "conditionId": "Cloudy",
         "link": {
           "language": "en-US",
           "rel": [
