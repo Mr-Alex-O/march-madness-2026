@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-03T23:59:26Z",
+  "ts": "2026-04-04T02:06:34Z",
   "events": [
     {
       "id": "401856478",
@@ -68087,8 +68087,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $420",
-              "numberAvailable": 3530,
+              "summary": "Tickets as low as $393",
+              "numberAvailable": 3526,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-final-four-tickets-lucas-oil-stadium-4-4-2026--sports-ncaa-basketball/production/5687563?wsUser=717"
@@ -69203,8 +69203,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $420",
-              "numberAvailable": 3530,
+              "summary": "Tickets as low as $393",
+              "numberAvailable": 3526,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-final-four-tickets-lucas-oil-stadium-4-4-2026--sports-ncaa-basketball/production/5687563?wsUser=717"
@@ -69612,6 +69612,160 @@
           "description": "Scheduled",
           "detail": "Sat, April 4th at 8:49 PM EDT",
           "shortDetail": "4/4 - 8:49 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "401856600",
+      "uid": "s:40~l:41~e:401856600",
+      "date": "2026-04-07T00:50Z",
+      "name": "TBD at TBD",
+      "shortName": "TBD VS TBD",
+      "season": {
+        "year": 2026,
+        "type": 3,
+        "slug": "post-season"
+      },
+      "competitions": [
+        {
+          "id": "401856600",
+          "uid": "s:40~l:41~e:401856600~c:401856600",
+          "date": "2026-04-07T00:50Z",
+          "attendance": 0,
+          "type": {
+            "id": "6",
+            "abbreviation": "TRNMNT"
+          },
+          "timeValid": true,
+          "neutralSite": true,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": false,
+          "recent": false,
+          "venue": {
+            "id": "3812",
+            "fullName": "Lucas Oil Stadium",
+            "address": {
+              "city": "Indianapolis",
+              "state": "IN"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "-1",
+              "uid": "s:40~l:41~t:-1",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "name": "TBD",
+              "team": {
+                "id": "-1",
+                "uid": "s:40~l:41~t:-1",
+                "location": "TBD",
+                "name": "TBD",
+                "abbreviation": "TBD",
+                "displayName": "TBD",
+                "shortDisplayName": "TBD",
+                "isActive": false,
+                "links": []
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": []
+            },
+            {
+              "id": "-2",
+              "uid": "s:40~l:41~t:-2",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "name": "TBD",
+              "team": {
+                "id": "-2",
+                "uid": "s:40~l:41~t:-2",
+                "location": "TBD",
+                "name": "TBD",
+                "abbreviation": "TBD",
+                "displayName": "TBD",
+                "shortDisplayName": "TBD",
+                "isActive": false,
+                "links": []
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": []
+            }
+          ],
+          "notes": [
+            {
+              "type": "event",
+              "headline": "NCAA Men's Basketball Championship - National Championship"
+            }
+          ],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Mon, April 6th at 8:50 PM EDT",
+              "shortDetail": "4/6 - 8:50 PM EDT"
+            }
+          },
+          "broadcasts": [],
+          "tournamentId": 22,
+          "format": {
+            "regulation": {
+              "periods": 2
+            }
+          },
+          "startDate": "2026-04-07T00:50Z",
+          "broadcast": "",
+          "geoBroadcasts": [],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856600/tbd-tbd",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "weather": {
+        "displayValue": "Mostly sunny",
+        "temperature": 55,
+        "highTemperature": 55,
+        "conditionId": "2"
+      },
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "completed": false,
+          "description": "Scheduled",
+          "detail": "Mon, April 6th at 8:50 PM EDT",
+          "shortDetail": "4/6 - 8:50 PM EDT"
         }
       }
     }
