@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-05T11:03:30Z",
+  "ts": "2026-04-05T11:45:13Z",
   "events": [
     {
       "id": "401856478",
@@ -68204,6 +68204,120 @@
               "region": "us"
             }
           ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Dan Hurley had UConn ready for another Final Four fight night. Once again, his Huskies scored a knockout.",
+              "shortLinkText": "UConn and Hurley muscle their way to 3rd national title game in 4 seasons, beating Illinois 71-62",
+              "video": [
+                {
+                  "id": 48400155,
+                  "source": "espn",
+                  "headline": "Braylon Mullins' dagger 3 sends UConn to their 3rd title game in 4 years",
+                  "thumbnail": "https://a.espncdn.com/media/motion/2026/0404/a7e76c28e7414b239bfad68fde34f2761255/a7e76c28e7414b239bfad68fde34f2761255.jpg",
+                  "duration": 16,
+                  "tracking": {
+                    "sportName": "basketball",
+                    "leagueName": "NCAA Men's Basketball",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "AUS NZ ONLY NCB_One-Play (Braylon Mullins' dagger 3 sends UConn to their 3rd title game in 4 years) 2026/04/05 ESHEET - Copy",
+                    "trackingId": "dm_NCB_braylon_mullins_dagger_3_sends_uconn_to_their_3rd_title_game_in_4_years",
+                    "program": "NCAA Mens Basketball"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ]
+                  },
+                  "geoRestrictions": {
+                    "type": "whitelist",
+                    "countries": [
+                      "AU",
+                      "PH",
+                      "NZ"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=48400155",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=48400155",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=8ce0f727496ac"
+                        }
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=48400155"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c80557ed-56ac-4ecb-9ea7-59b041548e8f/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48400155"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c80557ed-56ac-4ecb-9ea7-59b041548e8f/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48400155"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/48400155"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/c80557ed-56ac-4ecb-9ea7-59b041548e8f"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/c80557ed-56ac-4ecb-9ea7-59b041548e8f/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=48400155&videoDSI=8ce0f727496ac"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
           "highlights": [
             {
               "id": 48399040,
@@ -68563,120 +68677,6 @@
                 "trackingId": "dm_NCB_braylon_mullins_dagger_3_sends_uconn_to_their_3rd_title_game_in_4_years",
                 "program": "NCAA Mens Basketball"
               }
-            }
-          ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Dan Hurley had UConn ready for another Final Four fight night. Once again, his Huskies scored a knockout.",
-              "shortLinkText": "UConn and Hurley muscle their way to 3rd national title game in 4 seasons, beating Illinois 71-62",
-              "video": [
-                {
-                  "id": 48400155,
-                  "source": "espn",
-                  "headline": "Braylon Mullins' dagger 3 sends UConn to their 3rd title game in 4 years",
-                  "thumbnail": "https://a.espncdn.com/media/motion/2026/0404/a7e76c28e7414b239bfad68fde34f2761255/a7e76c28e7414b239bfad68fde34f2761255.jpg",
-                  "duration": 16,
-                  "tracking": {
-                    "sportName": "basketball",
-                    "leagueName": "NCAA Men's Basketball",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "AUS NZ ONLY NCB_One-Play (Braylon Mullins' dagger 3 sends UConn to their 3rd title game in 4 years) 2026/04/05 ESHEET - Copy",
-                    "trackingId": "dm_NCB_braylon_mullins_dagger_3_sends_uconn_to_their_3rd_title_game_in_4_years",
-                    "program": "NCAA Mens Basketball"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "settop",
-                      "tablet",
-                      "handset",
-                      "ipad",
-                      "desktop"
-                    ]
-                  },
-                  "geoRestrictions": {
-                    "type": "whitelist",
-                    "countries": [
-                      "AU",
-                      "PH",
-                      "NZ"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=48400155",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=48400155",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=8ce0f727496ac"
-                        }
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=48400155"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c80557ed-56ac-4ecb-9ea7-59b041548e8f/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48400155"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c80557ed-56ac-4ecb-9ea7-59b041548e8f/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48400155"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/48400155"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/c80557ed-56ac-4ecb-9ea7-59b041548e8f"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276/playlist.m3u8"
-                          }
-                        },
-                        "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/c80557ed-56ac-4ecb-9ea7-59b041548e8f/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0405/a7e76c28-e741-4b23-9bfa-d68fde34f276/a7e76c28-e741-4b23-9bfa-d68fde34f276_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=48400155&videoDSI=8ce0f727496ac"
-                    }
-                  }
-                }
-              ]
             }
           ]
         }
@@ -70560,6 +70560,32 @@
                   "rankDisplayValue": "227th"
                 }
               ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "type": "total",
+                  "summary": "34-5"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "15-2"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "9-3"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "type": "vsconf",
+                  "summary": "17-3"
+                }
+              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -70681,32 +70707,6 @@
                     }
                   ]
                 }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "type": "total",
-                  "summary": "34-5"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "15-2"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "9-3"
-                },
-                {
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "type": "vsconf",
-                  "summary": "17-3"
-                }
               ]
             }
           ],
@@ -70749,7 +70749,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $185",
-              "numberAvailable": 3219,
+              "numberAvailable": 3475,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-final-four-tickets-lucas-oil-stadium-4-6-2026--sports-ncaa-basketball/production/5687566?wsUser=717"
