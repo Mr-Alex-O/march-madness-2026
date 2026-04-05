@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-05T22:17:18Z",
+  "ts": "2026-04-05T22:52:53Z",
   "events": [
     {
       "id": "401856478",
@@ -69595,6 +69595,120 @@
               "region": "us"
             }
           ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Game of the year? This wasn’t even the game of the night.",
+              "shortLinkText": "Michigan rolls to national title game with its latest double-digit March win, 91-73 over Arizona",
+              "video": [
+                {
+                  "id": 48400632,
+                  "source": "espn",
+                  "headline": "Aday Mara muscles in a Michigan and-1",
+                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca.jpg",
+                  "duration": 18,
+                  "tracking": {
+                    "sportName": "basketball",
+                    "leagueName": "NCAA Men's Basketball",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "AUS NZ ONLY NCB_One-Play (Aday Mara muscles in a Michigan and-1) 2026/04/05 ESHEET - Copy",
+                    "trackingId": "dm_NCB_aday_mara_muscles_in_a_michigan_and1",
+                    "program": "NCAA Mens Basketball"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ]
+                  },
+                  "geoRestrictions": {
+                    "type": "whitelist",
+                    "countries": [
+                      "AU",
+                      "PH",
+                      "NZ"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=48400632",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=48400632",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=6abbf88229a4d"
+                        }
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=48400632"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/982ddee8-2dc9-4ffe-8fdd-ad641742d74b/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48400632"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/982ddee8-2dc9-4ffe-8fdd-ad641742d74b/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48400632"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/48400632"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/982ddee8-2dc9-4ffe-8fdd-ad641742d74b"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/982ddee8-2dc9-4ffe-8fdd-ad641742d74b/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=48400632&videoDSI=6abbf88229a4d"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
           "highlights": [
             {
               "id": 48400583,
@@ -69833,120 +69947,6 @@
                 "trackingId": "dm_NCB_aday_mara_muscles_in_a_michigan_and1",
                 "program": "NCAA Mens Basketball"
               }
-            }
-          ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Game of the year? This wasn’t even the game of the night.",
-              "shortLinkText": "Michigan rolls to national title game with its latest double-digit March win, 91-73 over Arizona",
-              "video": [
-                {
-                  "id": 48400632,
-                  "source": "espn",
-                  "headline": "Aday Mara muscles in a Michigan and-1",
-                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca.jpg",
-                  "duration": 18,
-                  "tracking": {
-                    "sportName": "basketball",
-                    "leagueName": "NCAA Men's Basketball",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "AUS NZ ONLY NCB_One-Play (Aday Mara muscles in a Michigan and-1) 2026/04/05 ESHEET - Copy",
-                    "trackingId": "dm_NCB_aday_mara_muscles_in_a_michigan_and1",
-                    "program": "NCAA Mens Basketball"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "settop",
-                      "tablet",
-                      "handset",
-                      "ipad",
-                      "desktop"
-                    ]
-                  },
-                  "geoRestrictions": {
-                    "type": "whitelist",
-                    "countries": [
-                      "AU",
-                      "PH",
-                      "NZ"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=48400632",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=48400632",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=6abbf88229a4d"
-                        }
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=48400632"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/982ddee8-2dc9-4ffe-8fdd-ad641742d74b/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48400632"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/982ddee8-2dc9-4ffe-8fdd-ad641742d74b/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48400632"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/48400632"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/982ddee8-2dc9-4ffe-8fdd-ad641742d74b"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/playlist.m3u8"
-                          }
-                        },
-                        "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/982ddee8-2dc9-4ffe-8fdd-ad641742d74b/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0405/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca/e9ea75f6-7b01-4e65-bf07-c38bc0d61bca_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=48400632&videoDSI=6abbf88229a4d"
-                    }
-                  }
-                }
-              ]
             }
           ]
         }
@@ -70748,8 +70748,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $155",
-              "numberAvailable": 5625,
+              "summary": "Tickets as low as $158",
+              "numberAvailable": 5569,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-final-four-tickets-lucas-oil-stadium-4-6-2026--sports-ncaa-basketball/production/5687566?wsUser=717"
