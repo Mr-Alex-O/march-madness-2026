@@ -21,6 +21,10 @@
 
 ## Changelog
 
+### v1.36 — South E8 fix + Alex wins banner Apr 5
+- Fixed South Elite Eight: Iowa (9) was overwriting hardcoded Illinois (3) in t1 slot due to advanceWinners() cascade from S16 — corrected to Iowa t1 vs Illinois t2, winner:2, score 59-71
+- Added celebratory banner in Championship tab: Alex won $50 from Greg
+
 ### v1.33 — Final Four update Mar 29
 - Fixed FF_MAP region pairings: now East vs South (SF1) and West vs Midwest (SF2)
 - Updated region labels in finalFour data to match correct 2026 bracket structure
