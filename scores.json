@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-07T03:31:08Z",
+  "ts": "2026-04-07T05:28:16Z",
   "events": [
     {
       "id": "401856478",
@@ -70070,7 +70070,7 @@
           "neutralSite": true,
           "conferenceCompetition": false,
           "playByPlayAvailable": true,
-          "recent": true,
+          "recent": false,
           "venue": {
             "id": "3812",
             "fullName": "Lucas Oil Stadium",
@@ -70865,7 +70865,129 @@
               "region": "us"
             }
           ],
-          "highlights": []
+          "highlights": [
+            {
+              "id": 48416811,
+              "cerebroId": "69d47b84477e373144a2badd",
+              "source": "espn",
+              "headline": "Michigan holds off UConn rally for first title in 37 years",
+              "description": "Michigan secures its first NCAA men's basketball title since 1989.",
+              "lastModified": "2026-04-07T03:50:26Z",
+              "originalPublishDate": "2026-04-07T03:35:33Z",
+              "duration": 20,
+              "timeRestrictions": {
+                "embargoDate": "2026-04-07T03:35:31Z",
+                "expirationDate": "2026-06-30T04:00:00Z"
+              },
+              "deviceRestrictions": {
+                "type": "whitelist",
+                "devices": [
+                  "settop",
+                  "tablet",
+                  "handset",
+                  "ipad",
+                  "desktop"
+                ]
+              },
+              "geoRestrictions": {
+                "type": "whitelist",
+                "countries": [
+                  "AS",
+                  "PR",
+                  "MP",
+                  "VI",
+                  "UM",
+                  "US",
+                  "GU"
+                ]
+              },
+              "thumbnail": "https://a.espncdn.com/media/motion/2026/0406/98be7c12544e45b4a2012823db7b0fc31430/98be7c12544e45b4a2012823db7b0fc31430.jpg",
+              "links": {
+                "web": {
+                  "href": "https://www.espn.com/video/clip?id=48416811",
+                  "self": {
+                    "href": "https://www.espn.com/video/clip?id=48416811",
+                    "dsi": {
+                      "href": "https://www.espn.com/video/clip?id=9d51cbabb3947"
+                    }
+                  }
+                },
+                "mobile": {
+                  "source": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0407/98be7c12-544e-45b4-a201-2823db7b0fc3/98be7c12-544e-45b4-a201-2823db7b0fc3.mp4"
+                  },
+                  "alert": {
+                    "href": "https://m.espn.com/general/video/videoAlert?vid=48416811"
+                  },
+                  "streaming": {
+                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/46f0884b-3c1b-4e9a-ae9c-58c0f5bc8a38/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48416811"
+                  },
+                  "progressiveDownload": {
+                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/46f0884b-3c1b-4e9a-ae9c-58c0f5bc8a38/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=48416811"
+                  }
+                },
+                "api": {
+                  "self": {
+                    "href": "https://content.core.api.espn.com/v1/video/clips/48416811"
+                  },
+                  "artwork": {
+                    "href": "https://artwork.api.espn.com/artwork/collections/media/46f0884b-3c1b-4e9a-ae9c-58c0f5bc8a38"
+                  }
+                },
+                "source": {
+                  "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0407/98be7c12-544e-45b4-a201-2823db7b0fc3/98be7c12-544e-45b4-a201-2823db7b0fc3_360p30_1464k.mp4",
+                  "mezzanine": {
+                    "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0407/98be7c12-544e-45b4-a201-2823db7b0fc3/98be7c12-544e-45b4-a201-2823db7b0fc3.mp4"
+                  },
+                  "flash": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0407/98be7c12-544e-45b4-a201-2823db7b0fc3/98be7c12-544e-45b4-a201-2823db7b0fc3.smil"
+                  },
+                  "hds": {
+                    "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0407/98be7c12-544e-45b4-a201-2823db7b0fc3/98be7c12-544e-45b4-a201-2823db7b0fc3_rel.smil/manifest.f4m"
+                  },
+                  "HLS": {
+                    "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0407/98be7c12-544e-45b4-a201-2823db7b0fc3/98be7c12-544e-45b4-a201-2823db7b0fc3/playlist.m3u8",
+                    "HD": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0407/98be7c12-544e-45b4-a201-2823db7b0fc3/98be7c12-544e-45b4-a201-2823db7b0fc3/playlist.m3u8"
+                    },
+                    "cmaf": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0407/98be7c12-544e-45b4-a201-2823db7b0fc3/98be7c12-544e-45b4-a201-2823db7b0fc3/playlist.m3u8",
+                      "9x16": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0407/98be7c12-544e-45b4-a201-2823db7b0fc3/98be7c12-544e-45b4-a201-2823db7b0fc3/playlist.m3u8"
+                      }
+                    },
+                    "9x16": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0407/98be7c12-544e-45b4-a201-2823db7b0fc3/98be7c12-544e-45b4-a201-2823db7b0fc3/playlist.m3u8"
+                    },
+                    "shield": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/media/46f0884b-3c1b-4e9a-ae9c-58c0f5bc8a38/asset"
+                    }
+                  },
+                  "HD": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0407/98be7c12-544e-45b4-a201-2823db7b0fc3/98be7c12-544e-45b4-a201-2823db7b0fc3_720p30_2896k.mp4"
+                  },
+                  "full": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0407/98be7c12-544e-45b4-a201-2823db7b0fc3/98be7c12-544e-45b4-a201-2823db7b0fc3_360p30_1464k.mp4"
+                  }
+                },
+                "sportscenter": {
+                  "href": "sportscenter://x-callback-url/showVideo?videoID=48416811&videoDSI=9d51cbabb3947"
+                }
+              },
+              "ad": {
+                "sport": "ncb",
+                "bundle": "sportscenter"
+              },
+              "tracking": {
+                "sportName": "basketball",
+                "leagueName": "NCAA Men's Basketball",
+                "coverageType": "Final Game Highlight",
+                "trackingName": "NCB_One-Play (Michigan holds off UConn rally for first title in 37 years) 2026/04/07 ESHEET",
+                "trackingId": "dm_NCB_michigan_holds_off_uconn_rally_for_first_title_in_37_years",
+                "program": "NCAA Mens Basketball"
+              }
+            }
+          ]
         }
       ],
       "links": [
@@ -70892,6 +71014,18 @@
           "href": "https://www.espn.com/mens-college-basketball/boxscore/_/gameId/401856600",
           "text": "Box Score",
           "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/video?gameId=401856600",
+          "text": "Highlights",
+          "shortText": "Highlights",
           "isExternal": false,
           "isPremium": false
         },
