@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-07T00:02:17Z",
+  "ts": "2026-04-07T03:31:08Z",
   "events": [
     {
       "id": "401856478",
@@ -70061,7 +70061,7 @@
           "id": "401856600",
           "uid": "s:40~l:41~e:401856600~c:401856600",
           "date": "2026-04-07T00:50Z",
-          "attendance": 0,
+          "attendance": 70720,
           "type": {
             "id": "6",
             "abbreviation": "TRNMNT"
@@ -70069,7 +70069,7 @@
           "timeValid": true,
           "neutralSite": true,
           "conferenceCompetition": false,
-          "playByPlayAvailable": false,
+          "playByPlayAvailable": true,
           "recent": true,
           "venue": {
             "id": "3812",
@@ -70087,6 +70087,7 @@
               "type": "team",
               "order": 0,
               "homeAway": "home",
+              "winner": true,
               "team": {
                 "id": "130",
                 "uid": "s:40~l:41~t:130",
@@ -70150,143 +70151,111 @@
                 "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
                 "conferenceId": "7"
               },
-              "score": "0",
-              "curatedRank": {
-                "current": 1
-              },
+              "score": "69",
+              "linescores": [
+                {
+                  "value": 33.0,
+                  "displayValue": "33",
+                  "period": 1
+                },
+                {
+                  "value": 36.0,
+                  "displayValue": "36",
+                  "period": 2
+                }
+              ],
               "statistics": [
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "1564",
-                  "rankDisplayValue": "Tied-48th"
+                  "displayValue": "39"
                 },
                 {
                   "name": "avgRebounds",
                   "abbreviation": "REB",
-                  "displayValue": "40.1",
-                  "rankDisplayValue": "27th"
+                  "displayValue": "39.0"
                 },
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "738",
-                  "rankDisplayValue": "2nd"
+                  "displayValue": "7"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "2353",
-                  "rankDisplayValue": "3rd"
+                  "displayValue": "55"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "1200",
-                  "rankDisplayValue": "1st"
+                  "displayValue": "21"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "51.0",
-                  "rankDisplayValue": "5th"
+                  "displayValue": "38.2"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "74.3",
-                  "rankDisplayValue": "212th"
+                  "displayValue": "89.3"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "887",
-                  "rankDisplayValue": "13th"
+                  "displayValue": "28"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "659",
-                  "rankDisplayValue": "Tied-12th"
+                  "displayValue": "25"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "3424",
-                  "rankDisplayValue": "1st"
+                  "displayValue": "69"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "983",
-                  "rankDisplayValue": "Tied-23rd"
+                  "displayValue": "15"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "365",
-                  "rankDisplayValue": "13th"
+                  "displayValue": "2"
                 },
                 {
                   "name": "avgPoints",
                   "abbreviation": "PTS",
-                  "displayValue": "87.8",
-                  "rankDisplayValue": "10th"
+                  "displayValue": "69.0"
                 },
                 {
                   "name": "avgAssists",
                   "abbreviation": "AST",
-                  "displayValue": "18.9",
-                  "rankDisplayValue": "14th"
+                  "displayValue": "7.0"
                 },
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "37.1",
-                  "rankDisplayValue": "75th"
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "type": "total",
-                  "summary": "36-3"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "14-1"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "11-0"
-                },
-                {
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "type": "vsconf",
-                  "summary": "19-1"
+                  "displayValue": "13.3"
                 }
               ],
               "leaders": [
                 {
-                  "name": "pointsPerGame",
-                  "displayName": "Points Per Game",
-                  "shortDisplayName": "PPG",
-                  "abbreviation": "PTS",
+                  "name": "points",
+                  "displayName": "Points",
+                  "shortDisplayName": "Pts",
+                  "abbreviation": "Pts",
                   "leaders": [
                     {
-                      "displayValue": "15.1",
-                      "value": 15.128205299377441,
+                      "displayValue": "19",
+                      "value": 19.0,
                       "athlete": {
-                        "id": "5175737",
-                        "fullName": "Yaxel Lendeborg",
-                        "displayName": "Yaxel Lendeborg",
-                        "shortName": "Y. Lendeborg",
+                        "id": "4869764",
+                        "fullName": "Elliot Cadeau",
+                        "displayName": "Elliot Cadeau",
+                        "shortName": "E. Cadeau",
                         "links": [
                           {
                             "rel": [
@@ -70294,13 +70263,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5175737/yaxel-lendeborg"
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4869764/elliot-cadeau"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5175737.png",
-                        "jersey": "23",
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4869764.png",
+                        "jersey": "3",
                         "position": {
-                          "abbreviation": "F"
+                          "abbreviation": "G"
                         },
                         "team": {
                           "id": "130"
@@ -70314,14 +70283,14 @@
                   ]
                 },
                 {
-                  "name": "reboundsPerGame",
-                  "displayName": "Rebounds Per Game",
-                  "shortDisplayName": "RPG",
-                  "abbreviation": "REB",
+                  "name": "rebounds",
+                  "displayName": "Rebounds",
+                  "shortDisplayName": "Reb",
+                  "abbreviation": "Reb",
                   "leaders": [
                     {
-                      "displayValue": "7.3",
-                      "value": 7.256410121917725,
+                      "displayValue": "10",
+                      "value": 10.0,
                       "athlete": {
                         "id": "4873153",
                         "fullName": "Morez Johnson Jr.",
@@ -70354,14 +70323,54 @@
                   ]
                 },
                 {
-                  "name": "assistsPerGame",
-                  "displayName": "Assists Per Game",
-                  "shortDisplayName": "APG",
-                  "abbreviation": "AST",
+                  "name": "assists",
+                  "displayName": "Assists",
+                  "shortDisplayName": "Ast",
+                  "abbreviation": "Ast",
                   "leaders": [
                     {
-                      "displayValue": "5.9",
-                      "value": 5.948718070983887,
+                      "displayValue": "2",
+                      "value": 2.0,
+                      "athlete": {
+                        "id": "4869764",
+                        "fullName": "Elliot Cadeau",
+                        "displayName": "Elliot Cadeau",
+                        "shortName": "E. Cadeau",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4869764/elliot-cadeau"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4869764.png",
+                        "jersey": "3",
+                        "position": {
+                          "abbreviation": "G"
+                        },
+                        "team": {
+                          "id": "130"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "130"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "rating",
+                  "displayName": "Rating",
+                  "shortDisplayName": "RAT",
+                  "abbreviation": "RAT",
+                  "leaders": [
+                    {
+                      "displayValue": "19 PTS",
+                      "value": 28.0,
                       "athlete": {
                         "id": "4869764",
                         "fullName": "Elliot Cadeau",
@@ -70393,6 +70402,32 @@
                     }
                   ]
                 }
+              ],
+              "curatedRank": {
+                "current": 1
+              },
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "37-3"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "14-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "11-0"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "type": "vsconf",
+                  "summary": "19-1"
+                }
               ]
             },
             {
@@ -70401,6 +70436,7 @@
               "type": "team",
               "order": 1,
               "homeAway": "away",
+              "winner": false,
               "team": {
                 "id": "41",
                 "uid": "s:40~l:41~t:41",
@@ -70464,138 +70500,146 @@
                 "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
                 "conferenceId": "4"
               },
-              "score": "0",
-              "curatedRank": {
-                "current": 2
-              },
+              "score": "63",
+              "linescores": [
+                {
+                  "value": 29.0,
+                  "displayValue": "29",
+                  "period": 1
+                },
+                {
+                  "value": 34.0,
+                  "displayValue": "34",
+                  "period": 2
+                }
+              ],
               "statistics": [
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "1418",
-                  "rankDisplayValue": "5th"
+                  "displayValue": "46"
                 },
                 {
                   "name": "avgRebounds",
                   "abbreviation": "REB",
-                  "displayValue": "36.4",
-                  "rankDisplayValue": "146th"
+                  "displayValue": "46.0"
                 },
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "713",
-                  "rankDisplayValue": "3rd"
+                  "displayValue": "9"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "2286",
-                  "rankDisplayValue": "7th"
+                  "displayValue": "68"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "1091",
-                  "rankDisplayValue": "8th"
+                  "displayValue": "21"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "47.7",
-                  "rankDisplayValue": "50th"
+                  "displayValue": "30.9"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "72.3",
-                  "rankDisplayValue": "311th"
+                  "displayValue": "75.0"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "687",
-                  "rankDisplayValue": "Tied-160th"
+                  "displayValue": "16"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "497",
-                  "rankDisplayValue": "Tied-163rd"
+                  "displayValue": "12"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "3001",
-                  "rankDisplayValue": "19th"
+                  "displayValue": "63"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "930",
-                  "rankDisplayValue": "48th"
+                  "displayValue": "33"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "322",
-                  "rankDisplayValue": "Tied-52nd"
+                  "displayValue": "9"
                 },
                 {
                   "name": "avgPoints",
                   "abbreviation": "PTS",
-                  "displayValue": "76.9",
-                  "rankDisplayValue": "170th"
+                  "displayValue": "63.0"
                 },
                 {
                   "name": "avgAssists",
                   "abbreviation": "AST",
-                  "displayValue": "18.3",
-                  "rankDisplayValue": "20th"
+                  "displayValue": "9.0"
                 },
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "34.6",
-                  "rankDisplayValue": "227th"
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "type": "total",
-                  "summary": "34-5"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "15-2"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "9-3"
-                },
-                {
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "type": "vsconf",
-                  "summary": "17-3"
+                  "displayValue": "27.3"
                 }
               ],
               "leaders": [
                 {
-                  "name": "pointsPerGame",
-                  "displayName": "Points Per Game",
-                  "shortDisplayName": "PPG",
-                  "abbreviation": "PTS",
+                  "name": "points",
+                  "displayName": "Points",
+                  "shortDisplayName": "Pts",
+                  "abbreviation": "Pts",
                   "leaders": [
                     {
-                      "displayValue": "14.8",
-                      "value": 14.764705657958984,
+                      "displayValue": "17",
+                      "value": 17.0,
+                      "athlete": {
+                        "id": "4917149",
+                        "fullName": "Alex Karaban",
+                        "displayName": "Alex Karaban",
+                        "shortName": "A. Karaban",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4917149/alex-karaban"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4917149.png",
+                        "jersey": "11",
+                        "position": {
+                          "abbreviation": "F"
+                        },
+                        "team": {
+                          "id": "41"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "41"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "rebounds",
+                  "displayName": "Rebounds",
+                  "shortDisplayName": "Reb",
+                  "abbreviation": "Reb",
+                  "leaders": [
+                    {
+                      "displayValue": "14",
+                      "value": 14.0,
                       "athlete": {
                         "id": "5105809",
                         "fullName": "Tarris Reed Jr.",
@@ -70628,19 +70672,19 @@
                   ]
                 },
                 {
-                  "name": "reboundsPerGame",
-                  "displayName": "Rebounds Per Game",
-                  "shortDisplayName": "RPG",
-                  "abbreviation": "REB",
+                  "name": "assists",
+                  "displayName": "Assists",
+                  "shortDisplayName": "Ast",
+                  "abbreviation": "Ast",
                   "leaders": [
                     {
-                      "displayValue": "8.8",
-                      "value": 8.823529243469238,
+                      "displayValue": "3",
+                      "value": 3.0,
                       "athlete": {
-                        "id": "5105809",
-                        "fullName": "Tarris Reed Jr.",
-                        "displayName": "Tarris Reed Jr.",
-                        "shortName": "T. Reed Jr.",
+                        "id": "4683861",
+                        "fullName": "Malachi Smith",
+                        "displayName": "Malachi Smith",
+                        "shortName": "M. Smith",
                         "links": [
                           {
                             "rel": [
@@ -70648,51 +70692,11 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5105809/tarris-reed-jr"
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4683861/malachi-smith"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5105809.png",
-                        "jersey": "5",
-                        "position": {
-                          "abbreviation": "C"
-                        },
-                        "team": {
-                          "id": "41"
-                        },
-                        "active": true
-                      },
-                      "team": {
-                        "id": "41"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "name": "assistsPerGame",
-                  "displayName": "Assists Per Game",
-                  "shortDisplayName": "APG",
-                  "abbreviation": "AST",
-                  "leaders": [
-                    {
-                      "displayValue": "6.0",
-                      "value": 5.973684310913086,
-                      "athlete": {
-                        "id": "5054083",
-                        "fullName": "Silas Demary Jr.",
-                        "displayName": "Silas Demary Jr.",
-                        "shortName": "S. Demary Jr.",
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5054083/silas-demary-jr"
-                          }
-                        ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5054083.png",
-                        "jersey": "2",
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4683861.png",
+                        "jersey": "0",
                         "position": {
                           "abbreviation": "G"
                         },
@@ -70706,6 +70710,72 @@
                       }
                     }
                   ]
+                },
+                {
+                  "name": "rating",
+                  "displayName": "Rating",
+                  "shortDisplayName": "RAT",
+                  "abbreviation": "RAT",
+                  "leaders": [
+                    {
+                      "displayValue": "17 PTS, 11 REB",
+                      "value": 30.799999237060547,
+                      "athlete": {
+                        "id": "4917149",
+                        "fullName": "Alex Karaban",
+                        "displayName": "Alex Karaban",
+                        "shortName": "A. Karaban",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4917149/alex-karaban"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4917149.png",
+                        "jersey": "11",
+                        "position": {
+                          "abbreviation": "F"
+                        },
+                        "team": {
+                          "id": "41"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "41"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "curatedRank": {
+                "current": 2
+              },
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "34-6"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "15-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "9-3"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "type": "vsconf",
+                  "summary": "17-3"
                 }
               ]
             }
@@ -70719,15 +70789,15 @@
           "status": {
             "clock": 0.0,
             "displayClock": "0:00",
-            "period": 0,
+            "period": 2,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
-              "completed": false,
-              "description": "Scheduled",
-              "detail": "Mon, April 6th at 8:50 PM EDT",
-              "shortDetail": "4/6 - 8:50 PM EDT"
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
             }
           },
           "broadcasts": [
@@ -70746,20 +70816,6 @@
               "periods": 2
             }
           },
-          "tickets": [
-            {
-              "summary": "Tickets as low as $61",
-              "numberAvailable": 2724,
-              "links": [
-                {
-                  "href": "https://www.vividseats.com/ncaa-mens-final-four-tickets-lucas-oil-stadium-4-6-2026--sports-ncaa-basketball/production/5687566?wsUser=717"
-                },
-                {
-                  "href": "https://www.vividseats.com/lucas-oil-stadium-tickets/venue/5647?wsUser=717"
-                }
-              ]
-            }
-          ],
           "startDate": "2026-04-07T00:50Z",
           "broadcast": "TBS/truTV/HBO Max",
           "geoBroadcasts": [
@@ -70809,306 +70865,6 @@
               "region": "us"
             }
           ],
-          "odds": [
-            {
-              "provider": {
-                "id": "100",
-                "name": "Draft Kings",
-                "priority": 1,
-                "logos": [
-                  {
-                    "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
-                    "rel": [
-                      "light"
-                    ]
-                  },
-                  {
-                    "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
-                    "rel": [
-                      "dark"
-                    ]
-                  }
-                ],
-                "displayName": "Draft Kings"
-              },
-              "details": "MICH -6.5",
-              "overUnder": 146.5,
-              "spread": -6.5,
-              "awayTeamOdds": {
-                "favorite": false,
-                "underdog": true,
-                "team": {
-                  "id": "41",
-                  "uid": "s:40~l:41~t:41",
-                  "abbreviation": "CONN",
-                  "name": "Huskies",
-                  "displayName": "UConn Huskies",
-                  "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png"
-                },
-                "favoriteAtOpen": false
-              },
-              "homeTeamOdds": {
-                "favorite": true,
-                "underdog": false,
-                "team": {
-                  "id": "130",
-                  "uid": "s:40~l:41~t:130",
-                  "abbreviation": "MICH",
-                  "name": "Wolverines",
-                  "displayName": "Michigan Wolverines",
-                  "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png"
-                },
-                "favoriteAtOpen": true
-              },
-              "moneyline": {
-                "displayName": "Moneyline",
-                "shortDisplayName": "ML",
-                "home": {
-                  "close": {
-                    "odds": "-285",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "home",
-                        "desktop",
-                        "bets",
-                        "draft-kings"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33906798%3Foutcomes%3D0ML84107259_1",
-                      "text": "Home Bet",
-                      "shortText": "Home Bet",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401856600,
-                          "betSide": "home",
-                          "betType": "straight"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "odds": "-285"
-                  }
-                },
-                "away": {
-                  "close": {
-                    "odds": "+230",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "away",
-                        "desktop",
-                        "bets",
-                        "draft-kings"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33906798%3Foutcomes%3D0ML84107259_3",
-                      "text": "Away Bet",
-                      "shortText": "Away Bet",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401856600,
-                          "betSide": "away",
-                          "betType": "straight"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "odds": "+230"
-                  }
-                }
-              },
-              "pointSpread": {
-                "displayName": "Spread",
-                "shortDisplayName": "Spread",
-                "home": {
-                  "close": {
-                    "line": "-6.5",
-                    "odds": "-112",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "homeSpread",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33906798%3Foutcomes%3D0HC84107259N650_1",
-                      "text": "Home Point Spread",
-                      "shortText": "Home Point Spread",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401856600,
-                          "betSide": "none",
-                          "betType": "straight",
-                          "betDetails": "Spread:MICH-6.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "-7.5",
-                    "odds": "-105"
-                  }
-                },
-                "away": {
-                  "close": {
-                    "line": "+6.5",
-                    "odds": "-108",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "awaySpread",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33906798%3Foutcomes%3D0HC84107259P650_3",
-                      "text": "Away Point Spread",
-                      "shortText": "Away Point Spread",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401856600,
-                          "betSide": "none",
-                          "betType": "straight",
-                          "betDetails": "Spread:CONN+6.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "+7.5",
-                    "odds": "-115"
-                  }
-                }
-              },
-              "total": {
-                "displayName": "Total",
-                "shortDisplayName": "Total",
-                "over": {
-                  "close": {
-                    "line": "o146.5",
-                    "odds": "-112",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "over",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33906798%3Foutcomes%3D0OU84107259O14650_1",
-                      "text": "Over Odds",
-                      "shortText": "Over Odds",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401856600,
-                          "betSide": "over",
-                          "betType": "straight",
-                          "betDetails": "Over:146.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "o144.5",
-                    "odds": "-110"
-                  }
-                },
-                "under": {
-                  "close": {
-                    "line": "u146.5",
-                    "odds": "-108",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "under",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33906798%3Foutcomes%3D0OU84107259U14650_3",
-                      "text": "Under Odds",
-                      "shortText": "Under Odds",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401856600,
-                          "betSide": "under",
-                          "betType": "straight",
-                          "betDetails": "Under:146.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "u144.5",
-                    "odds": "-110"
-                  }
-                }
-              },
-              "link": {
-                "language": "en-US",
-                "rel": [
-                  "game",
-                  "desktop",
-                  "bets"
-                ],
-                "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33906798",
-                "text": "See More Odds",
-                "shortText": "Game",
-                "isExternal": true,
-                "isPremium": false,
-                "tracking": {
-                  "campaign": "betting-integrations",
-                  "tags": {
-                    "league": "mens-college-basketball",
-                    "sport": "basketball",
-                    "gameId": 401856600,
-                    "betSide": "none",
-                    "betType": "straight"
-                  }
-                }
-              },
-              "header": {
-                "logo": {
-                  "dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
-                  "light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
-                  "exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
-                  "exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
-                },
-                "text": "Game Odds"
-              },
-              "footer": {
-                "disclaimer": "Odds by DraftKings\nGAMBLING PROBLEM? CALL 1-800-GAMBLER, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nPlease Gamble Responsibly. 888-789-7777/visit ccpg.org (CT), or visit www.mdgamblinghelp.org (MD).\n21+ and present in most states. (18+ DC/KY/NH/WY). Void in ONT/OR/NH. Eligibility restrictions apply. On behalf of Boot Hill Casino & Resort (KS). Terms: sportsbook.draftkings.com/promos."
-              }
-            }
-          ],
           "highlights": []
         }
       ],
@@ -71129,6 +70885,32 @@
         {
           "language": "en-US",
           "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/boxscore/_/gameId/401856600",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/playbyplay/_/gameId/401856600",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
             "bracket",
             "desktop",
             "event"
@@ -71140,35 +70922,18 @@
           "isPremium": false
         }
       ],
-      "weather": {
-        "displayValue": "2",
-        "temperature": 52,
-        "highTemperature": 52,
-        "conditionId": "Mostly sunny",
-        "link": {
-          "language": "en-US",
-          "rel": [
-            "46225"
-          ],
-          "href": "http://www.accuweather.com/en/us/indianapolis-in/46204/current-weather/19912_pc?lang=en-us",
-          "text": "Weather",
-          "shortText": "Weather",
-          "isExternal": true,
-          "isPremium": false
-        }
-      },
       "status": {
         "clock": 0.0,
         "displayClock": "0:00",
-        "period": 0,
+        "period": 2,
         "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
-          "completed": false,
-          "description": "Scheduled",
-          "detail": "Mon, April 6th at 8:50 PM EDT",
-          "shortDetail": "4/6 - 8:50 PM EDT"
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
         }
       }
     }
