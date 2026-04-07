@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-06T23:27:55Z",
+  "ts": "2026-04-07T00:02:17Z",
   "events": [
     {
       "id": "401856478",
@@ -70070,7 +70070,7 @@
           "neutralSite": true,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "3812",
             "fullName": "Lucas Oil Stadium",
@@ -70748,8 +70748,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $55",
-              "numberAvailable": 3697,
+              "summary": "Tickets as low as $61",
+              "numberAvailable": 2724,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ncaa-mens-final-four-tickets-lucas-oil-stadium-4-6-2026--sports-ncaa-basketball/production/5687566?wsUser=717"
@@ -70934,7 +70934,7 @@
                 "home": {
                   "close": {
                     "line": "-6.5",
-                    "odds": "-110",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -70968,7 +70968,7 @@
                 "away": {
                   "close": {
                     "line": "+6.5",
-                    "odds": "-110",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -71141,10 +71141,10 @@
         }
       ],
       "weather": {
-        "displayValue": "3",
-        "temperature": 54,
-        "highTemperature": 54,
-        "conditionId": "Partly sunny",
+        "displayValue": "2",
+        "temperature": 52,
+        "highTemperature": 52,
+        "conditionId": "Mostly sunny",
         "link": {
           "language": "en-US",
           "rel": [
