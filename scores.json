@@ -1,5 +1,5 @@
 {
-  "ts": "2026-10-31T21:00:21Z",
+  "ts": "2026-11-01T00:07:52Z",
   "events": [
     {
       "id": "401856478",
@@ -71072,6 +71072,421 @@
       }
     },
     {
+      "id": "401906757",
+      "uid": "s:40~l:41~e:401906757",
+      "date": "2026-11-04T00:30Z",
+      "name": "Sam Houston Bearkats at Alabama Crimson Tide",
+      "shortName": "SHSU @ ALA",
+      "season": {
+        "year": 2027,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "competitions": [
+        {
+          "id": "401906757",
+          "uid": "s:40~l:41~e:401906757~c:401906757",
+          "date": "2026-11-04T00:30Z",
+          "attendance": 0,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": false,
+          "recent": false,
+          "venue": {
+            "id": "1925",
+            "fullName": "Coleman Coliseum",
+            "address": {
+              "city": "Tuscaloosa",
+              "state": "AL"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "333",
+              "uid": "s:40~l:41~t:333",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "team": {
+                "id": "333",
+                "uid": "s:40~l:41~t:333",
+                "location": "Alabama",
+                "name": "Crimson Tide",
+                "abbreviation": "ALA",
+                "displayName": "Alabama Crimson Tide",
+                "shortDisplayName": "Alabama",
+                "color": "9e1b32",
+                "alternateColor": "ffffff",
+                "isActive": true,
+                "venue": {
+                  "id": "1925"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/333/alabama-crimson-tide",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/333",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:333&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/333",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:333&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/333",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:333&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+                "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/333.png",
+                "conferenceId": "23"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 20
+              },
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "type": "vsconf",
+                  "summary": "0-0"
+                }
+              ]
+            },
+            {
+              "id": "2534",
+              "uid": "s:40~l:41~t:2534",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "team": {
+                "id": "2534",
+                "uid": "s:40~l:41~t:2534",
+                "location": "Sam Houston",
+                "name": "Bearkats",
+                "abbreviation": "SHSU",
+                "displayName": "Sam Houston Bearkats",
+                "shortDisplayName": "Sam Houston",
+                "color": "f56423",
+                "alternateColor": "ffffff",
+                "isActive": true,
+                "venue": {
+                  "id": "4585"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/2534/sam-houston-bearkats",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/2534",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2534&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/2534",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2534&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2534",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2534&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
+                "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2534.png",
+                "conferenceId": "11"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "type": "vsconf",
+                  "summary": "0-0"
+                }
+              ]
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Tue, November 3rd at 7:30 PM EST",
+              "shortDetail": "11/3 - 7:30 PM EST"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "SECN+"
+              ]
+            }
+          ],
+          "format": {
+            "regulation": {
+              "periods": 2
+            }
+          },
+          "tickets": [
+            {
+              "summary": "Tickets as low as $7",
+              "numberAvailable": 1124,
+              "links": [
+                {
+                  "href": "https://www.vividseats.com/alabama-crimson-tide-mens-basketball-tickets-coleman-coliseum-11-2-2026--sports-ncaa-basketball/production/7152648?wsUser=717"
+                },
+                {
+                  "href": "https://www.vividseats.com/coleman-coliseum-tickets/venue/2256?wsUser=717"
+                }
+              ]
+            }
+          ],
+          "startDate": "2026-11-04T00:30Z",
+          "broadcast": "SECN+",
+          "geoBroadcasts": [
+            {
+              "type": {
+                "id": "4",
+                "shortName": "Streaming"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "SECN+",
+                "logo": "https://a.espncdn.com/guid/d1e3d7c4-8e72-37f3-b9b9-515573fd5526/logos/default.png",
+                "darkLogo": ""
+              },
+              "lang": "en",
+              "region": "us"
+            }
+          ],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401906757/sam-houston-alabama",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "weather": {
+        "displayValue": "Mostly cloudy",
+        "temperature": 75,
+        "highTemperature": 75,
+        "conditionId": "6"
+      },
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "completed": false,
+          "description": "Scheduled",
+          "detail": "Tue, November 3rd at 7:30 PM EST",
+          "shortDetail": "11/3 - 7:30 PM EST"
+        }
+      }
+    },
+    {
       "id": "401906769",
       "uid": "s:40~l:41~e:401906769",
       "date": "2026-11-02T23:00Z",
@@ -71420,7 +71835,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $37",
-              "numberAvailable": 7981,
+              "numberAvailable": 7978,
               "links": [
                 {
                   "href": "https://www.vividseats.com/florida-gators-mens-basketball-tickets-benchmark-international-arena-11-2-2026--sports-ncaa-basketball/production/7028335?wsUser=717"
@@ -71786,6 +72201,421 @@
       }
     },
     {
+      "id": "401906848",
+      "uid": "s:40~l:41~e:401906848",
+      "date": "2026-11-03T23:00Z",
+      "name": "Wofford Terriers at Tennessee Volunteers",
+      "shortName": "WOF @ TENN",
+      "season": {
+        "year": 2027,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "competitions": [
+        {
+          "id": "401906848",
+          "uid": "s:40~l:41~e:401906848~c:401906848",
+          "date": "2026-11-03T23:00Z",
+          "attendance": 0,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": false,
+          "recent": false,
+          "venue": {
+            "id": "2044",
+            "fullName": "Food City Center",
+            "address": {
+              "city": "Knoxville",
+              "state": "TN"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "2633",
+              "uid": "s:40~l:41~t:2633",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "team": {
+                "id": "2633",
+                "uid": "s:40~l:41~t:2633",
+                "location": "Tennessee",
+                "name": "Volunteers",
+                "abbreviation": "TENN",
+                "displayName": "Tennessee Volunteers",
+                "shortDisplayName": "Tennessee",
+                "color": "ff8200",
+                "alternateColor": "ffffff",
+                "isActive": true,
+                "venue": {
+                  "id": "2044"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/2633/tennessee-volunteers",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/2633",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2633&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/2633",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2633&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2633",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2633&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
+                "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2633.png",
+                "conferenceId": "23"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 8
+              },
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "type": "vsconf",
+                  "summary": "0-0"
+                }
+              ]
+            },
+            {
+              "id": "2747",
+              "uid": "s:40~l:41~t:2747",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "team": {
+                "id": "2747",
+                "uid": "s:40~l:41~t:2747",
+                "location": "Wofford",
+                "name": "Terriers",
+                "abbreviation": "WOF",
+                "displayName": "Wofford Terriers",
+                "shortDisplayName": "Wofford",
+                "color": "533B22",
+                "alternateColor": "f0f0f0",
+                "isActive": true,
+                "venue": {
+                  "id": "5426"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/2747/wofford-terriers",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/2747",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2747&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/2747",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2747&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2747",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2747&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2747.png",
+                "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2747.png",
+                "conferenceId": "24"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "type": "vsconf",
+                  "summary": "0-0"
+                }
+              ]
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Tue, November 3rd at 6:00 PM EST",
+              "shortDetail": "11/3 - 6:00 PM EST"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "SEC Network"
+              ]
+            }
+          ],
+          "format": {
+            "regulation": {
+              "periods": 2
+            }
+          },
+          "tickets": [
+            {
+              "summary": "Tickets as low as $6",
+              "numberAvailable": 2242,
+              "links": [
+                {
+                  "href": "https://www.vividseats.com/tennessee-vols-mens-basketball-tickets-thompson-boling-arena-at-food-city-center-11-3-2026--sports-ncaa-basketball/production/7350032?wsUser=717"
+                },
+                {
+                  "href": "https://www.vividseats.com/thompsonboling-arena-tickets/venue/1700?wsUser=717"
+                }
+              ]
+            }
+          ],
+          "startDate": "2026-11-03T23:00Z",
+          "broadcast": "SEC Network",
+          "geoBroadcasts": [
+            {
+              "type": {
+                "id": "1",
+                "shortName": "TV"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "SEC Network",
+                "logo": "https://a.espncdn.com/guid/4658b4d2-a8e1-3630-9475-13af31514cfe/logos/default.png",
+                "darkLogo": ""
+              },
+              "lang": "en",
+              "region": "us"
+            }
+          ],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401906848/wofford-tennessee",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "weather": {
+        "displayValue": "Intermittent clouds",
+        "temperature": 76,
+        "highTemperature": 76,
+        "conditionId": "4"
+      },
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "completed": false,
+          "description": "Scheduled",
+          "detail": "Tue, November 3rd at 6:00 PM EST",
+          "shortDetail": "11/3 - 6:00 PM EST"
+        }
+      }
+    },
+    {
       "id": "401906863",
       "uid": "s:40~l:41~e:401906863",
       "date": "2026-11-03T02:00Z",
@@ -72128,7 +72958,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $6",
-              "numberAvailable": 813,
+              "numberAvailable": 807,
               "links": [
                 {
                   "href": "https://www.vividseats.com/texas-longhorns-mens-basketball-tickets-moody-center-atx-11-2-2026--sports-ncaa-basketball/production/7383666?wsUser=717"
@@ -72972,7 +73802,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $49",
-              "numberAvailable": 2872,
+              "numberAvailable": 2861,
               "links": [
                 {
                   "href": "https://www.vividseats.com/hall-of-fame-series-tickets-t-mobile-arena-11-2-2026--sports-ncaa-basketball/production/7109175?wsUser=717"
@@ -74384,7 +75214,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $11",
-              "numberAvailable": 1013,
+              "numberAvailable": 1016,
               "links": [
                 {
                   "href": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets-allen-fieldhouse-11-2-2026--sports-ncaa-basketball/production/7109818?wsUser=717"
@@ -74793,7 +75623,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $7",
-              "numberAvailable": 1549,
+              "numberAvailable": 1557,
               "links": [
                 {
                   "href": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-11-2-2026--sports-ncaa-basketball/production/7581909?wsUser=717"
@@ -75451,7 +76281,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $6",
-              "numberAvailable": 1367,
+              "numberAvailable": 1345,
               "links": [
                 {
                   "href": "https://www.vividseats.com/illinois-fighting-illini-mens-basketball-tickets-state-farm-center-11-2-2026--sports-ncaa-basketball/production/7466168?wsUser=717"
@@ -75862,8 +76692,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $60",
-              "numberAvailable": 4139,
+              "summary": "Tickets as low as $57",
+              "numberAvailable": 4158,
               "links": [
                 {
                   "href": "https://www.vividseats.com/byu-cougars-mens-basketball-tickets-delta-center-11-2-2026--sports-ncaa-basketball/production/6891510?wsUser=717"
@@ -76569,7 +77399,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $7",
-              "numberAvailable": 3643,
+              "numberAvailable": 3641,
               "links": [
                 {
                   "href": "https://www.vividseats.com/louisville-cardinals-mens-basketball-tickets-kfc-yum-center-11-2-2026--sports-ncaa-basketball/production/7503563?wsUser=717"
@@ -77328,6 +78158,415 @@
           "description": "Scheduled",
           "detail": "Sun, November 1st at 11:59 PM EST",
           "shortDetail": "11/1 - 11:59 PM EST"
+        }
+      }
+    },
+    {
+      "id": "401920422",
+      "uid": "s:40~l:41~e:401920422",
+      "date": "2026-11-04T00:30Z",
+      "name": "Drexel Dragons at Virginia Cavaliers",
+      "shortName": "DREX @ UVA",
+      "season": {
+        "year": 2027,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "competitions": [
+        {
+          "id": "401920422",
+          "uid": "s:40~l:41~e:401920422~c:401920422",
+          "date": "2026-11-04T00:30Z",
+          "attendance": 0,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": false,
+          "recent": false,
+          "venue": {
+            "id": "1927",
+            "fullName": "John Paul Jones Arena",
+            "address": {
+              "city": "Charlottesville",
+              "state": "VA"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "258",
+              "uid": "s:40~l:41~t:258",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "team": {
+                "id": "258",
+                "uid": "s:40~l:41~t:258",
+                "location": "Virginia",
+                "name": "Cavaliers",
+                "abbreviation": "UVA",
+                "displayName": "Virginia Cavaliers",
+                "shortDisplayName": "Virginia",
+                "color": "232d4b",
+                "alternateColor": "f84c1e",
+                "isActive": true,
+                "venue": {
+                  "id": "1927"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/258/virginia-cavaliers",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/258",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:258&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/258",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:258&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/258",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:258&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+                "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/258.png",
+                "conferenceId": "2"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 9
+              },
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "type": "vsconf",
+                  "summary": "0-0"
+                }
+              ]
+            },
+            {
+              "id": "2182",
+              "uid": "s:40~l:41~t:2182",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "team": {
+                "id": "2182",
+                "uid": "s:40~l:41~t:2182",
+                "location": "Drexel",
+                "name": "Dragons",
+                "abbreviation": "DREX",
+                "displayName": "Drexel Dragons",
+                "shortDisplayName": "Drexel",
+                "color": "020260",
+                "alternateColor": "ffd65a",
+                "isActive": true,
+                "venue": {
+                  "id": "1903"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/2182/drexel-dragons",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/2182",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2182&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/2182",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2182&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2182",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2182&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2182.png",
+                "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2182.png",
+                "conferenceId": "10"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "type": "vsconf",
+                  "summary": "0-0"
+                }
+              ]
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Tue, November 3rd at 7:30 PM EST",
+              "shortDetail": "11/3 - 7:30 PM EST"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "ACC Network"
+              ]
+            }
+          ],
+          "format": {
+            "regulation": {
+              "periods": 2
+            }
+          },
+          "tickets": [
+            {
+              "summary": "Tickets as low as $7",
+              "numberAvailable": 1008,
+              "links": [
+                {
+                  "href": "https://www.vividseats.com/virginia-cavaliers-mens-basketball-tickets-credit-one-stadium-11-3-2026--sports-ncaa-basketball/production/7532377?wsUser=717"
+                },
+                {
+                  "href": "https://www.vividseats.com/john-paul-jones-arena-tickets/venue/4399?wsUser=717"
+                }
+              ]
+            }
+          ],
+          "startDate": "2026-11-04T00:30Z",
+          "broadcast": "ACC Network",
+          "geoBroadcasts": [
+            {
+              "type": {
+                "id": "1",
+                "shortName": "TV"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "ACC Network",
+                "logo": "https://a.espncdn.com/guid/8936b3f6-e2cb-3924-807b-00f236018174/logos/default.png",
+                "darkLogo": "https://a.espncdn.com/guid/8936b3f6-e2cb-3924-807b-00f236018174/logos/default-dark.png"
+              },
+              "lang": "en",
+              "region": "us"
+            }
+          ],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401920422/drexel-virginia",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "completed": false,
+          "description": "Scheduled",
+          "detail": "Tue, November 3rd at 7:30 PM EST",
+          "shortDetail": "11/3 - 7:30 PM EST"
         }
       }
     },
@@ -78160,7 +79399,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-325",
+                    "odds": "-305",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -78192,7 +79431,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+260",
+                    "odds": "+245",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -78229,7 +79468,7 @@
                 "home": {
                   "close": {
                     "line": "-7.5",
-                    "odds": "-110",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -78263,7 +79502,7 @@
                 "away": {
                   "close": {
                     "line": "+7.5",
-                    "odds": "-110",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -78781,7 +80020,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $10",
-              "numberAvailable": 339,
+              "numberAvailable": 325,
               "links": [
                 {
                   "href": "https://www.vividseats.com/texas-tech-red-raiders-mens-basketball-tickets-united-supermarkets-arena-11-2-2026--sports-ncaa-basketball/production/7436683?wsUser=717"
@@ -79187,7 +80426,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $8",
-              "numberAvailable": 439,
+              "numberAvailable": 437,
               "links": [
                 {
                   "href": "https://www.vividseats.com/vanderbilt-commodores-mens-basketball-tickets-vanderbilt-memorial-gym-11-2-2026--sports-ncaa-basketball/production/7457163?wsUser=717"
@@ -79601,7 +80840,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $49",
-              "numberAvailable": 2872,
+              "numberAvailable": 2861,
               "links": [
                 {
                   "href": "https://www.vividseats.com/hall-of-fame-series-tickets-t-mobile-arena-11-2-2026--sports-ncaa-basketball/production/7109175?wsUser=717"
@@ -79964,6 +81203,415 @@
       }
     },
     {
+      "id": "401921801",
+      "uid": "s:40~l:41~e:401921801",
+      "date": "2026-11-04T00:00Z",
+      "name": "Manhattan Jaspers at Kentucky Wildcats",
+      "shortName": "MAN @ UK",
+      "season": {
+        "year": 2027,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "competitions": [
+        {
+          "id": "401921801",
+          "uid": "s:40~l:41~e:401921801~c:401921801",
+          "date": "2026-11-04T00:00Z",
+          "attendance": 0,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": false,
+          "recent": false,
+          "venue": {
+            "id": "251",
+            "fullName": "Rupp Arena",
+            "address": {
+              "city": "Lexington",
+              "state": "KY"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "96",
+              "uid": "s:40~l:41~t:96",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "team": {
+                "id": "96",
+                "uid": "s:40~l:41~t:96",
+                "location": "Kentucky",
+                "name": "Wildcats",
+                "abbreviation": "UK",
+                "displayName": "Kentucky Wildcats",
+                "shortDisplayName": "Kentucky",
+                "color": "0033a0",
+                "alternateColor": "ffffff",
+                "isActive": true,
+                "venue": {
+                  "id": "251"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/96/kentucky-wildcats",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/96",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:96&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/96",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:96&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/96",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:96&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+                "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/96.png",
+                "conferenceId": "23"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 23
+              },
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "type": "vsconf",
+                  "summary": "0-0"
+                }
+              ]
+            },
+            {
+              "id": "2363",
+              "uid": "s:40~l:41~t:2363",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "team": {
+                "id": "2363",
+                "uid": "s:40~l:41~t:2363",
+                "location": "Manhattan",
+                "name": "Jaspers",
+                "abbreviation": "MAN",
+                "displayName": "Manhattan Jaspers",
+                "shortDisplayName": "Manhattan",
+                "color": "4f8537",
+                "alternateColor": "b5b7ba",
+                "isActive": true,
+                "venue": {
+                  "id": "2062"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/2363/manhattan-jaspers",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/2363",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2363&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/2363",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2363&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2363",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2363&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2363.png",
+                "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2363.png",
+                "conferenceId": "13"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "type": "vsconf",
+                  "summary": "0-0"
+                }
+              ]
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Tue, November 3rd at 7:00 PM EST",
+              "shortDetail": "11/3 - 7:00 PM EST"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "SECN+"
+              ]
+            }
+          ],
+          "format": {
+            "regulation": {
+              "periods": 2
+            }
+          },
+          "tickets": [
+            {
+              "summary": "Tickets as low as $8",
+              "numberAvailable": 2331,
+              "links": [
+                {
+                  "href": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-11-3-2026--sports-ncaa-basketball/production/7165138?wsUser=717"
+                },
+                {
+                  "href": "https://www.vividseats.com/rupp-arena-tickets/venue/1480?wsUser=717"
+                }
+              ]
+            }
+          ],
+          "startDate": "2026-11-04T00:00Z",
+          "broadcast": "SECN+",
+          "geoBroadcasts": [
+            {
+              "type": {
+                "id": "4",
+                "shortName": "Streaming"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "SECN+",
+                "logo": "https://a.espncdn.com/guid/d1e3d7c4-8e72-37f3-b9b9-515573fd5526/logos/default.png",
+                "darkLogo": ""
+              },
+              "lang": "en",
+              "region": "us"
+            }
+          ],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401921801/manhattan-kentucky",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "completed": false,
+          "description": "Scheduled",
+          "detail": "Tue, November 3rd at 7:00 PM EST",
+          "shortDetail": "11/3 - 7:00 PM EST"
+        }
+      }
+    },
+    {
       "id": "401924856",
       "uid": "s:40~l:41~e:401924856",
       "date": "2026-11-03T00:00Z",
@@ -80306,7 +81954,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $11",
-              "numberAvailable": 1174,
+              "numberAvailable": 1168,
               "links": [
                 {
                   "href": "https://www.vividseats.com/michigan-state-spartans-mens-basketball-tickets-jack-breslin-student-events-center-11-2-2026--sports-ncaa-basketball/production/7575220?wsUser=717"
@@ -80713,7 +82361,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $12",
-              "numberAvailable": 773,
+              "numberAvailable": 765,
               "links": [
                 {
                   "href": "https://www.vividseats.com/michigan-wolverines-mens-basketball-tickets-crisler-center-11-2-2026--sports-ncaa-basketball/production/7522597?wsUser=717"
@@ -81120,7 +82768,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $30",
-              "numberAvailable": 232,
+              "numberAvailable": 236,
               "links": [
                 {
                   "href": "https://www.vividseats.com/houston-cougars-mens-basketball-tickets-fertitta-center-11-2-2026--sports-ncaa-basketball/production/6951697?wsUser=717"
@@ -81527,7 +83175,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $9",
-              "numberAvailable": 599,
+              "numberAvailable": 591,
               "links": [
                 {
                   "href": "https://www.vividseats.com/usc-trojans-mens-basketball-tickets-galen-center-11-2-2026--sports-ncaa-basketball/production/7508063?wsUser=717"
@@ -81587,6 +83235,415 @@
           "description": "Scheduled",
           "detail": "Mon, November 2nd at 10:30 PM EST",
           "shortDetail": "11/2 - 10:30 PM EST"
+        }
+      }
+    },
+    {
+      "id": "401929372",
+      "uid": "s:40~l:41~e:401929372",
+      "date": "2026-11-04T01:00Z",
+      "name": "Arkansas-Pine Bluff Golden Lions at Arkansas Razorbacks",
+      "shortName": "UAPB @ ARK",
+      "season": {
+        "year": 2027,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "competitions": [
+        {
+          "id": "401929372",
+          "uid": "s:40~l:41~e:401929372~c:401929372",
+          "date": "2026-11-04T01:00Z",
+          "attendance": 0,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": false,
+          "recent": false,
+          "venue": {
+            "id": "2142",
+            "fullName": "Bud Walton Arena",
+            "address": {
+              "city": "Fayetteville",
+              "state": "AR"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "8",
+              "uid": "s:40~l:41~t:8",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "team": {
+                "id": "8",
+                "uid": "s:40~l:41~t:8",
+                "location": "Arkansas",
+                "name": "Razorbacks",
+                "abbreviation": "ARK",
+                "displayName": "Arkansas Razorbacks",
+                "shortDisplayName": "Arkansas",
+                "color": "a32136",
+                "alternateColor": "ffffff",
+                "isActive": true,
+                "venue": {
+                  "id": "2142"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/8/arkansas-razorbacks",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/8",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:8&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/8",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:8&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/8",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:8&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
+                "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/8.png",
+                "conferenceId": "23"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 12
+              },
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "type": "vsconf",
+                  "summary": "0-0"
+                }
+              ]
+            },
+            {
+              "id": "2029",
+              "uid": "s:40~l:41~t:2029",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "team": {
+                "id": "2029",
+                "uid": "s:40~l:41~t:2029",
+                "location": "Arkansas-Pine Bluff",
+                "name": "Golden Lions",
+                "abbreviation": "UAPB",
+                "displayName": "Arkansas-Pine Bluff Golden Lions",
+                "shortDisplayName": "AR-Pine Bluff",
+                "color": "e0aa0f",
+                "alternateColor": "eaaa00",
+                "isActive": true,
+                "venue": {
+                  "id": "2105"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/2029/arkansas-pine-bluff-golden-lions",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/2029",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2029&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/2029",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2029&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2029",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2029&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2029.png",
+                "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2029.png",
+                "conferenceId": "26"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "type": "vsconf",
+                  "summary": "0-0"
+                }
+              ]
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Tue, November 3rd at 8:00 PM EST",
+              "shortDetail": "11/3 - 8:00 PM EST"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "SECN+"
+              ]
+            }
+          ],
+          "format": {
+            "regulation": {
+              "periods": 2
+            }
+          },
+          "tickets": [
+            {
+              "summary": "Tickets as low as $11",
+              "numberAvailable": 1533,
+              "links": [
+                {
+                  "href": "https://www.vividseats.com/arkansas-razorbacks-mens-basketball-tickets-bud-walton-arena-11-3-2026--sports-ncaa-basketball/production/7575767?wsUser=717"
+                },
+                {
+                  "href": "https://www.vividseats.com/venues/bud-walton-arena-tickets.html?wsUser=717"
+                }
+              ]
+            }
+          ],
+          "startDate": "2026-11-04T01:00Z",
+          "broadcast": "SECN+",
+          "geoBroadcasts": [
+            {
+              "type": {
+                "id": "4",
+                "shortName": "Streaming"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "SECN+",
+                "logo": "https://a.espncdn.com/guid/d1e3d7c4-8e72-37f3-b9b9-515573fd5526/logos/default.png",
+                "darkLogo": ""
+              },
+              "lang": "en",
+              "region": "us"
+            }
+          ],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401929372/ar-pine-bluff-arkansas",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "completed": false,
+          "description": "Scheduled",
+          "detail": "Tue, November 3rd at 8:00 PM EST",
+          "shortDetail": "11/3 - 8:00 PM EST"
         }
       }
     }
