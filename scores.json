@@ -1,5 +1,5 @@
 {
-  "ts": "2026-11-05T16:45:33Z",
+  "ts": "2026-11-05T22:24:47Z",
   "events": [
     {
       "id": "401856478",
@@ -74173,7 +74173,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $7",
-              "numberAvailable": 1225,
+              "numberAvailable": 1229,
               "links": [
                 {
                   "href": "https://www.vividseats.com/alabama-crimson-tide-mens-basketball-tickets-coleman-coliseum-11-6-2026--sports-ncaa-basketball/production/7340400?wsUser=717"
@@ -75440,7 +75440,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "360",
             "fullName": "Stephen C. O'Connell Center",
@@ -76003,6 +76003,32 @@
                   "rankDisplayValue": "Tied-110th"
                 }
               ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "type": "total",
+                  "summary": "1-0"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "1-0"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "type": "vsconf",
+                  "summary": "0-0"
+                }
+              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -76124,32 +76150,6 @@
                     }
                   ]
                 }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "type": "total",
-                  "summary": "1-0"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "1-0"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "0-0"
-                },
-                {
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "type": "vsconf",
-                  "summary": "0-0"
-                }
               ]
             }
           ],
@@ -76183,8 +76183,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $15",
-              "numberAvailable": 640,
+              "summary": "Tickets as low as $12",
+              "numberAvailable": 423,
               "links": [
                 {
                   "href": "https://www.vividseats.com/florida-gators-mens-basketball-tickets-stephen-c-oconnell-center---exactech-arena-11-5-2026--sports-ncaa-basketball/production/7350048?wsUser=717"
@@ -76220,7 +76220,7 @@
             {
               "provider": {
                 "id": "100",
-                "name": "DraftKings",
+                "name": "Draft Kings",
                 "priority": 1,
                 "logos": [
                   {
@@ -76237,9 +76237,9 @@
                   }
                 ]
               },
-              "details": "FLA -35.5",
+              "details": "FLA -36.5",
               "overUnder": 155.5,
-              "spread": -35.5,
+              "spread": -36.5,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
@@ -76291,8 +76291,8 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "-35.5",
-                    "odds": "-115",
+                    "line": "-36.5",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -76300,7 +76300,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34965094%3Foutcomes%3D0HC87101294N3550_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34965094%3Foutcomes%3D0HC87101294N3650_1",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -76313,7 +76313,7 @@
                           "gameId": 401906770,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:FLA-35.5"
+                          "betDetails": "Spread:FLA-36.5"
                         }
                       }
                     }
@@ -76325,8 +76325,8 @@
                 },
                 "away": {
                   "close": {
-                    "line": "+35.5",
-                    "odds": "-105",
+                    "line": "+36.5",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -76334,7 +76334,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34965094%3Foutcomes%3D0HC87101294P3550_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34965094%3Foutcomes%3D0HC87101294P3650_3",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -76347,7 +76347,7 @@
                           "gameId": 401906770,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:JAX+35.5"
+                          "betDetails": "Spread:JAX+36.5"
                         }
                       }
                     }
@@ -77358,116 +77358,6 @@
               "region": "us"
             }
           ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— DeWayne Brown II scored 17 points and had 17 rebounds, Terrence Hill Jr. also scored 17, and No. 8 Tennessee beat Wofford 90-59 on Tuesday night to open the season.",
-              "shortLinkText": "DeWayne Brown II scores 17 points and has 17 rebounds as No. 8 Tennessee beats Wofford 90-59",
-              "video": [
-                {
-                  "id": 50374067,
-                  "source": "espn",
-                  "headline": "Wofford Terriers vs. Tennessee Volunteers: Game Highlights",
-                  "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33.jpg",
-                  "duration": 83,
-                  "tracking": {
-                    "coverageType": "Final Game Highlight",
-                    "leagueName": "NCAA Men's Basketball",
-                    "program": "SEC Network",
-                    "sportName": "basketball",
-                    "trackingId": "dm_20261103_NCB_wofford_terriers_vs_tennessee_volunteers_game_highlights",
-                    "trackingName": "NCB_One-Play (Wofford Terriers vs. Tennessee Volunteers: Game Highlights) 2026/11/03 ESHEET"
-                  },
-                  "deviceRestrictions": {
-                    "devices": [
-                      "settop",
-                      "tablet",
-                      "handset",
-                      "ipad",
-                      "desktop"
-                    ],
-                    "type": "whitelist"
-                  },
-                  "links": {
-                    "api": {
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/80336aa5-8eb3-4a19-a979-a252b1ffb0f5"
-                      },
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/50374067"
-                      }
-                    },
-                    "mobile": {
-                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/80336aa5-8eb3-4a19-a979-a252b1ffb0f5/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50374067/game-highlights",
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=50374067"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/80336aa5-8eb3-4a19-a979-a252b1ffb0f5/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50374067/game-highlights"
-                      },
-                      "source": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33.mp4"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/80336aa5-8eb3-4a19-a979-a252b1ffb0f5/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50374067/game-highlights"
-                      }
-                    },
-                    "source": {
-                      "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33.mp4",
-                      "HD": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33.mp4"
-                      },
-                      "HLS": {
-                        "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33/playlist.m3u8",
-                        "9x16": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33/playlist.m3u8"
-                        },
-                        "HD": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33/playlist.m3u8"
-                          },
-                          "cmb": {
-                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33/playlist.m3u8"
-                          }
-                        },
-                        "cmb": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/80336aa5-8eb3-4a19-a979-a252b1ffb0f5/asset"
-                        }
-                      },
-                      "flash": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33.mp4"
-                      },
-                      "full": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33.mp4"
-                      },
-                      "mezzanine": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=50374067&videoDSI=46ef8261a6b40"
-                    },
-                    "web": {
-                      "href": "https://www.espn.com/video/clip/_/id/50374067/game-highlights",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip/_/id/50374067/game-highlights",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=46ef8261a6b40"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ],
           "highlights": [
             {
               "id": 50374067,
@@ -77581,6 +77471,116 @@
                 "trackingId": "dm_20261103_NCB_wofford_terriers_vs_tennessee_volunteers_game_highlights",
                 "trackingName": "NCB_One-Play (Wofford Terriers vs. Tennessee Volunteers: Game Highlights) 2026/11/03 ESHEET"
               }
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— DeWayne Brown II scored 17 points and had 17 rebounds, Terrence Hill Jr. also scored 17, and No. 8 Tennessee beat Wofford 90-59 on Tuesday night to open the season.",
+              "shortLinkText": "DeWayne Brown II scores 17 points and has 17 rebounds as No. 8 Tennessee beats Wofford 90-59",
+              "video": [
+                {
+                  "id": 50374067,
+                  "source": "espn",
+                  "headline": "Wofford Terriers vs. Tennessee Volunteers: Game Highlights",
+                  "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33.jpg",
+                  "duration": 83,
+                  "tracking": {
+                    "coverageType": "Final Game Highlight",
+                    "leagueName": "NCAA Men's Basketball",
+                    "program": "SEC Network",
+                    "sportName": "basketball",
+                    "trackingId": "dm_20261103_NCB_wofford_terriers_vs_tennessee_volunteers_game_highlights",
+                    "trackingName": "NCB_One-Play (Wofford Terriers vs. Tennessee Volunteers: Game Highlights) 2026/11/03 ESHEET"
+                  },
+                  "deviceRestrictions": {
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ],
+                    "type": "whitelist"
+                  },
+                  "links": {
+                    "api": {
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/80336aa5-8eb3-4a19-a979-a252b1ffb0f5"
+                      },
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/50374067"
+                      }
+                    },
+                    "mobile": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/80336aa5-8eb3-4a19-a979-a252b1ffb0f5/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50374067/game-highlights",
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=50374067"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/80336aa5-8eb3-4a19-a979-a252b1ffb0f5/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50374067/game-highlights"
+                      },
+                      "source": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33.mp4"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/80336aa5-8eb3-4a19-a979-a252b1ffb0f5/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50374067/game-highlights"
+                      }
+                    },
+                    "source": {
+                      "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33.mp4",
+                      "HD": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33.mp4"
+                      },
+                      "HLS": {
+                        "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33/playlist.m3u8",
+                        "9x16": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33/playlist.m3u8"
+                        },
+                        "HD": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33/playlist.m3u8"
+                          },
+                          "cmb": {
+                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33/playlist.m3u8"
+                          }
+                        },
+                        "cmb": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/80336aa5-8eb3-4a19-a979-a252b1ffb0f5/asset"
+                        }
+                      },
+                      "flash": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33.mp4"
+                      },
+                      "full": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33.mp4"
+                      },
+                      "mezzanine": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/406658ce-fb91-41fd-b112-3d370c93da33/406658ce-fb91-41fd-b112-3d370c93da33.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=50374067&videoDSI=46ef8261a6b40"
+                    },
+                    "web": {
+                      "href": "https://www.espn.com/video/clip/_/id/50374067/game-highlights",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip/_/id/50374067/game-highlights",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=46ef8261a6b40"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
@@ -78856,7 +78856,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "7317",
             "fullName": "Moody Center",
@@ -79600,7 +79600,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $6",
-              "numberAvailable": 943,
+              "numberAvailable": 902,
               "links": [
                 {
                   "href": "https://www.vividseats.com/texas-longhorns-mens-basketball-tickets-moody-center-atx-11-5-2026--sports-ncaa-basketball/production/7383676?wsUser=717"
@@ -79636,7 +79636,7 @@
             {
               "provider": {
                 "id": "100",
-                "name": "DraftKings",
+                "name": "Draft Kings",
                 "priority": 1,
                 "logos": [
                   {
@@ -81128,7 +81128,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "1914",
             "fullName": "Cameron Indoor Stadium",
@@ -81907,7 +81907,7 @@
             {
               "provider": {
                 "id": "100",
-                "name": "DraftKings",
+                "name": "Draft Kings",
                 "priority": 1,
                 "logos": [
                   {
@@ -81924,9 +81924,9 @@
                   }
                 ]
               },
-              "details": "DUKE -41.5",
-              "overUnder": 150.5,
-              "spread": -41.5,
+              "details": "DUKE -40.5",
+              "overUnder": 149.5,
+              "spread": -40.5,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
@@ -81978,8 +81978,8 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "-41.5",
-                    "odds": "-105",
+                    "line": "-40.5",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -81987,7 +81987,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964468%3Foutcomes%3D0HC87099626N4150_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964468%3Foutcomes%3D0HC87099626N4050_1",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -82000,7 +82000,7 @@
                           "gameId": 401909563,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:DUKE-41.5"
+                          "betDetails": "Spread:DUKE-40.5"
                         }
                       }
                     }
@@ -82012,8 +82012,8 @@
                 },
                 "away": {
                   "close": {
-                    "line": "+41.5",
-                    "odds": "-115",
+                    "line": "+40.5",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -82021,7 +82021,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964468%3Foutcomes%3D0HC87099626P4150_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964468%3Foutcomes%3D0HC87099626P4050_3",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -82034,7 +82034,7 @@
                           "gameId": 401909563,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:CCU+41.5"
+                          "betDetails": "Spread:CCU+40.5"
                         }
                       }
                     }
@@ -82050,8 +82050,8 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o150.5",
-                    "odds": "-105",
+                    "line": "o149.5",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -82059,7 +82059,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964468%3Foutcomes%3D0OU87099626O15050_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964468%3Foutcomes%3D0OU87099626O14950_1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -82072,7 +82072,7 @@
                           "gameId": 401909563,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:150.5"
+                          "betDetails": "Over:149.5"
                         }
                       }
                     }
@@ -82084,8 +82084,8 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u150.5",
-                    "odds": "-115",
+                    "line": "u149.5",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -82093,7 +82093,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964468%3Foutcomes%3D0OU87099626U15050_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964468%3Foutcomes%3D0OU87099626U14950_3",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -82106,7 +82106,7 @@
                           "gameId": 401909563,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:150.5"
+                          "betDetails": "Under:149.5"
                         }
                       }
                     }
@@ -82212,7 +82212,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "2084",
             "fullName": "Memorial Gymnasium (TN)",
@@ -82957,7 +82957,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $7",
-              "numberAvailable": 364,
+              "numberAvailable": 302,
               "links": [
                 {
                   "href": "https://www.vividseats.com/vanderbilt-commodores-mens-basketball-tickets-vanderbilt-memorial-gym-11-5-2026--sports-ncaa-basketball/production/7069750?wsUser=717"
@@ -82993,7 +82993,7 @@
             {
               "provider": {
                 "id": "100",
-                "name": "DraftKings",
+                "name": "Draft Kings",
                 "priority": 1,
                 "logos": [
                   {
@@ -83009,11 +83009,11 @@
                     ]
                   }
                 ],
-                "displayName": "DraftKings"
+                "displayName": "Draft Kings"
               },
-              "details": "VAN -18.5",
+              "details": "VAN -17.5",
               "overUnder": 155.5,
-              "spread": -18.5,
+              "spread": -17.5,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
@@ -83045,14 +83045,14 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-2800",
+                    "odds": "-2400",
                     "link": {
                       "language": "en-US",
                       "rel": [
                         "home",
                         "desktop",
                         "bets",
-                        "draftkings"
+                        "draft-kings"
                       ],
                       "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964249%3Foutcomes%3D0ML87098866_1",
                       "text": "Home Bet",
@@ -83077,14 +83077,14 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+1300",
+                    "odds": "+1200",
                     "link": {
                       "language": "en-US",
                       "rel": [
                         "away",
                         "desktop",
                         "bets",
-                        "draftkings"
+                        "draft-kings"
                       ],
                       "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964249%3Foutcomes%3D0ML87098866_3",
                       "text": "Away Bet",
@@ -83113,8 +83113,8 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "-18.5",
-                    "odds": "-105",
+                    "line": "-17.5",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -83122,7 +83122,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964249%3Foutcomes%3D0HC87098866N1850_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964249%3Foutcomes%3D0HC87098866N1750_1",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -83135,7 +83135,7 @@
                           "gameId": 401909726,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:VAN-18.5"
+                          "betDetails": "Spread:VAN-17.5"
                         }
                       }
                     }
@@ -83147,8 +83147,8 @@
                 },
                 "away": {
                   "close": {
-                    "line": "+18.5",
-                    "odds": "-115",
+                    "line": "+17.5",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -83156,7 +83156,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964249%3Foutcomes%3D0HC87098866P1850_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964249%3Foutcomes%3D0HC87098866P1750_3",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -83169,7 +83169,7 @@
                           "gameId": 401909726,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:WAKE+18.5"
+                          "betDetails": "Spread:WAKE+17.5"
                         }
                       }
                     }
@@ -83186,7 +83186,7 @@
                 "over": {
                   "close": {
                     "line": "o155.5",
-                    "odds": "-108",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -83220,7 +83220,7 @@
                 "under": {
                   "close": {
                     "line": "u155.5",
-                    "odds": "-112",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -85031,8 +85031,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $13",
-              "numberAvailable": 588,
+              "summary": "Tickets as low as $12",
+              "numberAvailable": 606,
               "links": [
                 {
                   "href": "https://www.vividseats.com/arizona-wildcats-mens-basketball-tickets-mckale-center-11-5-2026--sports-ncaa-basketball/production/7363507?wsUser=717"
@@ -85066,7 +85066,7 @@
             {
               "provider": {
                 "id": "100",
-                "name": "DraftKings",
+                "name": "Draft Kings",
                 "priority": 1,
                 "logos": [
                   {
@@ -85124,7 +85124,7 @@
                         "home",
                         "desktop",
                         "bets",
-                        "draftkings"
+                        "draft-kings"
                       ],
                       "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964243%3Foutcomes%3D0ML87098860_1",
                       "text": "Home Bet",
@@ -85156,7 +85156,7 @@
                         "away",
                         "desktop",
                         "bets",
-                        "draftkings"
+                        "draft-kings"
                       ],
                       "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964243%3Foutcomes%3D0ML87098860_3",
                       "text": "Away Bet",
@@ -87099,7 +87099,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $7",
-              "numberAvailable": 1009,
+              "numberAvailable": 1102,
               "links": [
                 {
                   "href": "https://www.vividseats.com/iowa-state-cyclones-mens-basketball-tickets-hilton-coliseum-11-6-2026--sports-ncaa-basketball/production/7264666?wsUser=717"
@@ -89099,8 +89099,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $42",
-              "numberAvailable": 1616,
+              "summary": "Tickets as low as $40",
+              "numberAvailable": 1554,
               "links": [
                 {
                   "href": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets-allen-fieldhouse-11-6-2026--sports-ncaa-basketball/production/7109823?wsUser=717"
@@ -91288,7 +91288,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "2127",
             "fullName": "State Farm Center",
@@ -91820,7 +91820,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $7",
-              "numberAvailable": 955,
+              "numberAvailable": 893,
               "links": [
                 {
                   "href": "https://www.vividseats.com/illinois-fighting-illini-mens-basketball-tickets-state-farm-center-11-5-2026--sports-ncaa-basketball/production/7466188?wsUser=717"
@@ -91854,7 +91854,7 @@
             {
               "provider": {
                 "id": "100",
-                "name": "DraftKings",
+                "name": "Draft Kings",
                 "priority": 1,
                 "logos": [
                   {
@@ -91905,18 +91905,66 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "OFF"
+                    "odds": "-50000",
+                    "link": {
+                      "language": "en-US",
+                      "rel": [
+                        "home",
+                        "desktop",
+                        "bets",
+                        "draft-kings"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964300%3Foutcomes%3D0ML87099037_1",
+                      "text": "Home Bet",
+                      "shortText": "Home Bet",
+                      "isExternal": true,
+                      "isPremium": false,
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "mens-college-basketball",
+                          "sport": "basketball",
+                          "gameId": 401913526,
+                          "betSide": "home",
+                          "betType": "straight"
+                        }
+                      }
+                    }
                   },
                   "open": {
-                    "odds": "OFF"
+                    "odds": "-50000"
                   }
                 },
                 "away": {
                   "close": {
-                    "odds": "OFF"
+                    "odds": "+4000",
+                    "link": {
+                      "language": "en-US",
+                      "rel": [
+                        "away",
+                        "desktop",
+                        "bets",
+                        "draft-kings"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964300%3Foutcomes%3D0ML87099037_3",
+                      "text": "Away Bet",
+                      "shortText": "Away Bet",
+                      "isExternal": true,
+                      "isPremium": false,
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "mens-college-basketball",
+                          "sport": "basketball",
+                          "gameId": 401913526,
+                          "betSide": "away",
+                          "betType": "straight"
+                        }
+                      }
+                    }
                   },
                   "open": {
-                    "odds": "OFF"
+                    "odds": "+4000"
                   }
                 }
               },
@@ -91926,7 +91974,7 @@
                 "home": {
                   "close": {
                     "line": "-30.5",
-                    "odds": "-110",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -91960,7 +92008,7 @@
                 "away": {
                   "close": {
                     "line": "+30.5",
-                    "odds": "-110",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -91998,7 +92046,7 @@
                 "over": {
                   "close": {
                     "line": "o173.5",
-                    "odds": "-115",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -92032,7 +92080,7 @@
                 "under": {
                   "close": {
                     "line": "u173.5",
-                    "odds": "-105",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -100687,7 +100735,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $8",
-              "numberAvailable": 2762,
+              "numberAvailable": 2091,
               "links": [
                 {
                   "href": "https://www.vividseats.com/louisville-cardinals-mens-basketball-tickets-kfc-yum-center-11-7-2026--sports-ncaa-basketball/production/7503565?wsUser=717"
@@ -105773,6 +105821,116 @@
               "region": "us"
             }
           ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Cam’Ron Fletcher scored 21 points and High Point beat Maryland-Eastern Shore 63-49 on Wednesday.",
+              "shortLinkText": "Fletcher puts up 21 points and High Point knocks off Maryland-Eastern Shore 63-49",
+              "video": [
+                {
+                  "id": 50384234,
+                  "source": "espn",
+                  "headline": "Maryland-Eastern Shore Hawks vs. High Point Panthers: Game Highlights",
+                  "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172.jpg",
+                  "duration": 84,
+                  "tracking": {
+                    "coverageType": "Final Game Highlight",
+                    "leagueName": "NCAA Men's Basketball",
+                    "program": "NCAA Mens Basketball",
+                    "sportName": "basketball",
+                    "trackingId": "dm_20261105_NCB_marylandeastern_shore_hawks_vs_high_point_panthers_game_highlights",
+                    "trackingName": "NCB_One-Play (Maryland-Eastern Shore Hawks vs. High Point Panthers: Game Highlights) 2026/11/05 ESHEET"
+                  },
+                  "deviceRestrictions": {
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ],
+                    "type": "whitelist"
+                  },
+                  "links": {
+                    "api": {
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/8643db5b-2a8c-4b4e-bbf8-7cf3db37140f"
+                      },
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/50384234"
+                      }
+                    },
+                    "mobile": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8643db5b-2a8c-4b4e-bbf8-7cf3db37140f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384234/game-highlights",
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=50384234"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8643db5b-2a8c-4b4e-bbf8-7cf3db37140f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384234/game-highlights"
+                      },
+                      "source": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172.mp4"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8643db5b-2a8c-4b4e-bbf8-7cf3db37140f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384234/game-highlights"
+                      }
+                    },
+                    "source": {
+                      "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172.mp4",
+                      "HD": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172.mp4"
+                      },
+                      "HLS": {
+                        "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172/playlist.m3u8",
+                        "9x16": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172/playlist.m3u8"
+                        },
+                        "HD": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172/playlist.m3u8"
+                          },
+                          "cmb": {
+                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172/playlist.m3u8"
+                          }
+                        },
+                        "cmb": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/8643db5b-2a8c-4b4e-bbf8-7cf3db37140f/asset"
+                        }
+                      },
+                      "flash": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172.mp4"
+                      },
+                      "full": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172.mp4"
+                      },
+                      "mezzanine": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=50384234&videoDSI=bd49acd444f43"
+                    },
+                    "web": {
+                      "href": "https://www.espn.com/video/clip/_/id/50384234/game-highlights",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip/_/id/50384234/game-highlights",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=bd49acd444f43"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ],
           "highlights": [
             {
               "id": 50384234,
@@ -105886,116 +106044,6 @@
                 "trackingId": "dm_20261105_NCB_marylandeastern_shore_hawks_vs_high_point_panthers_game_highlights",
                 "trackingName": "NCB_One-Play (Maryland-Eastern Shore Hawks vs. High Point Panthers: Game Highlights) 2026/11/05 ESHEET"
               }
-            }
-          ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Cam’Ron Fletcher scored 21 points and High Point beat Maryland-Eastern Shore 63-49 on Wednesday.",
-              "shortLinkText": "Fletcher puts up 21 points and High Point knocks off Maryland-Eastern Shore 63-49",
-              "video": [
-                {
-                  "id": 50384234,
-                  "source": "espn",
-                  "headline": "Maryland-Eastern Shore Hawks vs. High Point Panthers: Game Highlights",
-                  "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172.jpg",
-                  "duration": 84,
-                  "tracking": {
-                    "coverageType": "Final Game Highlight",
-                    "leagueName": "NCAA Men's Basketball",
-                    "program": "NCAA Mens Basketball",
-                    "sportName": "basketball",
-                    "trackingId": "dm_20261105_NCB_marylandeastern_shore_hawks_vs_high_point_panthers_game_highlights",
-                    "trackingName": "NCB_One-Play (Maryland-Eastern Shore Hawks vs. High Point Panthers: Game Highlights) 2026/11/05 ESHEET"
-                  },
-                  "deviceRestrictions": {
-                    "devices": [
-                      "settop",
-                      "tablet",
-                      "handset",
-                      "ipad",
-                      "desktop"
-                    ],
-                    "type": "whitelist"
-                  },
-                  "links": {
-                    "api": {
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/8643db5b-2a8c-4b4e-bbf8-7cf3db37140f"
-                      },
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/50384234"
-                      }
-                    },
-                    "mobile": {
-                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8643db5b-2a8c-4b4e-bbf8-7cf3db37140f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384234/game-highlights",
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=50384234"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8643db5b-2a8c-4b4e-bbf8-7cf3db37140f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384234/game-highlights"
-                      },
-                      "source": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172.mp4"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8643db5b-2a8c-4b4e-bbf8-7cf3db37140f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384234/game-highlights"
-                      }
-                    },
-                    "source": {
-                      "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172.mp4",
-                      "HD": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172.mp4"
-                      },
-                      "HLS": {
-                        "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172/playlist.m3u8",
-                        "9x16": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172/playlist.m3u8"
-                        },
-                        "HD": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172/playlist.m3u8"
-                          },
-                          "cmb": {
-                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172/playlist.m3u8"
-                          }
-                        },
-                        "cmb": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/8643db5b-2a8c-4b4e-bbf8-7cf3db37140f/asset"
-                        }
-                      },
-                      "flash": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172.mp4"
-                      },
-                      "full": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172.mp4"
-                      },
-                      "mezzanine": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/543a36f9-f43e-4088-8667-e79bf3811172/543a36f9-f43e-4088-8667-e79bf3811172.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=50384234&videoDSI=bd49acd444f43"
-                    },
-                    "web": {
-                      "href": "https://www.espn.com/video/clip/_/id/50384234/game-highlights",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip/_/id/50384234/game-highlights",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=bd49acd444f43"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
             }
           ]
         }
@@ -106938,6 +106986,116 @@
               "region": "us"
             }
           ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Thijs De Ridder had 24 points and had nine rebounds, Sam Lewis added 20 points, and No. 9 Virginia beat Drexel 89-60 on Tuesday night in the season opener for both squads.",
+              "shortLinkText": "No. 9 Virginia handles Drexel in season opener",
+              "video": [
+                {
+                  "id": 50375585,
+                  "source": "espn",
+                  "headline": "Drexel Dragons vs. Virginia Cavaliers: Game Highlights",
+                  "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea.jpg",
+                  "duration": 119,
+                  "tracking": {
+                    "coverageType": "Final Game Highlight",
+                    "leagueName": "NCAA Men's Basketball",
+                    "program": "ACC Network",
+                    "sportName": "basketball",
+                    "trackingId": "dm_20261104_NCB_drexel_dragons_vs_virginia_cavaliers_game_highlights",
+                    "trackingName": "NCB_One-Play (Drexel Dragons vs. Virginia Cavaliers: Game Highlights) 2026/11/04 ESHEET"
+                  },
+                  "deviceRestrictions": {
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ],
+                    "type": "whitelist"
+                  },
+                  "links": {
+                    "api": {
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/449c23ad-0343-4dc3-9520-3d80e7480076"
+                      },
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/50375585"
+                      }
+                    },
+                    "mobile": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/449c23ad-0343-4dc3-9520-3d80e7480076/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50375585/game-highlights",
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=50375585"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/449c23ad-0343-4dc3-9520-3d80e7480076/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50375585/game-highlights"
+                      },
+                      "source": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea.mp4"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/449c23ad-0343-4dc3-9520-3d80e7480076/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50375585/game-highlights"
+                      }
+                    },
+                    "source": {
+                      "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea.mp4",
+                      "HD": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea.mp4"
+                      },
+                      "HLS": {
+                        "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea/playlist.m3u8",
+                        "9x16": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea/playlist.m3u8"
+                        },
+                        "HD": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea/playlist.m3u8"
+                          },
+                          "cmb": {
+                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea/playlist.m3u8"
+                          }
+                        },
+                        "cmb": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/449c23ad-0343-4dc3-9520-3d80e7480076/asset"
+                        }
+                      },
+                      "flash": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea.mp4"
+                      },
+                      "full": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea.mp4"
+                      },
+                      "mezzanine": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=50375585&videoDSI=22dec04527c83"
+                    },
+                    "web": {
+                      "href": "https://www.espn.com/video/clip/_/id/50375585/game-highlights",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip/_/id/50375585/game-highlights",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=22dec04527c83"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ],
           "highlights": [
             {
               "id": 50375293,
@@ -107164,116 +107322,6 @@
                 "trackingId": "dm_20261104_NCB_drexel_dragons_vs_virginia_cavaliers_game_highlights",
                 "trackingName": "NCB_One-Play (Drexel Dragons vs. Virginia Cavaliers: Game Highlights) 2026/11/04 ESHEET"
               }
-            }
-          ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Thijs De Ridder had 24 points and had nine rebounds, Sam Lewis added 20 points, and No. 9 Virginia beat Drexel 89-60 on Tuesday night in the season opener for both squads.",
-              "shortLinkText": "No. 9 Virginia handles Drexel in season opener",
-              "video": [
-                {
-                  "id": 50375585,
-                  "source": "espn",
-                  "headline": "Drexel Dragons vs. Virginia Cavaliers: Game Highlights",
-                  "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea.jpg",
-                  "duration": 119,
-                  "tracking": {
-                    "coverageType": "Final Game Highlight",
-                    "leagueName": "NCAA Men's Basketball",
-                    "program": "ACC Network",
-                    "sportName": "basketball",
-                    "trackingId": "dm_20261104_NCB_drexel_dragons_vs_virginia_cavaliers_game_highlights",
-                    "trackingName": "NCB_One-Play (Drexel Dragons vs. Virginia Cavaliers: Game Highlights) 2026/11/04 ESHEET"
-                  },
-                  "deviceRestrictions": {
-                    "devices": [
-                      "settop",
-                      "tablet",
-                      "handset",
-                      "ipad",
-                      "desktop"
-                    ],
-                    "type": "whitelist"
-                  },
-                  "links": {
-                    "api": {
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/449c23ad-0343-4dc3-9520-3d80e7480076"
-                      },
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/50375585"
-                      }
-                    },
-                    "mobile": {
-                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/449c23ad-0343-4dc3-9520-3d80e7480076/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50375585/game-highlights",
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=50375585"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/449c23ad-0343-4dc3-9520-3d80e7480076/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50375585/game-highlights"
-                      },
-                      "source": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea.mp4"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/449c23ad-0343-4dc3-9520-3d80e7480076/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50375585/game-highlights"
-                      }
-                    },
-                    "source": {
-                      "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea.mp4",
-                      "HD": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea.mp4"
-                      },
-                      "HLS": {
-                        "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea/playlist.m3u8",
-                        "9x16": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea/playlist.m3u8"
-                        },
-                        "HD": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea/playlist.m3u8"
-                          },
-                          "cmb": {
-                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea/playlist.m3u8"
-                          }
-                        },
-                        "cmb": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/449c23ad-0343-4dc3-9520-3d80e7480076/asset"
-                        }
-                      },
-                      "flash": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea.mp4"
-                      },
-                      "full": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea.mp4"
-                      },
-                      "mezzanine": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/ab88f819-5148-4b5e-b57c-babd730ac5ea/ab88f819-5148-4b5e-b57c-babd730ac5ea.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=50375585&videoDSI=22dec04527c83"
-                    },
-                    "web": {
-                      "href": "https://www.espn.com/video/clip/_/id/50375585/game-highlights",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip/_/id/50375585/game-highlights",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=22dec04527c83"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
             }
           ]
         }
@@ -108129,7 +108177,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $7",
-              "numberAvailable": 1299,
+              "numberAvailable": 1247,
               "links": [
                 {
                   "href": "https://www.vividseats.com/virginia-cavaliers-mens-basketball-tickets-credit-one-stadium-11-6-2026--sports-ncaa-basketball/production/7532381?wsUser=717"
@@ -110133,8 +110181,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $105",
-              "numberAvailable": 2574,
+              "summary": "Tickets as low as $88",
+              "numberAvailable": 1737,
               "links": [
                 {
                   "href": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-td-garden-11-6-2026--sports-ncaa-basketball/production/7006417?wsUser=717"
@@ -110168,7 +110216,7 @@
             {
               "provider": {
                 "id": "100",
-                "name": "DraftKings",
+                "name": "Draft Kings",
                 "priority": 1,
                 "logos": [
                   {
@@ -110184,7 +110232,7 @@
                     ]
                   }
                 ],
-                "displayName": "DraftKings"
+                "displayName": "Draft Kings"
               },
               "details": "CONN -5.5",
               "overUnder": 146.5,
@@ -110227,7 +110275,7 @@
                         "home",
                         "desktop",
                         "bets",
-                        "draftkings"
+                        "draft-kings"
                       ],
                       "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34958121%3Foutcomes%3D0ML87081863_1",
                       "text": "Home Bet",
@@ -110259,7 +110307,7 @@
                         "away",
                         "desktop",
                         "bets",
-                        "draftkings"
+                        "draft-kings"
                       ],
                       "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34958121%3Foutcomes%3D0ML87081863_3",
                       "text": "Away Bet",
@@ -111355,6 +111403,116 @@
               "region": "us"
             }
           ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Tahaad Pettiford scored 13 of his 18 points in the first half to lead Auburn to a 92-59 victory over Southeastern Louisiana on Wednesday night in the season opener for both teams.",
+              "shortLinkText": "Pettiford scores 18 to lead Auburn to 92-59 win against SE Louisiana in a season opener",
+              "video": [
+                {
+                  "id": 50384709,
+                  "source": "espn",
+                  "headline": "SE Louisiana Lions vs. Auburn Tigers: Game Highlights",
+                  "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.jpg",
+                  "duration": 84,
+                  "tracking": {
+                    "coverageType": "Final Game Highlight",
+                    "leagueName": "NCAA Men's Basketball",
+                    "program": "NCAA Mens Basketball",
+                    "sportName": "basketball",
+                    "trackingId": "dm_20261105_NCB_se_louisiana_lions_vs_auburn_tigers_game_highlights",
+                    "trackingName": "NCB_One-Play (SE Louisiana Lions vs. Auburn Tigers: Game Highlights) 2026/11/05 ESHEET"
+                  },
+                  "deviceRestrictions": {
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ],
+                    "type": "whitelist"
+                  },
+                  "links": {
+                    "api": {
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/10af2710-474a-4eaa-9b21-f205990dd1be"
+                      },
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/50384709"
+                      }
+                    },
+                    "mobile": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/10af2710-474a-4eaa-9b21-f205990dd1be/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384709/game-highlights",
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=50384709"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/10af2710-474a-4eaa-9b21-f205990dd1be/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384709/game-highlights"
+                      },
+                      "source": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/10af2710-474a-4eaa-9b21-f205990dd1be/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384709/game-highlights"
+                      }
+                    },
+                    "source": {
+                      "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4",
+                      "HD": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4"
+                      },
+                      "HLS": {
+                        "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8",
+                        "9x16": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8"
+                        },
+                        "HD": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8"
+                          },
+                          "cmb": {
+                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8"
+                          }
+                        },
+                        "cmb": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/10af2710-474a-4eaa-9b21-f205990dd1be/asset"
+                        }
+                      },
+                      "flash": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4"
+                      },
+                      "full": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4"
+                      },
+                      "mezzanine": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=50384709&videoDSI=35d3e67209300"
+                    },
+                    "web": {
+                      "href": "https://www.espn.com/video/clip/_/id/50384709/game-highlights",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip/_/id/50384709/game-highlights",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=35d3e67209300"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ],
           "highlights": [
             {
               "id": 50384709,
@@ -111468,116 +111626,6 @@
                 "trackingId": "dm_20261105_NCB_se_louisiana_lions_vs_auburn_tigers_game_highlights",
                 "trackingName": "NCB_One-Play (SE Louisiana Lions vs. Auburn Tigers: Game Highlights) 2026/11/05 ESHEET"
               }
-            }
-          ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Tahaad Pettiford scored 13 of his 18 points in the first half to lead Auburn to a 92-59 victory over Southeastern Louisiana on Wednesday night in the season opener for both teams.",
-              "shortLinkText": "Pettiford scores 18 to lead Auburn to 92-59 win against SE Louisiana in a season opener",
-              "video": [
-                {
-                  "id": 50384709,
-                  "source": "espn",
-                  "headline": "SE Louisiana Lions vs. Auburn Tigers: Game Highlights",
-                  "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.jpg",
-                  "duration": 84,
-                  "tracking": {
-                    "coverageType": "Final Game Highlight",
-                    "leagueName": "NCAA Men's Basketball",
-                    "program": "NCAA Mens Basketball",
-                    "sportName": "basketball",
-                    "trackingId": "dm_20261105_NCB_se_louisiana_lions_vs_auburn_tigers_game_highlights",
-                    "trackingName": "NCB_One-Play (SE Louisiana Lions vs. Auburn Tigers: Game Highlights) 2026/11/05 ESHEET"
-                  },
-                  "deviceRestrictions": {
-                    "devices": [
-                      "settop",
-                      "tablet",
-                      "handset",
-                      "ipad",
-                      "desktop"
-                    ],
-                    "type": "whitelist"
-                  },
-                  "links": {
-                    "api": {
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/10af2710-474a-4eaa-9b21-f205990dd1be"
-                      },
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/50384709"
-                      }
-                    },
-                    "mobile": {
-                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/10af2710-474a-4eaa-9b21-f205990dd1be/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384709/game-highlights",
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=50384709"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/10af2710-474a-4eaa-9b21-f205990dd1be/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384709/game-highlights"
-                      },
-                      "source": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/10af2710-474a-4eaa-9b21-f205990dd1be/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384709/game-highlights"
-                      }
-                    },
-                    "source": {
-                      "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4",
-                      "HD": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4"
-                      },
-                      "HLS": {
-                        "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8",
-                        "9x16": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8"
-                        },
-                        "HD": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8"
-                          },
-                          "cmb": {
-                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8"
-                          }
-                        },
-                        "cmb": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/10af2710-474a-4eaa-9b21-f205990dd1be/asset"
-                        }
-                      },
-                      "flash": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4"
-                      },
-                      "full": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4"
-                      },
-                      "mezzanine": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=50384709&videoDSI=35d3e67209300"
-                    },
-                    "web": {
-                      "href": "https://www.espn.com/video/clip/_/id/50384709/game-highlights",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip/_/id/50384709/game-highlights",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=35d3e67209300"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
             }
           ]
         }
@@ -114957,7 +115005,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "2047",
             "fullName": "United Supermarkets Arena",
@@ -115701,8 +115749,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $9",
-              "numberAvailable": 531,
+              "summary": "Tickets as low as $8",
+              "numberAvailable": 500,
               "links": [
                 {
                   "href": "https://www.vividseats.com/texas-tech-red-raiders-mens-basketball-tickets-united-supermarkets-arena-11-5-2026--sports-ncaa-basketball/production/7436689?wsUser=717"
@@ -115738,7 +115786,7 @@
             {
               "provider": {
                 "id": "100",
-                "name": "DraftKings",
+                "name": "Draft Kings",
                 "priority": 1,
                 "logos": [
                   {
@@ -115796,7 +115844,7 @@
                         "home",
                         "desktop",
                         "bets",
-                        "draftkings"
+                        "draft-kings"
                       ],
                       "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34965096%3Foutcomes%3D0ML87101296_1",
                       "text": "Home Bet",
@@ -115828,7 +115876,7 @@
                         "away",
                         "desktop",
                         "bets",
-                        "draftkings"
+                        "draft-kings"
                       ],
                       "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34965096%3Foutcomes%3D0ML87101296_3",
                       "text": "Away Bet",
@@ -117776,7 +117824,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $7",
-              "numberAvailable": 1449,
+              "numberAvailable": 1519,
               "links": [
                 {
                   "href": "https://www.vividseats.com/miami-hurricanes-mens-basketball-tickets-watsco-center-11-6-2026--sports-ncaa-basketball/production/7340367?wsUser=717"
@@ -118610,8 +118658,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $26",
-              "numberAvailable": 996,
+              "summary": "Tickets as low as $27",
+              "numberAvailable": 1189,
               "links": [
                 {
                   "href": "https://www.vividseats.com/byu-cougars-mens-basketball-tickets-marriott-center-11-6-2026--sports-ncaa-basketball/production/7575914?wsUser=717"
@@ -119534,6 +119582,116 @@
               "region": "us"
             }
           ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Milan Momcilovic scored 24 points on 8-of-12 shooting to lead No. 23 Kentucky to an 85-57 win over Manhattan on Tuesday night.",
+              "shortLinkText": "No. 23 Kentucky beats Manhattan 85-57 behind Milan Momcilovic's 24 points",
+              "video": [
+                {
+                  "id": 50374529,
+                  "source": "espn",
+                  "headline": "Manhattan Jaspers vs. Kentucky Wildcats: Game Highlights",
+                  "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a.jpg",
+                  "duration": 81,
+                  "tracking": {
+                    "coverageType": "Final Game Highlight",
+                    "leagueName": "NCAA Men's Basketball",
+                    "program": "NCAA Mens Basketball",
+                    "sportName": "basketball",
+                    "trackingId": "dm_20261104_NCB_manhattan_jaspers_vs_kentucky_wildcats_game_highlights",
+                    "trackingName": "NCB_One-Play (Manhattan Jaspers vs. Kentucky Wildcats: Game Highlights) 2026/11/04 ESHEET"
+                  },
+                  "deviceRestrictions": {
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ],
+                    "type": "whitelist"
+                  },
+                  "links": {
+                    "api": {
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/06417367-a0c1-4b1e-97df-dcedcb251d4e"
+                      },
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/50374529"
+                      }
+                    },
+                    "mobile": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/06417367-a0c1-4b1e-97df-dcedcb251d4e/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50374529/game-highlights",
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=50374529"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/06417367-a0c1-4b1e-97df-dcedcb251d4e/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50374529/game-highlights"
+                      },
+                      "source": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a.mp4"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/06417367-a0c1-4b1e-97df-dcedcb251d4e/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50374529/game-highlights"
+                      }
+                    },
+                    "source": {
+                      "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a.mp4",
+                      "HD": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a.mp4"
+                      },
+                      "HLS": {
+                        "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/playlist.m3u8",
+                        "9x16": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/playlist.m3u8"
+                        },
+                        "HD": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/playlist.m3u8"
+                          },
+                          "cmb": {
+                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/playlist.m3u8"
+                          }
+                        },
+                        "cmb": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/06417367-a0c1-4b1e-97df-dcedcb251d4e/asset"
+                        }
+                      },
+                      "flash": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a.mp4"
+                      },
+                      "full": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a.mp4"
+                      },
+                      "mezzanine": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=50374529&videoDSI=b0564ae5e567f"
+                    },
+                    "web": {
+                      "href": "https://www.espn.com/video/clip/_/id/50374529/game-highlights",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip/_/id/50374529/game-highlights",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=b0564ae5e567f"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ],
           "highlights": [
             {
               "id": 50374529,
@@ -119647,116 +119805,6 @@
                 "trackingId": "dm_20261104_NCB_manhattan_jaspers_vs_kentucky_wildcats_game_highlights",
                 "trackingName": "NCB_One-Play (Manhattan Jaspers vs. Kentucky Wildcats: Game Highlights) 2026/11/04 ESHEET"
               }
-            }
-          ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Milan Momcilovic scored 24 points on 8-of-12 shooting to lead No. 23 Kentucky to an 85-57 win over Manhattan on Tuesday night.",
-              "shortLinkText": "No. 23 Kentucky beats Manhattan 85-57 behind Milan Momcilovic's 24 points",
-              "video": [
-                {
-                  "id": 50374529,
-                  "source": "espn",
-                  "headline": "Manhattan Jaspers vs. Kentucky Wildcats: Game Highlights",
-                  "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a.jpg",
-                  "duration": 81,
-                  "tracking": {
-                    "coverageType": "Final Game Highlight",
-                    "leagueName": "NCAA Men's Basketball",
-                    "program": "NCAA Mens Basketball",
-                    "sportName": "basketball",
-                    "trackingId": "dm_20261104_NCB_manhattan_jaspers_vs_kentucky_wildcats_game_highlights",
-                    "trackingName": "NCB_One-Play (Manhattan Jaspers vs. Kentucky Wildcats: Game Highlights) 2026/11/04 ESHEET"
-                  },
-                  "deviceRestrictions": {
-                    "devices": [
-                      "settop",
-                      "tablet",
-                      "handset",
-                      "ipad",
-                      "desktop"
-                    ],
-                    "type": "whitelist"
-                  },
-                  "links": {
-                    "api": {
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/06417367-a0c1-4b1e-97df-dcedcb251d4e"
-                      },
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/50374529"
-                      }
-                    },
-                    "mobile": {
-                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/06417367-a0c1-4b1e-97df-dcedcb251d4e/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50374529/game-highlights",
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=50374529"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/06417367-a0c1-4b1e-97df-dcedcb251d4e/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50374529/game-highlights"
-                      },
-                      "source": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a.mp4"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/06417367-a0c1-4b1e-97df-dcedcb251d4e/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50374529/game-highlights"
-                      }
-                    },
-                    "source": {
-                      "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a.mp4",
-                      "HD": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a.mp4"
-                      },
-                      "HLS": {
-                        "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/playlist.m3u8",
-                        "9x16": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/playlist.m3u8"
-                        },
-                        "HD": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/playlist.m3u8"
-                          },
-                          "cmb": {
-                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/playlist.m3u8"
-                          }
-                        },
-                        "cmb": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/06417367-a0c1-4b1e-97df-dcedcb251d4e/asset"
-                        }
-                      },
-                      "flash": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a.mp4"
-                      },
-                      "full": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a.mp4"
-                      },
-                      "mezzanine": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a/a9afc5a6-40c0-4395-b66a-15fdf9e00b7a.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=50374529&videoDSI=b0564ae5e567f"
-                    },
-                    "web": {
-                      "href": "https://www.espn.com/video/clip/_/id/50374529/game-highlights",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip/_/id/50374529/game-highlights",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=b0564ae5e567f"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
             }
           ]
         }
@@ -120612,7 +120660,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $18",
-              "numberAvailable": 1802,
+              "numberAvailable": 1787,
               "links": [
                 {
                   "href": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-11-6-2026--sports-ncaa-basketball/production/7166210?wsUser=717"
@@ -122212,7 +122260,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $7",
-              "numberAvailable": 675,
+              "numberAvailable": 662,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ucla-bruins-mens-basketball-tickets-pauley-pavilion---ucla-11-6-2026--sports-ncaa-basketball/production/7567321?wsUser=717"
@@ -126527,7 +126575,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "1987",
             "fullName": "Breslin Center",
@@ -127271,8 +127319,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $12",
-              "numberAvailable": 1304,
+              "summary": "Tickets as low as $8",
+              "numberAvailable": 890,
               "links": [
                 {
                   "href": "https://www.vividseats.com/michigan-state-spartans-mens-basketball-tickets-jack-breslin-student-events-center-11-5-2026--sports-ncaa-basketball/production/7603534?wsUser=717"
@@ -127306,7 +127354,7 @@
             {
               "provider": {
                 "id": "100",
-                "name": "DraftKings",
+                "name": "Draft Kings",
                 "priority": 1,
                 "logos": [
                   {
@@ -127323,9 +127371,9 @@
                   }
                 ]
               },
-              "details": "MSU -27.5",
+              "details": "MSU -26.5",
               "overUnder": 155.5,
-              "spread": -27.5,
+              "spread": -26.5,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
@@ -127357,14 +127405,14 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-20000",
+                    "odds": "-9000",
                     "link": {
                       "language": "en-US",
                       "rel": [
                         "home",
                         "desktop",
                         "bets",
-                        "draftkings"
+                        "draft-kings"
                       ],
                       "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964469%3Foutcomes%3D0ML87099622_1",
                       "text": "Home Bet",
@@ -127389,14 +127437,14 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+3500",
+                    "odds": "+2500",
                     "link": {
                       "language": "en-US",
                       "rel": [
                         "away",
                         "desktop",
                         "bets",
-                        "draftkings"
+                        "draft-kings"
                       ],
                       "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964469%3Foutcomes%3D0ML87099622_3",
                       "text": "Away Bet",
@@ -127425,8 +127473,8 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "-27.5",
-                    "odds": "-108",
+                    "line": "-26.5",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -127434,7 +127482,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964469%3Foutcomes%3D0HC87099622N2750_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964469%3Foutcomes%3D0HC87099622N2650_1",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -127447,7 +127495,7 @@
                           "gameId": 401925754,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:MSU-27.5"
+                          "betDetails": "Spread:MSU-26.5"
                         }
                       }
                     }
@@ -127459,8 +127507,8 @@
                 },
                 "away": {
                   "close": {
-                    "line": "+27.5",
-                    "odds": "-112",
+                    "line": "+26.5",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -127468,7 +127516,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964469%3Foutcomes%3D0HC87099622P2750_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34964469%3Foutcomes%3D0HC87099622P2650_3",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -127481,7 +127529,7 @@
                           "gameId": 401925754,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:TOL+27.5"
+                          "betDetails": "Spread:TOL+26.5"
                         }
                       }
                     }
@@ -140075,6 +140123,116 @@
               "region": "us"
             }
           ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Jeremiah Wilkinson scored 23 points and No. 12 Arkansas routed Arkansas-Pine Bluff 106-61 on Tuesday night in the opener for both teams.",
+              "shortLinkText": "Wilkinson scores 23, Smith Jr. 20 as No. 12 Arkansas rolls Arkansas-Pine Bluff",
+              "video": [
+                {
+                  "id": 50375487,
+                  "source": "espn",
+                  "headline": "Arkansas-Pine Bluff Golden Lions vs. Arkansas Razorbacks: Game Highlights",
+                  "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038.jpg",
+                  "duration": 83,
+                  "tracking": {
+                    "coverageType": "Final Game Highlight",
+                    "leagueName": "NCAA Men's Basketball",
+                    "program": "NCAA Mens Basketball",
+                    "sportName": "basketball",
+                    "trackingId": "dm_20261104_NCB_arkansaspine_bluff_golden_lions_vs_arkansas_razorbacks_game_highlights",
+                    "trackingName": "NCB_One-Play (Arkansas-Pine Bluff Golden Lions vs. Arkansas Razorbacks: Game Highlights) 2026/11/04 ESHEET"
+                  },
+                  "deviceRestrictions": {
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ],
+                    "type": "whitelist"
+                  },
+                  "links": {
+                    "api": {
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/4a7a9793-f904-404e-a29d-86320e64fec7"
+                      },
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/50375487"
+                      }
+                    },
+                    "mobile": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/4a7a9793-f904-404e-a29d-86320e64fec7/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50375487/game-highlights",
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=50375487"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/4a7a9793-f904-404e-a29d-86320e64fec7/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50375487/game-highlights"
+                      },
+                      "source": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038.mp4"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/4a7a9793-f904-404e-a29d-86320e64fec7/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50375487/game-highlights"
+                      }
+                    },
+                    "source": {
+                      "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038.mp4",
+                      "HD": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038.mp4"
+                      },
+                      "HLS": {
+                        "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038/playlist.m3u8",
+                        "9x16": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038/playlist.m3u8"
+                        },
+                        "HD": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038/playlist.m3u8"
+                          },
+                          "cmb": {
+                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038/playlist.m3u8"
+                          }
+                        },
+                        "cmb": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/4a7a9793-f904-404e-a29d-86320e64fec7/asset"
+                        }
+                      },
+                      "flash": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038.mp4"
+                      },
+                      "full": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038.mp4"
+                      },
+                      "mezzanine": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=50375487&videoDSI=1900454a86fcb"
+                    },
+                    "web": {
+                      "href": "https://www.espn.com/video/clip/_/id/50375487/game-highlights",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip/_/id/50375487/game-highlights",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=1900454a86fcb"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ],
           "highlights": [
             {
               "id": 50375487,
@@ -140188,116 +140346,6 @@
                 "trackingId": "dm_20261104_NCB_arkansaspine_bluff_golden_lions_vs_arkansas_razorbacks_game_highlights",
                 "trackingName": "NCB_One-Play (Arkansas-Pine Bluff Golden Lions vs. Arkansas Razorbacks: Game Highlights) 2026/11/04 ESHEET"
               }
-            }
-          ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Jeremiah Wilkinson scored 23 points and No. 12 Arkansas routed Arkansas-Pine Bluff 106-61 on Tuesday night in the opener for both teams.",
-              "shortLinkText": "Wilkinson scores 23, Smith Jr. 20 as No. 12 Arkansas rolls Arkansas-Pine Bluff",
-              "video": [
-                {
-                  "id": 50375487,
-                  "source": "espn",
-                  "headline": "Arkansas-Pine Bluff Golden Lions vs. Arkansas Razorbacks: Game Highlights",
-                  "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038.jpg",
-                  "duration": 83,
-                  "tracking": {
-                    "coverageType": "Final Game Highlight",
-                    "leagueName": "NCAA Men's Basketball",
-                    "program": "NCAA Mens Basketball",
-                    "sportName": "basketball",
-                    "trackingId": "dm_20261104_NCB_arkansaspine_bluff_golden_lions_vs_arkansas_razorbacks_game_highlights",
-                    "trackingName": "NCB_One-Play (Arkansas-Pine Bluff Golden Lions vs. Arkansas Razorbacks: Game Highlights) 2026/11/04 ESHEET"
-                  },
-                  "deviceRestrictions": {
-                    "devices": [
-                      "settop",
-                      "tablet",
-                      "handset",
-                      "ipad",
-                      "desktop"
-                    ],
-                    "type": "whitelist"
-                  },
-                  "links": {
-                    "api": {
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/4a7a9793-f904-404e-a29d-86320e64fec7"
-                      },
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/50375487"
-                      }
-                    },
-                    "mobile": {
-                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/4a7a9793-f904-404e-a29d-86320e64fec7/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50375487/game-highlights",
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=50375487"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/4a7a9793-f904-404e-a29d-86320e64fec7/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50375487/game-highlights"
-                      },
-                      "source": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038.mp4"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/4a7a9793-f904-404e-a29d-86320e64fec7/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50375487/game-highlights"
-                      }
-                    },
-                    "source": {
-                      "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038.mp4",
-                      "HD": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038.mp4"
-                      },
-                      "HLS": {
-                        "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038/playlist.m3u8",
-                        "9x16": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038/playlist.m3u8"
-                        },
-                        "HD": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038/playlist.m3u8"
-                          },
-                          "cmb": {
-                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038/playlist.m3u8"
-                          }
-                        },
-                        "cmb": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/4a7a9793-f904-404e-a29d-86320e64fec7/asset"
-                        }
-                      },
-                      "flash": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038.mp4"
-                      },
-                      "full": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038.mp4"
-                      },
-                      "mezzanine": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1104/f97f1c29-3943-460b-ac85-43cc1cef0038/f97f1c29-3943-460b-ac85-43cc1cef0038.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=50375487&videoDSI=1900454a86fcb"
-                    },
-                    "web": {
-                      "href": "https://www.espn.com/video/clip/_/id/50375487/game-highlights",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip/_/id/50375487/game-highlights",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=1900454a86fcb"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
             }
           ]
         }
