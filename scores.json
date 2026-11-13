@@ -1,5 +1,5 @@
 {
-  "ts": "2026-11-13T17:45:07Z",
+  "ts": "2026-11-13T22:56:38Z",
   "events": [
     {
       "id": "401856478",
@@ -75760,7 +75760,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "1925",
             "fullName": "Coleman Coliseum",
@@ -76504,8 +76504,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $9",
-              "numberAvailable": 1216,
+              "summary": "Tickets as low as $8",
+              "numberAvailable": 1142,
               "links": [
                 {
                   "href": "https://www.vividseats.com/alabama-crimson-tide-mens-basketball-tickets-coleman-coliseum-11-13-2026--sports-ncaa-basketball/production/7153086?wsUser=717"
@@ -76856,8 +76856,8 @@
       ],
       "weather": {
         "displayValue": "1",
-        "temperature": 51,
-        "highTemperature": 51,
+        "temperature": 54,
+        "highTemperature": 54,
         "conditionId": "Sunny",
         "link": {
           "language": "en-US",
@@ -80411,7 +80411,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "360",
             "fullName": "Tower Hill Arena",
@@ -81155,8 +81155,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $9",
-              "numberAvailable": 595,
+              "summary": "Tickets as low as $10",
+              "numberAvailable": 319,
               "links": [
                 {
                   "href": "https://www.vividseats.com/florida-gators-mens-basketball-tickets-stephen-c-oconnell-center---exactech-arena-11-13-2026--sports-ncaa-basketball/production/7262849?wsUser=717"
@@ -81207,11 +81207,12 @@
                       "dark"
                     ]
                   }
-                ]
+                ],
+                "displayName": "DraftKings"
               },
-              "details": "FLA -36.5",
-              "overUnder": 141.5,
-              "spread": -36.5,
+              "details": "FLA -34.5",
+              "overUnder": 139.5,
+              "spread": -34.5,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
@@ -81263,8 +81264,8 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "-36.5",
-                    "odds": "-108",
+                    "line": "-34.5",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -81272,7 +81273,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012656%3Foutcomes%3D0HC87225299N3650_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012656%3Foutcomes%3D0HC87225299N3450_1",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -81285,7 +81286,7 @@
                           "gameId": 401906772,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:FLA-36.5"
+                          "betDetails": "Spread:FLA-34.5"
                         }
                       }
                     }
@@ -81297,8 +81298,8 @@
                 },
                 "away": {
                   "close": {
-                    "line": "+36.5",
-                    "odds": "-112",
+                    "line": "+34.5",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -81306,7 +81307,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012656%3Foutcomes%3D0HC87225299P3650_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012656%3Foutcomes%3D0HC87225299P3450_3",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -81319,7 +81320,7 @@
                           "gameId": 401906772,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:MRMK+36.5"
+                          "betDetails": "Spread:MRMK+34.5"
                         }
                       }
                     }
@@ -81335,8 +81336,8 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o141.5",
-                    "odds": "-110",
+                    "line": "o139.5",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -81344,7 +81345,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012656%3Foutcomes%3D0OU87225299O14150_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012656%3Foutcomes%3D0OU87225299O13950_1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -81357,7 +81358,7 @@
                           "gameId": 401906772,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:141.5"
+                          "betDetails": "Over:139.5"
                         }
                       }
                     }
@@ -81369,8 +81370,8 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u141.5",
-                    "odds": "-110",
+                    "line": "u139.5",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -81378,7 +81379,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012656%3Foutcomes%3D0OU87225299U14150_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012656%3Foutcomes%3D0OU87225299U13950_3",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -81391,7 +81392,7 @@
                           "gameId": 401906772,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:141.5"
+                          "betDetails": "Under:139.5"
                         }
                       }
                     }
@@ -83829,7 +83830,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "2044",
             "fullName": "Food City Center",
@@ -84573,8 +84574,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $6",
-              "numberAvailable": 2130,
+              "summary": "Tickets as low as $5",
+              "numberAvailable": 1164,
               "links": [
                 {
                   "href": "https://www.vividseats.com/tennessee-vols-mens-basketball-tickets-thompson-boling-arena-at-food-city-center-11-13-2026--sports-ncaa-basketball/production/7350070?wsUser=717"
@@ -84627,9 +84628,9 @@
                   }
                 ]
               },
-              "details": "TENN -28.5",
-              "overUnder": 158.5,
-              "spread": -28.5,
+              "details": "TENN -27.5",
+              "overUnder": 156.5,
+              "spread": -27.5,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
@@ -84729,8 +84730,8 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "-28.5",
-                    "odds": "-112",
+                    "line": "-27.5",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -84738,7 +84739,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012663%3Foutcomes%3D0HC87225306N2850_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012663%3Foutcomes%3D0HC87225306N2750_1",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -84751,7 +84752,7 @@
                           "gameId": 401906850,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:TENN-28.5"
+                          "betDetails": "Spread:TENN-27.5"
                         }
                       }
                     }
@@ -84763,8 +84764,8 @@
                 },
                 "away": {
                   "close": {
-                    "line": "+28.5",
-                    "odds": "-108",
+                    "line": "+27.5",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -84772,7 +84773,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012663%3Foutcomes%3D0HC87225306P2850_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012663%3Foutcomes%3D0HC87225306P2750_3",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -84785,7 +84786,7 @@
                           "gameId": 401906850,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:TNST+28.5"
+                          "betDetails": "Spread:TNST+27.5"
                         }
                       }
                     }
@@ -84801,7 +84802,7 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o158.5",
+                    "line": "o156.5",
                     "odds": "-115",
                     "link": {
                       "language": "en-US",
@@ -84810,7 +84811,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012663%3Foutcomes%3D0OU87225306O15850_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012663%3Foutcomes%3D0OU87225306O15650_1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -84823,7 +84824,7 @@
                           "gameId": 401906850,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:158.5"
+                          "betDetails": "Over:156.5"
                         }
                       }
                     }
@@ -84835,7 +84836,7 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u158.5",
+                    "line": "u156.5",
                     "odds": "-105",
                     "link": {
                       "language": "en-US",
@@ -84844,7 +84845,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012663%3Foutcomes%3D0OU87225306U15850_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012663%3Foutcomes%3D0OU87225306U15650_3",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -84857,7 +84858,7 @@
                           "gameId": 401906850,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:158.5"
+                          "betDetails": "Under:156.5"
                         }
                       }
                     }
@@ -84925,8 +84926,8 @@
       ],
       "weather": {
         "displayValue": "7",
-        "temperature": 45,
-        "highTemperature": 45,
+        "temperature": 42,
+        "highTemperature": 42,
         "conditionId": "Cloudy",
         "link": {
           "language": "en-US",
@@ -89229,7 +89230,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $37",
-              "numberAvailable": 2733,
+              "numberAvailable": 2713,
               "links": [
                 {
                   "href": "https://www.vividseats.com/texas-longhorns-mens-basketball-tickets-frost-bank-center-11-15-2026--sports-ncaa-basketball/production/7323551?wsUser=717"
@@ -93788,7 +93789,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "1914",
             "fullName": "Cameron Indoor Stadium",
@@ -94532,8 +94533,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $77",
-              "numberAvailable": 137,
+              "summary": "Tickets as low as $90",
+              "numberAvailable": 55,
               "links": [
                 {
                   "href": "https://www.vividseats.com/duke-blue-devils-mens-basketball-tickets-cameron-indoor-stadium-11-13-2026--sports-ncaa-basketball/production/7153774?wsUser=717"
@@ -94586,9 +94587,9 @@
                   }
                 ]
               },
-              "details": "DUKE -44.5",
+              "details": "DUKE -42.5",
               "overUnder": 148.5,
-              "spread": -44.5,
+              "spread": -42.5,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
@@ -94640,8 +94641,8 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "-44.5",
-                    "odds": "-110",
+                    "line": "-42.5",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -94649,7 +94650,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012676%3Foutcomes%3D0HC87225319N4450_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012676%3Foutcomes%3D0HC87225319N4250_1",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -94662,7 +94663,7 @@
                           "gameId": 401909565,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:DUKE-44.5"
+                          "betDetails": "Spread:DUKE-42.5"
                         }
                       }
                     }
@@ -94674,8 +94675,8 @@
                 },
                 "away": {
                   "close": {
-                    "line": "+44.5",
-                    "odds": "-110",
+                    "line": "+42.5",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -94683,7 +94684,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012676%3Foutcomes%3D0HC87225319P4450_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012676%3Foutcomes%3D0HC87225319P4250_3",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -94696,7 +94697,7 @@
                           "gameId": 401909565,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:SIUE+44.5"
+                          "betDetails": "Spread:SIUE+42.5"
                         }
                       }
                     }
@@ -94713,7 +94714,7 @@
                 "over": {
                   "close": {
                     "line": "o148.5",
-                    "odds": "-115",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -94747,7 +94748,7 @@
                 "under": {
                   "close": {
                     "line": "u148.5",
-                    "odds": "-105",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -99077,7 +99078,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "1953",
             "fullName": "Neville Arena",
@@ -99641,6 +99642,32 @@
                   "rankDisplayValue": "Tied-383rd"
                 }
               ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "type": "total",
+                  "summary": "2-1"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "2-0"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "type": "vsconf",
+                  "summary": "0-0"
+                }
+              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -99762,32 +99789,6 @@
                     }
                   ]
                 }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "type": "total",
-                  "summary": "2-1"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "2-0"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "0-0"
-                },
-                {
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "type": "vsconf",
-                  "summary": "0-0"
-                }
               ]
             }
           ],
@@ -99821,8 +99822,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $71",
-              "numberAvailable": 605,
+              "summary": "Tickets as low as $66",
+              "numberAvailable": 404,
               "links": [
                 {
                   "href": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-11-13-2026--sports-ncaa-basketball/production/7290841?wsUser=717"
@@ -99876,7 +99877,7 @@
                 ]
               },
               "details": "ARIZ -2.5",
-              "overUnder": 159.5,
+              "overUnder": 158.5,
               "spread": 2.5,
               "awayTeamOdds": {
                 "favorite": true,
@@ -99909,7 +99910,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+120",
+                    "odds": "+124",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -99941,7 +99942,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-142",
+                    "odds": "-148",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -99978,7 +99979,7 @@
                 "home": {
                   "close": {
                     "line": "+2.5",
-                    "odds": "-108",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -100012,7 +100013,7 @@
                 "away": {
                   "close": {
                     "line": "-2.5",
-                    "odds": "-112",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -100049,8 +100050,8 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o159.5",
-                    "odds": "-112",
+                    "line": "o158.5",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -100058,7 +100059,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012682%3Foutcomes%3D0OU87225325O15950_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012682%3Foutcomes%3D0OU87225325O15850_1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -100071,7 +100072,7 @@
                           "gameId": 401909741,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:159.5"
+                          "betDetails": "Over:158.5"
                         }
                       }
                     }
@@ -100083,8 +100084,8 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u159.5",
-                    "odds": "-108",
+                    "line": "u158.5",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -100092,7 +100093,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012682%3Foutcomes%3D0OU87225325U15950_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012682%3Foutcomes%3D0OU87225325U15850_3",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -100105,7 +100106,7 @@
                           "gameId": 401909741,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:159.5"
+                          "betDetails": "Under:158.5"
                         }
                       }
                     }
@@ -110639,7 +110640,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "2127",
             "fullName": "State Farm Center",
@@ -111383,8 +111384,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $11",
-              "numberAvailable": 997,
+              "summary": "Tickets as low as $12",
+              "numberAvailable": 681,
               "links": [
                 {
                   "href": "https://www.vividseats.com/illinois-fighting-illini-mens-basketball-tickets-state-farm-center-11-13-2026--sports-ncaa-basketball/production/7466197?wsUser=717"
@@ -111435,9 +111436,9 @@
                   }
                 ]
               },
-              "details": "ILL -36.5",
-              "overUnder": 171.5,
-              "spread": -36.5,
+              "details": "ILL -35.5",
+              "overUnder": 170.5,
+              "spread": -35.5,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
@@ -111489,7 +111490,7 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "-36.5",
+                    "line": "-35.5",
                     "odds": "-108",
                     "link": {
                       "language": "en-US",
@@ -111498,7 +111499,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012662%3Foutcomes%3D0HC87225305N3650_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012662%3Foutcomes%3D0HC87225305N3550_1",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -111511,7 +111512,7 @@
                           "gameId": 401913528,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:ILL-36.5"
+                          "betDetails": "Spread:ILL-35.5"
                         }
                       }
                     }
@@ -111523,7 +111524,7 @@
                 },
                 "away": {
                   "close": {
-                    "line": "+36.5",
+                    "line": "+35.5",
                     "odds": "-112",
                     "link": {
                       "language": "en-US",
@@ -111532,7 +111533,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012662%3Foutcomes%3D0HC87225305P3650_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012662%3Foutcomes%3D0HC87225305P3550_3",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -111545,7 +111546,7 @@
                           "gameId": 401913528,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:SHSU+36.5"
+                          "betDetails": "Spread:SHSU+35.5"
                         }
                       }
                     }
@@ -111561,8 +111562,8 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o171.5",
-                    "odds": "-112",
+                    "line": "o170.5",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -111570,7 +111571,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012662%3Foutcomes%3D0OU87225305O17150_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012662%3Foutcomes%3D0OU87225305O17050_1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -111583,7 +111584,7 @@
                           "gameId": 401913528,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:171.5"
+                          "betDetails": "Over:170.5"
                         }
                       }
                     }
@@ -111595,8 +111596,8 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u171.5",
-                    "odds": "-108",
+                    "line": "u170.5",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -111604,7 +111605,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012662%3Foutcomes%3D0OU87225305U17150_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012662%3Foutcomes%3D0OU87225305U17050_3",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -111617,7 +111618,7 @@
                           "gameId": 401913528,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:171.5"
+                          "betDetails": "Under:170.5"
                         }
                       }
                     }
@@ -111723,7 +111724,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "2133",
             "fullName": "XFINITY Center",
@@ -112467,8 +112468,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $42",
-              "numberAvailable": 251,
+              "summary": "Tickets as low as $52",
+              "numberAvailable": 99,
               "links": [
                 {
                   "href": "https://www.vividseats.com/maryland-terrapins-mens-basketball-tickets-college-park-xfinity-center---md-11-13-2026/production/7129002?wsUser=717"
@@ -112520,7 +112521,7 @@
                 ]
               },
               "details": "UVA -6.5",
-              "overUnder": 152.5,
+              "overUnder": 153.5,
               "spread": 6.5,
               "awayTeamOdds": {
                 "favorite": true,
@@ -112693,8 +112694,8 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o152.5",
-                    "odds": "-110",
+                    "line": "o153.5",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -112702,7 +112703,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012679%3Foutcomes%3D0OU87225322O15250_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012679%3Foutcomes%3D0OU87225322O15350_1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -112715,7 +112716,7 @@
                           "gameId": 401916297,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:152.5"
+                          "betDetails": "Over:153.5"
                         }
                       }
                     }
@@ -112727,8 +112728,8 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u152.5",
-                    "odds": "-110",
+                    "line": "u153.5",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -112736,7 +112737,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012679%3Foutcomes%3D0OU87225322U15250_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012679%3Foutcomes%3D0OU87225322U15350_3",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -112749,7 +112750,7 @@
                           "gameId": 401916297,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:152.5"
+                          "betDetails": "Under:153.5"
                         }
                       }
                     }
@@ -113795,7 +113796,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "64",
             "fullName": "PeoplesBank Arena",
@@ -114539,8 +114540,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $69",
-              "numberAvailable": 642,
+              "summary": "Tickets as low as $64",
+              "numberAvailable": 297,
               "links": [
                 {
                   "href": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-11-13-2026--sports-ncaa-basketball/production/7581913?wsUser=717"
@@ -114625,7 +114626,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-800",
+                    "odds": "-850",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -114657,7 +114658,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+550",
+                    "odds": "+575",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -114694,7 +114695,7 @@
                 "home": {
                   "close": {
                     "line": "-12.5",
-                    "odds": "+100",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -114728,7 +114729,7 @@
                 "away": {
                   "close": {
                     "line": "+12.5",
-                    "odds": "-120",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -118424,7 +118425,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "2142",
             "fullName": "Bud Walton Arena",
@@ -119168,8 +119169,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $39",
-              "numberAvailable": 899,
+              "summary": "Tickets as low as $32",
+              "numberAvailable": 816,
               "links": [
                 {
                   "href": "https://www.vividseats.com/arkansas-razorbacks-mens-basketball-tickets-bud-walton-arena-11-13-2026--sports-ncaa-basketball/production/7575771?wsUser=717"
@@ -119222,9 +119223,9 @@
                   }
                 ]
               },
-              "details": "ARK -24.5",
-              "overUnder": 160.5,
-              "spread": -24.5,
+              "details": "ARK -22.5",
+              "overUnder": 162.5,
+              "spread": -22.5,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
@@ -119256,7 +119257,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-9000",
+                    "odds": "-8000",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -119288,7 +119289,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+2500",
+                    "odds": "+2200",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -119324,8 +119325,8 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "-24.5",
-                    "odds": "-108",
+                    "line": "-22.5",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -119333,7 +119334,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012671%3Foutcomes%3D0HC87225314N2450_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012671%3Foutcomes%3D0HC87225314N2250_1",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -119346,7 +119347,7 @@
                           "gameId": 401917916,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:ARK-24.5"
+                          "betDetails": "Spread:ARK-22.5"
                         }
                       }
                     }
@@ -119358,8 +119359,8 @@
                 },
                 "away": {
                   "close": {
-                    "line": "+24.5",
-                    "odds": "-112",
+                    "line": "+22.5",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -119367,7 +119368,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012671%3Foutcomes%3D0HC87225314P2450_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012671%3Foutcomes%3D0HC87225314P2250_3",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -119380,7 +119381,7 @@
                           "gameId": 401917916,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:CARK+24.5"
+                          "betDetails": "Spread:CARK+22.5"
                         }
                       }
                     }
@@ -119396,8 +119397,8 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o160.5",
-                    "odds": "-110",
+                    "line": "o162.5",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -119405,7 +119406,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012671%3Foutcomes%3D0OU87225314O16050_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012671%3Foutcomes%3D0OU87225314O16250_1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -119418,7 +119419,7 @@
                           "gameId": 401917916,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:160.5"
+                          "betDetails": "Over:162.5"
                         }
                       }
                     }
@@ -119430,8 +119431,8 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u160.5",
-                    "odds": "-110",
+                    "line": "u162.5",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -119439,7 +119440,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012671%3Foutcomes%3D0OU87225314U16050_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012671%3Foutcomes%3D0OU87225314U16250_3",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -119452,7 +119453,7 @@
                           "gameId": 401917916,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:160.5"
+                          "betDetails": "Under:162.5"
                         }
                       }
                     }
@@ -123716,6 +123717,116 @@
               "region": "us"
             }
           ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Alijah Arenas had 19 points and seven rebounds, Rodney Rice added 18 points and five rebounds, and No. 21 USC beat California 77-65 on Wednesday night in a nonconference matchup between the former Pac-12 foes.",
+              "shortLinkText": "Alijah Arenas, Rodney Rice lead 21st-ranked USC to 77-65 win at California to stay unbeaten",
+              "video": [
+                {
+                  "id": 50459532,
+                  "source": "espn",
+                  "headline": "USC Trojans vs. California Golden Bears: Game Highlights",
+                  "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac.jpg",
+                  "duration": 84,
+                  "tracking": {
+                    "coverageType": "Final Game Highlight",
+                    "leagueName": "NCAA Men's Basketball",
+                    "program": "ESPN2",
+                    "sportName": "basketball",
+                    "trackingId": "dm_20261112_NCB_usc_trojans_vs_california_golden_bears_game_highlights",
+                    "trackingName": "NCB_One-Play (USC Trojans vs. California Golden Bears: Game Highlights) 2026/11/12 ESHEET"
+                  },
+                  "deviceRestrictions": {
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ],
+                    "type": "whitelist"
+                  },
+                  "links": {
+                    "api": {
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/53618cb3-1cf3-45b9-ad8d-9d2741f8dea9"
+                      },
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/50459532"
+                      }
+                    },
+                    "mobile": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/53618cb3-1cf3-45b9-ad8d-9d2741f8dea9/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50459532/game-highlights",
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=50459532"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/53618cb3-1cf3-45b9-ad8d-9d2741f8dea9/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50459532/game-highlights"
+                      },
+                      "source": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac.mp4"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/53618cb3-1cf3-45b9-ad8d-9d2741f8dea9/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50459532/game-highlights"
+                      }
+                    },
+                    "source": {
+                      "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac.mp4",
+                      "HD": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac.mp4"
+                      },
+                      "HLS": {
+                        "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac/playlist.m3u8",
+                        "9x16": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac/playlist.m3u8"
+                        },
+                        "HD": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac/playlist.m3u8"
+                          },
+                          "cmb": {
+                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac/playlist.m3u8"
+                          }
+                        },
+                        "cmb": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/53618cb3-1cf3-45b9-ad8d-9d2741f8dea9/asset"
+                        }
+                      },
+                      "flash": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac.mp4"
+                      },
+                      "full": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac.mp4"
+                      },
+                      "mezzanine": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=50459532&videoDSI=df9968b9713a4"
+                    },
+                    "web": {
+                      "href": "https://www.espn.com/video/clip/_/id/50459532/game-highlights",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip/_/id/50459532/game-highlights",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=df9968b9713a4"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ],
           "highlights": [
             {
               "id": 50459532,
@@ -123829,116 +123940,6 @@
                 "trackingId": "dm_20261112_NCB_usc_trojans_vs_california_golden_bears_game_highlights",
                 "trackingName": "NCB_One-Play (USC Trojans vs. California Golden Bears: Game Highlights) 2026/11/12 ESHEET"
               }
-            }
-          ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Alijah Arenas had 19 points and seven rebounds, Rodney Rice added 18 points and five rebounds, and No. 21 USC beat California 77-65 on Wednesday night in a nonconference matchup between the former Pac-12 foes.",
-              "shortLinkText": "Alijah Arenas, Rodney Rice lead 21st-ranked USC to 77-65 win at California to stay unbeaten",
-              "video": [
-                {
-                  "id": 50459532,
-                  "source": "espn",
-                  "headline": "USC Trojans vs. California Golden Bears: Game Highlights",
-                  "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac.jpg",
-                  "duration": 84,
-                  "tracking": {
-                    "coverageType": "Final Game Highlight",
-                    "leagueName": "NCAA Men's Basketball",
-                    "program": "ESPN2",
-                    "sportName": "basketball",
-                    "trackingId": "dm_20261112_NCB_usc_trojans_vs_california_golden_bears_game_highlights",
-                    "trackingName": "NCB_One-Play (USC Trojans vs. California Golden Bears: Game Highlights) 2026/11/12 ESHEET"
-                  },
-                  "deviceRestrictions": {
-                    "devices": [
-                      "settop",
-                      "tablet",
-                      "handset",
-                      "ipad",
-                      "desktop"
-                    ],
-                    "type": "whitelist"
-                  },
-                  "links": {
-                    "api": {
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/53618cb3-1cf3-45b9-ad8d-9d2741f8dea9"
-                      },
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/50459532"
-                      }
-                    },
-                    "mobile": {
-                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/53618cb3-1cf3-45b9-ad8d-9d2741f8dea9/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50459532/game-highlights",
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=50459532"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/53618cb3-1cf3-45b9-ad8d-9d2741f8dea9/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50459532/game-highlights"
-                      },
-                      "source": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac.mp4"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/53618cb3-1cf3-45b9-ad8d-9d2741f8dea9/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50459532/game-highlights"
-                      }
-                    },
-                    "source": {
-                      "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac.mp4",
-                      "HD": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac.mp4"
-                      },
-                      "HLS": {
-                        "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac/playlist.m3u8",
-                        "9x16": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac/playlist.m3u8"
-                        },
-                        "HD": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac/playlist.m3u8"
-                          },
-                          "cmb": {
-                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac/playlist.m3u8"
-                          }
-                        },
-                        "cmb": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/53618cb3-1cf3-45b9-ad8d-9d2741f8dea9/asset"
-                        }
-                      },
-                      "flash": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac.mp4"
-                      },
-                      "full": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac.mp4"
-                      },
-                      "mezzanine": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/5556cffd-2f6f-4943-a400-24bffbcbccac/5556cffd-2f6f-4943-a400-24bffbcbccac.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=50459532&videoDSI=df9968b9713a4"
-                    },
-                    "web": {
-                      "href": "https://www.espn.com/video/clip/_/id/50459532/game-highlights",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip/_/id/50459532/game-highlights",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=df9968b9713a4"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
             }
           ]
         }
@@ -124794,7 +124795,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $9",
-              "numberAvailable": 1241,
+              "numberAvailable": 1179,
               "links": [
                 {
                   "href": "https://www.vividseats.com/michigan-wolverines-mens-basketball-tickets-crisler-center-11-15-2026--sports-ncaa-basketball/production/7522601?wsUser=717"
@@ -127959,7 +127960,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $34",
-              "numberAvailable": 561,
+              "numberAvailable": 559,
               "links": [
                 {
                   "href": "https://www.vividseats.com/memphis-tigers-mens-basketball-tickets-fedexforum-11-15-2026--sports-ncaa-basketball/production/7413987?wsUser=717"
@@ -132281,7 +132282,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $13",
-              "numberAvailable": 677,
+              "numberAvailable": 598,
               "links": [
                 {
                   "href": "https://www.vividseats.com/texas-tech-red-raiders-mens-basketball-tickets-united-supermarkets-arena-11-14-2026--sports-ncaa-basketball/production/7436691?wsUser=717"
@@ -144161,7 +144162,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $59",
-              "numberAvailable": 4012,
+              "numberAvailable": 3932,
               "links": [
                 {
                   "href": "https://www.vividseats.com/st-johns-red-storm-mens-basketball-tickets-madison-square-garden-11-15-2026--sports-ncaa-basketball/production/7433441?wsUser=717"
@@ -152471,8 +152472,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $87",
-              "numberAvailable": 176,
+              "summary": "Tickets as low as $98",
+              "numberAvailable": 161,
               "links": [
                 {
                   "href": "https://www.vividseats.com/gonzaga-bulldogs-mens-basketball-tickets-numerica-veterans-arena-11-14-2026--sports-ncaa-basketball/production/7153234?wsUser=717"
@@ -152500,6 +152501,258 @@
               },
               "lang": "en",
               "region": "us"
+            }
+          ],
+          "odds": [
+            {
+              "provider": {
+                "id": "100",
+                "name": "DraftKings",
+                "priority": 1,
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+                    "rel": [
+                      "light"
+                    ]
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+                    "rel": [
+                      "dark"
+                    ]
+                  }
+                ],
+                "displayName": "DraftKings"
+              },
+              "details": "GONZ -6.5",
+              "overUnder": 161.5,
+              "spread": -6.5,
+              "awayTeamOdds": {
+                "favorite": false,
+                "underdog": true,
+                "team": {
+                  "id": "99",
+                  "uid": "s:40~l:41~t:99",
+                  "abbreviation": "LSU",
+                  "name": "Tigers",
+                  "displayName": "LSU Tigers",
+                  "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png"
+                },
+                "favoriteAtOpen": false
+              },
+              "homeTeamOdds": {
+                "favorite": true,
+                "underdog": false,
+                "team": {
+                  "id": "2250",
+                  "uid": "s:40~l:41~t:2250",
+                  "abbreviation": "GONZ",
+                  "name": "Bulldogs",
+                  "displayName": "Gonzaga Bulldogs",
+                  "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png"
+                },
+                "favoriteAtOpen": true
+              },
+              "moneyline": {
+                "displayName": "Moneyline",
+                "shortDisplayName": "ML",
+                "home": {
+                  "close": {
+                    "odds": "OFF"
+                  },
+                  "open": {
+                    "odds": "OFF"
+                  }
+                },
+                "away": {
+                  "close": {
+                    "odds": "OFF"
+                  },
+                  "open": {
+                    "odds": "OFF"
+                  }
+                }
+              },
+              "pointSpread": {
+                "displayName": "Spread",
+                "shortDisplayName": "Spread",
+                "home": {
+                  "close": {
+                    "line": "-6.5",
+                    "odds": "-115",
+                    "link": {
+                      "language": "en-US",
+                      "rel": [
+                        "homeSpread",
+                        "desktop",
+                        "bets"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35017486%3Foutcomes%3D0HC87238707N650_1",
+                      "text": "Home Point Spread",
+                      "shortText": "Home Point Spread",
+                      "isExternal": true,
+                      "isPremium": false,
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "mens-college-basketball",
+                          "sport": "basketball",
+                          "gameId": 401921689,
+                          "betSide": "none",
+                          "betType": "straight",
+                          "betDetails": "Spread:GONZ-6.5"
+                        }
+                      }
+                    }
+                  },
+                  "open": {
+                    "line": "-6.5",
+                    "odds": "-115"
+                  }
+                },
+                "away": {
+                  "close": {
+                    "line": "+6.5",
+                    "odds": "-105",
+                    "link": {
+                      "language": "en-US",
+                      "rel": [
+                        "awaySpread",
+                        "desktop",
+                        "bets"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35017486%3Foutcomes%3D0HC87238707P650_3",
+                      "text": "Away Point Spread",
+                      "shortText": "Away Point Spread",
+                      "isExternal": true,
+                      "isPremium": false,
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "mens-college-basketball",
+                          "sport": "basketball",
+                          "gameId": 401921689,
+                          "betSide": "none",
+                          "betType": "straight",
+                          "betDetails": "Spread:LSU+6.5"
+                        }
+                      }
+                    }
+                  },
+                  "open": {
+                    "line": "+6.5",
+                    "odds": "-105"
+                  }
+                }
+              },
+              "total": {
+                "displayName": "Total",
+                "shortDisplayName": "Total",
+                "over": {
+                  "close": {
+                    "line": "o161.5",
+                    "odds": "-115",
+                    "link": {
+                      "language": "en-US",
+                      "rel": [
+                        "over",
+                        "desktop",
+                        "bets"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35017486%3Foutcomes%3D0OU87238707O16150_1",
+                      "text": "Over Odds",
+                      "shortText": "Over Odds",
+                      "isExternal": true,
+                      "isPremium": false,
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "mens-college-basketball",
+                          "sport": "basketball",
+                          "gameId": 401921689,
+                          "betSide": "over",
+                          "betType": "straight",
+                          "betDetails": "Over:161.5"
+                        }
+                      }
+                    }
+                  },
+                  "open": {
+                    "line": "o161.5",
+                    "odds": "-115"
+                  }
+                },
+                "under": {
+                  "close": {
+                    "line": "u161.5",
+                    "odds": "-105",
+                    "link": {
+                      "language": "en-US",
+                      "rel": [
+                        "under",
+                        "desktop",
+                        "bets"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35017486%3Foutcomes%3D0OU87238707U16150_3",
+                      "text": "Under Odds",
+                      "shortText": "Under Odds",
+                      "isExternal": true,
+                      "isPremium": false,
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "mens-college-basketball",
+                          "sport": "basketball",
+                          "gameId": 401921689,
+                          "betSide": "under",
+                          "betType": "straight",
+                          "betDetails": "Under:161.5"
+                        }
+                      }
+                    }
+                  },
+                  "open": {
+                    "line": "u161.5",
+                    "odds": "-105"
+                  }
+                }
+              },
+              "link": {
+                "language": "en-US",
+                "rel": [
+                  "game",
+                  "desktop",
+                  "bets"
+                ],
+                "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35017486",
+                "text": "See More Odds",
+                "shortText": "Game",
+                "isExternal": true,
+                "isPremium": false,
+                "tracking": {
+                  "campaign": "betting-integrations",
+                  "tags": {
+                    "league": "mens-college-basketball",
+                    "sport": "basketball",
+                    "gameId": 401921689,
+                    "betSide": "none",
+                    "betType": "straight"
+                  }
+                }
+              },
+              "header": {
+                "logo": {
+                  "dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
+                  "light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
+                  "exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
+                  "exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
+                },
+                "text": "Game Odds"
+              },
+              "footer": {
+                "disclaimer": "GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY). Call 888-789-7777/visit ccpg.org (CT), or visit www.mdgamblinghelp.org (MD), 1-800-981-0023 (PR). 21+ and present in most states. (18+ DC/KY/NH/PR/WY). Void in ONT. Eligibility restrictions apply. Terms: draftkings.com/sportsbook. On behalf of Boot Hill Casino (KS). Pass-thru of per wager tax may apply in IL."
+              }
             }
           ],
           "highlights": []
@@ -155830,7 +156083,7 @@
           "timeValid": true,
           "neutralSite": false,
           "conferenceCompetition": false,
-          "playByPlayAvailable": false,
+          "playByPlayAvailable": true,
           "recent": true,
           "venue": {
             "id": "1985",
@@ -155948,138 +156201,141 @@
                 "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2390.png",
                 "conferenceId": "2"
               },
-              "score": "0",
-              "curatedRank": {
-                "current": 17
-              },
+              "score": "54",
+              "linescores": [
+                {
+                  "value": 54.0,
+                  "displayValue": "54",
+                  "period": 1
+                }
+              ],
               "statistics": [
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "137",
-                  "rankDisplayValue": "Tied-209th"
+                  "displayValue": "25"
                 },
                 {
                   "name": "avgRebounds",
                   "abbreviation": "REB",
-                  "displayValue": "45.7",
-                  "rankDisplayValue": "Tied-29th"
+                  "displayValue": "25.0"
                 },
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "42",
-                  "rankDisplayValue": "Tied-254th"
+                  "displayValue": "17"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "201",
-                  "rankDisplayValue": "Tied-132nd"
+                  "displayValue": "40"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "90",
-                  "rankDisplayValue": "Tied-165th"
+                  "displayValue": "19"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "44.8",
-                  "rankDisplayValue": "209th"
+                  "displayValue": "47.5"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "72.6",
-                  "rankDisplayValue": "170th"
+                  "displayValue": "100.0"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "62",
-                  "rankDisplayValue": "Tied-240th"
+                  "displayValue": "3"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "45",
-                  "rankDisplayValue": "Tied-209th"
+                  "displayValue": "3"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "239",
-                  "rankDisplayValue": "230th"
+                  "displayValue": "54"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "63",
-                  "rankDisplayValue": "Tied-305th"
+                  "displayValue": "29"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "14",
-                  "rankDisplayValue": "Tied-361st"
+                  "displayValue": "13"
                 },
                 {
                   "name": "avgPoints",
                   "abbreviation": "PTS",
-                  "displayValue": "79.7",
-                  "rankDisplayValue": "190th"
+                  "displayValue": "54.0"
                 },
                 {
                   "name": "avgAssists",
                   "abbreviation": "AST",
-                  "displayValue": "14.0",
-                  "rankDisplayValue": "Tied-246th"
+                  "displayValue": "17.0"
                 },
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "22.2",
-                  "rankDisplayValue": "Tied-463rd"
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "type": "total",
-                  "summary": "2-1"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "2-0"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "0-0"
-                },
-                {
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "type": "vsconf",
-                  "summary": "0-0"
+                  "displayValue": "44.8"
                 }
               ],
               "leaders": [
                 {
-                  "name": "pointsPerGame",
-                  "displayName": "Points Per Game",
-                  "shortDisplayName": "PPG",
-                  "abbreviation": "PTS",
+                  "name": "points",
+                  "displayName": "Points",
+                  "shortDisplayName": "Pts",
+                  "abbreviation": "Pts",
                   "leaders": [
                     {
-                      "displayValue": "13.3",
-                      "value": 13.333333015441895,
+                      "displayValue": "15",
+                      "value": 15.0,
+                      "athlete": {
+                        "id": "4898256",
+                        "fullName": "Brent Bland",
+                        "displayName": "Brent Bland",
+                        "shortName": "B. Bland",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4898256/brent-bland"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4898256.png",
+                        "jersey": "1",
+                        "position": {
+                          "abbreviation": "G"
+                        },
+                        "team": {
+                          "id": "2390"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "2390"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "rebounds",
+                  "displayName": "Rebounds",
+                  "shortDisplayName": "Reb",
+                  "abbreviation": "Reb",
+                  "leaders": [
+                    {
+                      "displayValue": "8",
+                      "value": 8.0,
                       "athlete": {
                         "id": "5101809",
                         "fullName": "Shelton Henderson",
@@ -156112,54 +156368,14 @@
                   ]
                 },
                 {
-                  "name": "reboundsPerGame",
-                  "displayName": "Rebounds Per Game",
-                  "shortDisplayName": "RPG",
-                  "abbreviation": "REB",
+                  "name": "assists",
+                  "displayName": "Assists",
+                  "shortDisplayName": "Ast",
+                  "abbreviation": "Ast",
                   "leaders": [
                     {
-                      "displayValue": "6.3",
-                      "value": 6.333333492279053,
-                      "athlete": {
-                        "id": "5101809",
-                        "fullName": "Shelton Henderson",
-                        "displayName": "Shelton Henderson",
-                        "shortName": "S. Henderson",
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5101809/shelton-henderson"
-                          }
-                        ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5101809.png",
-                        "jersey": "7",
-                        "position": {
-                          "abbreviation": "F"
-                        },
-                        "team": {
-                          "id": "2390"
-                        },
-                        "active": true
-                      },
-                      "team": {
-                        "id": "2390"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "name": "assistsPerGame",
-                  "displayName": "Assists Per Game",
-                  "shortDisplayName": "APG",
-                  "abbreviation": "AST",
-                  "leaders": [
-                    {
-                      "displayValue": "4.3",
-                      "value": 4.333333492279053,
+                      "displayValue": "6",
+                      "value": 6.0,
                       "athlete": {
                         "id": "5144105",
                         "fullName": "Acaden Lewis",
@@ -156190,6 +156406,75 @@
                       }
                     }
                   ]
+                },
+                {
+                  "name": "rating",
+                  "displayName": "Rating",
+                  "shortDisplayName": "RAT",
+                  "abbreviation": "RAT",
+                  "leaders": [
+                    {
+                      "displayValue": "15 PTS",
+                      "value": 25.100000381469727,
+                      "athlete": {
+                        "id": "4898256",
+                        "fullName": "Brent Bland",
+                        "displayName": "Brent Bland",
+                        "shortName": "B. Bland",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/4898256/brent-bland"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4898256.png",
+                        "jersey": "1",
+                        "position": {
+                          "abbreviation": "G"
+                        },
+                        "team": {
+                          "id": "2390"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "2390"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "curatedRank": {
+                "current": 17
+              },
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "type": "total",
+                  "summary": "2-1"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "2-0"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "type": "vsconf",
+                  "summary": "0-0"
                 }
               ]
             },
@@ -156298,143 +156583,106 @@
                 "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2453.png",
                 "conferenceId": "30"
               },
-              "score": "0",
-              "curatedRank": {
-                "current": 99
-              },
+              "score": "26",
+              "linescores": [
+                {
+                  "value": 26.0,
+                  "displayValue": "26",
+                  "period": 1
+                }
+              ],
               "statistics": [
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "104",
-                  "rankDisplayValue": "Tied-555th"
+                  "displayValue": "16"
                 },
                 {
                   "name": "avgRebounds",
                   "abbreviation": "REB",
-                  "displayValue": "34.7",
-                  "rankDisplayValue": "Tied-309th"
+                  "displayValue": "16.0"
                 },
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "28",
-                  "rankDisplayValue": "Tied-354th"
+                  "displayValue": "5"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "161",
-                  "rankDisplayValue": "Tied-328th"
+                  "displayValue": "29"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "75",
-                  "rankDisplayValue": "Tied-282nd"
+                  "displayValue": "10"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "46.6",
-                  "rankDisplayValue": "162nd"
+                  "displayValue": "34.5"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "75.7",
-                  "rankDisplayValue": "Tied-92nd"
+                  "displayValue": "33.3"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "70",
-                  "rankDisplayValue": "Tied-186th"
+                  "displayValue": "3"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "53",
-                  "rankDisplayValue": "Tied-147th"
+                  "displayValue": "1"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "227",
-                  "rankDisplayValue": "261st"
+                  "displayValue": "26"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "74",
-                  "rankDisplayValue": "Tied-225th"
+                  "displayValue": "14"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "24",
-                  "rankDisplayValue": "Tied-219th"
+                  "displayValue": "5"
                 },
                 {
                   "name": "avgPoints",
                   "abbreviation": "PTS",
-                  "displayValue": "75.7",
-                  "rankDisplayValue": "244th"
+                  "displayValue": "26.0"
                 },
                 {
                   "name": "avgAssists",
                   "abbreviation": "AST",
-                  "displayValue": "9.3",
-                  "rankDisplayValue": "Tied-433rd"
+                  "displayValue": "5.0"
                 },
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "32.4",
-                  "rankDisplayValue": "Tied-236th"
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "type": "total",
-                  "summary": "2-1"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "1-0"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "1-1"
-                },
-                {
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "type": "vsconf",
-                  "summary": "0-0"
+                  "displayValue": "35.7"
                 }
               ],
               "leaders": [
                 {
-                  "name": "pointsPerGame",
-                  "displayName": "Points Per Game",
-                  "shortDisplayName": "PPG",
-                  "abbreviation": "PTS",
+                  "name": "points",
+                  "displayName": "Points",
+                  "shortDisplayName": "Pts",
+                  "abbreviation": "Pts",
                   "leaders": [
                     {
-                      "displayValue": "19.0",
-                      "value": 19.0,
+                      "displayValue": "5",
+                      "value": 5.0,
                       "athlete": {
-                        "id": "5177167",
-                        "fullName": "Mike Evbagharu",
-                        "displayName": "Mike Evbagharu",
-                        "shortName": "M. Evbagharu",
+                        "id": "5240279",
+                        "fullName": "Damarien Yates",
+                        "displayName": "Damarien Yates",
+                        "shortName": "D. Yates",
                         "links": [
                           {
                             "rel": [
@@ -156442,11 +156690,51 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5177167/mike-evbagharu"
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5240279/damarien-yates"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5177167.png",
-                        "jersey": "99",
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5240279.png",
+                        "jersey": "1",
+                        "position": {
+                          "abbreviation": "F"
+                        },
+                        "team": {
+                          "id": "2453"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "2453"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "rebounds",
+                  "displayName": "Rebounds",
+                  "shortDisplayName": "Reb",
+                  "abbreviation": "Reb",
+                  "leaders": [
+                    {
+                      "displayValue": "3",
+                      "value": 3.0,
+                      "athlete": {
+                        "id": "5239753",
+                        "fullName": "Quan Lax",
+                        "displayName": "Quan Lax",
+                        "shortName": "Q. Lax",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5239753/quan-lax"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5239753.png",
+                        "jersey": "0",
                         "position": {
                           "abbreviation": "G"
                         },
@@ -156462,19 +156750,19 @@
                   ]
                 },
                 {
-                  "name": "reboundsPerGame",
-                  "displayName": "Rebounds Per Game",
-                  "shortDisplayName": "RPG",
-                  "abbreviation": "REB",
+                  "name": "assists",
+                  "displayName": "Assists",
+                  "shortDisplayName": "Ast",
+                  "abbreviation": "Ast",
                   "leaders": [
                     {
-                      "displayValue": "7.0",
-                      "value": 7.0,
+                      "displayValue": "2",
+                      "value": 2.0,
                       "athlete": {
-                        "id": "5177167",
-                        "fullName": "Mike Evbagharu",
-                        "displayName": "Mike Evbagharu",
-                        "shortName": "M. Evbagharu",
+                        "id": "5239753",
+                        "fullName": "Quan Lax",
+                        "displayName": "Quan Lax",
+                        "shortName": "Q. Lax",
                         "links": [
                           {
                             "rel": [
@@ -156482,11 +156770,11 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5177167/mike-evbagharu"
+                            "href": "https://www.espn.com/mens-college-basketball/player/_/id/5239753/quan-lax"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5177167.png",
-                        "jersey": "99",
+                        "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5239753.png",
+                        "jersey": "0",
                         "position": {
                           "abbreviation": "G"
                         },
@@ -156502,14 +156790,14 @@
                   ]
                 },
                 {
-                  "name": "assistsPerGame",
-                  "displayName": "Assists Per Game",
-                  "shortDisplayName": "APG",
-                  "abbreviation": "AST",
+                  "name": "rating",
+                  "displayName": "Rating",
+                  "shortDisplayName": "RAT",
+                  "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "1.7",
-                      "value": 1.6666666269302368,
+                      "displayValue": "3 PTS",
+                      "value": 9.699999809265137,
                       "athlete": {
                         "id": "5239753",
                         "fullName": "Quan Lax",
@@ -156541,22 +156829,62 @@
                     }
                   ]
                 }
+              ],
+              "curatedRank": {
+                "current": 99
+              },
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "type": "total",
+                  "summary": "2-1"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "1-0"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "1-1"
+                },
+                {
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "type": "vsconf",
+                  "summary": "0-0"
+                }
               ]
             }
           ],
           "notes": [],
+          "situation": {
+            "lastPlay": {
+              "id": "401921721121251853",
+              "type": {
+                "id": "412",
+                "text": "End Period"
+              },
+              "text": "End of 1st half",
+              "scoreValue": 0
+            }
+          },
           "status": {
             "clock": 0.0,
             "displayClock": "0:00",
-            "period": 0,
+            "period": 1,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
+              "id": "23",
+              "name": "STATUS_HALFTIME",
+              "state": "in",
               "completed": false,
-              "description": "Scheduled",
-              "detail": "Fri, November 13th at 5:00 PM EST",
-              "shortDetail": "11/13 - 5:00 PM EST"
+              "description": "Halftime",
+              "detail": "Halftime",
+              "shortDetail": "Halftime"
             }
           },
           "broadcasts": [
@@ -156572,20 +156900,6 @@
               "periods": 2
             }
           },
-          "tickets": [
-            {
-              "summary": "Tickets as low as $6",
-              "numberAvailable": 1353,
-              "links": [
-                {
-                  "href": "https://www.vividseats.com/miami-hurricanes-mens-basketball-tickets-watsco-center-11-13-2026--sports-ncaa-basketball/production/7350017?wsUser=717"
-                },
-                {
-                  "href": "https://www.vividseats.com/venues/watsco-center-tickets.html?wsUser=717"
-                }
-              ]
-            }
-          ],
           "startDate": "2026-11-13T22:00Z",
           "broadcast": "ACC Network",
           "geoBroadcasts": [
@@ -156607,258 +156921,6 @@
               "region": "us"
             }
           ],
-          "odds": [
-            {
-              "provider": {
-                "id": "100",
-                "name": "DraftKings",
-                "priority": 1,
-                "logos": [
-                  {
-                    "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
-                    "rel": [
-                      "light"
-                    ]
-                  },
-                  {
-                    "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
-                    "rel": [
-                      "dark"
-                    ]
-                  }
-                ],
-                "displayName": "DraftKings"
-              },
-              "details": "MIA -32.5",
-              "overUnder": 152.5,
-              "spread": -32.5,
-              "awayTeamOdds": {
-                "favorite": false,
-                "underdog": true,
-                "team": {
-                  "id": "2453",
-                  "uid": "s:40~l:41~t:2453",
-                  "abbreviation": "UNA",
-                  "name": "Lions",
-                  "displayName": "North Alabama Lions",
-                  "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2453.png"
-                },
-                "favoriteAtOpen": false
-              },
-              "homeTeamOdds": {
-                "favorite": true,
-                "underdog": false,
-                "team": {
-                  "id": "2390",
-                  "uid": "s:40~l:41~t:2390",
-                  "abbreviation": "MIA",
-                  "name": "Hurricanes",
-                  "displayName": "Miami Hurricanes",
-                  "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png"
-                },
-                "favoriteAtOpen": true
-              },
-              "moneyline": {
-                "displayName": "Moneyline",
-                "shortDisplayName": "ML",
-                "home": {
-                  "close": {
-                    "odds": "OFF"
-                  },
-                  "open": {
-                    "odds": "OFF"
-                  }
-                },
-                "away": {
-                  "close": {
-                    "odds": "OFF"
-                  },
-                  "open": {
-                    "odds": "OFF"
-                  }
-                }
-              },
-              "pointSpread": {
-                "displayName": "Spread",
-                "shortDisplayName": "Spread",
-                "home": {
-                  "close": {
-                    "line": "-32.5",
-                    "odds": "-115",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "homeSpread",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012643%3Foutcomes%3D0HC87225286N3250_1",
-                      "text": "Home Point Spread",
-                      "shortText": "Home Point Spread",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401921721,
-                          "betSide": "none",
-                          "betType": "straight",
-                          "betDetails": "Spread:MIA-32.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "-33.5",
-                    "odds": "-110"
-                  }
-                },
-                "away": {
-                  "close": {
-                    "line": "+32.5",
-                    "odds": "-105",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "awaySpread",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012643%3Foutcomes%3D0HC87225286P3250_3",
-                      "text": "Away Point Spread",
-                      "shortText": "Away Point Spread",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401921721,
-                          "betSide": "none",
-                          "betType": "straight",
-                          "betDetails": "Spread:UNA+32.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "+33.5",
-                    "odds": "-110"
-                  }
-                }
-              },
-              "total": {
-                "displayName": "Total",
-                "shortDisplayName": "Total",
-                "over": {
-                  "close": {
-                    "line": "o152.5",
-                    "odds": "-105",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "over",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012643%3Foutcomes%3D0OU87225286O15250_1",
-                      "text": "Over Odds",
-                      "shortText": "Over Odds",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401921721,
-                          "betSide": "over",
-                          "betType": "straight",
-                          "betDetails": "Over:152.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "o148.5",
-                    "odds": "-108"
-                  }
-                },
-                "under": {
-                  "close": {
-                    "line": "u152.5",
-                    "odds": "-115",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "under",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012643%3Foutcomes%3D0OU87225286U15250_3",
-                      "text": "Under Odds",
-                      "shortText": "Under Odds",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "mens-college-basketball",
-                          "sport": "basketball",
-                          "gameId": 401921721,
-                          "betSide": "under",
-                          "betType": "straight",
-                          "betDetails": "Under:152.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "u148.5",
-                    "odds": "-112"
-                  }
-                }
-              },
-              "link": {
-                "language": "en-US",
-                "rel": [
-                  "game",
-                  "desktop",
-                  "bets"
-                ],
-                "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012643",
-                "text": "See More Odds",
-                "shortText": "Game",
-                "isExternal": true,
-                "isPremium": false,
-                "tracking": {
-                  "campaign": "betting-integrations",
-                  "tags": {
-                    "league": "mens-college-basketball",
-                    "sport": "basketball",
-                    "gameId": 401921721,
-                    "betSide": "none",
-                    "betType": "straight"
-                  }
-                }
-              },
-              "header": {
-                "logo": {
-                  "dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
-                  "light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
-                  "exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
-                  "exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
-                },
-                "text": "Game Odds"
-              },
-              "footer": {
-                "disclaimer": "GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY). Call 888-789-7777/visit ccpg.org (CT), or visit www.mdgamblinghelp.org (MD), 1-800-981-0023 (PR). 21+ and present in most states. (18+ DC/KY/NH/PR/WY). Void in ONT. Eligibility restrictions apply. Terms: draftkings.com/sportsbook. On behalf of Boot Hill Casino (KS). Pass-thru of per wager tax may apply in IL."
-              }
-            }
-          ],
           "highlights": []
         }
       ],
@@ -156866,13 +156928,39 @@
         {
           "language": "en-US",
           "rel": [
-            "summary",
+            "live",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401921721/north-alabama-miami",
+          "href": "https://www.espn.com/mens-college-basketball/game?gameId=401921721",
           "text": "Gamecast",
           "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/boxscore/_/gameId/401921721",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/playbyplay/_/gameId/401921721",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
           "isExternal": false,
           "isPremium": false
         }
@@ -156880,15 +156968,15 @@
       "status": {
         "clock": 0.0,
         "displayClock": "0:00",
-        "period": 0,
+        "period": 1,
         "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
+          "id": "23",
+          "name": "STATUS_HALFTIME",
+          "state": "in",
           "completed": false,
-          "description": "Scheduled",
-          "detail": "Fri, November 13th at 5:00 PM EST",
-          "shortDetail": "11/13 - 5:00 PM EST"
+          "description": "Halftime",
+          "detail": "Halftime",
+          "shortDetail": "Halftime"
         }
       }
     },
@@ -162745,7 +162833,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "251",
             "fullName": "Rupp Arena",
@@ -163489,8 +163577,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $12",
-              "numberAvailable": 1656,
+              "summary": "Tickets as low as $19",
+              "numberAvailable": 766,
               "links": [
                 {
                   "href": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-11-13-2026--sports-ncaa-basketball/production/7166214?wsUser=717"
@@ -163544,7 +163632,7 @@
                 ]
               },
               "details": "UK -30.5",
-              "overUnder": 153.5,
+              "overUnder": 152.5,
               "spread": -30.5,
               "awayTeamOdds": {
                 "favorite": false,
@@ -163646,7 +163734,7 @@
                 "home": {
                   "close": {
                     "line": "-30.5",
-                    "odds": "-108",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -163680,7 +163768,7 @@
                 "away": {
                   "close": {
                     "line": "+30.5",
-                    "odds": "-112",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -163717,7 +163805,7 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o153.5",
+                    "line": "o152.5",
                     "odds": "-112",
                     "link": {
                       "language": "en-US",
@@ -163726,7 +163814,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012658%3Foutcomes%3D0OU87225301O15350_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012658%3Foutcomes%3D0OU87225301O15250_1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -163739,7 +163827,7 @@
                           "gameId": 401921803,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:153.5"
+                          "betDetails": "Over:152.5"
                         }
                       }
                     }
@@ -163751,7 +163839,7 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u153.5",
+                    "line": "u152.5",
                     "odds": "-108",
                     "link": {
                       "language": "en-US",
@@ -163760,7 +163848,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012658%3Foutcomes%3D0OU87225301U15350_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012658%3Foutcomes%3D0OU87225301U15250_3",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -163773,7 +163861,7 @@
                           "gameId": 401921803,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:153.5"
+                          "betDetails": "Under:152.5"
                         }
                       }
                     }
@@ -163879,7 +163967,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "2084",
             "fullName": "Memorial Gymnasium (TN)",
@@ -164623,7 +164711,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $7",
-              "numberAvailable": 353,
+              "numberAvailable": 239,
               "links": [
                 {
                   "href": "https://www.vividseats.com/vanderbilt-commodores-mens-basketball-tickets-vanderbilt-memorial-gym-11-13-2026--sports-ncaa-basketball/production/7457167?wsUser=717"
@@ -164676,9 +164764,9 @@
                   }
                 ]
               },
-              "details": "VAN -40.5",
+              "details": "VAN -41.5",
               "overUnder": 154.5,
-              "spread": -40.5,
+              "spread": -41.5,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
@@ -164730,8 +164818,8 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "-40.5",
-                    "odds": "-115",
+                    "line": "-41.5",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -164739,7 +164827,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012661%3Foutcomes%3D0HC87225304N4050_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012661%3Foutcomes%3D0HC87225304N4150_1",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -164752,7 +164840,7 @@
                           "gameId": 401921825,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:VAN-40.5"
+                          "betDetails": "Spread:VAN-41.5"
                         }
                       }
                     }
@@ -164764,8 +164852,8 @@
                 },
                 "away": {
                   "close": {
-                    "line": "+40.5",
-                    "odds": "-105",
+                    "line": "+41.5",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -164773,7 +164861,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012661%3Foutcomes%3D0HC87225304P4050_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35012661%3Foutcomes%3D0HC87225304P4150_3",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -164786,7 +164874,7 @@
                           "gameId": 401921825,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:PV+40.5"
+                          "betDetails": "Spread:PV+41.5"
                         }
                       }
                     }
@@ -171718,6 +171806,116 @@
               "region": "us"
             }
           ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Dedan Thomas Jr. had 17 points and seven assists, Mercy Miller added 15 points and No. 8 Houston defeated Jacksonville State 92-46 on Wednesday night.",
+              "shortLinkText": "Thomas scores 17 to help No. 8 Houston to a 92-46 win over Jacksonville State",
+              "video": [
+                {
+                  "id": 50458193,
+                  "source": "espn",
+                  "headline": "Jacksonville State Gamecocks vs. Houston Cougars: Game Highlights",
+                  "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d.jpg",
+                  "duration": 84,
+                  "tracking": {
+                    "coverageType": "Final Game Highlight",
+                    "leagueName": "NCAA Men's Basketball",
+                    "program": "NCAA Mens Basketball",
+                    "sportName": "basketball",
+                    "trackingId": "dm_20261112_NCB_jacksonville_state_gamecocks_vs_houston_cougars_game_highlights",
+                    "trackingName": "NCB_One-Play (Jacksonville State Gamecocks vs. Houston Cougars: Game Highlights) 2026/11/12 ESHEET"
+                  },
+                  "deviceRestrictions": {
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ],
+                    "type": "whitelist"
+                  },
+                  "links": {
+                    "api": {
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/5b84347d-6425-406d-8a32-74e3e6839d9b"
+                      },
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/50458193"
+                      }
+                    },
+                    "mobile": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/5b84347d-6425-406d-8a32-74e3e6839d9b/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50458193/game-highlights",
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=50458193"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/5b84347d-6425-406d-8a32-74e3e6839d9b/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50458193/game-highlights"
+                      },
+                      "source": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d.mp4"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/5b84347d-6425-406d-8a32-74e3e6839d9b/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50458193/game-highlights"
+                      }
+                    },
+                    "source": {
+                      "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d.mp4",
+                      "HD": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d.mp4"
+                      },
+                      "HLS": {
+                        "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d/playlist.m3u8",
+                        "9x16": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d/playlist.m3u8"
+                        },
+                        "HD": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d/playlist.m3u8"
+                          },
+                          "cmb": {
+                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d/playlist.m3u8"
+                          }
+                        },
+                        "cmb": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/5b84347d-6425-406d-8a32-74e3e6839d9b/asset"
+                        }
+                      },
+                      "flash": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d.mp4"
+                      },
+                      "full": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d.mp4"
+                      },
+                      "mezzanine": {
+                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=50458193&videoDSI=3170c4a211916"
+                    },
+                    "web": {
+                      "href": "https://www.espn.com/video/clip/_/id/50458193/game-highlights",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip/_/id/50458193/game-highlights",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=3170c4a211916"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ],
           "highlights": [
             {
               "id": 50458193,
@@ -171831,116 +172029,6 @@
                 "trackingId": "dm_20261112_NCB_jacksonville_state_gamecocks_vs_houston_cougars_game_highlights",
                 "trackingName": "NCB_One-Play (Jacksonville State Gamecocks vs. Houston Cougars: Game Highlights) 2026/11/12 ESHEET"
               }
-            }
-          ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Dedan Thomas Jr. had 17 points and seven assists, Mercy Miller added 15 points and No. 8 Houston defeated Jacksonville State 92-46 on Wednesday night.",
-              "shortLinkText": "Thomas scores 17 to help No. 8 Houston to a 92-46 win over Jacksonville State",
-              "video": [
-                {
-                  "id": 50458193,
-                  "source": "espn",
-                  "headline": "Jacksonville State Gamecocks vs. Houston Cougars: Game Highlights",
-                  "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d.jpg",
-                  "duration": 84,
-                  "tracking": {
-                    "coverageType": "Final Game Highlight",
-                    "leagueName": "NCAA Men's Basketball",
-                    "program": "NCAA Mens Basketball",
-                    "sportName": "basketball",
-                    "trackingId": "dm_20261112_NCB_jacksonville_state_gamecocks_vs_houston_cougars_game_highlights",
-                    "trackingName": "NCB_One-Play (Jacksonville State Gamecocks vs. Houston Cougars: Game Highlights) 2026/11/12 ESHEET"
-                  },
-                  "deviceRestrictions": {
-                    "devices": [
-                      "settop",
-                      "tablet",
-                      "handset",
-                      "ipad",
-                      "desktop"
-                    ],
-                    "type": "whitelist"
-                  },
-                  "links": {
-                    "api": {
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/5b84347d-6425-406d-8a32-74e3e6839d9b"
-                      },
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/50458193"
-                      }
-                    },
-                    "mobile": {
-                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/5b84347d-6425-406d-8a32-74e3e6839d9b/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50458193/game-highlights",
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=50458193"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/5b84347d-6425-406d-8a32-74e3e6839d9b/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50458193/game-highlights"
-                      },
-                      "source": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d.mp4"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/5b84347d-6425-406d-8a32-74e3e6839d9b/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50458193/game-highlights"
-                      }
-                    },
-                    "source": {
-                      "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d.mp4",
-                      "HD": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d.mp4"
-                      },
-                      "HLS": {
-                        "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d/playlist.m3u8",
-                        "9x16": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d/playlist.m3u8"
-                        },
-                        "HD": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d/playlist.m3u8"
-                          },
-                          "cmb": {
-                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d/playlist.m3u8"
-                          }
-                        },
-                        "cmb": {
-                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/5b84347d-6425-406d-8a32-74e3e6839d9b/asset"
-                        }
-                      },
-                      "flash": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d.mp4"
-                      },
-                      "full": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d.mp4"
-                      },
-                      "mezzanine": {
-                        "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1112/2689f77b-ad3a-46b7-95d0-61208d95ed0d/2689f77b-ad3a-46b7-95d0-61208d95ed0d.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=50458193&videoDSI=3170c4a211916"
-                    },
-                    "web": {
-                      "href": "https://www.espn.com/video/clip/_/id/50458193/game-highlights",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip/_/id/50458193/game-highlights",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=3170c4a211916"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
             }
           ]
         }
@@ -174151,7 +174239,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "venue": {
             "id": "1987",
             "fullName": "Breslin Center",
@@ -174895,8 +174983,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $18",
-              "numberAvailable": 679,
+              "summary": "Tickets as low as $21",
+              "numberAvailable": 289,
               "links": [
                 {
                   "href": "https://www.vividseats.com/michigan-state-spartans-mens-basketball-tickets-jack-breslin-student-events-center-11-13-2026--sports-ncaa-basketball/production/7603542?wsUser=717"
@@ -179890,8 +179978,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $146",
-              "numberAvailable": 77,
+              "summary": "Tickets as low as $134",
+              "numberAvailable": 50,
               "links": [
                 {
                   "href": "https://www.vividseats.com/nebraska-cornhuskers-mens-basketball-tickets-sanford-pentagon-11-15-2026--sports-ncaa-basketball/production/7008172?wsUser=717"
@@ -185190,8 +185278,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $7",
-              "numberAvailable": 597,
+              "summary": "Tickets as low as $6",
+              "numberAvailable": 539,
               "links": [
                 {
                   "href": "https://www.vividseats.com/usc-trojans-mens-basketball-tickets-galen-center-11-15-2026--sports-ncaa-basketball/production/7508067?wsUser=717"
